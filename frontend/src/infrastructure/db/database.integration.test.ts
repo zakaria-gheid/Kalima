@@ -30,10 +30,10 @@ beforeAll(async () => {
 });
 
 describe('database bootstrap (real seed file, real schema)', () => {
-  it('seeds exactly 1600 words: 300 easy, 1000 medium, 300 hard, all enabled', () => {
-    expect(words.findAll()).toHaveLength(1600);
-    expect(words.countByDifficulty()).toEqual({ easy: 300, medium: 1000, hard: 300 });
-    expect(words.findAll({ enabledOnly: true })).toHaveLength(1600);
+  it('seeds exactly 2300 words: 1000 easy, 1000 medium, 300 hard, all enabled', () => {
+    expect(words.findAll()).toHaveLength(2300);
+    expect(words.countByDifficulty()).toEqual({ easy: 1000, medium: 1000, hard: 300 });
+    expect(words.findAll({ enabledOnly: true })).toHaveLength(2300);
   });
 
   it('preserves Arabic text exactly (UTF-8 round trip through SQLite)', () => {
@@ -182,9 +182,9 @@ describe('migration from a v1 database (pre-countdown, pre-teams schema)', () =>
     expect(sessionColumns).toContain('team_id');
 
     // Existing data survives, and the seed sync imports every word the old
-    // database was missing (Chair already existed, so 1599 are added).
+    // database was missing (Chair already existed, so 2299 are added).
     const oldWords = new WordRepository(upgraded);
-    expect(oldWords.findAll()).toHaveLength(1600);
+    expect(oldWords.findAll()).toHaveLength(2300);
     expect(oldWords.findAll({ search: 'Chair' }).filter((w) => w.english === 'Chair')).toHaveLength(
       1,
     );

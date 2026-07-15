@@ -44,12 +44,12 @@ describe('parseSeedFile', () => {
     ).toThrow(/duplicates/);
   });
 
-  it('parses the real seed file: exactly 300 easy, 1000 medium, 300 hard', () => {
+  it('parses the real seed file: exactly 1000 easy, 1000 medium, 300 hard', () => {
     const words = parseSeedFile(readFileSync(SEED_PATH, 'utf-8'));
-    expect(words).toHaveLength(1600);
+    expect(words).toHaveLength(2300);
     const counts = { easy: 0, medium: 0, hard: 0 };
     for (const word of words) counts[word.difficulty]++;
-    expect(counts).toEqual({ easy: 300, medium: 1000, hard: 300 });
+    expect(counts).toEqual({ easy: 1000, medium: 1000, hard: 300 });
     // Arabic must be present and non-Latin for every row.
     for (const word of words) {
       expect(word.arabic).toMatch(/[؀-ۿ]/);

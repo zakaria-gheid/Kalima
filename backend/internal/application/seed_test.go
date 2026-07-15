@@ -65,15 +65,15 @@ func TestParseRealSeedFile(t *testing.T) {
 	if err != nil {
 		t.Fatalf("ParseSeedFile on real seed file: %v", err)
 	}
-	if len(words) != 1600 {
-		t.Fatalf("got %d words, want 1600", len(words))
+	if len(words) != 2300 {
+		t.Fatalf("got %d words, want 2300", len(words))
 	}
 	counts := map[domain.Difficulty]int{}
 	for _, w := range words {
 		counts[w.Difficulty]++
 	}
 	want := map[domain.Difficulty]int{
-		domain.DifficultyEasy:   300,
+		domain.DifficultyEasy:   1000,
 		domain.DifficultyMedium: 1000,
 		domain.DifficultyHard:   300,
 	}

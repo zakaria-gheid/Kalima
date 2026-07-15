@@ -46,7 +46,7 @@ Presentation (pages/components/layouts/hooks)
 - **Sound & haptics:** clock tick each second, correct-answer chime, skip buzz + vibration, timer-end alarm + long vibration — all synthesized via Web Audio (offline), each gated by its own Settings toggle (Clock tick / Sound effects / Vibration / Timer end alert).
 - **Teams:** every game is played by a team of two named players — a **describer** and a **guesser** (roles matter; swapped roles = a different team). Cards won = points, accumulated per team in SQLite; the **Leaderboard** page ranks teams best-first by total points.
 - **Game flow:** Home → New game (team names + round length + level) → Game (countdown + live "got it" counter + who describes/guesses) → Completion (time played, cards completed, team points) → Leaderboard
-- **Seed:** exactly 1600 concrete nouns (300 easy / 1000 medium / 300 hard), synced on every start — missing seed words are imported without touching existing rows
+- **Seed:** exactly 2300 concrete nouns (1000 easy / 1000 medium / 300 hard), synced on every start — missing seed words are imported without touching existing rows
 
 ## Seed Data Source
 
@@ -58,7 +58,7 @@ Chair|كرسي|Home|easy
 ```
 
 - **This file is the single source of truth for seed data.** The seeding script/migration must parse this file and insert rows into the `words` table (with `enabled = true`). Do not hardcode word lists in source code.
-- The file is complete and validated: exactly 300 easy + 1000 medium + 300 hard, no duplicate English words, all rows have 4 fields. **Import it verbatim — do not invent, replace, or regenerate words.**
+- The file is complete and validated: exactly 1000 easy + 1000 medium + 300 hard, no duplicate English words, all rows have 4 fields. **Import it verbatim — do not invent, replace, or regenerate words.**
 - Difficulty values must remain lowercase: `easy`, `medium`, `hard`.
 - Encoding is UTF-8; preserve Arabic text exactly.
 

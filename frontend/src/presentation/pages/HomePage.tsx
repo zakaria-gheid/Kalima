@@ -25,7 +25,7 @@ const MENU = [
   {
     to: '/words',
     label: 'Word List',
-    description: 'Browse, search, and manage the 1600 cards',
+    description: 'Browse, search, and manage the 2300 cards',
     icon: ListBulletIcon,
     primary: false,
   },

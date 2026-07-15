@@ -28,7 +28,7 @@ on a blue→violet gradient.
 ## 3. Word Data
 
 - Seed source of truth: **`assets/data/words_seed.txt`** — UTF-8, pipe-delimited, header `english|arabic|category|difficulty`.
-- Exactly **1600 concrete nouns**: 300 easy, 1000 medium, 300 hard, across 21 categories. No duplicate English words. Difficulties are lowercase.
+- Exactly **2300 concrete nouns**: 1000 easy, 1000 medium, 300 hard, across 21 categories. No duplicate English words. Difficulties are lowercase.
 - Synced into the `words` table (`enabled = true`) on every start: words missing from the database are imported (case-insensitive English match); existing rows and their enabled flags are never touched. Word lists are never hardcoded in source.
 - The **Word List** screen offers search (English or Arabic), difficulty/category filters, and per-word enable/disable. Disabled words are excluded from new decks.
 

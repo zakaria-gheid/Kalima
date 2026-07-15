@@ -1599,3 +1599,703 @@ Adult|راشد|Family|medium
 Teenager|مراهق|Family|medium
 Toddler|طفل دارج|Family|medium
 Orphan|يتيم|Family|medium
+Villa|فيلا|Home|easy
+Apartment|شقة|Home|easy
+Living room|غرفة معيشة|Home|easy
+Dining room|غرفة طعام|Home|easy
+Corridor|ممر|Home|easy
+Doorknob|مقبض الباب|Home|easy
+Keyhole|ثقب المفتاح|Home|easy
+Terrace|تراس|Home|easy
+Yard|باحة|Home|easy
+Lawn|مرجة|Home|easy
+Chandelier|ثريا|Home|easy
+Lampshade|غطاء مصباح|Home|easy
+Fan|مروحة|Home|easy
+Stove|موقد الطبخ|Home|easy
+Cupboard|دولاب|Home|easy
+Pantry|مخزن طعام|Home|easy
+Cushion|مخدة|Home|easy
+Stool|مقعد صغير|Home|easy
+Rug|بساط|Home|easy
+Mat|حصيرة|Home|easy
+Doorstep|عتبة|Home|easy
+Shutter|مصراع|Home|easy
+Peephole|عين سحرية|Home|easy
+Latch|مزلاج|Home|easy
+Padlock|قفل معلق|Home|easy
+Lock|قفل|Home|easy
+Chain|سلسلة|Home|easy
+Porch|رواق|Home|easy
+Shed|سقيفة|Home|easy
+Barn|حظيرة|Home|easy
+Kennel|بيت الكلب|Home|easy
+Birdcage|قفص عصافير|Home|easy
+Cage|قفص|Home|easy
+Trash|نفايات|Home|easy
+Laundry|غسيل|Home|easy
+Stain|بقعة|Home|easy
+Dirt|وسخ|Home|easy
+Dustpan|مجرفة الغبار|Home|easy
+Mop|ممسحة أرضية|Home|easy
+Rag|خرقة|Home|easy
+Duster|منفضة غبار|Home|easy
+Polish|ملمع|Home|easy
+Tape|شريط لاصق|Home|easy
+String|دوبارة|Home|easy
+Candlestick|شمعدان|Home|easy
+Matches|أعواد ثقاب|Home|easy
+Lighter|ولاعة|Home|easy
+Can|علبة|Home|easy
+Carton|كرتونة|Home|easy
+Package|طرد|Home|easy
+Pin|دبوس|Home|easy
+Safety pin|دبوس أمان|Home|easy
+Ribbon|شريط زينة|Home|easy
+Toy|لعبة|Home|easy
+Doll|دمية|Home|easy
+Teddy bear|دبدوب|Home|easy
+Balloon|بالون|Home|easy
+Puzzle|أحجية|Home|easy
+Dice|نرد|Home|easy
+Marbles|بلي|Home|easy
+Swing|أرجوحة|Home|easy
+Slide|زحليقة|Home|easy
+Hamper|سلة الغسيل|Home|easy
+Drain|بالوعة|Home|easy
+Tile|بلاطة|Home|easy
+Brick|طوبة|Home|easy
+Cement|إسمنت|Home|easy
+Paint|طلاء|Home|easy
+Wallpaper|ورق جدران|Home|easy
+Railing|درابزين|Home|easy
+Safe|خزنة|Home|easy
+Razor|شفرة حلاقة|Home|easy
+Shampoo|شامبو|Home|easy
+Perfume|عطر|Home|easy
+Deodorant|مزيل عرق|Home|easy
+Tissue|منديل ورقي|Home|easy
+Hairbrush|فرشاة شعر|Home|easy
+Hairdryer|مجفف شعر|Home|easy
+Lotion|كريم مرطب|Home|easy
+Toothpaste|معجون أسنان|Home|easy
+Breakfast|فطور|Food|easy
+Lunch|غداء|Food|easy
+Dinner|عشاء|Food|easy
+Meal|وجبة|Food|easy
+Snack|وجبة خفيفة|Food|easy
+Dessert|تحلية|Food|easy
+Candy|حلوى|Food|easy
+Lollipop|مصاصة|Food|easy
+Chewing gum|علكة|Food|easy
+Cookie|كوكيز|Food|easy
+Toast|خبز محمص|Food|easy
+Bun|صمونة|Food|easy
+Cereal|رقائق فطور|Food|easy
+Porridge|عصيدة|Food|easy
+Popcorn|فشار|Food|easy
+Chips|شيبس|Food|easy
+Fries|بطاطس مقلية|Food|easy
+Burger|برغر|Food|easy
+Hotdog|هوت دوغ|Food|easy
+Shawarma|شاورما|Food|easy
+Falafel|فلافل|Food|easy
+Hummus|حمص بالطحينة|Food|easy
+Kebab|كباب|Food|easy
+Kofta|كفتة|Food|easy
+Tagine|طاجين|Food|easy
+Sushi|سوشي|Food|easy
+Taco|تاكو|Food|easy
+Spaghetti|سباغيتي|Food|easy
+Lasagna|لازانيا|Food|easy
+Steak|شريحة لحم|Food|easy
+Lamb|حمل|Food|easy
+Beef|لحم بقر|Food|easy
+Liver|كبدة|Food|easy
+Crepe|كريب|Food|easy
+Baklava|بقلاوة|Food|easy
+Kunafa|كنافة|Food|easy
+Halva|حلاوة|Food|easy
+Cupcake|كب كيك|Food|easy
+Marshmallow|مارشملو|Food|easy
+Caramel|كراميل|Food|easy
+Vanilla|فانيليا|Food|easy
+Lemonade|ليموناضة|Food|easy
+Smoothie|سموذي|Food|easy
+Milkshake|ميلك شيك|Food|easy
+Cocoa|كاكاو|Food|easy
+Espresso|إسبريسو|Food|easy
+Cappuccino|كابتشينو|Food|easy
+Soda|مشروب غازي|Food|easy
+Sage|مريمية|Food|easy
+Anise|يانسون|Food|easy
+Chamomile|بابونج|Food|easy
+Hibiscus|كركديه|Food|easy
+Fenugreek|حلبة|Food|easy
+Bay leaf|ورق غار|Food|easy
+Yeast|خميرة|Food|easy
+Starch|نشا|Food|easy
+Bran|نخالة|Food|easy
+Millet|دخن|Food|easy
+Bulgur|برغل|Food|easy
+Ghee|سمن|Food|easy
+Tahini|طحينة|Food|easy
+Spice|توابل|Food|easy
+Recipe|وصفة|Food|easy
+Menu|قائمة طعام|Food|easy
+Ice cube|مكعب ثلج|Food|easy
+Slice|شريحة|Food|easy
+Loaf|رغيف|Food|easy
+Crust|قشرة الخبز|Food|easy
+Crumb|فتات|Food|easy
+Filling|حشوة|Food|easy
+Sauce|صلصة|Food|easy
+Peanut butter|زبدة فول سوداني|Food|easy
+Melon|شمام|Food|easy
+Sweet potato|بطاطا حلوة|Food|easy
+Grape leaves|ورق عنب|Food|easy
+Vegetables|خضروات|Food|easy
+Nuts|مكسرات|Food|easy
+Sugarcane|قصب السكر|Food|easy
+Molokhia|ملوخية|Food|easy
+Basbousa|بسبوسة|Food|easy
+Puppy|جرو|Animals|easy
+Kitten|هريرة|Animals|easy
+Foal|مهر|Animals|easy
+Cub|شبل|Animals|easy
+Chick|كتكوت|Animals|easy
+Hen|دجاجة|Animals|easy
+Pony|حصان صغير|Animals|easy
+Mule|بغل|Animals|easy
+Mare|فرسة|Animals|easy
+Ram|كبش|Animals|easy
+Ewe|نعجة|Animals|easy
+Llama|لاما|Animals|easy
+Reindeer|رنة|Animals|easy
+Polar bear|دب قطبي|Animals|easy
+Walrus|فظ|Animals|easy
+Sea lion|أسد البحر|Animals|easy
+Alligator|قاطور|Animals|easy
+Dinosaur|ديناصور|Animals|easy
+Dragon|تنين|Animals|easy
+Unicorn|يونيكورن|Animals|easy
+Mermaid|حورية البحر|Animals|easy
+Goldfish|سمكة ذهبية|Animals|easy
+Robin|أبو الحناء|Animals|easy
+Rat|جرذ|Animals|easy
+Flea|برغوث|Animals|easy
+Locust|جراد|Animals|easy
+Cicada|زيز|Animals|easy
+Mantis|سرعوف|Animals|easy
+Dove|يمامة|Animals|easy
+Hoopoe|هدهد|Animals|easy
+Kingfisher|رفراف|Animals|easy
+Cuckoo|وقواق|Animals|easy
+Toad|علجوم|Animals|easy
+Herd|قطيع|Animals|easy
+Flock|سرب|Animals|easy
+Nest|عش|Animals|easy
+Beehive|خلية نحل|Animals|easy
+Cobweb|نسيج العنكبوت|Animals|easy
+Feather|ريشة|Animals|easy
+Fur|فرو|Animals|easy
+Paw|كف حيوان|Animals|easy
+Claw|مخلب|Animals|easy
+Tail|ذيل|Animals|easy
+Antler|قرن الأيل|Animals|easy
+Hoof|حافر|Animals|easy
+Beak|منقار|Animals|easy
+Wing|جناح|Animals|easy
+Fin|زعنفة|Animals|easy
+Scales|حراشف|Animals|easy
+Shell|قوقعة|Animals|easy
+Earth|كوكب الأرض|Nature|easy
+World|عالم|Nature|easy
+Land|يابسة|Nature|easy
+Ocean|محيط|Nature|easy
+Air|هواء|Nature|easy
+Light|ضوء|Nature|easy
+Darkness|ظلام|Nature|easy
+Heat|حرارة|Nature|easy
+Cold|برد|Nature|easy
+Warmth|دفء|Nature|easy
+Weather|طقس|Nature|easy
+Climate|مناخ|Nature|easy
+Season|موسم|Nature|easy
+Rock|صخرة|Nature|easy
+Path|درب|Nature|easy
+Orchard|بستان|Nature|easy
+Vineyard|كرم عنب|Nature|easy
+Greenhouse|دفيئة|Nature|easy
+Harvest|حصاد|Nature|easy
+Crop|محصول|Nature|easy
+Hay|تبن|Nature|easy
+Scarecrow|فزاعة|Nature|easy
+Herb|عشبة طبية|Nature|easy
+Weed|عشبة ضارة|Nature|easy
+Clover|برسيم|Nature|easy
+Dandelion|هندباء|Nature|easy
+Log|حطبة|Nature|easy
+Firewood|حطب|Nature|easy
+Ember|جمرة|Nature|easy
+Bonfire|نار موقدة|Nature|easy
+Snowman|رجل الثلج|Nature|easy
+Snowball|كرة ثلج|Nature|easy
+Blossom|إزهار|Nature|easy
+Sprout|نبتة صغيرة|Nature|easy
+Sapling|شتلة|Nature|easy
+Burrow|جحر|Nature|easy
+Den|عرين|Nature|easy
+Algae|طحالب|Nature|easy
+Flood|فيضان|Nature|easy
+Gem|حجر كريم|Nature|easy
+Diamond|ألماس|Nature|easy
+Pearl|لؤلؤة|Nature|easy
+Ruby|ياقوت|Nature|easy
+Emerald|زمرد|Nature|easy
+Amber|كهرمان|Nature|easy
+Ivory|عاج|Nature|easy
+Drizzle|رذاذ|Nature|easy
+Mist|شبورة|Nature|easy
+Icicle|عمود جليدي|Nature|easy
+Twilight|غسق|Nature|easy
+Skin|بشرة|Human Body|easy
+Bone|عظم|Human Body|easy
+Blood|دم|Human Body|easy
+Brain|دماغ|Human Body|easy
+Joint|مفصل|Human Body|easy
+Wound|جرح|Human Body|easy
+Scar|ندبة|Human Body|easy
+Bruise|كدمة|Human Body|easy
+Sweat|عرق|Human Body|easy
+Tear|دمعة|Human Body|easy
+Saliva|لعاب|Human Body|easy
+Voice|صوت|Human Body|easy
+Breath|نفَس|Human Body|easy
+Cough|سعال|Human Body|easy
+Sneeze|عطسة|Human Body|easy
+Yawn|تثاؤب|Human Body|easy
+Hiccup|حازوقة|Human Body|easy
+Smile|ابتسامة|Human Body|easy
+Laugh|ضحكة|Human Body|easy
+Wink|غمزة|Human Body|easy
+Fever|حمى|Human Body|easy
+Headache|صداع|Human Body|easy
+Pain|ألم|Human Body|easy
+Bandage|ضمادة|Human Body|easy
+Plaster|لصقة جروح|Human Body|easy
+Crutch|عكاز|Human Body|easy
+Wheelchair|كرسي متحرك|Human Body|easy
+Medicine|دواء|Human Body|easy
+Pill|حبة دواء|Human Body|easy
+Injection|حقنة|Human Body|easy
+Man|رجل|Family|easy
+Woman|امرأة|Family|easy
+Boy|ولد|Family|easy
+Girl|بنت|Family|easy
+Child|طفل|Family|easy
+Person|شخص|Family|easy
+People|ناس|Family|easy
+Name|اسم|Family|easy
+Age|عمر|Family|easy
+Birth|ولادة|Family|easy
+Parents|والدان|Family|easy
+Stepmother|زوجة الأب|Family|easy
+Stepfather|زوج الأم|Family|easy
+Mother-in-law|حماة|Family|easy
+Father-in-law|حمو|Family|easy
+Fiance|خطيب|Family|easy
+Engagement|خطوبة|Family|easy
+Honeymoon|شهر العسل|Family|easy
+Divorce|طلاق|Family|easy
+Relative|قريب|Family|easy
+Generation|جيل|Family|easy
+Household|أسرة|Family|easy
+Love|حب|Family|easy
+Hug|عناق|Family|easy
+Kiss|قبلة|Family|easy
+Handshake|مصافحة|Family|easy
+Greeting|تحية|Family|easy
+Farewell|وداع|Family|easy
+Visit|زيارة|Family|easy
+Invitation|دعوة|Family|easy
+Celebration|احتفال|Family|easy
+Picnic|نزهة|Family|easy
+Trip|رحلة|Family|easy
+Vacation|عطلة|Family|easy
+Holiday|يوم عطلة|Family|easy
+Camping|تخييم|Family|easy
+Story|قصة|Family|easy
+Joke|نكتة|Family|easy
+Surprise|مفاجأة|Family|easy
+Friendship|صداقة|Family|easy
+T-shirt|تي شيرت|Clothing|easy
+Trousers|سروال|Clothing|easy
+Blazer|بليزر|Clothing|easy
+Gown|فستان طويل|Clothing|easy
+Abaya|عباية|Clothing|easy
+Hijab|حجاب|Clothing|easy
+Kaftan|قفطان|Clothing|easy
+Jellaba|جلابية|Clothing|easy
+Thobe|ثوب|Clothing|easy
+Overalls|أفرول|Clothing|easy
+Bib|مريلة طفل|Clothing|easy
+Diaper|حفاض|Clothing|easy
+Bathrobe|روب استحمام|Clothing|easy
+Nightgown|قميص نوم|Clothing|easy
+Sneakers|حذاء رياضي|Clothing|easy
+High heels|حذاء بكعب|Clothing|easy
+Flip-flops|زنوبة|Clothing|easy
+Sole|نعل|Clothing|easy
+Headband|عصابة رأس|Clothing|easy
+Hairpin|دبوس شعر|Clothing|easy
+Hairband|ربطة شعر|Clothing|easy
+Tiara|تاج صغير|Clothing|easy
+Brooch|بروش|Clothing|easy
+Badge|شارة|Clothing|easy
+Patch|رقعة|Clothing|easy
+Logo|شعار|Clothing|easy
+Size|مقاس|Clothing|easy
+Costume|زي تنكري|Clothing|easy
+Mask|قناع|Clothing|easy
+Wetsuit|بدلة غوص|Clothing|easy
+Lifejacket|سترة نجاة|Clothing|easy
+Goggles|نظارات واقية|Clothing|easy
+Earplugs|سدادات أذن|Clothing|easy
+Anklet|خلخال|Clothing|easy
+Kimono|كيمونو|Clothing|easy
+Sari|ساري|Clothing|easy
+Jersey|قميص رياضي|Clothing|easy
+Beret|بيريه|Clothing|easy
+Fez|طربوش|Clothing|easy
+Keffiyeh|كوفية|Clothing|easy
+Vehicle|مركبة|Transportation|easy
+Passenger|راكب|Transportation|easy
+Luggage|أمتعة|Transportation|easy
+Passport|جواز سفر|Transportation|easy
+Visa|تأشيرة|Transportation|easy
+Road sign|لافتة طريق|Transportation|easy
+Speed|سرعة|Transportation|easy
+Driving license|رخصة قيادة|Transportation|easy
+Stroller|عربة أطفال|Transportation|easy
+Cart|عربة تسوق|Transportation|easy
+Saddle|سرج|Transportation|easy
+Bridle|لجام|Transportation|easy
+Horseshoe|حدوة حصان|Transportation|easy
+Sail|شراع|Transportation|easy
+Oar|مجداف|Transportation|easy
+Deck|سطح السفينة|Transportation|easy
+Mast|صارية|Transportation|easy
+Lifeboat|قارب نجاة|Transportation|easy
+Buoy|عوامة|Transportation|easy
+Pier|رصيف بحري|Transportation|easy
+Seat|مقعد|Transportation|easy
+Boarding pass|بطاقة صعود|Transportation|easy
+Flight|رحلة جوية|Transportation|easy
+Gasoline|بنزين|Transportation|easy
+Diesel|ديزل|Transportation|easy
+Exhaust|عادم|Transportation|easy
+Wiper|مساحة زجاج|Transportation|easy
+Gear|ترس|Transportation|easy
+Handlebar|مقود دراجة|Transportation|easy
+Unicycle|دراجة أحادية|Transportation|easy
+Tricycle|دراجة ثلاثية|Transportation|easy
+Fare|أجرة|Transportation|easy
+Toll|رسم عبور|Transportation|easy
+Hoverboard|هوفربورد|Transportation|easy
+Snowmobile|عربة ثلجية|Transportation|easy
+Forklift|رافعة شوكية|Transportation|easy
+Tow truck|سطحة|Transportation|easy
+Cement mixer|خلاطة إسمنت|Transportation|easy
+Indicator|غماز|Transportation|easy
+Spare tire|إطار احتياطي|Transportation|easy
+Building|مبنى|City|easy
+Office|مكتب عمل|City|easy
+Entrance|مدخل|City|easy
+Exit|مخرج|City|easy
+Reception|استقبال|City|easy
+Lobby|بهو|City|easy
+Hall|قاعة|City|easy
+Room|غرفة|City|easy
+Corner|زاوية|City|easy
+Address|عنوان|City|easy
+Sign|لافتة|City|easy
+District|حي|City|easy
+Downtown|وسط المدينة|City|easy
+City|مدينة|City|easy
+Bookstore|متجر كتب|City|easy
+Flower shop|محل زهور|City|easy
+Pet shop|محل حيوانات|City|easy
+Car wash|مغسلة سيارات|City|easy
+Workshop|ورشة|City|easy
+Studio|استوديو|City|easy
+Bazaar|بازار|City|easy
+Phone booth|كشك هاتف|City|easy
+Customs|جمارك|City|easy
+Consulate|قنصلية|City|easy
+Ministry|وزارة|City|easy
+Government|حكومة|City|easy
+Emergency|طوارئ|City|easy
+Nursery|حضانة|City|easy
+Canteen|مقصف|City|easy
+Fast food|وجبات سريعة|City|easy
+Resort|منتجع سياحي|City|easy
+Campsite|مخيم|City|easy
+Tent|خيمة|City|easy
+Cottage|كوخ ريفي|City|easy
+Watchtower|برج مراقبة|City|easy
+Flagpole|سارية العلم|City|easy
+Pool|مسبح|City|easy
+Sauna|ساونا|City|easy
+Rink|حلبة تزلج|City|easy
+Ferris wheel|دولاب هواء|City|easy
+Carousel|دوامة خيل|City|easy
+Roller coaster|أفعوانية|City|easy
+Church|كنيسة|City|easy
+Synagogue|كنيس|City|easy
+ATM|صراف آلي|City|easy
+Poster|ملصق|City|easy
+Shop window|واجهة متجر|City|easy
+Mannequin|مانيكان|City|easy
+Cash register|صندوق الدفع|City|easy
+Price|سعر|City|easy
+Discount|تخفيض|City|easy
+Queue|طابور|City|easy
+Crowd|حشد|City|easy
+Noise|ضجيج|City|easy
+Siren|صفارة إنذار|City|easy
+Tourist|سائح|City|easy
+Guide|مرشد سياحي|City|easy
+Souvenir|تذكار|City|easy
+Postcard|بطاقة بريدية|City|easy
+Stamp|طابع بريد|City|easy
+Alphabet|أبجدية|School|easy
+Word|كلمة|School|easy
+Sentence|جملة|School|easy
+Question|سؤال|School|easy
+Answer|جواب|School|easy
+Number|رقم|School|easy
+Zero|صفر|School|easy
+Circle|دائرة|School|easy
+Rectangle|مستطيل|School|easy
+Oval|شكل بيضاوي|School|easy
+Cube|مكعب|School|easy
+Line|خط|School|easy
+Dot|نقطة|School|easy
+Shape|شكل|School|easy
+Color|لون|School|easy
+Math|رياضيات|School|easy
+Language|لغة|School|easy
+Grammar|قواعد اللغة|School|easy
+Spelling|إملاء|School|easy
+Reading|قراءة|School|easy
+Writing|كتابة|School|easy
+Drawing|رسم|School|easy
+Painting|لوحة زيتية|School|easy
+Prize|جائزة|School|easy
+Sticker|لاصقة|School|easy
+Chart|مخطط بياني|School|easy
+Flashcard|بطاقة تعليمية|School|easy
+Textbook|كتاب مدرسي|School|easy
+Novel|رواية|School|easy
+Poem|قصيدة|School|easy
+Fairy tale|حكاية خرافية|School|easy
+Legend|أسطورة|School|easy
+Riddle|لغز|School|easy
+Crossword|كلمات متقاطعة|School|easy
+Pencil case|مقلمة|School|easy
+Magnifying glass|عدسة مكبرة|School|easy
+Binoculars|منظار|School|easy
+Recess|فسحة|School|easy
+Classmate|زميل صف|School|easy
+Graduation|تخرج|School|easy
+Scholarship|منحة دراسية|School|easy
+Lecture|محاضرة|School|easy
+Magazine|مجلة|School|easy
+Newspaper|جريدة|School|easy
+Comic|قصة مصورة|School|easy
+Cartoon|رسوم متحركة|School|easy
+Chapter|فصل من كتاب|School|easy
+Author|مؤلف|School|easy
+Diary|مذكرات يومية|School|easy
+Fable|قصة رمزية|School|easy
+Running|جري|Sports|easy
+Jumping|قفز|Sports|easy
+Exercise|تمرين|Sports|easy
+Training|تدريب|Sports|easy
+Warm-up|إحماء|Sports|easy
+Stretching|تمدد|Sports|easy
+Push-up|تمرين الضغط|Sports|easy
+Fitness|لياقة|Sports|easy
+Winner|فائز|Sports|easy
+Champion|بطل|Sports|easy
+Record|رقم قياسي|Sports|easy
+Score|نتيجة|Sports|easy
+Round|جولة|Sports|easy
+Match|مباراة|Sports|easy
+Final|نهائي|Sports|easy
+Opponent|خصم|Sports|easy
+Supporter|مشجع|Sports|easy
+Applause|تصفيق|Sports|easy
+Victory|انتصار|Sports|easy
+Defeat|هزيمة|Sports|easy
+Draw|تعادل|Sports|easy
+Foul|خطأ رياضي|Sports|easy
+Offside|تسلل|Sports|easy
+Halftime|بين الشوطين|Sports|easy
+Puck|قرص هوكي|Sports|easy
+Frisbee|فريزبي|Sports|easy
+Skates|حذاء تزلج|Sports|easy
+Surfboard|لوح أمواج|Sports|easy
+Snowboard|لوح ثلج|Sports|easy
+Goalpost|قائم مرمى|Sports|easy
+Hoop|طوق السلة|Sports|easy
+Trampoline|ترامبولين|Sports|easy
+Runner|عداء|Sports|easy
+Boxer|ملاكم|Sports|easy
+Wrestler|مصارع|Sports|easy
+Cyclist|دراج|Sports|easy
+Diver|غواص|Sports|easy
+Skier|متزلج|Sports|easy
+Track|مضمار|Sports|easy
+Lap|دورة مضمار|Sports|easy
+Dish|صحن|Kitchen|easy
+Teaspoon|ملعقة صغيرة|Kitchen|easy
+Tablespoon|ملعقة كبيرة|Kitchen|easy
+Mixer|عجانة|Kitchen|easy
+Masher|هراسة|Kitchen|easy
+Cutlery|أدوات مائدة|Kitchen|easy
+Crockery|أواني المائدة|Kitchen|easy
+Dishcloth|فوطة مطبخ|Kitchen|easy
+Dish rack|رف صحون|Kitchen|easy
+Tap|حنفية|Kitchen|easy
+Counter|منضدة المطبخ|Kitchen|easy
+Container|حافظة طعام|Kitchen|easy
+Lunch box|علبة غداء|Kitchen|easy
+Cork|فلينة|Kitchen|easy
+Toothpick|عود أسنان|Kitchen|easy
+Coaster|قاعدة أكواب|Kitchen|easy
+Music|موسيقى|Music|easy
+Dance|رقص|Music|easy
+Hum|دندنة|Music|easy
+Echo|صدى|Music|easy
+Silence|صمت|Music|easy
+Volume|مستوى الصوت|Music|easy
+Cassette|شريط كاسيت|Music|easy
+CD|قرص مدمج|Music|easy
+Karaoke|كاريوكي|Music|easy
+Rehearsal|بروفة|Music|easy
+Performance|عرض فني|Music|easy
+Instrument|آلة موسيقية|Music|easy
+Strings|أوتار|Music|easy
+Mandolin|ماندولين|Music|easy
+Qanun|قانون موسيقي|Music|easy
+Rebab|ربابة|Music|easy
+Darbuka|دربوكة|Music|easy
+Tuba|توبا|Music|easy
+Trombone|ترومبون|Music|easy
+Festival|مهرجان|Music|easy
+Parade|موكب استعراضي|Music|easy
+Whistling|صفير|Music|easy
+Chime|رنين أجراس|Music|easy
+Duet|ثنائي غنائي|Music|easy
+Solo|عزف منفرد|Music|easy
+Tempo|وتيرة الإيقاع|Music|easy
+Worker|عامل|Jobs|easy
+Boss|رب العمل|Jobs|easy
+Employee|موظف|Jobs|easy
+Colleague|زميل عمل|Jobs|easy
+Apprentice|متدرب|Jobs|easy
+Volunteer|متطوع|Jobs|easy
+Officer|ضابط|Jobs|easy
+General|جنرال|Jobs|easy
+Detective|محقق|Jobs|easy
+Spy|جاسوس|Jobs|easy
+Bodyguard|حارس شخصي|Jobs|easy
+Lifeguard|منقذ سباحة|Jobs|easy
+Paramedic|مسعف|Jobs|easy
+Midwife|قابلة|Jobs|easy
+Zookeeper|حارس حديقة حيوانات|Jobs|easy
+Cook|طباخ|Jobs|easy
+Barista|صانع قهوة|Jobs|easy
+Butler|كبير الخدم|Jobs|easy
+Builder|بنّاء|Jobs|easy
+Locksmith|صانع أقفال|Jobs|easy
+Watchmaker|ساعاتي|Jobs|easy
+Florist|بائع زهور|Jobs|easy
+Greengrocer|خضري|Jobs|easy
+Milkman|بائع حليب|Jobs|easy
+Shopkeeper|صاحب متجر|Jobs|easy
+Porter|حمّال|Jobs|easy
+Lumberjack|حطاب|Jobs|easy
+Weaver|حائك|Jobs|easy
+Calligrapher|خطاط|Jobs|easy
+Designer|مصمم|Jobs|easy
+Model|عارض أزياء|Jobs|easy
+Hairdresser|مصفف شعر|Jobs|easy
+Announcer|مذيع|Jobs|easy
+Reporter|مراسل|Jobs|easy
+Director|مخرج|Jobs|easy
+Producer|منتج|Jobs|easy
+Comedian|كوميدي|Jobs|easy
+Acrobat|بهلوان|Jobs|easy
+Pianist|عازف بيانو|Jobs|easy
+Drummer|طبال|Jobs|easy
+Internet|إنترنت|Technology|easy
+Website|موقع إلكتروني|Technology|easy
+Email|بريد إلكتروني|Technology|easy
+App|تطبيق|Technology|easy
+Wifi|واي فاي|Technology|easy
+Bluetooth|بلوتوث|Technology|easy
+Video|فيديو|Technology|easy
+Photo|صورة|Technology|easy
+Selfie|سيلفي|Technology|easy
+Screenshot|لقطة شاشة|Technology|easy
+Icon|أيقونة|Technology|easy
+Cursor|مؤشر|Technology|easy
+Download|تنزيل|Technology|easy
+Click|نقرة|Technology|easy
+Emoji|إيموجي|Technology|easy
+Username|اسم مستخدم|Technology|easy
+Account|حساب|Technology|easy
+Profile|ملف شخصي|Technology|easy
+Chat|محادثة|Technology|easy
+Video call|مكالمة فيديو|Technology|easy
+Ringtone|نغمة رنين|Technology|easy
+Notification|إشعار|Technology|easy
+Joystick|عصا تحكم|Technology|easy
+Data|بيانات|Technology|easy
+Code|شيفرة|Technology|easy
+Touchpad|لوحة اللمس|Technology|easy
+Antivirus|مضاد فيروسات|Technology|easy
+Screensaver|شاشة توقف|Technology|easy
+Eid|عيد|Religion|easy
+Ramadan|رمضان|Religion|easy
+Prayer mat|سجادة صلاة|Religion|easy
+Qibla|قِبلة|Religion|easy
+Ablution|وضوء|Religion|easy
+Kaaba|كعبة|Religion|easy
+Iftar|إفطار رمضان|Religion|easy
+Suhoor|سحور|Religion|easy
+Dua|دعاء|Religion|easy
+Angel|ملاك|Religion|easy
+Job|وظيفة|Office|easy
+Work|عمل|Office|easy
+Career|مهنة|Office|easy
+Interview|مقابلة عمل|Office|easy
+Task|مهمة|Office|easy
+Project|مشروع|Office|easy
+Report|تقرير|Office|easy
+Notepad|مفكرة|Office|easy
+ID card|بطاقة هوية|Office|easy
+Business card|بطاقة عمل|Office|easy
+Appointment|موعد|Office|easy
+Schedule|جدول مواعيد|Office|easy
+Deadline|موعد نهائي|Office|easy
+Conference|مؤتمر|Office|easy
+Presentation|عرض تقديمي|Office|easy
+Graph|رسم بياني|Office|easy
+Budget|ميزانية|Office|easy
+Profit|ربح|Office|easy
+Tax|ضريبة|Office|easy
+Money|مال|Office|easy
