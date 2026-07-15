@@ -22,7 +22,7 @@ jobs:
             { count[$4]++; if (seen[tolower($1)]++) { printf "duplicate: %s\n", $1; bad = 1 } }
             END {
               printf "easy=%d medium=%d hard=%d\n", count["easy"], count["medium"], count["hard"]
-              if (count["easy"] != 300 || count["medium"] != 300 || count["hard"] != 300) bad = 1
+              if (count["easy"] != 300 || count["medium"] != 1000 || count["hard"] != 300) bad = 1
               exit bad
             }
           ' assets/data/words_seed.txt

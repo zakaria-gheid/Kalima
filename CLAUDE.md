@@ -40,10 +40,11 @@ Presentation (pages/components/layouts/hooks)
 ## Key Behaviors
 
 - **Shuffle:** Fisher–Yates, deck shuffled once per session, zero repeats within a session
+- **No-repeat pool:** a card shown in any game stays out of later decks (`words.seen`) until every card of that difficulty has appeared, then the pool resets automatically; a "Reset card pool" button on the New game page resets manually. Order stays random.
 - **Timer:** countdown (compte à rebours), MM:SS, round length selectable before starting (1/2/3/5 min, persisted); start/pause/resume/reset; the game ends when it reaches zero
 - **Teams:** every game is played by a team of two named players — a **describer** and a **guesser** (roles matter; swapped roles = a different team). Cards won = points, accumulated per team in SQLite; the **Leaderboard** page ranks teams best-first by total points.
 - **Game flow:** Home → New game (team names + round length + level) → Game (countdown + live "got it" counter + who describes/guesses) → Completion (time played, cards completed, team points) → Leaderboard
-- **Seed:** exactly 900 concrete nouns (300 easy / 300 medium / 300 hard), synced on every start — missing seed words are imported without touching existing rows
+- **Seed:** exactly 1600 concrete nouns (300 easy / 1000 medium / 300 hard), synced on every start — missing seed words are imported without touching existing rows
 
 ## Seed Data Source
 
@@ -55,7 +56,7 @@ Chair|كرسي|Home|easy
 ```
 
 - **This file is the single source of truth for seed data.** The seeding script/migration must parse this file and insert rows into the `words` table (with `enabled = true`). Do not hardcode word lists in source code.
-- The file is complete and validated: exactly 300 easy + 300 medium + 300 hard, no duplicate English words, all rows have 4 fields. **Import it verbatim — do not invent, replace, or regenerate words.**
+- The file is complete and validated: exactly 300 easy + 1000 medium + 300 hard, no duplicate English words, all rows have 4 fields. **Import it verbatim — do not invent, replace, or regenerate words.**
 - Difficulty values must remain lowercase: `easy`, `medium`, `hard`.
 - Encoding is UTF-8; preserve Arabic text exactly.
 

@@ -12,6 +12,11 @@ export class WordService {
     return this.words.countByDifficulty();
   }
 
+  /** Cards per difficulty that have not appeared yet — the remaining pool. */
+  remainingByDifficulty(): Record<Difficulty, number> {
+    return this.words.countUnseenByDifficulty();
+  }
+
   categories(): Category[] {
     return this.words.listCategories();
   }

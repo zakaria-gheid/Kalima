@@ -100,3 +100,36 @@ func (r *WordRepository) ListEnglish() ([]string, error) {
 func (r *WordRepository) SetEnabled(id int64, enabled bool) error {
 	return r.db.Model(&wordRecord{}).Where("id = ?", id).Update("enabled", enabled).Error
 }
+
+// FindUnseenEnabledByDifficulty returns enabled words that have not appeared
+// in any game since the pool last reset.
+func (r *WordRepository) FindUnseenEnabledByDifficulty(difficulty domain.Difficulty) ([]domain.Word, error) {
+	var records []wordRecord
+	err := r.db.
+		Where("difficulty = ? AND enabled = ? AND seen = ?", string(difficulty), true, false).
+		Find(&records).Error
+	if err != nil {
+		return nil, err
+	}
+	words := make([]domain.Word, len(records))
+	for i, record := range records {
+		words[i] = toDomainWord(record)
+	}
+	return words, nil
+}
+
+// MarkSeen records that a word appeared; it stays out of new decks until the
+// pool resets.
+func (r *WordRepository) MarkSeen(id int64) error {
+	return r.db.Model(&wordRecord{}).Where("id = ?", id).Update("seen", true).Error
+}
+
+// ResetSeen returns every word of the difficulty (or all words when empty)
+// to the pool of cards that can appear.
+func (r *WordRepository) ResetSeen(difficulty domain.Difficulty) error {
+	q := r.db.Model(&wordRecord{})
+	if difficulty != "" {
+		q = q.Where("difficulty = ?", string(difficulty))
+	}
+	return q.Where("seen = ?", true).Update("seen", false).Error
+}

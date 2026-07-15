@@ -18,7 +18,7 @@ on a blue→violet gradient.
 ## 2. Game Rules
 
 1. From Home, the player chooses **Start Game**, then enters the **team** — the name of the **describer** (who explains the word) and the **guesser** (who answers). The last team is prefilled and a swap button flips the roles. Roles matter: A→B and B→A are distinct teams. Then a **round length** (1 / 2 / 3 / 5 minutes — the last choice is remembered) and a difficulty: Easy 🟢, Medium 🟡, or Hard 🔴.
-2. A deck is built from **every enabled word** of that difficulty and shuffled **once** with **Fisher–Yates**. Cards never repeat within a session.
+2. A deck is built from the **no-repeat pool**: every enabled word of that difficulty that has **not yet appeared in any game**, shuffled **once** with **Fisher–Yates** (order is always random). Cards never repeat within a session, and a card shown in any game stays out of later games until the whole pool has been played — then the pool **resets automatically**. The New game page shows how many cards are left per difficulty and offers a **Reset card pool** button to reset manually.
 3. A **countdown timer** (MM:SS) starts from the chosen round length when the game starts. It supports **pause / resume**; the card is hidden while paused. The last 10 seconds are highlighted.
 4. For each card the group plays the word; the holder marks it **Got it!** (completed) or **Skip**. A live counter of words got is always visible.
 5. The session ends when the countdown reaches zero, the deck is exhausted, or the player ends early.
@@ -28,7 +28,7 @@ on a blue→violet gradient.
 ## 3. Word Data
 
 - Seed source of truth: **`assets/data/words_seed.txt`** — UTF-8, pipe-delimited, header `english|arabic|category|difficulty`.
-- Exactly **900 concrete nouns**: 300 easy, 300 medium, 300 hard, across 21 categories. No duplicate English words. Difficulties are lowercase.
+- Exactly **1600 concrete nouns**: 300 easy, 1000 medium, 300 hard, across 21 categories. No duplicate English words. Difficulties are lowercase.
 - Synced into the `words` table (`enabled = true`) on every start: words missing from the database are imported (case-insensitive English match); existing rows and their enabled flags are never touched. Word lists are never hardcoded in source.
 - The **Word List** screen offers search (English or Arabic), difficulty/category filters, and per-word enable/disable. Disabled words are excluded from new decks.
 
@@ -58,7 +58,7 @@ Presentation   pages/ components/ layouts/ hooks/        (React)
 ### Database schema
 
 ```sql
-words(id, english UNIQUE, arabic, category, difficulty CHECK(easy|medium|hard), enabled, created_at)
+words(id, english UNIQUE, arabic, category, difficulty CHECK(easy|medium|hard), enabled, seen, created_at)
 settings(key PRIMARY KEY, value)
 teams(id, describer, guesser, created_at, UNIQUE(describer, guesser) COLLATE NOCASE)
 game_sessions(id, difficulty, started_at, ended_at, duration_ms, elapsed_ms,

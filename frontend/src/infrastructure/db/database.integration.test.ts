@@ -30,14 +30,14 @@ beforeAll(async () => {
 });
 
 describe('database bootstrap (real seed file, real schema)', () => {
-  it('seeds exactly 900 words: 300 easy, 300 medium, 300 hard, all enabled', () => {
-    expect(words.findAll()).toHaveLength(900);
-    expect(words.countByDifficulty()).toEqual({ easy: 300, medium: 300, hard: 300 });
-    expect(words.findAll({ enabledOnly: true })).toHaveLength(900);
+  it('seeds exactly 1600 words: 300 easy, 1000 medium, 300 hard, all enabled', () => {
+    expect(words.findAll()).toHaveLength(1600);
+    expect(words.countByDifficulty()).toEqual({ easy: 300, medium: 1000, hard: 300 });
+    expect(words.findAll({ enabledOnly: true })).toHaveLength(1600);
   });
 
   it('preserves Arabic text exactly (UTF-8 round trip through SQLite)', () => {
-    const [chair] = words.findAll({ search: 'Chair' });
+    const chair = words.findAll({ search: 'Chair' }).find((w) => w.english === 'Chair');
     expect(chair?.arabic).toBe('كرسي');
   });
 
@@ -72,8 +72,8 @@ describe('GameService (full flow against the seeded database)', () => {
     const team = teams.findOrCreate('Ali', 'Sara');
 
     const session = game.createSession('medium', 120_000, team);
-    expect(session.deck).toHaveLength(300);
-    expect(new Set(session.deck.map((w) => w.id)).size).toBe(300);
+    expect(session.deck).toHaveLength(1000);
+    expect(new Set(session.deck.map((w) => w.id)).size).toBe(1000);
     expect(session.deck.every((w) => w.difficulty === 'medium')).toBe(true);
     expect(session.durationMs).toBe(120_000);
     expect(session.team).toEqual(team);
@@ -97,6 +97,44 @@ describe('GameService (full flow against the seeded database)', () => {
     expect(stats.totalCardsCompleted).toBe(42);
     expect(stats.totalPlayTimeMs).toBe(90_000);
     expect(stats.byDifficulty.medium).toEqual({ sessions: 1, cardsCompleted: 42 });
+  });
+});
+
+describe('no-repeat card pool', () => {
+  it('appeared cards stay out of new decks until the pool is exhausted, then it resets', () => {
+    const sessions = new SessionRepository(client);
+    const teams = new TeamRepository(client);
+    const game = new GameService(words, sessions);
+    const team = teams.findOrCreate('Pool', 'Tester');
+    game.resetCardPool();
+
+    const total = words.findEnabledByDifficulty('easy').length;
+
+    // Play through some cards in a first game.
+    const first = game.createSession('easy', 60_000, team);
+    const played = first.deck.slice(0, 10);
+    for (const card of played) game.markCardAppeared(card.id);
+    expect(words.countUnseenByDifficulty().easy).toBe(total - 10);
+
+    // The next deck excludes every card that already appeared.
+    const second = game.createSession('easy', 60_000, team);
+    expect(second.deck).toHaveLength(total - 10);
+    const playedIds = new Set(played.map((w) => w.id));
+    expect(second.deck.some((w) => playedIds.has(w.id))).toBe(false);
+
+    // Exhaust the pool: the next session auto-resets and serves everything again.
+    for (const card of second.deck) game.markCardAppeared(card.id);
+    expect(words.countUnseenByDifficulty().easy).toBe(0);
+    const third = game.createSession('easy', 60_000, team);
+    expect(third.deck).toHaveLength(total);
+
+    // Only the exhausted difficulty resets; others are untouched.
+    game.markCardAppeared(third.deck[0]!.id);
+    expect(words.countUnseenByDifficulty().easy).toBe(total - 1);
+
+    // Manual reset returns every card to the pool.
+    game.resetCardPool();
+    expect(words.countUnseenByDifficulty().easy).toBe(total);
   });
 });
 
@@ -144,10 +182,12 @@ describe('migration from a v1 database (pre-countdown, pre-teams schema)', () =>
     expect(sessionColumns).toContain('team_id');
 
     // Existing data survives, and the seed sync imports every word the old
-    // database was missing (Chair already existed, so 899 are added).
+    // database was missing (Chair already existed, so 1599 are added).
     const oldWords = new WordRepository(upgraded);
-    expect(oldWords.findAll()).toHaveLength(900);
-    expect(oldWords.findAll({ search: 'Chair' })).toHaveLength(1);
+    expect(oldWords.findAll()).toHaveLength(1600);
+    expect(oldWords.findAll({ search: 'Chair' }).filter((w) => w.english === 'Chair')).toHaveLength(
+      1,
+    );
     const [legacy] = upgraded.query<{ cards_completed: number; team_id: number | null }>(
       'SELECT cards_completed, team_id FROM game_sessions WHERE id = ?',
       ['legacy'],

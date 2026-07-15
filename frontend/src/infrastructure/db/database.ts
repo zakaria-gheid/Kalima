@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS words (
   category TEXT NOT NULL,
   difficulty TEXT NOT NULL CHECK (difficulty IN ('easy', 'medium', 'hard')),
   enabled INTEGER NOT NULL DEFAULT 1,
+  seen INTEGER NOT NULL DEFAULT 0,
   created_at INTEGER NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_words_difficulty ON words (difficulty, enabled);
@@ -144,6 +145,10 @@ function applyMigrations(client: SqliteClient): void {
   }
   if (!columns.some((column) => column.name === 'team_id')) {
     client.run('ALTER TABLE game_sessions ADD COLUMN team_id INTEGER REFERENCES teams (id)');
+  }
+  const wordColumns = client.query<{ name: string }>('PRAGMA table_info(words)');
+  if (!wordColumns.some((column) => column.name === 'seen')) {
+    client.run('ALTER TABLE words ADD COLUMN seen INTEGER NOT NULL DEFAULT 0');
   }
   // Indexes on migrated columns must be created here, after the columns exist —
   // putting them in SCHEMA breaks startup for databases from older app versions.

@@ -18,6 +18,7 @@ type wordRecord struct {
 	Category   string `gorm:"not null"`
 	Difficulty string `gorm:"index:idx_words_difficulty;not null"`
 	Enabled    bool   `gorm:"index:idx_words_difficulty;not null;default:true"`
+	Seen       bool   `gorm:"not null;default:false"`
 	CreatedAt  time.Time
 }
 

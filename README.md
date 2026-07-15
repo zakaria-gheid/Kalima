@@ -12,7 +12,8 @@ One player explains a word, another guesses it. No accounts, no servers, no inte
 
 ## Features
 
-- 900 seeded English–Arabic noun cards (300 per difficulty) across 21 categories
+- 1600 seeded English–Arabic noun cards (300 easy / 1000 medium / 300 hard) across 21 categories
+- No-repeat card pool: a card that appeared in any game stays out of new games until all cards have been played (auto reset, plus a manual reset button)
 - Three difficulty levels: Easy 🟢 / Medium 🟡 / Hard 🔴
 - Team play: a **describer** and a **guesser** per team, with points (cards won) and a ranked leaderboard
 - Countdown rounds (1–5 minutes, selectable) with pause/resume and a live "got it" counter
@@ -43,7 +44,7 @@ docs/            Full project specification
 
 ## Seed Data
 
-The vocabulary database is seeded from `assets/data/words_seed.txt`, a pipe-delimited file (`english|arabic|category|difficulty`) containing exactly 900 words — 300 easy, 300 medium, 300 hard — across 21 categories. The database syncs from this file on every start: words missing from the database are imported, existing rows are left untouched. To add words, edit the file and restart.
+The vocabulary database is seeded from `assets/data/words_seed.txt`, a pipe-delimited file (`english|arabic|category|difficulty`) containing exactly 1600 words — 300 easy, 1000 medium, 300 hard — across 21 categories. The database syncs from this file on every start: words missing from the database are imported, existing rows are left untouched. To add words, edit the file and restart.
 
 ## Getting Started
 

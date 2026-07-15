@@ -24,6 +24,31 @@ export function useWordCounts() {
   });
 }
 
+/** Cards per difficulty still in the no-repeat pool (not yet appeared). */
+export function useRemainingCounts() {
+  return useQuery({
+    queryKey: [WORDS_KEY, 'remaining'],
+    queryFn: async () => {
+      const { wordService } = await getServices();
+      return wordService.remainingByDifficulty();
+    },
+  });
+}
+
+/** Manually returns every card to the pool. */
+export function useResetCardPool() {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: async () => {
+      const { gameService } = await getServices();
+      gameService.resetCardPool();
+    },
+    onSuccess: () => {
+      void queryClient.invalidateQueries({ queryKey: [WORDS_KEY] });
+    },
+  });
+}
+
 export function useCategories() {
   return useQuery({
     queryKey: [WORDS_KEY, 'categories'],

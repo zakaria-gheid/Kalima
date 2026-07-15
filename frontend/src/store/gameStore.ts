@@ -57,6 +57,12 @@ export const useGameStore = create<GameState>((set, get) => {
     void getServices().then(({ gameService }) => gameService.recordResult(result));
   }
 
+  /** Removes a shown card from future decks (no-repeat pool). */
+  function markAppeared(wordId: number | undefined): void {
+    if (wordId === undefined) return;
+    void getServices().then(({ gameService }) => gameService.markCardAppeared(wordId));
+  }
+
   function advance(kind: 'correct' | 'skipped'): void {
     const { session, status, currentIndex, correct, skipped } = get();
     if (!session || status !== 'playing') return;
@@ -66,6 +72,7 @@ export const useGameStore = create<GameState>((set, get) => {
       set(counts);
       finish();
     } else {
+      markAppeared(session.deck[currentIndex + 1]?.id);
       set({ ...counts, currentIndex: currentIndex + 1 });
     }
   }
@@ -83,6 +90,9 @@ export const useGameStore = create<GameState>((set, get) => {
       const { gameService, teamService } = await getServices();
       const team = teamService.getOrCreate(teamInput);
       const session = gameService.createSession(difficulty, durationMs, team);
+      // The first card is on screen as soon as the game starts.
+      const first = session.deck[0];
+      if (first) gameService.markCardAppeared(first.id);
       timer.start();
       set({
         session,

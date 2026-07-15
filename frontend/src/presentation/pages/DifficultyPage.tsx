@@ -2,14 +2,18 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
-import { ArrowLeftIcon, ArrowsRightLeftIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon, ArrowPathIcon, ArrowsRightLeftIcon } from '@heroicons/react/24/outline';
 import { PlayIcon } from '@heroicons/react/24/solid';
 import { DIFFICULTIES, type Difficulty } from '@/domain/word';
 import { GAME_DURATION_OPTIONS } from '@/domain/settings';
 import type { TeamInput } from '@/domain/team';
 import { useGameStore } from '@/store/gameStore';
 import { useSettingsStore } from '@/store/settingsStore';
-import { useWordCounts } from '@/presentation/hooks/useWords';
+import {
+  useRemainingCounts,
+  useResetCardPool,
+  useWordCounts,
+} from '@/presentation/hooks/useWords';
 import { useLastTeam } from '@/presentation/hooks/useTeams';
 import { IconButton } from '@/presentation/components/IconButton';
 import { formatMMSS } from '@/lib/time';
@@ -53,7 +57,14 @@ export function DifficultyPage() {
   const gameDurationSec = useSettingsStore((state) => state.gameDurationSec);
   const setGameDurationSec = useSettingsStore((state) => state.setGameDurationSec);
   const { data: counts } = useWordCounts();
+  const { data: remaining } = useRemainingCounts();
+  const resetPool = useResetCardPool();
   const { data: lastTeam } = useLastTeam();
+
+  const poolPartiallyUsed =
+    counts !== undefined &&
+    remaining !== undefined &&
+    DIFFICULTIES.some((d) => remaining[d] < counts[d]);
 
   const {
     register,
@@ -167,12 +178,29 @@ export function DifficultyPage() {
       </section>
 
       <section aria-labelledby="difficulty-heading" className="flex flex-col gap-2.5">
-        <h2 id="difficulty-heading" className={sectionHeading}>
-          Difficulty
-        </h2>
+        <div className="flex min-h-8 items-center justify-between">
+          <h2 id="difficulty-heading" className={sectionHeading}>
+            Difficulty
+          </h2>
+          {poolPartiallyUsed && (
+            <button
+              type="button"
+              onClick={() => resetPool.mutate()}
+              disabled={resetPool.isPending}
+              className="inline-flex min-h-8 items-center gap-1.5 rounded-full px-2.5 text-xs font-semibold text-primary hover:bg-primary/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-50"
+            >
+              <ArrowPathIcon aria-hidden="true" className="size-4" />
+              Reset card pool
+            </button>
+          )}
+        </div>
+        <p className="sr-only" aria-live="polite">
+          Cards that already appeared stay out of new games until every card has been played.
+        </p>
         {DIFFICULTIES.map((difficulty, index) => {
           const card = CARDS[difficulty];
           const count = counts?.[difficulty] ?? 0;
+          const left = remaining?.[difficulty] ?? count;
           return (
             <motion.button
               key={difficulty}
@@ -192,7 +220,9 @@ export function DifficultyPage() {
               </span>
               <span className="flex min-w-0 flex-1 flex-col">
                 <span className="text-[15px] font-semibold">{card.label}</span>
-                <span className="text-xs text-slate-500 dark:text-slate-400">{count} words</span>
+                <span className="text-xs text-slate-500 dark:text-slate-400">
+                  {left < count ? `${left} of ${count} cards left` : `${count} words`}
+                </span>
               </span>
               <PlayIcon aria-hidden="true" className={`size-5 shrink-0 ${card.accent}`} />
             </motion.button>

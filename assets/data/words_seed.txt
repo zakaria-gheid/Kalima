@@ -899,3 +899,703 @@ Propeller|مروحة دفع|Transportation|hard
 Rudder|دفة|Transportation|hard
 Lighthouse|منارة|Transportation|hard
 Dashboard|لوحة عدادات|Transportation|hard
+Armchair|كرسي بذراعين|Home|medium
+Bookshelf|رف كتب|Home|medium
+Wardrobe|خزانة ملابس|Home|medium
+Closet|خزانة حائط|Home|medium
+Dresser|منضدة زينة|Home|medium
+Nightstand|طاولة سرير|Home|medium
+Mattress|مرتبة|Home|medium
+Bedsheet|شرشف|Home|medium
+Quilt|لحاف|Home|medium
+Cradle|مهد|Home|medium
+Hallway|ردهة|Home|medium
+Ceiling|سقف الغرفة|Home|medium
+Fireplace|موقد حطب|Home|medium
+Mailbox|صندوق بريد|Home|medium
+Doormat|ممسحة أرجل|Home|medium
+Hanger|علاقة ملابس|Home|medium
+Hook|خطاف|Home|medium
+Nail|مسمار|Home|medium
+Hammer|مطرقة|Home|medium
+Screwdriver|مفك براغي|Home|medium
+Screw|برغي|Home|medium
+Wrench|مفتاح ربط|Home|medium
+Saw|منشار|Home|medium
+Drill|مثقاب|Home|medium
+Axe|فأس|Home|medium
+Shovel|مجرفة|Home|medium
+Rake|مذراة|Home|medium
+Wheelbarrow|عربة يدوية|Home|medium
+Hose|خرطوم ماء|Home|medium
+Lawn mower|جزازة عشب|Home|medium
+Flowerpot|أصيص زهور|Home|medium
+Watering can|إبريق ري|Home|medium
+Dustbin|سلة مهملات|Home|medium
+Ashtray|منفضة|Home|medium
+Clothesline|حبل غسيل|Home|medium
+Clothespin|مشبك غسيل|Home|medium
+Iron|مكواة|Home|medium
+Ironing board|طاولة كي|Home|medium
+Sponge|إسفنجة|Home|medium
+Detergent|مسحوق غسيل|Home|medium
+Saucepan|قدر بمقبض|Kitchen|medium
+Colander|مصفاة|Kitchen|medium
+Sieve|منخل|Kitchen|medium
+Spatula|ملعقة مسطحة|Kitchen|medium
+Tongs|ملقط طعام|Kitchen|medium
+Corkscrew|فتاحة سدادات|Kitchen|medium
+Can opener|فتاحة علب|Kitchen|medium
+Bottle opener|فتاحة زجاجات|Kitchen|medium
+Nutcracker|كسارة بندق|Kitchen|medium
+Mortar|هاون|Kitchen|medium
+Pestle|يد الهاون|Kitchen|medium
+Skewer|سيخ شواء|Kitchen|medium
+Grill|شواية|Kitchen|medium
+Toaster|محمصة خبز|Kitchen|medium
+Microwave|ميكروويف|Kitchen|medium
+Coffee maker|آلة قهوة|Kitchen|medium
+Grinder|مطحنة|Kitchen|medium
+Juicer|عصارة|Kitchen|medium
+Measuring cup|كوب قياس|Kitchen|medium
+Timer|مؤقت|Kitchen|medium
+Scale|ميزان مطبخ|Kitchen|medium
+Oven mitt|قفاز فرن|Kitchen|medium
+Bowl|وعاء|Kitchen|medium
+Saucer|صحن فنجان|Kitchen|medium
+Mug|قدح|Kitchen|medium
+Glass|كأس|Kitchen|medium
+Pitcher|إبريق|Kitchen|medium
+Thermos|ترمس|Kitchen|medium
+Chopsticks|عيدان طعام|Kitchen|medium
+Salt shaker|مملحة|Kitchen|medium
+Apricot|مشمش|Food|medium
+Plum|برقوق|Food|medium
+Pomegranate|رمان|Food|medium
+Guava|جوافة|Food|medium
+Papaya|بابايا|Food|medium
+Kiwi|كيوي|Food|medium
+Avocado|أفوكادو|Food|medium
+Coconut|جوز الهند|Food|medium
+Blueberry|توت أزرق|Food|medium
+Raspberry|توت العليق|Food|medium
+Blackberry|توت أسود|Food|medium
+Cranberry|توت بري|Food|medium
+Grapefruit|جريب فروت|Food|medium
+Tangerine|يوسفي|Food|medium
+Lime|ليمون أخضر|Food|medium
+Cauliflower|قرنبيط|Food|medium
+Cabbage|ملفوف|Food|medium
+Broccoli|بروكلي|Food|medium
+Spinach|سبانخ|Food|medium
+Celery|كرفس|Food|medium
+Leek|كراث|Food|medium
+Radish|فجل|Food|medium
+Turnip|لفت|Food|medium
+Beetroot|شمندر|Food|medium
+Pumpkin|يقطين|Food|medium
+Zucchini|كوسة|Food|medium
+Eggplant|باذنجان|Food|medium
+Bell pepper|فلفل حلو|Food|medium
+Chili|فلفل حار|Food|medium
+Peas|بازلاء|Food|medium
+Okra|بامية|Food|medium
+Artichoke|خرشوف|Food|medium
+Asparagus|هليون|Food|medium
+Mushroom|فطر|Food|medium
+Parsley|بقدونس|Food|medium
+Coriander|كزبرة|Food|medium
+Dill|شبت|Food|medium
+Basil|ريحان|Food|medium
+Thyme|زعتر|Food|medium
+Rosemary|إكليل الجبل|Food|medium
+Nutmeg|جوزة الطيب|Food|medium
+Cloves|قرنفل|Food|medium
+Cumin|كمون|Food|medium
+Paprika|بابريكا|Food|medium
+Sesame|سمسم|Food|medium
+Pistachio|فستق حلبي|Food|medium
+Cashew|كاجو|Food|medium
+Hazelnut|بندق|Food|medium
+Oats|شوفان|Food|medium
+Wheat|قمح|Food|medium
+Pasta|معكرونة|Food|medium
+Noodles|شعيرية|Food|medium
+Couscous|كسكس|Food|medium
+Syrup|قطر|Food|medium
+Jelly|جيلي|Food|medium
+Pickles|مخللات|Food|medium
+Mustard|خردل|Food|medium
+Mayonnaise|مايونيز|Food|medium
+Ketchup|كاتشب|Food|medium
+Cream|قشطة|Food|medium
+Broth|مرق|Food|medium
+Stew|يخنة|Food|medium
+Omelette|عجة|Food|medium
+Pancake|بان كيك|Food|medium
+Waffle|وافل|Food|medium
+Biscuit|بسكويت|Food|medium
+Croissant|كرواسون|Food|medium
+Donut|دونات|Food|medium
+Pie|فطيرة|Food|medium
+Pudding|بودينغ|Food|medium
+Leopard|نمر مرقط|Animals|medium
+Cheetah|فهد|Animals|medium
+Jaguar|جاكوار|Animals|medium
+Panther|نمر أسود|Animals|medium
+Hippopotamus|فرس النهر|Animals|medium
+Rhinoceros|وحيد القرن|Animals|medium
+Buffalo|جاموس|Animals|medium
+Bison|بيسون|Animals|medium
+Antelope|ظبي|Animals|medium
+Ibex|وعل|Animals|medium
+Oryx|مها|Animals|medium
+Hare|أرنب بري|Animals|medium
+Beaver|قندس|Animals|medium
+Porcupine|نيص|Animals|medium
+Raccoon|راكون|Animals|medium
+Skunk|ظربان|Animals|medium
+Weasel|ابن عرس|Animals|medium
+Mongoose|نمس|Animals|medium
+Badger|غرير|Animals|medium
+Sloth|كسلان|Animals|medium
+Chimpanzee|شمبانزي|Animals|medium
+Gorilla|غوريلا|Animals|medium
+Baboon|رباح|Animals|medium
+Orangutan|إنسان الغاب|Animals|medium
+Koala|كوالا|Animals|medium
+Anteater|آكل النمل|Animals|medium
+Hamster|هامستر|Animals|medium
+Guinea pig|خنزير غينيا|Animals|medium
+Lynx|وشق|Animals|medium
+Cougar|أسد الجبال|Animals|medium
+Jackal|ابن آوى|Animals|medium
+Stork|لقلق|Animals|medium
+Heron|مالك الحزين|Animals|medium
+Pelican|طائر البجع|Animals|medium
+Sparrow|عصفور دوري|Animals|medium
+Swallow|سنونو|Animals|medium
+Nightingale|عندليب|Animals|medium
+Canary|كناري|Animals|medium
+Hummingbird|طائر طنان|Animals|medium
+Hawk|باز|Animals|medium
+Vulture|رخمة|Animals|medium
+Goose|إوزة|Animals|medium
+Turkey|ديك رومي|Animals|medium
+Chameleon|حرباء|Animals|medium
+Gecko|أبو بريص|Animals|medium
+Cobra|كوبرا|Animals|medium
+Viper|أفعى|Animals|medium
+Python|أصلة|Animals|medium
+Tortoise|سلحفاة برية|Animals|medium
+Salmon|سلمون|Animals|medium
+Tuna|تونة|Animals|medium
+Sardine|سردين|Animals|medium
+Trout|تروتة|Animals|medium
+Eel|أنقليس|Animals|medium
+Seahorse|حصان البحر|Animals|medium
+Starfish|نجم البحر|Animals|medium
+Lobster|كركند|Animals|medium
+Oyster|محار|Animals|medium
+Squid|حبار|Animals|medium
+Swordfish|سمكة السيف|Animals|medium
+Ladybug|دعسوقة|Animals|medium
+Caterpillar|يرقة|Animals|medium
+Cockroach|صرصور|Animals|medium
+Cricket|جدجد|Animals|medium
+Firefly|يراعة|Animals|medium
+Wasp|دبور|Animals|medium
+Hornet|زنبور|Animals|medium
+Termite|نمل أبيض|Animals|medium
+Moth|عثة|Animals|medium
+Leech|علقة|Animals|medium
+Pebble|حصاة|Nature|medium
+Gravel|حصى|Nature|medium
+Clay|صلصال|Nature|medium
+Soil|تربة|Nature|medium
+Moss|طحلب|Nature|medium
+Fern|سرخس|Nature|medium
+Vine|كرمة|Nature|medium
+Ivy|لبلاب|Nature|medium
+Reed|قصب|Nature|medium
+Bamboo|خيزران|Nature|medium
+Bush|شجيرة|Nature|medium
+Trunk|جذع|Nature|medium
+Twig|غصين|Nature|medium
+Stump|أرومة|Nature|medium
+Acorn|بلوطة|Nature|medium
+Pinecone|كوز صنوبر|Nature|medium
+Oak|بلوط|Nature|medium
+Pine|صنوبر|Nature|medium
+Cedar|شجرة الأرز|Nature|medium
+Willow|صفصاف|Nature|medium
+Maple|قيقب|Nature|medium
+Tulip|توليب|Nature|medium
+Daisy|أقحوان|Nature|medium
+Sunflower|دوار الشمس|Nature|medium
+Jasmine|ياسمين|Nature|medium
+Lily|زنبق|Nature|medium
+Orchid|سحلبية|Nature|medium
+Lavender|خزامى|Nature|medium
+Poppy|خشخاش|Nature|medium
+Petal|بتلة|Nature|medium
+Stem|ساق نبات|Nature|medium
+Nectar|رحيق|Nature|medium
+Bud|برعم|Nature|medium
+Puddle|بركة صغيرة|Nature|medium
+Current|تيار مائي|Nature|medium
+Tide|مد وجزر|Nature|medium
+Seaweed|أعشاب بحرية|Nature|medium
+Coral|مرجان|Nature|medium
+Seashell|صدفة بحرية|Nature|medium
+Iceberg|جبل جليدي|Nature|medium
+Snowflake|ندفة ثلج|Nature|medium
+Breeze|نسيم|Nature|medium
+Whirlwind|زوبعة|Nature|medium
+Raindrop|قطرة مطر|Nature|medium
+Sunrise|شروق الشمس|Nature|medium
+Sunset|غروب الشمس|Nature|medium
+Dawn|فجر|Nature|medium
+Autumn|خريف|Nature|medium
+Summer|صيف|Nature|medium
+Winter|شتاء|Nature|medium
+Scalp|فروة الرأس|Human Body|medium
+Temple|صدغ|Human Body|medium
+Nostril|فتحة الأنف|Human Body|medium
+Lip|شفة|Human Body|medium
+Gum|لثة|Human Body|medium
+Throat|حلق|Human Body|medium
+Chest|صدر|Human Body|medium
+Hip|ورك|Human Body|medium
+Thigh|فخذ|Human Body|medium
+Calf|ربلة الساق|Human Body|medium
+Shin|قصبة الساق|Human Body|medium
+Toe|إصبع القدم|Human Body|medium
+Knuckle|برجمة|Human Body|medium
+Fingernail|ظفر|Human Body|medium
+Fist|قبضة|Human Body|medium
+Dimple|غمازة|Human Body|medium
+Freckle|نمش|Human Body|medium
+Wrinkle|تجعيدة|Human Body|medium
+Beard|لحية|Human Body|medium
+Mustache|شارب|Human Body|medium
+Blouse|بلوزة|Clothing|medium
+Cardigan|كارديغان|Clothing|medium
+Hoodie|كنزة بقلنسوة|Clothing|medium
+Raincoat|معطف مطر|Clothing|medium
+Jeans|جينز|Clothing|medium
+Tracksuit|بدلة رياضية|Clothing|medium
+Swimsuit|لباس سباحة|Clothing|medium
+Underwear|ملابس داخلية|Clothing|medium
+Mitten|قفاز بلا أصابع|Clothing|medium
+Beanie|قبعة صوف|Clothing|medium
+Hood|قلنسوة|Clothing|medium
+Veil|خمار|Clothing|medium
+Cufflinks|أزرار أكمام|Clothing|medium
+Shawl|شال|Clothing|medium
+Wallet|محفظة|Clothing|medium
+Handbag|حقيبة يد|Clothing|medium
+Backpack|حقيبة ظهر|Clothing|medium
+Suitcase|حقيبة سفر|Clothing|medium
+Umbrella|مظلة|Clothing|medium
+Sunglasses|نظارات شمسية|Clothing|medium
+Glasses|نظارات طبية|Clothing|medium
+Shoelace|رباط حذاء|Clothing|medium
+Buckle|إبزيم|Clothing|medium
+Thread|خيط|Clothing|medium
+Needle|إبرة|Clothing|medium
+Fabric|قماش|Clothing|medium
+Wool|صوف|Clothing|medium
+Cotton|قطن|Clothing|medium
+Silk|حرير|Clothing|medium
+Leather|جلد|Clothing|medium
+Scooter|سكوتر|Transportation|medium
+Skateboard|لوح تزلج|Transportation|medium
+Subway|مترو أنفاق|Transportation|medium
+Fire truck|سيارة إطفاء|Transportation|medium
+Police car|سيارة شرطة|Transportation|medium
+Garbage truck|شاحنة قمامة|Transportation|medium
+Limousine|ليموزين|Transportation|medium
+Jeep|سيارة جيب|Transportation|medium
+Caravan|عربة سكن متنقلة|Transportation|medium
+Gondola|جندول|Transportation|medium
+Raft|طوف|Transportation|medium
+Kayak|كاياك|Transportation|medium
+Tanker|ناقلة نفط|Transportation|medium
+Cargo ship|سفينة شحن|Transportation|medium
+Cruise ship|سفينة رحلات|Transportation|medium
+Jet|طائرة نفاثة|Transportation|medium
+Glider|طائرة شراعية|Transportation|medium
+Seaplane|طائرة مائية|Transportation|medium
+Headlight|مصباح أمامي|Transportation|medium
+Bumper|مصد|Transportation|medium
+Tire|إطار|Transportation|medium
+Horn|زمور|Transportation|medium
+Pedal|دواسة|Transportation|medium
+Seatbelt|حزام أمان|Transportation|medium
+License plate|لوحة سيارة|Transportation|medium
+Speedometer|عداد سرعة|Transportation|medium
+Gas station|محطة وقود|Transportation|medium
+Parking lot|موقف سيارات|Transportation|medium
+Highway|طريق سريع|Transportation|medium
+Bus stop|موقف حافلات|Transportation|medium
+Platform|رصيف قطار|Transportation|medium
+Railway|سكة حديد|Transportation|medium
+Wagon|عربة نقل|Transportation|medium
+Sled|زلاجة|Transportation|medium
+Cable car|تلفريك|Transportation|medium
+Doctor|طبيب|Jobs|medium
+Judge|قاضٍ|Jobs|medium
+Police officer|شرطي|Jobs|medium
+Postman|ساعي بريد|Jobs|medium
+Driver|سائق|Jobs|medium
+Captain|قبطان|Jobs|medium
+Sailor|بحار|Jobs|medium
+Miner|عامل منجم|Jobs|medium
+Blacksmith|حداد|Jobs|medium
+Goldsmith|صائغ|Jobs|medium
+Potter|خزاف|Jobs|medium
+Painter|رسام|Jobs|medium
+Sculptor|نحات|Jobs|medium
+Photographer|مصور|Jobs|medium
+Actor|ممثل|Jobs|medium
+Singer|مغنٍ|Jobs|medium
+Dancer|راقص|Jobs|medium
+Poet|شاعر|Jobs|medium
+Writer|كاتب|Jobs|medium
+Cashier|أمين صندوق|Jobs|medium
+Salesman|بائع|Jobs|medium
+Merchant|تاجر|Jobs|medium
+Manager|مدير|Jobs|medium
+Janitor|عامل نظافة|Jobs|medium
+Gardener|بستاني|Jobs|medium
+Beekeeper|نحّال|Jobs|medium
+Hunter|صياد|Jobs|medium
+Maid|خادمة|Jobs|medium
+Nanny|مربية أطفال|Jobs|medium
+Tutor|مدرس خصوصي|Jobs|medium
+Principal|مدير مدرسة|Jobs|medium
+Professor|أستاذ جامعي|Jobs|medium
+Scientist|عالم|Jobs|medium
+Inventor|مخترع|Jobs|medium
+Athlete|رياضي|Jobs|medium
+Clown|مهرج|Jobs|medium
+Magician|ساحر|Jobs|medium
+Musician|موسيقي|Jobs|medium
+Cobbler|إسكافي|Jobs|medium
+Welder|لحّام|Jobs|medium
+Badminton|تنس الريشة|Sports|medium
+Table tennis|تنس طاولة|Sports|medium
+Golf|غولف|Sports|medium
+Hockey|هوكي|Sports|medium
+Rugby|رغبي|Sports|medium
+Baseball|بيسبول|Sports|medium
+Handball|كرة يد|Sports|medium
+Cycling|ركوب دراجات|Sports|medium
+Jogging|هرولة|Sports|medium
+Hiking|مشي جبلي|Sports|medium
+Climbing|تسلق|Sports|medium
+Diving|غوص|Sports|medium
+Sailing|إبحار شراعي|Sports|medium
+Skating|تزحلق|Sports|medium
+Judo|جودو|Sports|medium
+Taekwondo|تايكواندو|Sports|medium
+High jump|قفز عالٍ|Sports|medium
+Long jump|قفز طويل|Sports|medium
+Sprint|عدو سريع|Sports|medium
+Hurdles|سباق حواجز|Sports|medium
+Shot put|رمي الجلة|Sports|medium
+Billiards|بلياردو|Sports|medium
+Bowling|بولينغ|Sports|medium
+Darts|دارتس|Sports|medium
+Kite|طائرة ورقية|Sports|medium
+Dumbbell|دمبل|Sports|medium
+Treadmill|جهاز مشي|Sports|medium
+Yoga|يوغا|Sports|medium
+Goalkeeper|حارس مرمى|Sports|medium
+Striker|مهاجم|Sports|medium
+Beaker|كأس مخبرية|Science|medium
+Pipette|ماصة|Science|medium
+Dropper|قطارة|Science|medium
+Burner|موقد مخبري|Science|medium
+Tweezers|ملقط دقيق|Science|medium
+Petri dish|طبق بتري|Science|medium
+Solution|محلول|Science|medium
+Mixture|خليط|Science|medium
+Powder|مسحوق|Science|medium
+Liquid|سائل|Science|medium
+Gas|غاز|Science|medium
+Bubble|فقاعة|Science|medium
+Flame|لهب|Science|medium
+Spark|شرارة|Science|medium
+Ash|رماد|Science|medium
+Smoke|دخان|Science|medium
+Charcoal|فحم|Science|medium
+Limestone|حجر جيري|Science|medium
+Marble|رخام|Science|medium
+Sulfur|كبريت|Science|medium
+Copper|نحاس|Science|medium
+Zinc|زنك|Science|medium
+Lead|رصاص|Science|medium
+Tin|قصدير|Science|medium
+Aluminum|ألومنيوم|Science|medium
+Brass|نحاس أصفر|Science|medium
+Steel|فولاذ|Science|medium
+Silver|فضة|Science|medium
+Gold|ذهب|Science|medium
+Carbon|كربون|Science|medium
+Nitrogen|نيتروجين|Science|medium
+Helium|هيليوم|Science|medium
+Wire|سلك|Science|medium
+Bulb|لمبة|Science|medium
+Switch|مفتاح كهربائي|Science|medium
+Smartphone|هاتف ذكي|Technology|medium
+Monitor|شاشة عرض|Technology|medium
+Photocopier|آلة تصوير مستندات|Technology|medium
+Fax|فاكس|Technology|medium
+Typewriter|آلة كاتبة|Technology|medium
+Telegraph|تلغراف|Technology|medium
+Radio|مذياع|Technology|medium
+Walkie-talkie|جهاز لاسلكي|Technology|medium
+Earphones|سماعات أذن|Technology|medium
+Stereo|ستيريو|Technology|medium
+Game console|جهاز ألعاب|Technology|medium
+Controller|ذراع تحكم|Technology|medium
+Modem|مودم|Technology|medium
+Satellite dish|طبق لاقط|Technology|medium
+Mousepad|لوحة فأرة|Technology|medium
+Touchscreen|شاشة لمس|Technology|medium
+Stylus|قلم شاشة|Technology|medium
+Powerbank|شاحن متنقل|Technology|medium
+Adapter|محول قابس|Technology|medium
+Extension cord|سلك تمديد|Technology|medium
+Flashlight|مصباح يدوي|Technology|medium
+Lantern|فانوس|Technology|medium
+Alarm clock|منبه|Technology|medium
+Intercom|اتصال داخلي|Technology|medium
+Security camera|كاميرا مراقبة|Technology|medium
+Tripod|حامل ثلاثي|Technology|medium
+Flash|فلاش تصوير|Technology|medium
+Memory card|بطاقة ذاكرة|Technology|medium
+SIM card|شريحة اتصال|Technology|medium
+Motherboard|لوحة أم|Technology|medium
+Hard drive|قرص صلب|Technology|medium
+Cartridge|خرطوشة حبر|Technology|medium
+Solar panel|لوح شمسي|Technology|medium
+Machine|آلة|Technology|medium
+Motor|موتور|Technology|medium
+Peak|ذروة|Geography|medium
+Ridge|حافة جبلية|Geography|medium
+Mountain range|سلسلة جبال|Geography|medium
+Foothill|سفح جبل|Geography|medium
+Gorge|خانق|Geography|medium
+Cove|جون|Geography|medium
+Cape|رأس بحري|Geography|medium
+Marsh|سبخة|Geography|medium
+Wetland|أرض رطبة|Geography|medium
+Prairie|براري|Geography|medium
+Highland|مرتفعات|Geography|medium
+Lowland|أراضٍ منخفضة|Geography|medium
+Terrain|تضاريس|Geography|medium
+Landscape|منظر طبيعي|Geography|medium
+Region|إقليم|Geography|medium
+Province|مقاطعة|Geography|medium
+Country|بلد|Geography|medium
+Kingdom|مملكة|Geography|medium
+State|ولاية|Geography|medium
+Town|بلدة|Geography|medium
+Seabed|قاع البحر|Geography|medium
+Trench|خندق محيطي|Geography|medium
+Riverbed|مجرى النهر|Geography|medium
+Rapids|منحدرات نهرية|Geography|medium
+Floodplain|سهل فيضي|Geography|medium
+Wadi|وادٍ جاف|Geography|medium
+Sinkhole|حفرة انهدامية|Geography|medium
+Dam|سد|Geography|medium
+Canal|قناة|Geography|medium
+Hot spring|ينبوع حار|Geography|medium
+Crescent|هلال|Space|medium
+Full moon|بدر|Space|medium
+Lunar eclipse|خسوف|Space|medium
+Meteorite|حجر نيزكي|Space|medium
+Planetarium|قبة فلكية|Space|medium
+Space suit|بدلة فضاء|Space|medium
+Space shuttle|مكوك فضاء|Space|medium
+Launchpad|منصة إطلاق|Space|medium
+Alien|كائن فضائي|Space|medium
+UFO|طبق طائر|Space|medium
+Venus|كوكب الزهرة|Space|medium
+Mars|المريخ|Space|medium
+Jupiter|المشتري|Space|medium
+Saturn|زحل|Space|medium
+North Star|نجم الشمال|Space|medium
+Banjo|بانجو|Music|medium
+Cello|تشيلو|Music|medium
+Clarinet|كلارينيت|Music|medium
+Oboe|أوبوا|Music|medium
+Harmonica|هارمونيكا|Music|medium
+Bagpipes|مزمار القربة|Music|medium
+Xylophone|إكسيليفون|Music|medium
+Organ|أرغن|Music|medium
+Cymbals|صنوج|Music|medium
+Triangle|مثلث موسيقي|Music|medium
+Gong|غونغ|Music|medium
+Bell|جرس|Music|medium
+Note|نوتة موسيقية|Music|medium
+Stage|خشبة المسرح|Music|medium
+Audience|جمهور|Music|medium
+Band|فرقة موسيقية|Music|medium
+Album|ألبوم|Music|medium
+Anthem|نشيد|Music|medium
+Lullaby|تهويدة|Music|medium
+Hymn|ترنيمة|Music|medium
+Knight|فارس|History|medium
+Armor|درع حربي|History|medium
+Spear|رمح|History|medium
+Bow|قوس|History|medium
+Arrow|سهم|History|medium
+Dagger|خنجر|History|medium
+Cannon|مدفع|History|medium
+Banner|راية|History|medium
+Flag|علم|History|medium
+Torch|مشعل|History|medium
+Quill|ريشة كتابة|History|medium
+Parchment|رَق|History|medium
+Coin|عملة معدنية|History|medium
+Treasure|كنز|History|medium
+Throne|عرش|History|medium
+Palace|قصر|History|medium
+King|ملك|History|medium
+Queen|ملكة|History|medium
+Prince|أمير|History|medium
+Princess|أميرة|History|medium
+Emperor|إمبراطور|History|medium
+Obelisk|مسلة|History|medium
+Sphinx|أبو الهول|History|medium
+Mummy|مومياء|History|medium
+Tribe|قبيلة|History|medium
+Quran|قرآن|Religion|medium
+Bible|إنجيل|Religion|medium
+Torah|توراة|Religion|medium
+Imam|إمام|Religion|medium
+Priest|كاهن|Religion|medium
+Monk|راهب|Religion|medium
+Nun|راهبة|Religion|medium
+Altar|مذبح|Religion|medium
+Rosary|مسبحة|Religion|medium
+Dome|قبة|Religion|medium
+Factory|مصنع|City|medium
+Escalator|سلم متحرك|City|medium
+Playground|ساحة لعب|City|medium
+Kindergarten|روضة أطفال|City|medium
+University|جامعة|City|medium
+College|كلية|City|medium
+Tower|برج|City|medium
+Clinic|عيادة|City|medium
+Fire station|محطة إطفاء|City|medium
+City hall|دار البلدية|City|medium
+Dock|رصيف ميناء|City|medium
+Curb|حافة الرصيف|City|medium
+Gutter|مزراب|City|medium
+Lane|حارة مرور|City|medium
+Kiosk|كشك|City|medium
+Stall|بسطة سوق|City|medium
+Grocery|بقالة|City|medium
+Supermarket|سوبر ماركت|City|medium
+Boutique|بوتيك|City|medium
+Salon|صالون حلاقة|City|medium
+Spa|منتجع صحي|City|medium
+Gym|صالة رياضية|City|medium
+Club|نادٍ|City|medium
+Cafe|مقهى|City|medium
+Arcade|صالة ألعاب|City|medium
+Amusement park|مدينة ملاهي|City|medium
+Circus|سيرك|City|medium
+Aquarium|حوض أسماك|City|medium
+Gallery|معرض فني|City|medium
+Cemetery|مقبرة|City|medium
+Orphanage|دار أيتام|City|medium
+Nursing home|دار المسنين|City|medium
+Shelter|ملجأ|City|medium
+Barracks|ثكنة عسكرية|City|medium
+Fire hydrant|صنبور إطفاء|City|medium
+Manhole|فتحة تفتيش|City|medium
+Traffic jam|ازدحام مروري|City|medium
+Pedestrian|ماشٍ|City|medium
+Landmark|مَعلم|City|medium
+Courtyard|فناء|City|medium
+Gate|بوابة|City|medium
+Drawbridge|جسر متحرك|City|medium
+Pipeline|خط أنابيب|City|medium
+Water tower|برج مياه|City|medium
+Power plant|محطة كهرباء|City|medium
+Windmill|طاحونة هواء|City|medium
+Motel|موتيل|City|medium
+Inn|نزل|City|medium
+Hostel|بيت شباب|City|medium
+Cabin|كوخ خشبي|City|medium
+Binder|ملف حلقي|Office|medium
+Clipboard|حافظة أوراق|Office|medium
+Sticky notes|ملاحظات لاصقة|Office|medium
+Rubber band|مطاطة|Office|medium
+Hole punch|خرامة|Office|medium
+Pencil sharpener|مبراة|Office|medium
+Ledger|دفتر حسابات|Office|medium
+Invoice|فاتورة|Office|medium
+Memo|مذكرة|Office|medium
+Agenda|جدول أعمال|Office|medium
+Meeting|اجتماع|Office|medium
+Salary|راتب|Office|medium
+Resume|سيرة ذاتية|Office|medium
+Signature|توقيع|Office|medium
+Document|مستند|Office|medium
+File|ملف|Office|medium
+Archive|أرشيف|Office|medium
+Cubicle|مقصورة عمل|Office|medium
+Filing cabinet|خزانة ملفات|Office|medium
+Shredder|آلة تمزيق ورق|Office|medium
+Homework|واجب منزلي|School|medium
+Exam|امتحان|School|medium
+Quiz|اختبار قصير|School|medium
+Grade|علامة|School|medium
+Certificate|شهادة|School|medium
+Diploma|دبلوم|School|medium
+Lesson|درس|School|medium
+Subject|مادة دراسية|School|medium
+Timetable|جدول حصص|School|medium
+Semester|فصل دراسي|School|medium
+Locker|خزانة مدرسية|School|medium
+Crayon|قلم شمعي|School|medium
+Watercolor|ألوان مائية|School|medium
+Paintbrush|فرشاة رسم|School|medium
+Palette|لوحة ألوان|School|medium
+Easel|حامل لوحة|School|medium
+Canvas|قماش رسم|School|medium
+Ink|حبر|School|medium
+Protractor|منقلة|School|medium
+Abacus|معداد|School|medium
+Globe|كرة أرضية|School|medium
+Atlas|أطلس|School|medium
+Encyclopedia|موسوعة|School|medium
+Page|صفحة|School|medium
+Bookmark|فاصل كتاب|School|medium
+Twin|توأم|Family|medium
+Cousin|ابن عم|Family|medium
+Nephew|ابن أخ|Family|medium
+Niece|ابنة الأخ|Family|medium
+Grandson|حفيد|Family|medium
+Granddaughter|حفيدة|Family|medium
+Husband|زوج|Family|medium
+Wife|زوجة|Family|medium
+Bride|عروس|Family|medium
+Groom|عريس|Family|medium
+Wedding|زفاف|Family|medium
+Anniversary|ذكرى سنوية|Family|medium
+Birthday|عيد ميلاد|Family|medium
+Gift|هدية|Family|medium
+Party|حفلة|Family|medium
+Childhood|طفولة|Family|medium
+Adult|راشد|Family|medium
+Teenager|مراهق|Family|medium
+Toddler|طفل دارج|Family|medium
+Orphan|يتيم|Family|medium
