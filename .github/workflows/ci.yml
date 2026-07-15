@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  seed-data:
+    name: Validate seed data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check word counts and format
+        run: |
+          awk -F'|' '
+            NR == 1 {
+              if ($0 != "english|arabic|category|difficulty") { print "bad header"; exit 1 }
+              next
+            }
+            NF != 4 { printf "row %d has %d fields\n", NR, NF; bad = 1 }
+            { count[$4]++; if (seen[tolower($1)]++) { printf "duplicate: %s\n", $1; bad = 1 } }
+            END {
+              printf "easy=%d medium=%d hard=%d\n", count["easy"], count["medium"], count["hard"]
+              if (count["easy"] != 300 || count["medium"] != 300 || count["hard"] != 300) bad = 1
+              exit bad
+            }
+          ' assets/data/words_seed.txt
+
+  frontend:
+    name: Frontend (typecheck, test, build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npm test
+      - run: npm run build
+
+  backend:
+    name: Backend (build, vet, test, seed)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26'
+          cache-dependency-path: backend/go.sum
+      - run: go build ./...
+      - run: go vet ./...
+      - run: go test ./...
+      - name: Seed database end-to-end
+        run: go run ./cmd/seed -db ../database/hotseat.db -seed ../assets/data/words_seed.txt

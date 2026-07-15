@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-easy: #22c55e;
+  --color-medium: #eab308;
+  --color-hard: #ef4444;
+  --color-primary: #2563eb;
+  --color-surface: #f8fafc;
+  --color-surface-dark: #111827;
+  --radius-card: 24px;
+  --font-sans:
+    'Segoe UI', system-ui, -apple-system, 'Noto Sans', 'Noto Sans Arabic',
+    'Helvetica Neue', Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100dvh;
+}
+
+body {
+  @apply bg-surface text-slate-900 antialiased dark:bg-surface-dark dark:text-slate-100;
+}
+
+/* Respect the in-app "Reduce Animations" setting and the OS preference. */
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.001s !important;
+  transition-duration: 0.001s !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001s !important;
+    transition-duration: 0.001s !important;
+  }
+}

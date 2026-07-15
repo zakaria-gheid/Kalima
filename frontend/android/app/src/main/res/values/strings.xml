@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kalima</string>
+    <string name="title_activity_main">Kalima</string>
+    <string name="package_name">com.family.hotseat</string>
+    <string name="custom_url_scheme">com.family.hotseat</string>
+</resources>

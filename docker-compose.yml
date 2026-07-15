@@ -1,0 +1,28 @@
+services:
+  # Vite dev server with hot reload — http://localhost:5173
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    ports:
+      - '5173:5173'
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      # The seed word list is imported by the app from ../assets (relative to /app).
+      - ./assets:/assets:ro
+
+  # One-shot tool: builds database/hotseat.db from the seed file.
+  # Run with: docker compose run --rm seed
+  seed:
+    image: golang:1.26
+    working_dir: /workspace/backend
+    volumes:
+      - .:/workspace
+      - go-mod-cache:/go/pkg/mod
+    command: go run ./cmd/seed -db ../database/hotseat.db -seed ../assets/data/words_seed.txt
+    profiles:
+      - tools
+
+volumes:
+  go-mod-cache:

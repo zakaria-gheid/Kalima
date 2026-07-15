@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+frontend/dev-dist/
+*.tsbuildinfo
+
+# Generated database (rebuild with: go run ./cmd/seed from backend/)
+database/hotseat.db
+
+# Go
+backend/bin/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Local assistant settings
+.claude/settings.local.json

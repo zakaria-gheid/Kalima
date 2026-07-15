@@ -1,0 +1,901 @@
+english|arabic|category|difficulty
+Chair|كرسي|Home|easy
+Table|طاولة|Home|easy
+Door|باب|Home|easy
+Window|نافذة|Home|easy
+Bed|سرير|Home|easy
+Pillow|وسادة|Home|easy
+Blanket|بطانية|Home|easy
+Mirror|مرآة|Home|easy
+Clock|ساعة|Home|easy
+Key|مفتاح|Home|easy
+Lamp|مصباح|Home|easy
+Television|تلفاز|Home|easy
+Refrigerator|ثلاجة|Home|easy
+Oven|فرن|Home|easy
+Spoon|ملعقة|Home|easy
+Fork|شوكة|Home|easy
+Knife|سكين|Home|easy
+Plate|طبق|Home|easy
+Cup|كوب|Home|easy
+Bottle|زجاجة|Home|easy
+Apple|تفاحة|Food|easy
+Banana|موز|Food|easy
+Orange|برتقال|Food|easy
+Lemon|ليمون|Food|easy
+Egg|بيضة|Food|easy
+Cheese|جبن|Food|easy
+Milk|حليب|Food|easy
+Water|ماء|Food|easy
+Coffee|قهوة|Food|easy
+Tea|شاي|Food|easy
+Sugar|سكر|Food|easy
+Salt|ملح|Food|easy
+Pepper|فلفل|Food|easy
+Chicken|دجاج|Food|easy
+Fish|سمك|Food|easy
+Cake|كعكة|Food|easy
+Honey|عسل|Food|easy
+Chocolate|شوكولاتة|Food|easy
+Bread|خبز|Food|easy
+Rice|أرز|Food|easy
+Cat|قطة|Animals|easy
+Dog|كلب|Animals|easy
+Horse|حصان|Animals|easy
+Cow|بقرة|Animals|easy
+Sheep|خروف|Animals|easy
+Goat|ماعز|Animals|easy
+Camel|جمل|Animals|easy
+Lion|أسد|Animals|easy
+Tiger|نمر|Animals|easy
+Elephant|فيل|Animals|easy
+Monkey|قرد|Animals|easy
+Rabbit|أرنب|Animals|easy
+Bird|طائر|Animals|easy
+Eagle|نسر|Animals|easy
+Owl|بومة|Animals|easy
+Snake|ثعبان|Animals|easy
+Turtle|سلحفاة|Animals|easy
+Bee|نحلة|Animals|easy
+Duck|بطة|Animals|easy
+Wolf|ذئب|Animals|easy
+Sun|شمس|Nature|easy
+Moon|قمر|Nature|easy
+Star|نجمة|Nature|easy
+Sky|سماء|Nature|easy
+Cloud|سحابة|Nature|easy
+Rain|مطر|Nature|easy
+Snow|ثلج|Nature|easy
+Wind|رياح|Nature|easy
+Mountain|جبل|Nature|easy
+River|نهر|Nature|easy
+Sea|بحر|Nature|easy
+Lake|بحيرة|Nature|easy
+Desert|صحراء|Nature|easy
+Forest|غابة|Nature|easy
+Tree|شجرة|Nature|easy
+Flower|زهرة|Nature|easy
+Grass|عشب|Nature|easy
+Stone|حجر|Nature|easy
+Sand|رمل|Nature|easy
+Fire|نار|Nature|easy
+Book|كتاب|School|easy
+Notebook|دفتر|School|easy
+Pen|قلم|School|easy
+Pencil|قلم رصاص|School|easy
+Eraser|ممحاة|School|easy
+Bag|حقيبة|School|easy
+Teacher|معلم|School|easy
+Student|طالب|School|easy
+Paper|ورقة|School|easy
+Computer|حاسوب|School|easy
+Keyboard|لوحة مفاتيح|School|easy
+Mouse|فأرة|School|easy
+Screen|شاشة|School|easy
+Printer|طابعة|School|easy
+Phone|هاتف|School|easy
+Charger|شاحن|School|easy
+Battery|بطارية|School|easy
+Letter|رسالة|School|easy
+Dictionary|قاموس|School|easy
+Ruler|مسطرة|School|easy
+Bicycle|دراجة هوائية|Transportation|medium
+Motorcycle|دراجة نارية|Transportation|medium
+Helicopter|مروحية|Transportation|medium
+Submarine|غواصة|Transportation|medium
+Anchor|مرساة|Transportation|medium
+Harbor|ميناء|Transportation|medium
+Wheel|عجلة|Transportation|medium
+Tunnel|نفق|Transportation|medium
+Ambulance|سيارة إسعاف|Transportation|medium
+Ferry|عبّارة|Transportation|medium
+Jacket|سترة|Clothing|medium
+Glove|قفاز|Clothing|medium
+Scarf|وشاح|Clothing|medium
+Belt|حزام|Clothing|medium
+Button|زر|Clothing|medium
+Zipper|سحّاب|Clothing|medium
+Uniform|زي رسمي|Clothing|medium
+Pocket|جيب|Clothing|medium
+Carpenter|نجار|Jobs|medium
+Plumber|سبّاك|Jobs|medium
+Tailor|خياط|Jobs|medium
+Butcher|جزار|Jobs|medium
+Pilot|طيار|Jobs|medium
+Lawyer|محامٍ|Jobs|medium
+Journalist|صحفي|Jobs|medium
+Firefighter|رجل إطفاء|Jobs|medium
+Whistle|صافرة|Sports|medium
+Medal|ميدالية|Sports|medium
+Trophy|كأس|Sports|medium
+Stadium|ملعب|Sports|medium
+Racket|مضرب|Sports|medium
+Helmet|خوذة|Sports|medium
+Referee|حكم|Sports|medium
+Scoreboard|لوحة النتائج|Sports|medium
+Magnet|مغناطيس|Science|medium
+Thermometer|ميزان حرارة|Science|medium
+Compass|بوصلة|Science|medium
+Telescope|تلسكوب|Science|medium
+Laboratory|مختبر|Science|medium
+Skeleton|هيكل عظمي|Science|medium
+Electricity|كهرباء|Science|medium
+Shadow|ظل|Science|medium
+Camera|كاميرا|Technology|medium
+Robot|روبوت|Technology|medium
+Headphones|سماعات رأس|Technology|medium
+Antenna|هوائي|Technology|medium
+Microphone|ميكروفون|Technology|medium
+Loudspeaker|مكبر صوت|Technology|medium
+Drone|طائرة مسيّرة|Technology|medium
+Calculator|آلة حاسبة|Technology|medium
+Island|جزيرة|Geography|medium
+Volcano|بركان|Geography|medium
+Valley|وادٍ|Geography|medium
+Waterfall|شلال|Geography|medium
+Cave|كهف|Geography|medium
+Coast|ساحل|Geography|medium
+Map|خريطة|Geography|medium
+Bay|خليج|Geography|medium
+Planet|كوكب|Space|medium
+Rocket|صاروخ|Space|medium
+Astronaut|رائد فضاء|Space|medium
+Comet|مذنّب|Space|medium
+Orbit|مدار|Space|medium
+Galaxy|مجرة|Space|medium
+Lung|رئة|Human Body|medium
+Kidney|كلية|Human Body|medium
+Skull|جمجمة|Human Body|medium
+Muscle|عضلة|Human Body|medium
+Elbow|كوع|Human Body|medium
+Ankle|كاحل|Human Body|medium
+Wrist|معصم|Human Body|medium
+Rib|ضلع|Human Body|medium
+Guitar|غيتار|Music|medium
+Piano|بيانو|Music|medium
+Drum|طبل|Music|medium
+Flute|ناي|Music|medium
+Violin|كمان|Music|medium
+Castle|قلعة|History|medium
+Sword|سيف|History|medium
+Shield|درع|History|medium
+Crown|تاج|History|medium
+Pyramid|هرم|History|medium
+Statue|تمثال|History|medium
+Mosque|مسجد|Religion|medium
+Minaret|مئذنة|Religion|medium
+Kettle|غلاية|Kitchen|medium
+Frying pan|مقلاة|Kitchen|medium
+Blender|خلاط|Kitchen|medium
+Tray|صينية|Kitchen|medium
+Apron|مئزر|Kitchen|medium
+Envelope|ظرف|Office|medium
+Stapler|دبّاسة|Office|medium
+Folder|مجلد|Office|medium
+Calendar|تقويم|Office|medium
+Scissors|مقص|Office|medium
+Bridge|جسر|City|medium
+Fountain|نافورة|City|medium
+Sidewalk|رصيف|City|medium
+Museum|متحف|City|medium
+Elevator|مصعد|City|medium
+Microscope|مجهر|Science|hard
+Molecule|جزيء|Science|hard
+Atom|ذرة|Science|hard
+Gravity|جاذبية|Science|hard
+Vaccine|لقاح|Science|hard
+Bacteria|بكتيريا|Science|hard
+Fossil|أحفورة|Science|hard
+Eclipse|كسوف|Science|hard
+Pendulum|بندول|Science|hard
+Prism|موشور|Science|hard
+Radiation|إشعاع|Science|hard
+Evaporation|تبخر|Science|hard
+Satellite|قمر صناعي|Technology|hard
+Algorithm|خوارزمية|Technology|hard
+Circuit|دارة كهربائية|Technology|hard
+Processor|معالج|Technology|hard
+Fingerprint|بصمة|Technology|hard
+Encryption|تشفير|Technology|hard
+Turbine|توربين|Technology|hard
+Radar|رادار|Technology|hard
+Barcode|رمز شريطي|Technology|hard
+Vein|وريد|Human Body|hard
+Artery|شريان|Human Body|hard
+Nerve|عصب|Human Body|hard
+Spine|عمود فقري|Human Body|hard
+Retina|شبكية العين|Human Body|hard
+Pupil|بؤبؤ العين|Human Body|hard
+Eardrum|طبلة الأذن|Human Body|hard
+Pancreas|بنكرياس|Human Body|hard
+Vertebra|فقرة|Human Body|hard
+Diaphragm|حجاب حاجز|Human Body|hard
+Peninsula|شبه جزيرة|Geography|hard
+Glacier|نهر جليدي|Geography|hard
+Plateau|هضبة|Geography|hard
+Equator|خط الاستواء|Geography|hard
+Continent|قارة|Geography|hard
+Canyon|أخدود|Geography|hard
+Oasis|واحة|Geography|hard
+Strait|مضيق|Geography|hard
+Archipelago|أرخبيل|Geography|hard
+Longitude|خط الطول|Geography|hard
+Constellation|كوكبة نجوم|Space|hard
+Nebula|سديم|Space|hard
+Asteroid|كويكب|Space|hard
+Meteor|نيزك|Space|hard
+Black hole|ثقب أسود|Space|hard
+Spacecraft|مركبة فضائية|Space|hard
+Observatory|مرصد فلكي|Space|hard
+Supernova|مستعر أعظم|Space|hard
+Constitution|دستور|History|hard
+Empire|إمبراطورية|History|hard
+Revolution|ثورة|History|hard
+Civilization|حضارة|History|hard
+Archaeologist|عالم آثار|History|hard
+Manuscript|مخطوطة|History|hard
+Dynasty|سلالة حاكمة|History|hard
+Treaty|معاهدة|History|hard
+Monument|نصب تذكاري|History|hard
+Hieroglyphics|هيروغليفية|History|hard
+Architect|مهندس معماري|Jobs|hard
+Surgeon|جرّاح|Jobs|hard
+Ambassador|سفير|Jobs|hard
+Translator|مترجم|Jobs|hard
+Astronomer|عالم فلك|Jobs|hard
+Geologist|عالم جيولوجيا|Jobs|hard
+Pharmacist|صيدلي|Jobs|hard
+Accountant|محاسب|Jobs|hard
+Orchestra|أوركسترا|Music|hard
+Symphony|سيمفونية|Music|hard
+Conductor|قائد أوركسترا|Music|hard
+Melody|لحن|Music|hard
+Rhythm|إيقاع|Music|hard
+Harp|قيثارة|Music|hard
+Pilgrimage|حج|Religion|hard
+Scripture|كتاب مقدس|Religion|hard
+Monastery|دير|Religion|hard
+Sermon|خطبة|Religion|hard
+Parliament|برلمان|City|hard
+Embassy|سفارة|City|hard
+Courthouse|محكمة|City|hard
+Skyscraper|ناطحة سحاب|City|hard
+Cathedral|كاتدرائية|City|hard
+Metropolis|مدينة كبرى|City|hard
+Suburb|ضاحية|City|hard
+Intersection|تقاطع طرق|City|hard
+Warehouse|مستودع|City|hard
+Ecosystem|نظام بيئي|Nature|hard
+Avalanche|انهيار جليدي|Nature|hard
+Drought|جفاف|Nature|hard
+Hurricane|إعصار|Nature|hard
+Tsunami|تسونامي|Nature|hard
+Earthquake|زلزال|Nature|hard
+Tornado|إعصار قمعي|Nature|hard
+Humidity|رطوبة|Nature|hard
+Erosion|تعرية|Nature|hard
+Magma|صهارة|Nature|hard
+Coral reef|شعاب مرجانية|Nature|hard
+Horizon|أفق|Nature|hard
+Delta|دلتا النهر|Geography|hard
+Aqueduct|قناة مائية|City|hard
+Sofa|أريكة|Home|easy
+Carpet|سجادة|Home|easy
+Curtain|ستارة|Home|easy
+Stairs|درج|Home|easy
+Roof|سقف|Home|easy
+Wall|جدار|Home|easy
+Floor|أرضية|Home|easy
+Kitchen|مطبخ|Home|easy
+Bathroom|حمام|Home|easy
+Bedroom|غرفة نوم|Home|easy
+Garden|حديقة|Home|easy
+Garage|مرآب|Home|easy
+Fence|سياج|Home|easy
+Broom|مكنسة|Home|easy
+Bucket|دلو|Home|easy
+Soap|صابون|Home|easy
+Towel|منشفة|Home|easy
+Toothbrush|فرشاة أسنان|Home|easy
+Comb|مشط|Home|easy
+Candle|شمعة|Home|easy
+Basket|سلة|Home|easy
+Box|صندوق|Home|easy
+Shelf|رف|Home|easy
+Drawer|دُرج|Home|easy
+Vase|مزهرية|Home|easy
+Grape|عنب|Food|easy
+Watermelon|بطيخ|Food|easy
+Strawberry|فراولة|Food|easy
+Peach|خوخ|Food|easy
+Pear|إجاص|Food|easy
+Cherry|كرز|Food|easy
+Pineapple|أناناس|Food|easy
+Mango|مانجو|Food|easy
+Date|تمر|Food|easy
+Fig|تين|Food|easy
+Olive|زيتون|Food|easy
+Tomato|طماطم|Food|easy
+Potato|بطاطا|Food|easy
+Onion|بصل|Food|easy
+Garlic|ثوم|Food|easy
+Carrot|جزر|Food|easy
+Cucumber|خيار|Food|easy
+Lettuce|خس|Food|easy
+Corn|ذرة|Food|easy
+Beans|فاصولياء|Food|easy
+Meat|لحم|Food|easy
+Soup|حساء|Food|easy
+Salad|سلطة|Food|easy
+Butter|زبدة|Food|easy
+Yogurt|لبن|Food|easy
+Jam|مربى|Food|easy
+Juice|عصير|Food|easy
+Ice cream|مثلجات|Food|easy
+Sandwich|شطيرة|Food|easy
+Pizza|بيتزا|Food|easy
+Fox|ثعلب|Animals|easy
+Bear|دب|Animals|easy
+Deer|أيل|Animals|easy
+Gazelle|غزال|Animals|easy
+Frog|ضفدع|Animals|easy
+Ant|نملة|Animals|easy
+Fly|ذبابة|Animals|easy
+Spider|عنكبوت|Animals|easy
+Butterfly|فراشة|Animals|easy
+Mosquito|بعوضة|Animals|easy
+Pigeon|حمامة|Animals|easy
+Parrot|ببغاء|Animals|easy
+Penguin|بطريق|Animals|easy
+Dolphin|دلفين|Animals|easy
+Whale|حوت|Animals|easy
+Shark|قرش|Animals|easy
+Octopus|أخطبوط|Animals|easy
+Crab|سلطعون|Animals|easy
+Donkey|حمار|Animals|easy
+Bull|ثور|Animals|easy
+Pig|خنزير|Animals|easy
+Squirrel|سنجاب|Animals|easy
+Hedgehog|قنفذ|Animals|easy
+Bat|خفاش|Animals|easy
+Giraffe|زرافة|Animals|easy
+Zebra|حمار وحشي|Animals|easy
+Kangaroo|كنغر|Animals|easy
+Panda|باندا|Animals|easy
+Peacock|طاووس|Animals|easy
+Rooster|ديك|Animals|easy
+Beach|شاطئ|Nature|easy
+Wave|موجة|Nature|easy
+Ice|جليد|Nature|easy
+Rainbow|قوس قزح|Nature|easy
+Storm|عاصفة|Nature|easy
+Leaf|ورقة شجر|Nature|easy
+Branch|غصن|Nature|easy
+Root|جذر|Nature|easy
+Seed|بذرة|Nature|easy
+Fruit|فاكهة|Nature|easy
+Hill|تل|Nature|easy
+Field|حقل|Nature|easy
+Farm|مزرعة|Nature|easy
+Well|بئر|Nature|easy
+Palm tree|نخلة|Nature|easy
+Rose|وردة|Nature|easy
+Wood|خشب|Nature|easy
+Mud|طين|Nature|easy
+Dust|غبار|Nature|easy
+Fog|ضباب|Nature|easy
+Hand|يد|Human Body|easy
+Eye|عين|Human Body|easy
+Ear|أذن|Human Body|easy
+Nose|أنف|Human Body|easy
+Mouth|فم|Human Body|easy
+Head|رأس|Human Body|easy
+Hair|شعر|Human Body|easy
+Face|وجه|Human Body|easy
+Tooth|سن|Human Body|easy
+Tongue|لسان|Human Body|easy
+Neck|رقبة|Human Body|easy
+Shoulder|كتف|Human Body|easy
+Arm|ذراع|Human Body|easy
+Finger|إصبع|Human Body|easy
+Leg|ساق|Human Body|easy
+Foot|قدم|Human Body|easy
+Knee|ركبة|Human Body|easy
+Back|ظهر|Human Body|easy
+Heart|قلب|Human Body|easy
+Stomach|معدة|Human Body|easy
+Mother|أم|Family|easy
+Father|أب|Family|easy
+Brother|أخ|Family|easy
+Sister|أخت|Family|easy
+Grandfather|جد|Family|easy
+Grandmother|جدة|Family|easy
+Uncle|عم|Family|easy
+Aunt|عمة|Family|easy
+Son|ابن|Family|easy
+Daughter|ابنة|Family|easy
+Baby|رضيع|Family|easy
+Family|عائلة|Family|easy
+Friend|صديق|Family|easy
+Neighbor|جار|Family|easy
+Guest|ضيف|Family|easy
+Shirt|قميص|Clothing|easy
+Pants|بنطال|Clothing|easy
+Dress|فستان|Clothing|easy
+Skirt|تنورة|Clothing|easy
+Coat|معطف|Clothing|easy
+Shoes|حذاء|Clothing|easy
+Socks|جوارب|Clothing|easy
+Hat|قبعة|Clothing|easy
+Cap|طاقية|Clothing|easy
+Pajamas|بيجامة|Clothing|easy
+Sweater|كنزة|Clothing|easy
+Shorts|سروال قصير|Clothing|easy
+Tie|ربطة عنق|Clothing|easy
+Ring|خاتم|Clothing|easy
+Watch|ساعة يد|Clothing|easy
+Car|سيارة|Transportation|easy
+Bus|حافلة|Transportation|easy
+Train|قطار|Transportation|easy
+Airplane|طائرة|Transportation|easy
+Boat|قارب|Transportation|easy
+Ship|سفينة|Transportation|easy
+Taxi|سيارة أجرة|Transportation|easy
+Truck|شاحنة|Transportation|easy
+Van|حافلة صغيرة|Transportation|easy
+Road|طريق|Transportation|easy
+Street|شارع|Transportation|easy
+Traffic light|إشارة مرور|Transportation|easy
+Ticket|تذكرة|Transportation|easy
+Airport|مطار|Transportation|easy
+Station|محطة|Transportation|easy
+House|منزل|City|easy
+School|مدرسة|City|easy
+Hospital|مستشفى|City|easy
+Shop|متجر|City|easy
+Market|سوق|City|easy
+Restaurant|مطعم|City|easy
+Bank|بنك|City|easy
+Park|منتزه|City|easy
+Mall|مركز تسوق|City|easy
+Hotel|فندق|City|easy
+Bakery|مخبز|City|easy
+Pharmacy|صيدلية|City|easy
+Police station|مركز شرطة|City|easy
+Library|مكتبة|City|easy
+Post office|مكتب بريد|City|easy
+Ball|كرة|Sports|easy
+Football|كرة قدم|Sports|easy
+Basketball|كرة سلة|Sports|easy
+Swimming|سباحة|Sports|easy
+Race|سباق|Sports|easy
+Goal|هدف|Sports|easy
+Team|فريق|Sports|easy
+Player|لاعب|Sports|easy
+Coach|مدرب|Sports|easy
+Rope|حبل|Sports|easy
+Desk|مكتب|School|easy
+Blackboard|سبورة|School|easy
+Chalk|طبشور|School|easy
+Classroom|صف دراسي|School|easy
+Glue|صمغ|School|easy
+Chimney|مدخنة|Home|medium
+Balcony|شرفة|Home|medium
+Attic|علية|Home|medium
+Basement|قبو|Home|medium
+Doorbell|جرس الباب|Home|medium
+Faucet|صنبور|Home|medium
+Sink|مغسلة|Home|medium
+Bathtub|حوض استحمام|Home|medium
+Shower|دُش|Home|medium
+Washing machine|غسالة|Home|medium
+Vacuum cleaner|مكنسة كهربائية|Home|medium
+Air conditioner|مكيف هواء|Home|medium
+Heater|مدفأة|Home|medium
+Ladder|سلم|Home|medium
+Toolbox|صندوق عدة|Home|medium
+Pot|قدر|Kitchen|medium
+Lid|غطاء|Kitchen|medium
+Grater|مبشرة|Kitchen|medium
+Peeler|قشارة|Kitchen|medium
+Rolling pin|شوبك|Kitchen|medium
+Cutting board|لوح تقطيع|Kitchen|medium
+Whisk|خفاقة|Kitchen|medium
+Ladle|مغرفة|Kitchen|medium
+Teapot|إبريق شاي|Kitchen|medium
+Jar|مرطبان|Kitchen|medium
+Straw|قشة شرب|Kitchen|medium
+Napkin|منديل|Kitchen|medium
+Tablecloth|مفرش طاولة|Kitchen|medium
+Freezer|مجمد|Kitchen|medium
+Dishwasher|غسالة صحون|Kitchen|medium
+Flour|طحين|Food|medium
+Dough|عجين|Food|medium
+Vinegar|خل|Food|medium
+Oil|زيت|Food|medium
+Cinnamon|قرفة|Food|medium
+Mint|نعناع|Food|medium
+Ginger|زنجبيل|Food|medium
+Almond|لوز|Food|medium
+Walnut|جوز|Food|medium
+Peanut|فول سوداني|Food|medium
+Raisin|زبيب|Food|medium
+Lentils|عدس|Food|medium
+Chickpeas|حمص|Food|medium
+Shrimp|روبيان|Food|medium
+Sausage|نقانق|Food|medium
+Falcon|صقر|Animals|medium
+Crow|غراب|Animals|medium
+Swan|بجعة|Animals|medium
+Ostrich|نعامة|Animals|medium
+Flamingo|فلامنغو|Animals|medium
+Seagull|نورس|Animals|medium
+Woodpecker|نقار الخشب|Animals|medium
+Lizard|سحلية|Animals|medium
+Crocodile|تمساح|Animals|medium
+Scorpion|عقرب|Animals|medium
+Snail|حلزون|Animals|medium
+Worm|دودة|Animals|medium
+Beetle|خنفساء|Animals|medium
+Grasshopper|جندب|Animals|medium
+Dragonfly|يعسوب|Animals|medium
+Jellyfish|قنديل البحر|Animals|medium
+Seal|فقمة|Animals|medium
+Otter|قضاعة|Animals|medium
+Mole|خُلد|Animals|medium
+Hyena|ضبع|Animals|medium
+Swamp|مستنقع|Nature|medium
+Meadow|مرج|Nature|medium
+Cliff|جرف|Nature|medium
+Dune|كثيب رملي|Nature|medium
+Pond|بركة ماء|Nature|medium
+Stream|جدول|Nature|medium
+Spring|ينبوع|Nature|medium
+Thunder|رعد|Nature|medium
+Lightning|برق|Nature|medium
+Hail|بَرَد|Nature|medium
+Frost|صقيع|Nature|medium
+Dew|ندى|Nature|medium
+Bark|لحاء|Nature|medium
+Thorn|شوكة|Nature|medium
+Cactus|صبار|Nature|medium
+Forehead|جبين|Human Body|medium
+Chin|ذقن|Human Body|medium
+Cheek|خد|Human Body|medium
+Eyebrow|حاجب|Human Body|medium
+Eyelash|رمش|Human Body|medium
+Jaw|فك|Human Body|medium
+Heel|كعب|Human Body|medium
+Palm|كف اليد|Human Body|medium
+Thumb|إبهام|Human Body|medium
+Waist|خصر|Human Body|medium
+Suit|بدلة|Clothing|medium
+Vest|صدرية|Clothing|medium
+Sleeve|كم|Clothing|medium
+Collar|ياقة|Clothing|medium
+Sandals|صندل|Clothing|medium
+Boots|جزمة|Clothing|medium
+Slippers|شبشب|Clothing|medium
+Bracelet|سوار|Clothing|medium
+Necklace|قلادة|Clothing|medium
+Earrings|أقراط|Clothing|medium
+Tram|ترام|Transportation|medium
+Trailer|مقطورة|Transportation|medium
+Crane|رافعة|Transportation|medium
+Bulldozer|جرافة|Transportation|medium
+Tractor|جرار زراعي|Transportation|medium
+Yacht|يخت|Transportation|medium
+Canoe|زورق|Transportation|medium
+Sailboat|مركب شراعي|Transportation|medium
+Parachute|مظلة هبوط|Transportation|medium
+Hot air balloon|منطاد|Transportation|medium
+Fuel|وقود|Transportation|medium
+Engine|محرك|Transportation|medium
+Brake|مكبح|Transportation|medium
+Steering wheel|مقود|Transportation|medium
+Windshield|زجاج أمامي|Transportation|medium
+Farmer|مزارع|Jobs|medium
+Baker|خباز|Jobs|medium
+Barber|حلاق|Jobs|medium
+Nurse|ممرضة|Jobs|medium
+Dentist|طبيب أسنان|Jobs|medium
+Engineer|مهندس|Jobs|medium
+Electrician|كهربائي|Jobs|medium
+Mechanic|ميكانيكي|Jobs|medium
+Waiter|نادل|Jobs|medium
+Chef|طاهٍ|Jobs|medium
+Fisherman|صياد سمك|Jobs|medium
+Shepherd|راعٍ|Jobs|medium
+Soldier|جندي|Jobs|medium
+Guard|حارس|Jobs|medium
+Librarian|أمين مكتبة|Jobs|medium
+Tennis|تنس|Sports|medium
+Volleyball|كرة طائرة|Sports|medium
+Boxing|ملاكمة|Sports|medium
+Wrestling|مصارعة|Sports|medium
+Karate|كاراتيه|Sports|medium
+Marathon|ماراثون|Sports|medium
+Gymnastics|جمباز|Sports|medium
+Skiing|تزلج|Sports|medium
+Surfing|ركوب الأمواج|Sports|medium
+Archery|رماية بالقوس|Sports|medium
+Chess|شطرنج|Sports|medium
+Net|شبكة|Sports|medium
+Experiment|تجربة|Science|medium
+Funnel|قمع|Science|medium
+Test tube|أنبوب اختبار|Science|medium
+Flask|دورق|Science|medium
+Lens|عدسة|Science|medium
+Mercury|زئبق|Science|medium
+Oxygen|أكسجين|Science|medium
+Hydrogen|هيدروجين|Science|medium
+Steam|بخار|Science|medium
+Rust|صدأ|Science|medium
+Tablet|جهاز لوحي|Technology|medium
+Laptop|حاسوب محمول|Technology|medium
+Router|موزع إنترنت|Technology|medium
+Flash drive|ذاكرة محمولة|Technology|medium
+Cable|كابل|Technology|medium
+Plug|قابس|Technology|medium
+Socket|مقبس كهربائي|Technology|medium
+Remote control|جهاز تحكم|Technology|medium
+Smartwatch|ساعة ذكية|Technology|medium
+Scanner|ماسح ضوئي|Technology|medium
+Projector|جهاز عرض|Technology|medium
+Webcam|كاميرا ويب|Technology|medium
+Border|حدود|Geography|medium
+Capital|عاصمة|Geography|medium
+Village|قرية|Geography|medium
+Countryside|ريف|Geography|medium
+Jungle|أدغال|Geography|medium
+Plain|سهل|Geography|medium
+Riverbank|ضفة النهر|Geography|medium
+Summit|قمة الجبل|Geography|medium
+Slope|منحدر|Geography|medium
+Lagoon|بحيرة شاطئية|Geography|medium
+Trumpet|بوق|Music|medium
+Saxophone|ساكسفون|Music|medium
+Accordion|أكورديون|Music|medium
+Oud|عود|Music|medium
+Tambourine|دف|Music|medium
+Choir|جوقة|Music|medium
+Concert|حفلة موسيقية|Music|medium
+Song|أغنية|Music|medium
+Square|ساحة|City|medium
+Alley|زقاق|City|medium
+Crosswalk|ممر مشاة|City|medium
+Billboard|لوحة إعلانات|City|medium
+Bench|مقعد عام|City|medium
+Streetlight|عمود إنارة|City|medium
+Cinema|سينما|City|medium
+Theater|مسرح|City|medium
+Zoo|حديقة حيوانات|City|medium
+Prison|سجن|City|medium
+Whiteboard|سبورة بيضاء|Office|medium
+Marker|قلم تحديد|Office|medium
+Highlighter|قلم تظليل|Office|medium
+Paperclip|مشبك ورق|Office|medium
+Rubber stamp|ختم|Office|medium
+Briefcase|حقيبة أعمال|Office|medium
+Receipt|إيصال|Office|medium
+Contract|عقد|Office|medium
+Photosynthesis|التمثيل الضوئي|Science|hard
+Chromosome|كروموسوم|Science|hard
+Enzyme|إنزيم|Science|hard
+Protein|بروتين|Science|hard
+Neutron|نيوترون|Science|hard
+Proton|بروتون|Science|hard
+Electron|إلكترون|Science|hard
+Nucleus|نواة|Science|hard
+Membrane|غشاء|Science|hard
+Microbe|ميكروب|Science|hard
+Virus|فيروس|Science|hard
+Antibody|جسم مضاد|Science|hard
+Catalyst|محفز|Science|hard
+Density|كثافة|Science|hard
+Friction|احتكاك|Science|hard
+Momentum|زخم|Science|hard
+Velocity|سرعة متجهة|Science|hard
+Frequency|تردد|Science|hard
+Wavelength|طول موجي|Science|hard
+Vacuum|فراغ|Science|hard
+Condensation|تكاثف|Science|hard
+Combustion|احتراق|Science|hard
+Alloy|سبيكة|Science|hard
+Acid|حمض|Science|hard
+Crystal|بلورة|Science|hard
+Laser|ليزر|Science|hard
+Pollen|حبوب اللقاح|Science|hard
+Chlorophyll|كلوروفيل|Science|hard
+Gene|جين|Science|hard
+Specimen|عينة|Science|hard
+Server|خادم|Technology|hard
+Database|قاعدة بيانات|Technology|hard
+Network|شبكة حاسوب|Technology|hard
+Firewall|جدار حماية|Technology|hard
+Password|كلمة مرور|Technology|hard
+Browser|متصفح|Technology|hard
+Software|برمجيات|Technology|hard
+Hardware|عتاد الحاسوب|Technology|hard
+Microchip|شريحة إلكترونية|Technology|hard
+Sensor|مستشعر|Technology|hard
+Transistor|ترانزستور|Technology|hard
+Amplifier|مضخم صوت|Technology|hard
+Generator|مولد كهربائي|Technology|hard
+Transformer|محول كهربائي|Technology|hard
+Insulator|عازل|Technology|hard
+Semiconductor|شبه موصل|Technology|hard
+Pixel|بكسل|Technology|hard
+Hologram|هولوغرام|Technology|hard
+Bandwidth|عرض النطاق|Technology|hard
+Artificial intelligence|ذكاء اصطناعي|Technology|hard
+Esophagus|مريء|Human Body|hard
+Larynx|حنجرة|Human Body|hard
+Trachea|قصبة هوائية|Human Body|hard
+Cartilage|غضروف|Human Body|hard
+Tendon|وتر|Human Body|hard
+Ligament|رباط|Human Body|hard
+Cornea|قرنية|Human Body|hard
+Iris|قزحية|Human Body|hard
+Cochlea|قوقعة الأذن|Human Body|hard
+Capillary|شعيرة دموية|Human Body|hard
+Plasma|بلازما الدم|Human Body|hard
+Hemoglobin|هيموغلوبين|Human Body|hard
+Hormone|هرمون|Human Body|hard
+Thyroid|غدة درقية|Human Body|hard
+Spleen|طحال|Human Body|hard
+Gallbladder|مرارة|Human Body|hard
+Appendix|زائدة دودية|Human Body|hard
+Intestine|أمعاء|Human Body|hard
+Cerebellum|مخيخ|Human Body|hard
+Cortex|قشرة الدماغ|Human Body|hard
+Latitude|خط العرض|Geography|hard
+Altitude|ارتفاع|Geography|hard
+Meridian|خط الزوال|Geography|hard
+Hemisphere|نصف الكرة الأرضية|Geography|hard
+Tributary|رافد النهر|Geography|hard
+Estuary|مصب النهر|Geography|hard
+Fjord|فيورد|Geography|hard
+Isthmus|برزخ|Geography|hard
+Tundra|تندرا|Geography|hard
+Savanna|سافانا|Geography|hard
+Steppe|سهوب|Geography|hard
+Basin|حوض نهري|Geography|hard
+Watershed|مستجمع المياه|Geography|hard
+Crater|فوهة بركانية|Geography|hard
+Fault|صدع|Geography|hard
+Universe|كون|Space|hard
+Quasar|كوازار|Space|hard
+Pulsar|نجم نابض|Space|hard
+Solar system|المجموعة الشمسية|Space|hard
+Light year|سنة ضوئية|Space|hard
+Space station|محطة فضائية|Space|hard
+Probe|مسبار فضائي|Space|hard
+Rover|مركبة متجولة|Space|hard
+Milky Way|درب التبانة|Space|hard
+Dwarf planet|كوكب قزم|Space|hard
+Solar flare|توهج شمسي|Space|hard
+Zodiac|دائرة البروج|Space|hard
+Atmosphere|غلاف جوي|Space|hard
+Stratosphere|الستراتوسفير|Space|hard
+Aurora|شفق قطبي|Space|hard
+Renaissance|نهضة|History|hard
+Colony|مستعمرة|History|hard
+Monarchy|ملكية|History|hard
+Republic|جمهورية|History|hard
+Democracy|ديمقراطية|History|hard
+Caliphate|خلافة|History|hard
+Sultanate|سلطنة|History|hard
+Artifact|قطعة أثرية|History|hard
+Relic|أثر قديم|History|hard
+Excavation|تنقيب|History|hard
+Papyrus|ورق البردي|History|hard
+Scroll|لفيفة|History|hard
+Tomb|ضريح|History|hard
+Sarcophagus|تابوت حجري|History|hard
+Citadel|حصن|History|hard
+Chariot|عربة حربية|History|hard
+Catapult|منجنيق|History|hard
+Gladiator|مصارع روماني|History|hard
+Pharaoh|فرعون|History|hard
+Inscription|نقش أثري|History|hard
+Anthropologist|عالم أنثروبولوجيا|Jobs|hard
+Biologist|عالم أحياء|Jobs|hard
+Chemist|كيميائي|Jobs|hard
+Physicist|فيزيائي|Jobs|hard
+Economist|خبير اقتصادي|Jobs|hard
+Psychologist|عالم نفس|Jobs|hard
+Veterinarian|طبيب بيطري|Jobs|hard
+Optician|أخصائي بصريات|Jobs|hard
+Notary|كاتب عدل|Jobs|hard
+Auditor|مدقق حسابات|Jobs|hard
+Diplomat|دبلوماسي|Jobs|hard
+Curator|أمين متحف|Jobs|hard
+Meteorologist|خبير أرصاد جوية|Jobs|hard
+Interpreter|مترجم فوري|Jobs|hard
+Neurologist|طبيب أعصاب|Jobs|hard
+Wildfire|حريق غابة|Nature|hard
+Landslide|انهيار أرضي|Nature|hard
+Whirlpool|دوامة مائية|Nature|hard
+Geyser|فوارة طبيعية|Nature|hard
+Monsoon|رياح موسمية|Nature|hard
+Blizzard|عاصفة ثلجية|Nature|hard
+Sandstorm|عاصفة رملية|Nature|hard
+Mirage|سراب|Nature|hard
+Pollination|تلقيح|Nature|hard
+Germination|إنبات|Nature|hard
+Sediment|رواسب|Nature|hard
+Mineral|معدن|Nature|hard
+Ore|خام معدني|Nature|hard
+Quartz|كوارتز|Nature|hard
+Granite|غرانيت|Nature|hard
+Municipality|بلدية|City|hard
+Infrastructure|بنية تحتية|City|hard
+Sewer|قناة صرف صحي|City|hard
+Boulevard|جادة|City|hard
+Roundabout|دوار|City|hard
+Overpass|جسر علوي|City|hard
+Underpass|ممر سفلي|City|hard
+Landfill|مكب نفايات|City|hard
+Reservoir|خزان مياه|City|hard
+Amphitheater|مدرج روماني|City|hard
+Opera|أوبرا|Music|hard
+Sonata|سوناتا|Music|hard
+Lyrics|كلمات الأغنية|Music|hard
+Harmony|تناغم|Music|hard
+Octave|أوكتاف|Music|hard
+Chord|تآلف نغمي|Music|hard
+Metronome|عداد إيقاع|Music|hard
+Composer|ملحن|Music|hard
+Prophet|نبي|Religion|hard
+Revelation|وحي|Religion|hard
+Fasting|صيام|Religion|hard
+Charity|زكاة|Religion|hard
+Prayer|صلاة|Religion|hard
+Paradise|جنة|Religion|hard
+Soul|روح|Religion|hard
+Tournament|بطولة|Sports|hard
+League|دوري|Sports|hard
+Penalty|ركلة جزاء|Sports|hard
+Javelin|رمح رياضي|Sports|hard
+Discus|قرص رمي|Sports|hard
+Fencing|مبارزة|Sports|hard
+Rowing|تجديف|Sports|hard
+Weightlifting|رفع أثقال|Sports|hard
+Saffron|زعفران|Food|hard
+Turmeric|كركم|Food|hard
+Cardamom|هيل|Food|hard
+Molasses|دبس|Food|hard
+Barley|شعير|Food|hard
+Turban|عمامة|Clothing|hard
+Cloak|عباءة|Clothing|hard
+Robe|رداء|Clothing|hard
+Embroidery|تطريز|Clothing|hard
+Locomotive|قاطرة|Transportation|hard
+Carriage|عربة ركاب|Transportation|hard
+Runway|مدرج طائرات|Transportation|hard
+Cockpit|قمرة قيادة|Transportation|hard
+Propeller|مروحة دفع|Transportation|hard
+Rudder|دفة|Transportation|hard
+Lighthouse|منارة|Transportation|hard
+Dashboard|لوحة عدادات|Transportation|hard
