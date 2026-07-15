@@ -290,20 +290,32 @@ describe('Teams and leaderboard', () => {
 });
 
 describe('SettingsService', () => {
-  it('persists and reloads theme, reduce-animations, and game duration', () => {
+  it('persists and reloads theme, animations, duration, and sound settings', () => {
     const service = new SettingsService(new SettingsRepository(client));
     expect(service.load()).toEqual({
       theme: 'system',
       reduceAnimations: false,
       gameDurationSec: 180,
+      tickSound: true,
+      soundEffects: true,
+      vibration: true,
+      endAlert: true,
     });
     service.setTheme('dark');
     service.setReduceAnimations(true);
     service.setGameDurationSec(60);
+    service.setTickSound(false);
+    service.setSoundEffects(false);
+    service.setVibration(false);
+    service.setEndAlert(false);
     expect(service.load()).toEqual({
       theme: 'dark',
       reduceAnimations: true,
       gameDurationSec: 60,
+      tickSound: false,
+      soundEffects: false,
+      vibration: false,
+      endAlert: false,
     });
   });
 });

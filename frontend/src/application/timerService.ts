@@ -40,6 +40,14 @@ export class TimerService {
     this.runningSince = null;
   }
 
+  /**
+   * Burns extra time off the countdown (e.g. a skip penalty) by advancing
+   * the elapsed time. Works while running or paused.
+   */
+  addPenalty(ms: number): void {
+    if (ms > 0) this.accumulatedMs += ms;
+  }
+
   elapsedMs(): number {
     const live = this.runningSince !== null ? this.now() - this.runningSince : 0;
     return this.accumulatedMs + live;

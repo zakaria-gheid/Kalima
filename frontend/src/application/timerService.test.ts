@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { TimerService } from './timerService';
-import { formatMMSS, remainingMs } from '@/lib/time';
+import { formatMMSS, remainingMs, skipPenaltyMs } from '@/lib/time';
 
 /** Manually-advanced clock so timer behavior is exact and instant to test. */
 function makeClock(startAt = 0) {
@@ -142,5 +142,51 @@ describe('countdown (remainingMs over a running timer)', () => {
 
   it('formats remaining time as MM:SS', () => {
     expect(formatMMSS(remainingMs(180_000, 61_000))).toBe('01:59');
+  });
+});
+
+describe('skip penalty', () => {
+  it('costs 10% of the round length (within the 8–12% spec)', () => {
+    for (const durationMs of [60_000, 120_000, 180_000, 300_000]) {
+      const penalty = skipPenaltyMs(durationMs);
+      expect(penalty).toBeGreaterThanOrEqual(durationMs * 0.08);
+      expect(penalty).toBeLessThanOrEqual(durationMs * 0.12);
+    }
+    expect(skipPenaltyMs(60_000)).toBe(6_000);
+    expect(skipPenaltyMs(300_000)).toBe(30_000);
+  });
+
+  it('addPenalty burns time off the countdown, running or paused', () => {
+    const clock = makeClock();
+    const timer = new TimerService(clock.now);
+    timer.start();
+    clock.advance(10_000);
+    timer.addPenalty(6_000);
+    expect(timer.elapsedMs()).toBe(16_000);
+    expect(remainingMs(60_000, timer.elapsedMs())).toBe(44_000);
+
+    timer.pause();
+    timer.addPenalty(4_000);
+    expect(timer.elapsedMs()).toBe(20_000);
+    timer.resume();
+    clock.advance(1_000);
+    expect(timer.elapsedMs()).toBe(21_000);
+
+    // Negative or zero penalties are ignored.
+    timer.addPenalty(0);
+    timer.addPenalty(-500);
+    expect(timer.elapsedMs()).toBe(21_000);
+  });
+
+  it('a skip that costs more than the time left cannot be paid (round should end)', () => {
+    const clock = makeClock();
+    const timer = new TimerService(clock.now);
+    const durationMs = 60_000;
+    timer.start();
+    clock.advance(56_000); // 4s remain, skip costs 6s
+    const remaining = remainingMs(durationMs, timer.elapsedMs());
+    expect(remaining).toBeLessThanOrEqual(skipPenaltyMs(durationMs));
+    timer.addPenalty(remaining);
+    expect(remainingMs(durationMs, timer.elapsedMs())).toBe(0);
   });
 });

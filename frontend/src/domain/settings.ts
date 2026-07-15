@@ -14,10 +14,22 @@ export interface Settings {
   reduceAnimations: boolean;
   /** Last chosen countdown length in seconds; preselected on the next game. */
   gameDurationSec: number;
+  /** Clock tick sound every second while the countdown runs. */
+  tickSound: boolean;
+  /** Sound effects for correct answers and skips. */
+  soundEffects: boolean;
+  /** Haptic feedback (skip vibration, timer-end long vibration). */
+  vibration: boolean;
+  /** Sound + long vibration when the countdown reaches zero. */
+  endAlert: boolean;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
   theme: 'system',
   reduceAnimations: false,
   gameDurationSec: 180,
+  tickSound: true,
+  soundEffects: true,
+  vibration: true,
+  endAlert: true,
 };

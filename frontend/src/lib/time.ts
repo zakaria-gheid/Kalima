@@ -10,3 +10,8 @@ export function formatMMSS(elapsedMs: number): string {
 export function remainingMs(durationMs: number, elapsedMs: number): number {
   return Math.max(0, durationMs - elapsedMs);
 }
+
+/** What a skip costs on the clock: 10% of the round length (within the 8–12% spec). */
+export function skipPenaltyMs(durationMs: number): number {
+  return Math.round(durationMs * 0.1);
+}

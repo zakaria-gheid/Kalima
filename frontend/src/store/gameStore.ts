@@ -2,10 +2,20 @@ import { create } from 'zustand';
 import type { GameSession, GameSessionResult, GameStatus } from '@/domain/gameSession';
 import type { TeamInput } from '@/domain/team';
 import type { Difficulty, Word } from '@/domain/word';
+import { feedback } from '@/application/feedbackService';
 import { getServices } from '@/application/services';
 import { TimerService } from '@/application/timerService';
+import { skipPenaltyMs } from '@/lib/time';
 
 const timer = new TimerService();
+
+let skipSequence = 0;
+
+/** The most recent skip penalty, for the "−Ns" fly-off animation. */
+export interface SkipEvent {
+  id: number;
+  penaltySeconds: number;
+}
 
 interface GameState {
   session: GameSession | null;
@@ -15,6 +25,7 @@ interface GameState {
   skipped: number;
   elapsedMs: number;
   lastResult: GameSessionResult | null;
+  lastSkip: SkipEvent | null;
 
   start: (difficulty: Difficulty, durationMs: number, team: TeamInput) => Promise<void>;
   markCorrect: () => void;
@@ -41,6 +52,7 @@ export const useGameStore = create<GameState>((set, get) => {
     if (!session || (status !== 'playing' && status !== 'paused')) return;
     timer.pause();
     const elapsedMs = Math.min(timer.elapsedMs(), session.durationMs);
+    if (elapsedMs >= session.durationMs) feedback.timerEnd();
     const result: GameSessionResult = {
       id: session.id,
       difficulty: session.difficulty,
@@ -85,6 +97,7 @@ export const useGameStore = create<GameState>((set, get) => {
     skipped: 0,
     elapsedMs: 0,
     lastResult: null,
+    lastSkip: null,
 
     start: async (difficulty, durationMs, teamInput) => {
       const { gameService, teamService } = await getServices();
@@ -93,6 +106,7 @@ export const useGameStore = create<GameState>((set, get) => {
       // The first card is on screen as soon as the game starts.
       const first = session.deck[0];
       if (first) gameService.markCardAppeared(first.id);
+      feedback.init();
       timer.start();
       set({
         session,
@@ -102,11 +116,40 @@ export const useGameStore = create<GameState>((set, get) => {
         skipped: 0,
         elapsedMs: 0,
         lastResult: null,
+        lastSkip: null,
       });
     },
 
-    markCorrect: () => advance('correct'),
-    skip: () => advance('skipped'),
+    markCorrect: () => {
+      if (get().status !== 'playing') return;
+      feedback.correct();
+      advance('correct');
+    },
+
+    /**
+     * Skipping costs time, not points: 10% of the round length burns off the
+     * clock. If less time than the cost remains, the skip cannot be paid —
+     * the round simply ends.
+     */
+    skip: () => {
+      const { session, status, skipped } = get();
+      if (!session || status !== 'playing') return;
+      const penaltyMs = skipPenaltyMs(session.durationMs);
+      const remaining = session.durationMs - timer.elapsedMs();
+      feedback.skip();
+      if (remaining <= penaltyMs) {
+        timer.addPenalty(Math.max(0, remaining));
+        set({ skipped: skipped + 1 });
+        finish();
+        return;
+      }
+      timer.addPenalty(penaltyMs);
+      set({
+        elapsedMs: timer.elapsedMs(),
+        lastSkip: { id: ++skipSequence, penaltySeconds: Math.round(penaltyMs / 1000) },
+      });
+      advance('skipped');
+    },
 
     pause: () => {
       if (get().status !== 'playing') return;
@@ -143,6 +186,7 @@ export const useGameStore = create<GameState>((set, get) => {
         skipped: 0,
         elapsedMs: 0,
         lastResult: null,
+        lastSkip: null,
       });
     },
   };
