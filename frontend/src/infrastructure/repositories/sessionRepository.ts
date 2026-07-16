@@ -25,6 +25,11 @@ export class SessionRepository {
     );
   }
 
+  /** Discards a single recorded game so it no longer counts in any statistics. */
+  deleteById(id: string): void {
+    this.client.run('DELETE FROM game_sessions WHERE id = ?', [id]);
+  }
+
   deleteAll(): void {
     this.client.run('DELETE FROM game_sessions');
   }

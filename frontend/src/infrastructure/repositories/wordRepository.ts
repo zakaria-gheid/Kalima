@@ -8,6 +8,8 @@ interface WordRow {
   category: string;
   difficulty: Difficulty;
   enabled: number;
+  hint_en: string;
+  hint_ar: string;
 }
 
 function toWord(row: WordRow): Word {
@@ -18,8 +20,12 @@ function toWord(row: WordRow): Word {
     category: row.category,
     difficulty: row.difficulty,
     enabled: row.enabled === 1,
+    hintEn: row.hint_en,
+    hintAr: row.hint_ar,
   };
 }
+
+const WORD_COLUMNS = 'id, english, arabic, category, difficulty, enabled, hint_en, hint_ar';
 
 export class WordRepository {
   constructor(private readonly client: SqliteClient) {}
@@ -47,7 +53,7 @@ export class WordRepository {
 
     const where = clauses.length > 0 ? `WHERE ${clauses.join(' AND ')}` : '';
     const rows = this.client.query<WordRow>(
-      `SELECT id, english, arabic, category, difficulty, enabled
+      `SELECT ${WORD_COLUMNS}
        FROM words ${where}
        ORDER BY english COLLATE NOCASE`,
       params,
@@ -62,7 +68,7 @@ export class WordRepository {
   /** Enabled words of the difficulty that have not yet appeared in any game. */
   findUnseenEnabledByDifficulty(difficulty: Difficulty): Word[] {
     const rows = this.client.query<WordRow>(
-      `SELECT id, english, arabic, category, difficulty, enabled
+      `SELECT ${WORD_COLUMNS}
        FROM words WHERE difficulty = ? AND enabled = 1 AND seen = 0`,
       [difficulty],
     );

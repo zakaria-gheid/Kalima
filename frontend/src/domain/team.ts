@@ -18,4 +18,14 @@ export interface TeamStanding {
   guesser: string;
   totalPoints: number;
   gamesPlayed: number;
+  /** Points per game — the fair ranking metric across different game counts. */
+  avgPoints: number;
+}
+
+/** Leaderboard row for an individual player in one role (describer or guesser). */
+export interface PlayerStanding {
+  name: string;
+  gamesPlayed: number;
+  totalPoints: number;
+  avgPoints: number;
 }

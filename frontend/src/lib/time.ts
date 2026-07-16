@@ -11,7 +11,18 @@ export function remainingMs(durationMs: number, elapsedMs: number): number {
   return Math.max(0, durationMs - elapsedMs);
 }
 
-/** What a skip costs on the clock: 10% of the round length (within the 8–12% spec). */
-export function skipPenaltyMs(durationMs: number): number {
-  return Math.round(durationMs * 0.1);
+import type { SkipCostMode } from '@/domain/settings';
+
+/**
+ * What a skip costs on the clock, from the configured mode: a percentage of
+ * the round length or a fixed number of seconds. Clamped to at least 1s and
+ * at most the whole round.
+ */
+export function skipPenaltyMs(
+  durationMs: number,
+  mode: SkipCostMode = 'percent',
+  value = 10,
+): number {
+  const raw = mode === 'percent' ? (durationMs * value) / 100 : value * 1000;
+  return Math.min(durationMs, Math.max(1000, Math.round(raw)));
 }

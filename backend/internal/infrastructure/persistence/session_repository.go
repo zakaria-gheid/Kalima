@@ -33,6 +33,11 @@ func (r *SessionRepository) Insert(result domain.GameSessionResult) error {
 	return r.db.Create(&record).Error
 }
 
+// DeleteByID discards a single recorded game so it no longer counts anywhere.
+func (r *SessionRepository) DeleteByID(id string) error {
+	return r.db.Delete(&sessionRecord{}, "id = ?", id).Error
+}
+
 // DeleteAll erases every recorded game session.
 func (r *SessionRepository) DeleteAll() error {
 	return r.db.Exec("DELETE FROM game_sessions").Error

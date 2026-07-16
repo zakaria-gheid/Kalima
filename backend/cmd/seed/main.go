@@ -17,16 +17,17 @@ import (
 func main() {
 	dbPath := flag.String("db", "../database/hotseat.db", "path to the SQLite database file")
 	seedPath := flag.String("seed", "../assets/data/words_seed.txt", "path to the seed word list")
+	hintsPath := flag.String("hints", "../assets/data/word_hints.txt", "path to the word-specific hints file")
 	force := flag.Bool("force", false, "drop and reseed the words table even if it already has rows")
 	flag.Parse()
 
-	if err := run(*dbPath, *seedPath, *force); err != nil {
+	if err := run(*dbPath, *seedPath, *hintsPath, *force); err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
 		os.Exit(1)
 	}
 }
 
-func run(dbPath, seedPath string, force bool) error {
+func run(dbPath, seedPath, hintsPath string, force bool) error {
 	raw, err := os.ReadFile(seedPath)
 	if err != nil {
 		return fmt.Errorf("reading seed file: %w", err)
@@ -52,6 +53,16 @@ func run(dbPath, seedPath string, force bool) error {
 	inserted, err := seeder.Sync(string(raw))
 	if err != nil {
 		return err
+	}
+
+	if hintsRaw, err := os.ReadFile(hintsPath); err == nil {
+		applied, err := seeder.ApplyWordHints(string(hintsRaw))
+		if err != nil {
+			return err
+		}
+		fmt.Printf("applied %d word-specific hints\n", applied)
+	} else if !os.IsNotExist(err) {
+		return fmt.Errorf("reading hints file: %w", err)
 	}
 
 	counts, err := words.CountByDifficulty()

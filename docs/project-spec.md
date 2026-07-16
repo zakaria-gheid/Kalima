@@ -58,7 +58,7 @@ Presentation   pages/ components/ layouts/ hooks/        (React)
 ### Database schema
 
 ```sql
-words(id, english UNIQUE, arabic, category, difficulty CHECK(easy|medium|hard), enabled, seen, created_at)
+words(id, english UNIQUE, arabic, category, difficulty CHECK(easy|medium|hard), enabled, seen, hint_en, hint_ar, created_at)
 settings(key PRIMARY KEY, value)
 teams(id, describer, guesser, created_at, UNIQUE(describer, guesser) COLLATE NOCASE)
 game_sessions(id, difficulty, started_at, ended_at, duration_ms, elapsed_ms,

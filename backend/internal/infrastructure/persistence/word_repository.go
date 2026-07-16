@@ -25,6 +25,8 @@ func toDomainWord(r wordRecord) domain.Word {
 		Category:   r.Category,
 		Difficulty: domain.Difficulty(r.Difficulty),
 		Enabled:    r.Enabled,
+		HintEn:     r.HintEn,
+		HintAr:     r.HintAr,
 		CreatedAt:  r.CreatedAt,
 	}
 }
@@ -83,6 +85,8 @@ func (r *WordRepository) InsertAll(words []domain.Word) error {
 			Category:   word.Category,
 			Difficulty: string(word.Difficulty),
 			Enabled:    word.Enabled,
+			HintEn:     word.HintEn,
+			HintAr:     word.HintAr,
 			CreatedAt:  word.CreatedAt,
 		}
 	}
@@ -95,6 +99,24 @@ func (r *WordRepository) ListEnglish() ([]string, error) {
 	var english []string
 	err := r.db.Model(&wordRecord{}).Pluck("english", &english).Error
 	return english, err
+}
+
+// CategoriesMissingHints lists categories that still have words without hints.
+func (r *WordRepository) CategoriesMissingHints() ([]string, error) {
+	var categories []string
+	err := r.db.Model(&wordRecord{}).
+		Where("hint_en = '' OR hint_ar = ''").
+		Distinct().
+		Pluck("category", &categories).Error
+	return categories, err
+}
+
+// SetHintsForCategory backfills the describer hints for every word of a
+// category that is still missing them.
+func (r *WordRepository) SetHintsForCategory(category, hintEn, hintAr string) error {
+	return r.db.Model(&wordRecord{}).
+		Where("category = ? AND (hint_en = '' OR hint_ar = '')", category).
+		Updates(map[string]any{"hint_en": hintEn, "hint_ar": hintAr}).Error
 }
 
 func (r *WordRepository) SetEnabled(id int64, enabled bool) error {
@@ -116,6 +138,13 @@ func (r *WordRepository) FindUnseenEnabledByDifficulty(difficulty domain.Difficu
 		words[i] = toDomainWord(record)
 	}
 	return words, nil
+}
+
+// SetHintsByEnglish overrides the hints of one word (case-insensitive match).
+func (r *WordRepository) SetHintsByEnglish(english, hintEn, hintAr string) error {
+	return r.db.Model(&wordRecord{}).
+		Where("english = ? COLLATE NOCASE", english).
+		Updates(map[string]any{"hint_en": hintEn, "hint_ar": hintAr}).Error
 }
 
 // MarkSeen records that a word appeared; it stays out of new decks until the

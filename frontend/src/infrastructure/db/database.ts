@@ -1,7 +1,10 @@
 import initSqlJs, { type Database } from 'sql.js';
 import wasmUrl from 'sql.js/dist/sql-wasm.wasm?url';
 import seedRaw from '@assets/data/words_seed.txt?raw';
+import { hintForCategory } from '@/lib/hints';
 import { parseSeedFile } from '@/lib/seedParser';
+import { parseWordHints } from '@/lib/wordHints';
+import wordHintsRaw from '@assets/data/word_hints.txt?raw';
 import { loadDatabaseBytes, saveDatabaseBytes } from './persistence';
 
 const SCHEMA = `
@@ -13,6 +16,8 @@ CREATE TABLE IF NOT EXISTS words (
   difficulty TEXT NOT NULL CHECK (difficulty IN ('easy', 'medium', 'hard')),
   enabled INTEGER NOT NULL DEFAULT 1,
   seen INTEGER NOT NULL DEFAULT 0,
+  hint_en TEXT NOT NULL DEFAULT '',
+  hint_ar TEXT NOT NULL DEFAULT '',
   created_at INTEGER NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_words_difficulty ON words (difficulty, enabled);
@@ -134,7 +139,55 @@ export function bootstrapClient(db: Database): SqliteClient {
   db.run(SCHEMA);
   applyMigrations(client);
   syncSeedWords(client);
+  backfillHints(client);
+  applyWordHints(client);
   return client;
+}
+
+/**
+ * Overrides the generic category hints with word-specific ones from
+ * assets/data/word_hints.txt. Version-gated so the (large) update only runs
+ * when the hints file actually changes — bump WORD_HINTS_VERSION with it.
+ */
+const WORD_HINTS_VERSION_KEY = 'wordHintsVersion';
+const WORD_HINTS_VERSION = '3';
+
+function applyWordHints(client: SqliteClient): void {
+  const [stored] = client.query<{ value: string }>(
+    'SELECT value FROM settings WHERE key = ?',
+    [WORD_HINTS_VERSION_KEY],
+  );
+  if (stored?.value === WORD_HINTS_VERSION) return;
+
+  const entries = parseWordHints(wordHintsRaw);
+  client.transaction(() => {
+    for (const entry of entries) {
+      client.runInTransaction(
+        'UPDATE words SET hint_en = ?, hint_ar = ? WHERE english = ? COLLATE NOCASE',
+        [entry.hintEn, entry.hintAr, entry.english],
+      );
+    }
+    client.runInTransaction(
+      'INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value',
+      [WORD_HINTS_VERSION_KEY, WORD_HINTS_VERSION],
+    );
+  });
+}
+
+/** Fills the per-word describer hints (both languages) for any word missing them. */
+function backfillHints(client: SqliteClient): void {
+  const categories = client.query<{ category: string }>(
+    "SELECT DISTINCT category FROM words WHERE hint_en = '' OR hint_ar = ''",
+  );
+  if (categories.length === 0) return;
+  client.transaction(() => {
+    for (const { category } of categories) {
+      client.runInTransaction(
+        "UPDATE words SET hint_en = ?, hint_ar = ? WHERE category = ? AND (hint_en = '' OR hint_ar = '')",
+        [hintForCategory(category, 'en'), hintForCategory(category, 'ar'), category],
+      );
+    }
+  });
 }
 
 /** Upgrades databases created by earlier app versions (CREATE TABLE IF NOT EXISTS won't add columns). */
@@ -149,6 +202,10 @@ function applyMigrations(client: SqliteClient): void {
   const wordColumns = client.query<{ name: string }>('PRAGMA table_info(words)');
   if (!wordColumns.some((column) => column.name === 'seen')) {
     client.run('ALTER TABLE words ADD COLUMN seen INTEGER NOT NULL DEFAULT 0');
+  }
+  if (!wordColumns.some((column) => column.name === 'hint_en')) {
+    client.run("ALTER TABLE words ADD COLUMN hint_en TEXT NOT NULL DEFAULT ''");
+    client.run("ALTER TABLE words ADD COLUMN hint_ar TEXT NOT NULL DEFAULT ''");
   }
   // Indexes on migrated columns must be created here, after the columns exist —
   // putting them in SCHEMA breaks startup for databases from older app versions.

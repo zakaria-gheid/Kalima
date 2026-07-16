@@ -1,6 +1,7 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { TrashIcon } from '@heroicons/react/24/outline';
 import { ArrowPathIcon, HomeIcon, TrophyIcon } from '@heroicons/react/24/solid';
 import { formatMMSS } from '@/lib/time';
 import { useGameStore } from '@/store/gameStore';
@@ -10,6 +11,8 @@ import { DifficultyBadge } from '@/presentation/components/DifficultyBadge';
 export function CompletionPage() {
   const navigate = useNavigate();
   const result = useGameStore((state) => state.lastResult);
+  const discardLastGame = useGameStore((state) => state.discardLastGame);
+  const [confirmingDiscard, setConfirmingDiscard] = useState(false);
 
   useEffect(() => {
     if (!result) navigate('/', { replace: true });
@@ -92,6 +95,35 @@ export function CompletionPage() {
             Home
           </Button>
         </div>
+        {confirmingDiscard ? (
+          <div
+            role="alertdialog"
+            aria-label="Confirm discarding this game"
+            className="flex flex-col gap-2 rounded-2xl border border-hard/30 bg-white p-3 dark:bg-slate-800"
+          >
+            <p className="text-center text-sm font-medium">
+              Discard this game? It won't count in any leaderboard or statistic.
+            </p>
+            <div className="grid grid-cols-2 gap-2">
+              <Button variant="danger" onClick={() => void discardLastGame()}>
+                <TrashIcon aria-hidden="true" className="size-4" />
+                Discard
+              </Button>
+              <Button variant="secondary" onClick={() => setConfirmingDiscard(false)}>
+                Keep it
+              </Button>
+            </div>
+          </div>
+        ) : (
+          <Button
+            variant="ghost"
+            onClick={() => setConfirmingDiscard(true)}
+            className="text-hard hover:bg-hard/10 dark:text-red-400"
+          >
+            <TrashIcon aria-hidden="true" className="size-4" />
+            Discard game
+          </Button>
+        )}
       </div>
     </main>
   );

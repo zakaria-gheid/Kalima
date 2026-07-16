@@ -8,6 +8,9 @@ type WordRepository interface {
 	FindUnseenEnabledByDifficulty(difficulty Difficulty) ([]Word, error)
 	InsertAll(words []Word) error
 	ListEnglish() ([]string, error)
+	CategoriesMissingHints() ([]string, error)
+	SetHintsForCategory(category, hintEn, hintAr string) error
+	SetHintsByEnglish(english, hintEn, hintAr string) error
 	MarkSeen(id int64) error
 	ResetSeen(difficulty Difficulty) error
 	SetEnabled(id int64, enabled bool) error
@@ -16,6 +19,7 @@ type WordRepository interface {
 // SessionRepository is the persistence port for finished game sessions.
 type SessionRepository interface {
 	Insert(result GameSessionResult) error
+	DeleteByID(id string) error
 	DeleteAll() error
 }
 
@@ -23,5 +27,6 @@ type SessionRepository interface {
 type TeamRepository interface {
 	FindOrCreate(describer, guesser string) (Team, error)
 	Leaderboard() ([]TeamStanding, error)
+	PlayerStandings(role PlayerRole) ([]PlayerStanding, error)
 	DeleteAll() error
 }

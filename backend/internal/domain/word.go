@@ -32,5 +32,7 @@ type Word struct {
 	Category   string
 	Difficulty Difficulty
 	Enabled    bool
+	HintEn     string // describer hint in English
+	HintAr     string // describer hint in Arabic
 	CreatedAt  time.Time
 }

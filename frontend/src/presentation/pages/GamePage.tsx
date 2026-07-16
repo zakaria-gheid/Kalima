@@ -4,14 +4,16 @@ import { AnimatePresence, motion } from 'framer-motion';
 import {
   CheckIcon,
   ForwardIcon,
+  LightBulbIcon,
   PauseIcon,
   PlayIcon,
   StopIcon,
 } from '@heroicons/react/24/solid';
-import { currentCard, useGameStore } from '@/store/gameStore';
+import { currentCard, currentSkipPenaltyMs, useGameStore } from '@/store/gameStore';
+import { useSettingsStore } from '@/store/settingsStore';
 import { useGameClock } from '@/presentation/hooks/useGameClock';
 import { feedback } from '@/application/feedbackService';
-import { remainingMs, skipPenaltyMs } from '@/lib/time';
+import { remainingMs } from '@/lib/time';
 import { Button } from '@/presentation/components/Button';
 import { TimerDisplay } from '@/presentation/components/TimerDisplay';
 import { WordCard } from '@/presentation/components/WordCard';
@@ -22,13 +24,17 @@ export function GamePage() {
   const status = useGameStore((state) => state.status);
   const currentIndex = useGameStore((state) => state.currentIndex);
   const correct = useGameStore((state) => state.correct);
-  const lastSkip = useGameStore((state) => state.lastSkip);
+  const lastPenalty = useGameStore((state) => state.lastPenalty);
+  const hintCardIndex = useGameStore((state) => state.hintCardIndex);
   const card = useGameStore(currentCard);
   const markCorrect = useGameStore((state) => state.markCorrect);
   const skip = useGameStore((state) => state.skip);
+  const useHint = useGameStore((state) => state.useHint);
   const pause = useGameStore((state) => state.pause);
   const resume = useGameStore((state) => state.resume);
   const endEarly = useGameStore((state) => state.endEarly);
+  const hintCostSec = useSettingsStore((state) => state.hintCostSec);
+  const hintLanguage = useSettingsStore((state) => state.hintLanguage);
   const elapsedMs = useGameClock();
 
   const remaining = session ? remainingMs(session.durationMs, elapsedMs) : 0;
@@ -45,14 +51,14 @@ export function GamePage() {
     lastTickedSecond.current = secondsLeft;
   }, [secondsLeft, playing]);
 
-  // Flash the timer red briefly whenever a skip penalty lands.
+  // Flash the timer red briefly whenever a time penalty (skip or hint) lands.
   const [flash, setFlash] = useState(false);
   useEffect(() => {
-    if (!lastSkip) return;
+    if (!lastPenalty) return;
     setFlash(true);
     const timeout = setTimeout(() => setFlash(false), 700);
     return () => clearTimeout(timeout);
-  }, [lastSkip]);
+  }, [lastPenalty]);
 
   useEffect(() => {
     if (status === 'idle') navigate('/difficulty', { replace: true });
@@ -64,7 +70,9 @@ export function GamePage() {
   }
 
   const paused = status === 'paused';
-  const penaltySeconds = Math.round(skipPenaltyMs(session.durationMs) / 1000);
+  const penaltySeconds = Math.round(currentSkipPenaltyMs(session.durationMs) / 1000);
+  const hintVisible = hintCardIndex === currentIndex;
+  const hintAffordable = remaining > hintCostSec * 1000;
 
   return (
     <main className="flex flex-1 flex-col gap-3 py-1">
@@ -89,17 +97,19 @@ export function GamePage() {
             flash={flash}
           />
           <AnimatePresence>
-            {lastSkip && flash && (
+            {lastPenalty && flash && (
               <motion.span
-                key={lastSkip.id}
+                key={lastPenalty.id}
                 initial={{ opacity: 1, y: 0, x: 0, scale: 1 }}
                 animate={{ opacity: 0, y: -44, x: 26, scale: 1.4 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.8, ease: 'easeOut' }}
                 aria-hidden="true"
-                className="pointer-events-none absolute -right-2 top-1 text-xl font-extrabold text-hard"
+                className={`pointer-events-none absolute -right-2 top-1 text-xl font-extrabold ${
+                  lastPenalty.kind === 'hint' ? 'text-yellow-600 dark:text-yellow-400' : 'text-hard'
+                }`}
               >
-                −{lastSkip.penaltySeconds}s
+                −{lastPenalty.penaltySeconds}s
               </motion.span>
             )}
           </AnimatePresence>
@@ -142,6 +152,29 @@ export function GamePage() {
       </div>
 
       <div className="flex flex-col gap-2">
+        {!paused &&
+          (hintVisible ? (
+            <motion.p
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              dir={hintLanguage === 'ar' ? 'rtl' : 'ltr'}
+              lang={hintLanguage}
+              className="rounded-xl border border-medium/40 bg-medium/10 px-3 py-2 text-center text-sm font-medium text-yellow-800 dark:text-yellow-200"
+            >
+              💡 {hintLanguage === 'ar' ? card.hintAr : card.hintEn}
+            </motion.p>
+          ) : (
+            <button
+              type="button"
+              onClick={useHint}
+              disabled={!hintAffordable}
+              className="inline-flex min-h-11 items-center justify-center gap-1.5 rounded-xl border border-medium/40 bg-medium/10 px-3 text-sm font-semibold text-yellow-700 transition-colors hover:bg-medium/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-medium disabled:cursor-not-allowed disabled:opacity-40 dark:text-yellow-300"
+            >
+              <LightBulbIcon aria-hidden="true" className="size-4" />
+              Hint for the describer
+              <span className="text-xs font-bold">−{hintCostSec}s</span>
+            </button>
+          ))}
         <div className="grid grid-cols-2 gap-2">
           <Button
             variant="success"

@@ -17,7 +17,9 @@ One player explains a word, another guesses it. No accounts, no servers, no inte
 - Three difficulty levels: Easy 🟢 / Medium 🟡 / Hard 🔴
 - Team play: a **describer** and a **guesser** per team, with points (cards won) and a ranked leaderboard
 - Countdown rounds (1–5 minutes, selectable) shown as a circular ring timer, with pause/resume and a live "got it" counter
-- Skips cost time, not points: −10% of the round per skip, with a red flash, buzz, and "−Ns" animation; a skip that can't be paid ends the round
+- Skips cost time, not points — configurable as % of the round or fixed seconds — with a red flash, buzz, and "−Ns" animation; a skip that can't be paid ends the round
+- Tap-for-hint for the describer (Arabic or English, configurable time cost), stored per word in SQLite
+- Statistics leaderboard: best teams, best describers, best guessers — ranked fairly by points per game; any game can be discarded
 - Sound & haptics (all toggleable): clock tick, correct chime, skip buzz + vibration, timer-end alarm + long vibration
 - Fisher–Yates shuffled decks — no repeated cards per session
 - Searchable, filterable word list

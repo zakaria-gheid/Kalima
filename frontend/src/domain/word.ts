@@ -16,6 +16,10 @@ export interface Word {
   category: Category;
   difficulty: Difficulty;
   enabled: boolean;
+  /** Describer hint in English, stored per word. */
+  hintEn: string;
+  /** Describer hint in Arabic, stored per word. */
+  hintAr: string;
 }
 
 export interface WordFilter {

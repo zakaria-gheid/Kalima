@@ -92,14 +92,61 @@ func (s *SeedService) Sync(raw string) (int, error) {
 	missing := words[:0:0]
 	for _, word := range words {
 		if !present[strings.ToLower(word.English)] {
+			word.HintEn, word.HintAr = HintsForCategory(word.Category)
 			missing = append(missing, word)
 		}
 	}
-	if len(missing) == 0 {
-		return 0, nil
+	if len(missing) > 0 {
+		if err := s.words.InsertAll(missing); err != nil {
+			return 0, fmt.Errorf("inserting seed words: %w", err)
+		}
 	}
-	if err := s.words.InsertAll(missing); err != nil {
-		return 0, fmt.Errorf("inserting seed words: %w", err)
+	if err := s.backfillHints(); err != nil {
+		return 0, err
 	}
 	return len(missing), nil
+}
+
+// ApplyWordHints parses the word-specific hints file (english|hint_en|hint_ar,
+// # comments allowed) and overrides the generic category hints for the words
+// it covers. Returns the number of hint rows applied.
+func (s *SeedService) ApplyWordHints(raw string) (int, error) {
+	applied := 0
+	for i, line := range strings.Split(raw, "\n") {
+		line = strings.TrimSpace(line)
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
+		fields := strings.Split(line, "|")
+		if len(fields) != 3 {
+			return 0, fmt.Errorf("hint row %d has %d fields, expected 3: %q", i+1, len(fields), line)
+		}
+		english := strings.TrimSpace(fields[0])
+		hintEn := strings.TrimSpace(fields[1])
+		hintAr := strings.TrimSpace(fields[2])
+		if english == "" || hintEn == "" || hintAr == "" {
+			return 0, fmt.Errorf("hint row %d has an empty field: %q", i+1, line)
+		}
+		if err := s.words.SetHintsByEnglish(english, hintEn, hintAr); err != nil {
+			return 0, fmt.Errorf("applying hint for %q: %w", english, err)
+		}
+		applied++
+	}
+	return applied, nil
+}
+
+// backfillHints fills the describer hints for any word still missing them
+// (rows created before hints existed).
+func (s *SeedService) backfillHints() error {
+	categories, err := s.words.CategoriesMissingHints()
+	if err != nil {
+		return fmt.Errorf("listing categories missing hints: %w", err)
+	}
+	for _, category := range categories {
+		en, ar := HintsForCategory(category)
+		if err := s.words.SetHintsForCategory(category, en, ar); err != nil {
+			return fmt.Errorf("backfilling hints for %q: %w", category, err)
+		}
+	}
+	return nil
 }

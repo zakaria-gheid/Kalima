@@ -1,0 +1,2302 @@
+# Word-specific describer hints: english|hint_en|hint_ar
+# Words not listed here fall back to their category hint.
+Chair|A piece of furniture with four legs, you sit on it.|قطعة أثاث بأربع أرجل، نجلس عليها.
+Table|Flat furniture you eat or work on.|أثاث بسطح مستوٍ نأكل أو نعمل عليه.
+Door|You open and close it to enter a room.|نفتحه ونغلقه للدخول إلى الغرفة.
+Window|Glass opening in the wall, lets light in.|فتحة زجاجية في الجدار تدخل الضوء.
+Bed|You sleep on it every night.|ننام عليه كل ليلة.
+Pillow|Soft thing you put your head on to sleep.|شيء ناعم نضع عليه الرأس عند النوم.
+Blanket|Keeps you warm on the bed in winter.|يدفئنا فوق السرير في الشتاء.
+Mirror|You look at it to see yourself.|ننظر إليه لنرى أنفسنا.
+Clock|Hangs on the wall and tells the time.|يُعلق على الجدار ويخبرنا بالوقت.
+Key|Small metal thing that opens a lock.|قطعة معدنية صغيرة تفتح القفل.
+Lamp|Gives light in the room at night.|يعطي ضوءا في الغرفة ليلا.
+Television|A screen the family watches shows and news on.|شاشة تشاهد عليها العائلة البرامج والأخبار.
+Refrigerator|Keeps food and drinks cold in the kitchen.|يحفظ الطعام والشراب باردا في المطبخ.
+Oven|You bake bread and cook food inside it, it gets hot.|نخبز فيه الخبز ونطبخ الطعام، يصبح ساخنا.
+Spoon|You eat soup and rice with it.|نأكل بها الحساء والأرز.
+Fork|Eating tool with sharp points to pick food.|أداة أكل برؤوس مدببة لالتقاط الطعام.
+Knife|Sharp tool for cutting food.|أداة حادة لتقطيع الطعام.
+Plate|Round dish you put food on.|صحن دائري نضع فيه الطعام.
+Cup|You drink tea or coffee from it.|نشرب منه الشاي أو القهوة.
+Bottle|Holds water or juice, has a cap.|تحمل الماء أو العصير ولها غطاء.
+Apple|Round fruit, red or green, keeps the doctor away.|فاكهة مستديرة حمراء أو خضراء ومفيدة للصحة.
+Banana|Long yellow fruit, monkeys love it.|فاكهة طويلة صفراء يحبها القرد.
+Orange|Round orange fruit full of juice.|فاكهة برتقالية مستديرة مليئة بالعصير.
+Lemon|Yellow sour fruit, used in drinks and salads.|فاكهة صفراء حامضة تستخدم في المشروبات والسلطات.
+Egg|The hen lays it, you eat it for breakfast.|تبيضه الدجاجة ونأكله في الفطور.
+Cheese|Made from milk, yellow or white, eaten with bread.|يُصنع من الحليب، أصفر أو أبيض، يؤكل مع الخبز.
+Milk|White drink that comes from the cow.|شراب أبيض يأتي من البقرة.
+Water|You drink it every day, it falls as rain.|نشربه كل يوم وينزل من السماء مطرا.
+Coffee|Hot dark drink that wakes you up in the morning.|مشروب ساخن داكن يوقظنا في الصباح.
+Tea|Hot drink made from leaves, served in small cups.|مشروب ساخن من أوراق نبتة يقدم في أكواب صغيرة.
+Sugar|White and sweet, you put it in tea.|أبيض وحلو نضعه في الشاي.
+Salt|White grains that make food tasty, from the sea.|حبيبات بيضاء تطيب الطعام وتأتي من البحر.
+Pepper|Spice that makes food hot, black or ground.|بهار يجعل الطعام حارا، أسود أو مطحون.
+Chicken|Farm bird we eat grilled or fried.|طائر المزرعة نأكله مشويا أو مقليا.
+Fish|Lives in water, swims, we eat it grilled.|يعيش في الماء ويسبح ونأكله مشويا.
+Cake|Sweet baked dessert for birthdays.|حلوى مخبوزة نأكلها في أعياد الميلاد.
+Honey|Sweet golden liquid made by bees.|سائل ذهبي حلو يصنعه النحل.
+Chocolate|Sweet brown treat kids love.|حلوى بنية يحبها الأطفال.
+Bread|Baked from flour, eaten with every meal.|يُخبز من الطحين ويؤكل مع كل وجبة.
+Rice|Small white grains cooked as a main dish.|حبوب بيضاء صغيرة تطبخ كطبق رئيسي.
+Cat|Small pet that says meow and catches mice.|حيوان أليف صغير يموء ويصطاد الفئران.
+Dog|Loyal pet that barks and guards the house.|حيوان أليف وفي ينبح ويحرس البيت.
+Horse|Big animal you ride, it runs fast.|حيوان كبير نركبه ويجري بسرعة.
+Cow|Farm animal that gives us milk.|حيوان المزرعة يعطينا الحليب.
+Sheep|Farm animal covered in wool, says baa.|حيوان المزرعة يغطيه الصوف ويثغو.
+Goat|Farm animal with horns that climbs and eats everything.|حيوان مزرعة بقرون يتسلق ويأكل كل شيء.
+Camel|Desert animal with a hump, stores water.|حيوان الصحراء له سنام ويخزن الماء.
+Lion|King of the jungle with a big mane.|ملك الغابة وله لبدة كبيرة.
+Tiger|Big striped wild cat, orange and black.|قط بري كبير مخطط بالبرتقالي والأسود.
+Elephant|The biggest land animal, has a trunk.|أكبر حيوان بري وله خرطوم.
+Monkey|Climbs trees and eats bananas.|يتسلق الأشجار ويأكل الموز.
+Rabbit|Small animal with long ears, hops and eats carrots.|حيوان صغير بأذنين طويلتين يقفز ويأكل الجزر.
+Bird|Has wings and feathers, flies in the sky.|له جناحان وريش ويطير في السماء.
+Eagle|Big strong bird that flies very high.|طائر كبير قوي يحلق عاليا جدا.
+Owl|Night bird with big eyes, turns its head around.|طائر الليل بعيون كبيرة يدير رأسه.
+Snake|Long animal with no legs, it slithers.|حيوان طويل بلا أرجل يزحف.
+Turtle|Slow animal that carries its house on its back.|حيوان بطيء يحمل بيته على ظهره.
+Bee|Small insect that makes honey and can sting.|حشرة صغيرة تصنع العسل وقد تلسع.
+Duck|Water bird that swims and says quack.|طائر مائي يسبح ويبطبط.
+Wolf|Wild animal like a dog, howls at the moon.|حيوان بري يشبه الكلب ويعوي في الليل.
+Sun|Shines in the sky during the day, gives heat.|تسطع في السماء نهارا وتعطي الدفء.
+Moon|Shines at night, changes shape every month.|يضيء ليلا ويتغير شكله كل شهر.
+Star|Small lights in the night sky.|أضواء صغيرة تلمع في سماء الليل.
+Sky|Blue above us, where clouds and birds are.|الأزرق فوقنا حيث الغيوم والطيور.
+Cloud|White or grey in the sky, brings rain.|أبيض أو رمادي في السماء ويجلب المطر.
+Rain|Water falling from the clouds.|ماء ينزل من الغيوم.
+Snow|White and cold, falls in winter.|أبيض وبارد ينزل في الشتاء.
+Wind|You feel it but cannot see it, moves the trees.|نشعر به ولا نراه ويحرك الأشجار.
+Mountain|Very high land, people climb it.|أرض مرتفعة جدا يتسلقها الناس.
+River|Long water flowing to the sea.|ماء طويل يجري نحو البحر.
+Sea|Big salty water where ships sail.|ماء مالح واسع تبحر فيه السفن.
+Lake|Water surrounded by land, calm and still.|ماء تحيط به اليابسة، هادئ وساكن.
+Desert|Hot dry land full of sand.|أرض حارة جافة مليئة بالرمل.
+Forest|Land covered with many trees and animals.|أرض مغطاة بأشجار كثيرة وحيوانات.
+Tree|Tall plant with a trunk, branches and leaves.|نبتة عالية لها جذع وأغصان وأوراق.
+Flower|Colorful part of a plant, smells nice.|جزء ملون من النبتة ورائحته جميلة.
+Grass|Green and short, covers the ground.|أخضر وقصير يغطي الأرض.
+Stone|Hard small piece from the ground.|قطعة صلبة صغيرة من الأرض.
+Sand|Tiny grains at the beach and desert.|حبيبات دقيقة في الشاطئ والصحراء.
+Fire|Hot and bright, it burns.|حار ومضيء ويحرق.
+Book|Pages you read, has a cover.|صفحات نقرؤها ولها غلاف.
+Notebook|You write your notes and lessons in it.|نكتب فيه ملاحظاتنا ودروسنا.
+Pen|You write with it in blue or black ink.|نكتب به بحبر أزرق أو أسود.
+Pencil|You write with it and can erase it.|نكتب به ويمكن محو ما كتبنا.
+Eraser|Removes pencil writing from paper.|يمحو كتابة قلم الرصاص من الورقة.
+Bag|You carry your books and things in it.|نحمل فيها الكتب والأغراض.
+Teacher|The person who explains lessons at school.|الشخص الذي يشرح الدروس في المدرسة.
+Student|The person who learns at school.|الشخص الذي يتعلم في المدرسة.
+Paper|White sheet you write or draw on.|ورقة بيضاء نكتب أو نرسم عليها.
+Computer|Machine with a screen and keyboard for work and games.|جهاز بشاشة ولوحة مفاتيح للعمل والألعاب.
+Keyboard|You type letters on it.|نكتب عليها الحروف بالضغط.
+Mouse|You move it to control the computer pointer.|نحركها للتحكم بمؤشر الحاسوب.
+Screen|You watch and read on it.|نشاهد ونقرأ عليها.
+Printer|Machine that puts what's on the screen onto paper.|جهاز ينقل ما في الشاشة إلى الورق.
+Phone|You call and message people with it.|نتصل ونراسل به الناس.
+Charger|You plug it in to fill the battery.|نوصله بالكهرباء لملء البطارية.
+Battery|Stores power for phones and toys.|تخزن الطاقة للهواتف والألعاب.
+Letter|You write it and send it by mail.|نكتبها ونرسلها بالبريد.
+Dictionary|Book that explains the meaning of words.|كتاب يشرح معاني الكلمات.
+Ruler|Straight tool for measuring and drawing lines.|أداة مستقيمة للقياس ورسم الخطوط.
+Sofa|Long soft seat for several people in the living room.|مقعد طويل ووثير لعدة أشخاص في غرفة الجلوس.
+Carpet|Covers the floor, soft under your feet.|تغطي الأرضية وناعمة تحت الأقدام.
+Curtain|Cloth covering the window.|قماش يغطي النافذة.
+Stairs|You climb them to go up a floor.|نصعد عليها للطابق الأعلى.
+Roof|The top of the house, protects from rain.|أعلى البيت ويحمي من المطر.
+Wall|Divides rooms, you hang pictures on it.|يفصل الغرف ونعلق عليه الصور.
+Floor|You walk on it inside the house.|نمشي عليها داخل البيت.
+Kitchen|The room where food is cooked.|الغرفة التي يطبخ فيها الطعام.
+Bathroom|The room where you shower and wash.|الغرفة التي نستحم ونغتسل فيها.
+Bedroom|The room where you sleep.|الغرفة التي ننام فيها.
+Garden|Green space with flowers next to the house.|مساحة خضراء بالأزهار بجانب البيت.
+Garage|Where the car sleeps at night.|المكان الذي تنام فيه السيارة.
+Fence|Surrounds the garden, made of wood or metal.|يحيط بالحديقة من خشب أو معدن.
+Broom|You sweep the floor with it.|نكنس بها الأرض.
+Bucket|You fill it with water for cleaning.|نملؤه بالماء للتنظيف.
+Soap|You wash your hands with it, makes foam.|نغسل به اليدين ويصنع رغوة.
+Towel|You dry yourself with it after a shower.|ننشف به الجسم بعد الاستحمام.
+Toothbrush|You clean your teeth with it morning and night.|ننظف بها الأسنان صباحا ومساء.
+Comb|You fix your hair with it.|نسرح به الشعر.
+Candle|Gives light with a small flame when power is out.|تضيء بلهب صغير عند انقطاع الكهرباء.
+Basket|You carry fruits or laundry in it, often woven.|نحمل فيها الفواكه أو الغسيل، غالبا مجدولة.
+Box|You store or ship things inside it, often cardboard.|نخزن أو نشحن فيه الأشياء، غالبا من الكرتون.
+Shelf|Board on the wall to put books on.|لوح على الجدار نضع عليه الكتب.
+Drawer|You pull it out of the desk to store things.|نسحبه من المكتب لتخزين الأشياء.
+Vase|You put flowers with water in it.|نضع فيها الأزهار مع الماء.
+Grape|Small round fruits in bunches, green or black.|فاكهة صغيرة مستديرة في عناقيد، خضراء أو سوداء.
+Watermelon|Huge green fruit, red and juicy inside.|فاكهة ضخمة خضراء وداخلها أحمر كثير العصارة.
+Strawberry|Small red heart-shaped fruit with tiny seeds.|فاكهة حمراء صغيرة بشكل قلب وعليها بذور دقيقة.
+Peach|Soft fuzzy fruit with a big pit inside.|فاكهة ناعمة مخملية وداخلها نواة كبيرة.
+Pear|Sweet fruit shaped like a light bulb.|فاكهة حلوة شكلها مثل المصباح.
+Cherry|Tiny round red fruit on a small stem.|فاكهة حمراء صغيرة مستديرة بعنق رفيع.
+Pineapple|Spiky tropical fruit, yellow inside, with a crown.|فاكهة استوائية شائكة صفراء من الداخل ولها تاج.
+Mango|Sweet tropical fruit, orange inside.|فاكهة استوائية حلوة برتقالية من الداخل.
+Date|Sweet brown fruit from the palm tree, eaten in Ramadan.|ثمرة بنية حلوة من النخلة تؤكل في رمضان.
+Fig|Soft sweet fruit, purple or green, full of seeds.|ثمرة طرية حلوة بنفسجية أو خضراء مليئة بالبذور.
+Olive|Small green or black fruit pressed into oil.|ثمرة صغيرة خضراء أو سوداء يعصر منها الزيت.
+Tomato|Red round vegetable used in salads and sauces.|خضار أحمر مستدير يستخدم في السلطات والصلصات.
+Potato|Grows underground, becomes fries and chips.|تنمو تحت الأرض وتصبح مقلية ورقائق.
+Onion|Makes you cry when you cut it.|يجعلنا نبكي عندما نقطعه.
+Garlic|Small white cloves with a strong smell.|فصوص بيضاء صغيرة برائحة قوية.
+Carrot|Long orange vegetable rabbits love.|خضار برتقالي طويل يحبه الأرنب.
+Cucumber|Long green vegetable eaten fresh in salads.|خضار أخضر طويل يؤكل طازجا في السلطة.
+Lettuce|Green leaves, the base of every salad.|أوراق خضراء وهي أساس كل سلطة.
+Corn|Yellow grains on a cob.|حبوب صفراء على كوز.
+Beans|Small seeds cooked in stews.|بذور صغيرة تطبخ في اليخنات.
+Meat|Comes from animals, grilled or cooked.|يأتي من الحيوانات ويشوى أو يطبخ.
+Soup|Hot liquid food eaten with a spoon.|طعام سائل ساخن يؤكل بالملعقة.
+Salad|Fresh vegetables mixed in a bowl.|خضروات طازجة تخلط في وعاء.
+Butter|Yellow and soft, spread on bread.|صفراء وطرية تدهن على الخبز.
+Yogurt|White and cool, made from milk, eaten with a spoon.|أبيض وبارد من الحليب يؤكل بالملعقة.
+Jam|Sweet fruit spread for bread.|مربى حلو من الفواكه يدهن على الخبز.
+Juice|Drink squeezed from fruits.|شراب يعصر من الفواكه.
+Ice cream|Cold sweet treat in a cone, melts in summer.|حلوى باردة في بسكويتة تذوب في الصيف.
+Sandwich|Bread with filling you take to school.|خبز محشو نأخذه إلى المدرسة.
+Pizza|Round Italian dish with cheese and toppings.|طبق إيطالي دائري بالجبن والإضافات.
+Fox|Clever wild animal with a bushy tail, red fur.|حيوان بري ماكر بذيل كث وفراء أحمر.
+Bear|Big heavy animal that loves honey and sleeps in winter.|حيوان ضخم يحب العسل وينام في الشتاء.
+Deer|Forest animal with branching horns, runs gracefully.|حيوان الغابة بقرون متفرعة يجري برشاقة.
+Gazelle|Slim fast animal of the desert, symbol of beauty.|حيوان رشيق سريع في الصحراء ورمز للجمال.
+Frog|Green jumping animal that lives near water, croaks.|حيوان أخضر قافز يعيش قرب الماء وينقنق.
+Ant|Tiny hardworking insect living in colonies.|حشرة صغيرة مجتهدة تعيش في مستعمرات.
+Fly|Annoying flying insect around food.|حشرة طائرة مزعجة حول الطعام.
+Spider|Has eight legs and spins webs.|له ثماني أرجل وينسج الخيوط.
+Butterfly|Colorful insect that was once a caterpillar.|حشرة ملونة كانت يرقة من قبل.
+Mosquito|Tiny insect that bites you at night and buzzes.|حشرة دقيقة تلدغ ليلا وتطن.
+Pigeon|Grey city bird that coos, symbol of peace.|طائر رمادي في المدينة يهدل ورمز للسلام.
+Parrot|Colorful bird that repeats what you say.|طائر ملون يكرر ما تقوله.
+Penguin|Black and white bird that swims but cannot fly, lives in ice.|طائر أبيض وأسود يسبح ولا يطير ويعيش في الجليد.
+Dolphin|Smart friendly sea animal that jumps out of water.|حيوان بحري ذكي وودود يقفز فوق الماء.
+Whale|The biggest animal in the sea, breathes air.|أكبر حيوان في البحر ويتنفس الهواء.
+Shark|Scary sea hunter with many sharp teeth.|مفترس البحر المخيف بأسنان حادة كثيرة.
+Octopus|Sea animal with eight arms and ink.|حيوان بحري بثماني أذرع وله حبر.
+Crab|Sea animal that walks sideways with pincers.|حيوان بحري يمشي جانبيا وله كماشتان.
+Donkey|Patient animal that carries loads and brays.|حيوان صبور يحمل الأثقال وينهق.
+Bull|Strong male farm animal with horns, hates red.|حيوان مزرعة قوي بقرون ويقال إنه يكره الأحمر.
+Pig|Pink farm animal that rolls in mud.|حيوان مزرعة وردي يتمرغ في الطين.
+Squirrel|Small tree animal with a fluffy tail, collects nuts.|حيوان شجر صغير بذيل منفوش يجمع الجوز.
+Hedgehog|Small animal covered in spikes, rolls into a ball.|حيوان صغير مغطى بالأشواك يتكور ككرة.
+Bat|Flies at night and sleeps upside down.|يطير ليلا وينام مقلوبا.
+Giraffe|The tallest animal with a very long neck.|أطول الحيوانات وعنقه طويل جدا.
+Zebra|Looks like a horse with black and white stripes.|يشبه الحصان بخطوط سوداء وبيضاء.
+Kangaroo|Australian animal that jumps and carries babies in a pouch.|حيوان أسترالي يقفز ويحمل صغاره في جيب.
+Panda|Black and white bear that eats bamboo.|دب أبيض وأسود يأكل الخيزران.
+Peacock|Bird that opens a fan of colorful feathers.|طائر يفتح مروحة من الريش الملون.
+Rooster|Wakes everyone at dawn with its crow.|يوقظ الجميع فجرا بصياحه.
+Beach|Sandy shore where people swim and sunbathe.|شاطئ رملي يسبح فيه الناس ويستجمون.
+Wave|Moving water that rises and crashes on the shore.|ماء يرتفع ويرتطم بالشاطئ.
+Ice|Frozen water, hard and cold.|ماء متجمد صلب وبارد.
+Rainbow|Colorful arc in the sky after rain.|قوس ملون في السماء بعد المطر.
+Storm|Strong wind and rain with thunder.|ريح قوية ومطر مع رعد.
+Leaf|Green flat part of the tree, falls in autumn.|الجزء الأخضر المسطح من الشجرة يسقط في الخريف.
+Branch|Arm of the tree where birds sit.|ذراع الشجرة يقف عليه الطير.
+Root|The hidden part of the plant under the ground.|الجزء المخفي من النبتة تحت الأرض.
+Seed|You plant it and a plant grows.|نزرعها فتنمو نبتة.
+Fruit|The sweet part a tree gives you to eat.|الجزء الحلو الذي تعطينا إياه الشجرة لنأكله.
+Hill|Small mountain, easy to climb.|جبل صغير يسهل صعوده.
+Field|Open flat land where crops grow.|أرض مفتوحة مستوية تنمو فيها المحاصيل.
+Farm|Where animals live and crops are grown.|حيث تعيش حيوانات المزرعة وتزرع المحاصيل.
+Well|Deep hole in the ground with water.|حفرة عميقة في الأرض فيها ماء.
+Palm tree|Tall tree of the desert that gives dates.|شجرة عالية في الصحراء تعطي التمر.
+Rose|The most famous flower of love, red with thorns.|أشهر زهور الحب، حمراء ولها أشواك.
+Wood|Comes from trees, used to make furniture.|يأتي من الأشجار ويصنع منه الأثاث.
+Mud|Wet soil that sticks to shoes.|تراب مبلل يلتصق بالأحذية.
+Dust|Tiny dry dirt flying in the air.|غبار دقيق جاف يتطاير في الهواء.
+Fog|Low cloud that hides the road in the morning.|غيمة منخفضة تخفي الطريق صباحا.
+Hand|You hold, write and wave with it, has five fingers.|نمسك ونكتب ونلوح بها ولها خمسة أصابع.
+Eye|You see everything with it.|نرى بها كل شيء.
+Ear|On the side of the head, used for hearing.|على جانب الرأس وتستخدم للسمع.
+Nose|In the middle of the face, used for smelling.|في وسط الوجه ويستخدم للشم.
+Mouth|You eat and speak with it.|نأكل ونتكلم به.
+Head|The top of the body, holds the brain.|أعلى الجسم وفيه الدماغ.
+Hair|Grows on the head, you comb it.|ينمو على الرأس ونسرحه.
+Face|The front of the head with eyes, nose and mouth.|مقدمة الرأس وفيه العينان والأنف والفم.
+Tooth|White and hard in the mouth, used for chewing.|أبيض وصلب في الفم ويستخدم للمضغ.
+Tongue|Moves in your mouth, used for tasting and speaking.|يتحرك في الفم ويستخدم للتذوق والكلام.
+Neck|Connects the head to the body.|يصل الرأس بالجسم.
+Shoulder|You carry your bag on it.|نحمل عليه الحقيبة.
+Arm|Between the shoulder and the hand.|بين الكتف واليد.
+Finger|You have ten of them, used for pointing.|لدينا عشرة منها وتستخدم للإشارة.
+Leg|You walk and run with it.|نمشي ونجري بها.
+Foot|At the end of the leg, you stand on it.|في نهاية الساق ونقف عليها.
+Knee|The joint in the middle of the leg that bends.|المفصل في وسط الساق الذي ينثني.
+Back|Behind you, carries you all day, hurts when tired.|خلفنا ويحملنا طوال اليوم ويؤلم عند التعب.
+Heart|Beats in your chest and pumps blood.|ينبض في الصدر ويضخ الدم.
+Stomach|Where food goes after you eat.|حيث يذهب الطعام بعد الأكل.
+Mother|The woman who gave birth to you.|المرأة التي ولدتك.
+Father|The man of the family, married to your mother.|رجل العائلة وزوج الأم.
+Brother|A boy with the same parents as you.|ولد من نفس والديك.
+Sister|A girl with the same parents as you.|بنت من نفس والديك.
+Grandfather|Your father's or mother's father.|والد الأب أو الأم.
+Grandmother|Your father's or mother's mother.|والدة الأب أو الأم.
+Uncle|Your father's or mother's brother.|أخو الأب أو الأم.
+Aunt|Your father's or mother's sister.|أخت الأب أو الأم.
+Son|A boy child of his parents.|الولد الذكر لوالديه.
+Daughter|A girl child of her parents.|البنت الأنثى لوالديها.
+Baby|Very small child that cries and crawls.|طفل صغير جدا يبكي ويحبو.
+Family|Parents and children together.|الوالدان والأولاد معا.
+Friend|Someone you love and play with, not from your family.|شخص تحبه وتلعب معه وليس من عائلتك.
+Neighbor|The person living next to your house.|الشخص الذي يسكن بجانب بيتك.
+Guest|Someone who visits your house.|شخص يزور بيتك.
+Shirt|You wear it on the upper body, has buttons.|نلبسه على الجزء العلوي وله أزرار.
+Pants|You wear them on your legs.|نلبسه على الساقين.
+Dress|One piece worn by girls and women.|قطعة واحدة تلبسها البنات والنساء.
+Skirt|Worn by girls from the waist down.|تلبسها البنات من الخصر إلى الأسفل.
+Coat|Warm long clothing for cold winter days.|لباس طويل دافئ لأيام الشتاء الباردة.
+Shoes|You wear them on your feet to walk outside.|نلبسها في القدمين للمشي خارجا.
+Socks|Worn on the feet inside the shoes.|تلبس في القدمين داخل الحذاء.
+Hat|You wear it on your head.|نلبسها على الرأس.
+Cap|Head cover with a front part against the sun.|غطاء رأس بمقدمة تحمي من الشمس.
+Pajamas|Comfortable clothes you sleep in.|ملابس مريحة ننام بها.
+Sweater|Warm knitted top for winter.|لباس علوي محبوك دافئ للشتاء.
+Shorts|Short pants for summer and sports.|سروال قصير للصيف والرياضة.
+Tie|Long cloth men wear around the neck with suits.|قماش طويل يلبسه الرجال حول العنق مع البدلة.
+Ring|Jewelry worn on the finger, given at weddings.|حلية تلبس في الإصبع وتقدم في الزواج.
+Watch|You wear it on your wrist to know the time.|نلبسها في المعصم لمعرفة الوقت.
+Car|Has four wheels, you drive it on roads.|لها أربع عجلات ونقودها على الطرق.
+Bus|Big vehicle carrying many passengers in the city.|مركبة كبيرة تنقل ركابا كثيرين في المدينة.
+Train|Long vehicle running on rails.|مركبة طويلة تسير على سكة.
+Airplane|Flies in the sky carrying travelers.|تطير في السماء وتحمل المسافرين.
+Boat|Small vehicle that floats on water.|مركبة صغيرة تطفو على الماء.
+Ship|Very big boat crossing the seas.|قارب ضخم يعبر البحار.
+Taxi|Car you pay to take you somewhere, often yellow.|سيارة تدفع لها لتوصلك وغالبا صفراء.
+Truck|Big vehicle that carries heavy goods.|مركبة كبيرة تنقل البضائع الثقيلة.
+Van|Medium vehicle for carrying people or packages.|مركبة متوسطة لنقل الناس أو الطرود.
+Road|Cars drive on it between cities.|تسير عليه السيارات بين المدن.
+Street|Road inside the city with shops and houses.|طريق داخل المدينة فيه المحلات والبيوت.
+Traffic light|Red, yellow and green, controls the cars.|أحمر وأصفر وأخضر ويتحكم بالسيارات.
+Ticket|You buy it to ride the bus or enter the cinema.|نشتريها لركوب الحافلة أو دخول السينما.
+Airport|Where airplanes land and take off.|حيث تهبط الطائرات وتقلع.
+Station|Where you wait for the train or bus.|حيث ننتظر القطار أو الحافلة.
+House|The building where a family lives.|المبنى الذي تعيش فيه العائلة.
+School|Where children go to learn every day.|حيث يذهب الأطفال ليتعلموا كل يوم.
+Hospital|Where sick people are treated.|حيث يعالج المرضى.
+Shop|Small place where you buy things.|مكان صغير نشتري منه الأشياء.
+Market|Place with many sellers of food and goods.|مكان فيه باعة كثيرون للطعام والبضائع.
+Restaurant|You go there to eat a meal you don't cook.|نذهب إليه لنأكل وجبة لا نطبخها.
+Bank|Where people keep and withdraw their money.|حيث يحفظ الناس أموالهم ويسحبونها.
+Park|Green place where children play.|مكان أخضر يلعب فيه الأطفال.
+Mall|Big building full of shops.|مبنى كبير مليء بالمحلات.
+Hotel|You sleep there when traveling.|ننام فيه عند السفر.
+Bakery|Where bread and cakes are baked and sold.|حيث يخبز ويباع الخبز والحلويات.
+Pharmacy|Where you buy medicine.|حيث نشتري الدواء.
+Police station|Where officers work and protect the city.|حيث يعمل رجال الأمن ويحمون المدينة.
+Library|Quiet place full of books to borrow.|مكان هادئ مليء بالكتب للاستعارة.
+Post office|Where letters and packages are sent.|حيث ترسل الرسائل والطرود.
+Ball|Round thing you kick or throw in games.|شيء مستدير نركله أو نرميه في الألعاب.
+Football|The most popular game, played with feet.|أشهر لعبة في العالم وتلعب بالأقدام.
+Basketball|Game where you throw the ball into a high hoop.|لعبة نرمي فيها الكرة في سلة عالية.
+Swimming|Moving through water with arms and legs.|التحرك في الماء بالذراعين والساقين.
+Race|Competition to see who is fastest.|منافسة لمعرفة الأسرع.
+Goal|When the ball enters the net, everyone cheers.|عندما تدخل الكرة الشبكة يهتف الجميع.
+Team|Group of players playing together.|مجموعة لاعبين يلعبون معا.
+Player|The person who plays in the game.|الشخص الذي يلعب في المباراة.
+Coach|Trains the players and plans the game.|يدرب اللاعبين ويخطط للمباراة.
+Rope|Long strong cord for pulling or jumping.|حبل طويل قوي للشد أو القفز.
+Desk|The table you sit at in class or office.|الطاولة التي نجلس إليها في الصف أو المكتب.
+Blackboard|The teacher writes on it in class.|يكتب عليها المعلم في الصف.
+Chalk|White stick the teacher writes with.|عود أبيض يكتب به المعلم.
+Classroom|The room where students study.|الغرفة التي يدرس فيها التلاميذ.
+Glue|Sticky liquid that joins papers together.|سائل لاصق يلصق الأوراق ببعضها.
+Microscope|Lab device that makes tiny things look big.|جهاز مختبر يكبر الأشياء الدقيقة جدا.
+Molecule|Tiny particle made of atoms joined together.|جسيم دقيق يتكون من ذرات مرتبطة.
+Atom|The smallest building block of everything.|أصغر وحدة بناء لكل شيء.
+Gravity|The force that pulls things down to the ground.|القوة التي تسحب الأشياء نحو الأرض.
+Vaccine|Injection that protects you from a disease.|حقنة تحمي من المرض قبل حدوثه.
+Bacteria|Tiny living things, some cause sickness.|كائنات دقيقة جدا وبعضها يسبب المرض.
+Fossil|Remains of ancient animals turned to stone.|بقايا حيوانات قديمة تحولت إلى حجر.
+Eclipse|When the moon hides the sun in daytime.|عندما يحجب القمر الشمس نهارا.
+Pendulum|Weight swinging left and right in old clocks.|ثقل يتأرجح يمينا ويسارا في الساعات القديمة.
+Prism|Glass shape that splits light into rainbow colors.|قطعة زجاجية تفرق الضوء إلى ألوان قوس قزح.
+Radiation|Invisible energy waves, can be dangerous.|طاقة غير مرئية تنتشر وقد تكون خطيرة.
+Evaporation|When water turns into vapor and rises.|تحول الماء إلى بخار يتصاعد.
+Satellite|Machine orbiting Earth for TV and GPS.|جهاز يدور حول الأرض للبث وتحديد المواقع.
+Algorithm|Step-by-step instructions a computer follows.|خطوات مرتبة يتبعها الحاسوب لحل مشكلة.
+Circuit|Closed path electricity flows through.|مسار مغلق يمر فيه التيار الكهربائي.
+Processor|The brain of the computer.|عقل الحاسوب الذي ينفذ العمليات.
+Fingerprint|Unique lines on your finger tip, used to identify you.|خطوط فريدة على رأس الإصبع تحدد هويتك.
+Encryption|Turning messages into secret code.|تحويل الرسائل إلى شيفرة سرية.
+Turbine|Spinning wheel that generates electricity.|عجلة دوارة تولد الكهرباء.
+Radar|Device that detects planes and ships far away.|جهاز يكشف الطائرات والسفن من بعيد.
+Barcode|Black lines on products scanned at the register.|خطوط سوداء على المنتجات تمسح عند الدفع.
+Vein|Vessel carrying blood back to the heart, looks blue.|وعاء يعيد الدم إلى القلب ويبدو أزرق.
+Artery|Vessel carrying blood from the heart to the body.|وعاء ينقل الدم من القلب إلى الجسم.
+Nerve|Carries signals between the brain and the body.|ينقل الإشارات بين الدماغ والجسم.
+Spine|The chain of bones down the middle of your back.|سلسلة العظام في منتصف الظهر.
+Retina|The back of the eye where images form.|الجزء الخلفي من العين حيث تتكون الصورة.
+Pupil|The black circle in the middle of the eye.|الدائرة السوداء في وسط العين.
+Eardrum|Thin skin inside the ear that vibrates with sound.|غشاء رقيق داخل الأذن يهتز مع الصوت.
+Pancreas|Organ behind the stomach that controls sugar.|عضو خلف المعدة ينظم السكر.
+Vertebra|One bone of the spine.|عظمة واحدة من العمود الفقري.
+Diaphragm|The muscle under the lungs that helps breathing.|العضلة تحت الرئتين تساعد على التنفس.
+Peninsula|Land surrounded by water from three sides.|أرض يحيط بها الماء من ثلاث جهات.
+Glacier|Huge river of ice moving slowly.|نهر ضخم من الجليد يتحرك ببطء.
+Plateau|High flat land like a table.|أرض مرتفعة مسطحة كالطاولة.
+Equator|Imaginary line around the middle of the Earth.|خط وهمي حول منتصف الكرة الأرضية.
+Continent|One of the seven big lands, like Africa or Asia.|واحدة من اليابسات السبع الكبرى كأفريقيا وآسيا.
+Canyon|Very deep narrow valley cut by a river.|وادٍ عميق ضيق حفره النهر.
+Oasis|Green spot with water in the middle of the desert.|بقعة خضراء بماء وسط الصحراء.
+Strait|Narrow water passage between two lands.|ممر مائي ضيق بين يابستين.
+Archipelago|A group of many islands together.|مجموعة جزر كثيرة متقاربة.
+Longitude|Imaginary lines from pole to pole on maps.|خطوط وهمية من القطب إلى القطب على الخرائط.
+Constellation|Group of stars forming a shape in the sky.|مجموعة نجوم ترسم شكلا في السماء.
+Nebula|Colorful cloud of gas in space where stars are born.|سحابة غاز ملونة في الفضاء تولد فيها النجوم.
+Asteroid|Big rock floating in space around the sun.|صخرة كبيرة تسبح في الفضاء حول الشمس.
+Meteor|Space rock burning as it falls, a shooting star.|صخرة فضائية تحترق أثناء سقوطها، الشهاب.
+Black hole|Invisible space monster that swallows even light.|جسم فضائي يبتلع كل شيء حتى الضوء.
+Spacecraft|Vehicle that travels beyond the sky to space.|مركبة تسافر خارج الغلاف الجوي إلى الفضاء.
+Observatory|Building with a giant telescope to watch stars.|مبنى فيه مقراب ضخم لمراقبة النجوم.
+Supernova|Giant explosion of a dying star.|انفجار هائل لنجم يموت.
+Constitution|The highest law of a country.|القانون الأعلى للدولة.
+Empire|Many countries ruled by one powerful ruler.|دول كثيرة يحكمها حاكم واحد قوي.
+Revolution|When the people rise to change the ruler.|عندما ينتفض الشعب لتغيير الحكم.
+Civilization|The culture and achievements of a great nation.|ثقافة وإنجازات أمة عظيمة عبر التاريخ.
+Archaeologist|Scientist who digs up ancient remains.|عالم ينقب عن الآثار القديمة.
+Manuscript|Old book written by hand before printing.|كتاب قديم مكتوب باليد قبل الطباعة.
+Dynasty|Family of rulers passing power father to son.|عائلة حاكمة تتوارث الحكم أبا عن جد.
+Treaty|Written agreement between countries.|اتفاق مكتوب بين الدول.
+Monument|Big structure built to remember someone or something.|بناء كبير يخلد ذكرى شخص أو حدث.
+Hieroglyphics|Ancient Egyptian picture writing.|كتابة المصريين القدماء بالصور.
+Architect|Designs buildings before they are built.|يصمم المباني قبل بنائها.
+Surgeon|Doctor who operates inside the body.|طبيب يجري العمليات داخل الجسم.
+Ambassador|Represents his country in another country.|يمثل بلاده في دولة أخرى.
+Translator|Changes words from one language to another.|ينقل الكلام من لغة إلى أخرى.
+Astronomer|Scientist who studies stars and planets.|عالم يدرس النجوم والكواكب.
+Geologist|Scientist who studies rocks and the Earth.|عالم يدرس الصخور والأرض.
+Pharmacist|Prepares and sells medicine at the pharmacy.|يحضر ويبيع الدواء في الصيدلية.
+Accountant|Works with numbers and company money.|يعمل بالأرقام وأموال الشركات.
+Orchestra|Big group of musicians playing together.|فرقة كبيرة من العازفين يعزفون معا.
+Symphony|Long musical piece played by many instruments.|مقطوعة موسيقية طويلة تعزفها آلات كثيرة.
+Conductor|Leads the musicians with a small stick.|يقود العازفين بعصا صغيرة.
+Melody|The tune of a song you can hum.|النغمة التي يمكن دندنتها من الأغنية.
+Rhythm|The regular beat of the music.|النبض المنتظم للموسيقى.
+Harp|Tall instrument with many strings you pluck.|آلة طويلة بأوتار كثيرة تعزف بالنقر.
+Pilgrimage|The holy journey to Mecca once in a lifetime.|الرحلة المقدسة إلى مكة مرة في العمر.
+Scripture|Holy book of a religion.|الكتاب المقدس لدين من الأديان.
+Monastery|Quiet building where monks live and pray.|مبنى هادئ يعيش فيه الرهبان ويتعبدون.
+Sermon|Religious speech given on Friday or Sunday.|خطاب ديني يلقى يوم الجمعة أو الأحد.
+Parliament|Where elected people make the laws.|حيث يسن المنتخبون القوانين.
+Embassy|Building representing a foreign country.|مبنى يمثل دولة أجنبية في بلد آخر.
+Courthouse|Where the judge decides who is right.|حيث يقرر القاضي من على حق.
+Skyscraper|Extremely tall building touching the clouds.|مبنى شاهق يلامس الغيوم.
+Cathedral|Very big and grand church.|كنيسة كبيرة وفخمة جدا.
+Metropolis|Huge busy city with millions of people.|مدينة ضخمة مزدحمة بملايين الناس.
+Suburb|Quiet neighborhoods at the edge of the city.|أحياء هادئة على أطراف المدينة.
+Intersection|Where two roads cross each other.|حيث يتقاطع طريقان.
+Warehouse|Huge building for storing goods.|مبنى ضخم لتخزين البضائع.
+Ecosystem|Animals, plants and nature living together in balance.|الحيوانات والنباتات والطبيعة تعيش معا بتوازن.
+Avalanche|Huge mass of snow sliding down a mountain.|كتلة ثلج ضخمة تنهار من الجبل.
+Drought|Long time without rain, land dries up.|فترة طويلة بلا مطر تجف فيها الأرض.
+Hurricane|Giant spinning storm from the ocean.|عاصفة دوارة هائلة قادمة من المحيط.
+Tsunami|Giant sea wave caused by an earthquake.|موجة بحرية عملاقة يسببها زلزال.
+Earthquake|When the ground shakes and buildings fall.|عندما تهتز الأرض وتتصدع المباني.
+Tornado|Spinning column of wind destroying everything in its path.|عمود ريح دوار يدمر ما في طريقه.
+Humidity|The amount of water vapor in the air.|كمية بخار الماء في الهواء.
+Erosion|When wind and water slowly eat away the land.|عندما تأكل الرياح والمياه الأرض ببطء.
+Magma|Melted rock deep inside the Earth.|صخور منصهرة في أعماق الأرض.
+Coral reef|Colorful underwater garden where fish live.|حديقة ملونة تحت الماء تعيش فيها الأسماك.
+Horizon|The line where the sky meets the earth.|الخط الذي تلتقي فيه السماء بالأرض.
+Delta|Where the river splits before meeting the sea.|حيث يتفرع النهر قبل لقاء البحر.
+Aqueduct|Ancient bridge built to carry water.|جسر قديم بني لنقل الماء.
+Photosynthesis|How plants make food from sunlight.|طريقة صنع النبات لغذائه من ضوء الشمس.
+Chromosome|Thread in the cell carrying your genes.|خيط في الخلية يحمل الجينات.
+Enzyme|Body helper that speeds up digestion.|مساعد في الجسم يسرع الهضم.
+Protein|Building material of the body, found in meat and eggs.|مادة بناء الجسم وتوجد في اللحم والبيض.
+Neutron|Particle in the atom's center with no charge.|جسيم في مركز الذرة بلا شحنة.
+Proton|Positive particle in the atom's center.|جسيم موجب في مركز الذرة.
+Electron|Tiny negative particle spinning around the atom.|جسيم سالب دقيق يدور حول الذرة.
+Nucleus|The center of the atom or the cell.|مركز الذرة أو الخلية.
+Membrane|Thin layer covering and protecting the cell.|طبقة رقيقة تغطي الخلية وتحميها.
+Microbe|Living thing too small to see.|كائن حي لا يرى بالعين المجردة.
+Virus|Tiny thing that spreads sickness like flu.|كائن دقيق ينشر الأمراض كالإنفلونزا.
+Antibody|The body's soldier fighting germs.|جندي الجسم الذي يحارب الجراثيم.
+Catalyst|Substance that speeds up a chemical reaction.|مادة تسرع التفاعل الكيميائي.
+Density|How heavy something is for its size.|مدى ثقل الشيء مقارنة بحجمه.
+Friction|The rubbing force that slows moving things.|قوة الاحتكاك التي تبطئ الأجسام المتحركة.
+Momentum|The push a moving object carries.|الدفع الذي يحمله الجسم المتحرك.
+Velocity|Speed in a specific direction.|السرعة في اتجاه محدد.
+Frequency|How many times something repeats per second.|عدد تكرار الشيء في الثانية.
+Wavelength|The distance between two wave tops.|المسافة بين قمتي موجتين.
+Vacuum|Space completely empty of air.|فضاء خالٍ تماما من الهواء.
+Condensation|When vapor turns back into water drops.|تحول البخار إلى قطرات ماء.
+Combustion|Burning that produces heat and flame.|الاحتراق الذي ينتج حرارة ولهبا.
+Alloy|Mix of two metals, stronger than each alone.|خليط من معدنين أقوى من كل منهما.
+Acid|Sour chemical that can burn, like in lemons.|مادة كيميائية حارقة حامضة كما في الليمون.
+Crystal|Clear stone with perfect geometric shapes.|حجر شفاف بأشكال هندسية متقنة.
+Laser|Very strong focused beam of light.|شعاع ضوء مركز وقوي جدا.
+Pollen|Yellow powder flowers exchange to make seeds.|غبار أصفر تتبادله الأزهار لتكوين البذور.
+Chlorophyll|The green substance in plant leaves.|المادة الخضراء في أوراق النبات.
+Gene|Tiny code deciding your eye and hair color.|شيفرة دقيقة تحدد لون عينيك وشعرك.
+Specimen|A sample studied in the lab.|عينة تدرس في المختبر.
+Server|Powerful computer serving websites to everyone.|حاسوب قوي يقدم المواقع للجميع.
+Database|Organized storage of huge amounts of information.|مخزن منظم لكميات هائلة من المعلومات.
+Network|Computers connected to each other.|حواسيب متصلة ببعضها البعض.
+Firewall|Digital wall protecting computers from hackers.|جدار رقمي يحمي الحاسوب من المخترقين.
+Password|Secret word that opens your account.|كلمة سرية تفتح حسابك.
+Browser|The program you open websites with.|البرنامج الذي نفتح به المواقع.
+Software|The programs, not the machine itself.|البرامج وليس الجهاز نفسه.
+Hardware|The physical parts of the computer.|الأجزاء المادية من الحاسوب.
+Microchip|Tiny electronic brain inside every device.|دماغ إلكتروني دقيق داخل كل جهاز.
+Sensor|Feels heat, light or movement and reports it.|يستشعر الحرارة أو الضوء أو الحركة ويبلغ عنها.
+Transistor|Tiny electronic switch, millions in every chip.|مفتاح إلكتروني دقيق بالملايين في كل شريحة.
+Amplifier|Makes sound much louder.|يجعل الصوت أعلى بكثير.
+Generator|Machine producing electricity when power is cut.|آلة تنتج الكهرباء عند انقطاع التيار.
+Transformer|Changes electricity from high to low voltage.|يحول الكهرباء من جهد عالٍ إلى منخفض.
+Insulator|Material electricity cannot pass through.|مادة لا يمر منها التيار الكهربائي.
+Semiconductor|Material between conductor and insulator, chips are made of it.|مادة بين الموصل والعازل تصنع منها الشرائح.
+Pixel|One tiny dot of the screen image.|نقطة واحدة دقيقة من صورة الشاشة.
+Hologram|3D image floating in the air made of light.|صورة ثلاثية الأبعاد من الضوء تطفو في الهواء.
+Bandwidth|How much data the internet line can carry.|كمية البيانات التي يحملها خط الإنترنت.
+Artificial intelligence|Machines that think and learn like humans.|آلات تفكر وتتعلم مثل البشر.
+Esophagus|The tube carrying food from mouth to stomach.|الأنبوب الذي ينقل الطعام من الفم إلى المعدة.
+Larynx|The voice box in your throat.|صندوق الصوت في الحلق.
+Trachea|The breathing tube to the lungs.|أنبوب التنفس المؤدي إلى الرئتين.
+Cartilage|Soft flexible bone, like in the nose and ear.|عظم لين مرن كما في الأنف والأذن.
+Tendon|Strong cord connecting muscle to bone.|حبل قوي يربط العضلة بالعظم.
+Ligament|Strong band connecting bone to bone.|رباط قوي يصل عظما بعظم.
+Cornea|The clear front window of the eye.|النافذة الشفافة الأمامية للعين.
+Iris|The colored circle of the eye.|الدائرة الملونة في العين.
+Cochlea|Snail-shaped part deep in the ear for hearing.|جزء حلزوني عميق في الأذن مسؤول عن السمع.
+Capillary|The thinnest blood vessel in the body.|أدق وعاء دموي في الجسم.
+Plasma|The liquid part of the blood.|الجزء السائل من الدم.
+Hemoglobin|What makes blood red and carries oxygen.|ما يجعل الدم أحمر وينقل الأكسجين.
+Hormone|Chemical messenger traveling in the blood.|رسول كيميائي ينتقل في الدم.
+Thyroid|Butterfly-shaped gland in the neck.|غدة بشكل فراشة في الرقبة.
+Spleen|Organ near the stomach that filters blood.|عضو قرب المعدة يصفي الدم.
+Gallbladder|Small sac under the liver storing bile.|كيس صغير تحت الكبد يخزن الصفراء.
+Appendix|Small useless organ doctors often remove.|عضو صغير بلا فائدة يستأصله الأطباء غالبا.
+Intestine|Long twisted tube where food is digested.|أنبوب طويل ملتوٍ يهضم فيه الطعام.
+Cerebellum|Back part of the brain controlling balance.|الجزء الخلفي من الدماغ يتحكم بالتوازن.
+Cortex|The outer thinking layer of the brain.|الطبقة الخارجية المفكرة من الدماغ.
+Latitude|Imaginary lines circling the Earth sideways.|خطوط وهمية تطوق الأرض بالعرض.
+Altitude|How high a place is above the sea.|ارتفاع المكان عن سطح البحر.
+Meridian|Line from the North Pole to the South Pole.|خط من القطب الشمالي إلى الجنوبي.
+Hemisphere|Half of the Earth, north or south.|نصف الكرة الأرضية شمالا أو جنوبا.
+Tributary|Small river feeding into a bigger one.|نهر صغير يصب في نهر أكبر.
+Estuary|Where the river's fresh water meets the salty sea.|حيث يلتقي ماء النهر العذب بملح البحر.
+Fjord|Narrow sea inlet between high cliffs.|لسان بحري ضيق بين جروف عالية.
+Isthmus|Narrow strip of land connecting two lands.|شريط أرض ضيق يصل يابستين.
+Tundra|Frozen treeless land of the far north.|أرض متجمدة بلا أشجار في أقصى الشمال.
+Savanna|African grassland with few trees where lions live.|سهل عشبي أفريقي بأشجار قليلة تعيش فيه الأسود.
+Steppe|Vast dry grassland with no trees.|سهل عشبي شاسع جاف بلا أشجار.
+Basin|Land area drained by one river.|منطقة أرض يصرفها نهر واحد.
+Watershed|The line separating two river systems.|الخط الفاصل بين حوضي نهرين.
+Crater|Round hole left by a volcano or meteor.|فوهة مستديرة يخلفها بركان أو نيزك.
+Fault|Crack in the Earth where earthquakes start.|شق في الأرض تبدأ منه الزلازل.
+Universe|Everything that exists: space, stars and us.|كل ما هو موجود: الفضاء والنجوم ونحن.
+Quasar|The brightest object in the far universe.|ألمع جسم في أطراف الكون.
+Pulsar|Dead star flashing like a lighthouse.|نجم ميت يومض كالمنارة.
+Solar system|The sun and everything orbiting it.|الشمس وكل ما يدور حولها.
+Light year|The distance light travels in one year.|المسافة التي يقطعها الضوء في سنة.
+Space station|Home where astronauts live orbiting Earth.|بيت يعيش فيه الرواد وهو يدور حول الأرض.
+Probe|Unmanned machine exploring far planets.|جهاز بلا طاقم يستكشف الكواكب البعيدة.
+Rover|Robot car driving on Mars.|سيارة روبوتية تسير على المريخ.
+Milky Way|The galaxy our sun lives in.|المجرة التي تعيش فيها شمسنا.
+Dwarf planet|Small planet like Pluto.|كوكب صغير مثل بلوتو.
+Solar flare|Explosion of energy from the sun's surface.|انفجار طاقة من سطح الشمس.
+Zodiac|The twelve star signs people read about.|الأبراج الاثنا عشر التي يقرأ عنها الناس.
+Atmosphere|The blanket of air wrapping the Earth.|غلاف الهواء الذي يلف الأرض.
+Stratosphere|High layer of air where planes fly.|طبقة الهواء العالية حيث تطير الطائرات.
+Aurora|Dancing colored lights in polar skies.|أضواء ملونة راقصة في سماء القطب.
+Renaissance|Era when art and science were reborn in Europe.|عصر انبعاث الفن والعلم في أوروبا.
+Colony|Land ruled by a faraway country.|أرض تحكمها دولة بعيدة.
+Monarchy|Rule by a king or queen.|حكم الملك أو الملكة.
+Republic|Country ruled by an elected president.|دولة يحكمها رئيس منتخب.
+Democracy|The people choose their rulers by voting.|الشعب يختار حكامه بالتصويت.
+Caliphate|Islamic rule after the Prophet.|الحكم الإسلامي بعد النبي.
+Sultanate|Country ruled by a sultan, like Oman.|دولة يحكمها سلطان مثل عمان.
+Artifact|Old object made by ancient people.|قطعة قديمة صنعها الأقدمون.
+Relic|Precious remains from the distant past.|أثر ثمين من الماضي البعيد.
+Excavation|Digging carefully to find ancient things.|الحفر بعناية للعثور على الآثار.
+Papyrus|Paper of ancient Egypt made from a plant.|ورق مصر القديمة المصنوع من نبات.
+Scroll|Long rolled paper with old writing.|ورقة طويلة ملفوفة بكتابة قديمة.
+Tomb|Where an important person was buried.|حيث دفن شخص مهم.
+Sarcophagus|Decorated stone coffin of the pharaohs.|تابوت حجري مزخرف للفراعنة.
+Citadel|Strong fortress protecting the old city.|قلعة حصينة تحمي المدينة القديمة.
+Chariot|Two-wheeled cart pulled by horses in ancient wars.|عربة بعجلتين تجرها الخيول في حروب القدماء.
+Catapult|Ancient machine throwing stones at castle walls.|آلة قديمة ترمي الحجارة على أسوار القلاع.
+Gladiator|Fighter in the arenas of ancient Rome.|مقاتل في حلبات روما القديمة.
+Pharaoh|Ruler of ancient Egypt.|حاكم مصر القديمة.
+Inscription|Words carved in stone long ago.|كلمات نقشت في الحجر قديما.
+Anthropologist|Scientist studying human cultures and origins.|عالم يدرس ثقافات البشر وأصولهم.
+Biologist|Scientist studying living things.|عالم يدرس الكائنات الحية.
+Chemist|Scientist mixing substances in the lab.|عالم يمزج المواد في المختبر.
+Physicist|Scientist studying energy, motion and matter.|عالم يدرس الطاقة والحركة والمادة.
+Economist|Expert in money, markets and trade.|خبير في المال والأسواق والتجارة.
+Psychologist|Studies the mind and helps with feelings.|يدرس العقل ويساعد في المشاعر.
+Veterinarian|Doctor for sick animals.|طبيب الحيوانات المريضة.
+Optician|Fits your glasses to your eyes.|يجهز النظارات المناسبة لعينيك.
+Notary|Official who stamps important documents.|موظف رسمي يوثق الوثائق المهمة.
+Auditor|Checks company accounts for mistakes.|يدقق حسابات الشركات بحثا عن الأخطاء.
+Diplomat|Represents his country in talks abroad.|يمثل بلاده في المحادثات الخارجية.
+Curator|Cares for the treasures of a museum.|يعتني بكنوز المتحف.
+Meteorologist|Predicts tomorrow's weather.|يتنبأ بطقس الغد.
+Interpreter|Translates spoken words live between people.|يترجم الكلام فوريا بين المتحدثين.
+Neurologist|Doctor of the brain and nerves.|طبيب الدماغ والأعصاب.
+Wildfire|Huge fire spreading through the forest.|حريق هائل ينتشر في الغابة.
+Landslide|When a hillside of earth collapses down.|انهيار جانب التل من التراب.
+Whirlpool|Spinning water that pulls things down.|ماء دوار يسحب الأشياء نحو الأسفل.
+Geyser|Hot water shooting up from the ground.|ماء حار ينبثق من الأرض إلى الأعلى.
+Monsoon|Season of heavy rains in Asia.|موسم الأمطار الغزيرة في آسيا.
+Blizzard|Violent snow storm you cannot see through.|عاصفة ثلجية عنيفة تحجب الرؤية.
+Sandstorm|Wall of sand blowing through the desert.|جدار من الرمل يهب في الصحراء.
+Mirage|Fake water you see far away in the desert.|ماء وهمي يظهر بعيدا في الصحراء.
+Pollination|How bees help flowers make seeds.|كيف يساعد النحل الأزهار على تكوين البذور.
+Germination|When the seed wakes up and starts growing.|عندما تستيقظ البذرة وتبدأ النمو.
+Sediment|Sand and mud settling at the river bottom.|رمل وطين يترسب في قاع النهر.
+Mineral|Natural substance mined from the earth.|مادة طبيعية تستخرج من الأرض.
+Ore|Rock containing precious metal inside.|صخر يحوي معدنا ثمينا بداخله.
+Quartz|Very common hard crystal in rocks and watches.|بلورة صلبة شائعة في الصخور والساعات.
+Granite|Very hard speckled stone used for kitchen counters.|حجر صلب منقط تصنع منه أسطح المطابخ.
+Municipality|The office running the city's services.|الإدارة التي تسير خدمات المدينة.
+Infrastructure|Roads, bridges, water and power of a country.|طرق البلاد وجسورها ومياهها وكهرباؤها.
+Sewer|Underground pipes carrying dirty water away.|أنابيب تحت الأرض تصرف المياه الوسخة.
+Boulevard|Wide elegant street lined with trees.|شارع عريض أنيق تصطف فيه الأشجار.
+Roundabout|Circle where cars turn instead of crossing.|دائرة تلتف حولها السيارات بدل التقاطع.
+Overpass|Bridge carrying one road above another.|جسر يحمل طريقا فوق آخر.
+Underpass|Road passing under another road.|طريق يمر تحت طريق آخر.
+Landfill|Where the city buries its garbage.|حيث تدفن المدينة نفاياتها.
+Reservoir|Huge tank storing the city's water.|خزان ضخم يحفظ ماء المدينة.
+Amphitheater|Round open theater of the Romans.|مسرح دائري مكشوف من عهد الرومان.
+Opera|Grand show where the story is sung.|عرض فخم تغنى فيه القصة.
+Sonata|Classical piece for one or two instruments.|مقطوعة كلاسيكية لآلة أو آلتين.
+Lyrics|The words of a song.|كلمات الأغنية.
+Harmony|Different notes sounding beautiful together.|نغمات مختلفة تتناغم معا بجمال.
+Octave|Eight notes from do to the next do.|ثماني نغمات من دو إلى دو التالية.
+Chord|Several notes played at the same time.|عدة نغمات تعزف في اللحظة نفسها.
+Metronome|Ticking device keeping musicians in time.|جهاز يتكتك ليضبط إيقاع العازفين.
+Composer|Writes the music others perform.|يؤلف الموسيقى التي يعزفها الآخرون.
+Prophet|Man sent by God with a message.|رجل أرسله الله برسالة.
+Revelation|God's words sent down to a prophet.|كلام الله المنزل على نبي.
+Fasting|Not eating or drinking from dawn to sunset.|الامتناع عن الأكل والشرب من الفجر إلى المغرب.
+Charity|Money given to the poor as a duty.|مال يعطى للفقراء كواجب.
+Prayer|Worship performed five times a day.|عبادة تؤدى خمس مرات في اليوم.
+Paradise|The beautiful reward of good people after death.|جزاء الصالحين الجميل بعد الموت.
+Soul|The invisible part of you that lives.|الجزء غير المرئي الحي فينا.
+Tournament|Big competition with many teams.|منافسة كبيرة بفرق كثيرة.
+League|Season-long championship between clubs.|بطولة تمتد موسما كاملا بين الأندية.
+Penalty|Free shot at goal after a foul in the box.|ركلة حرة نحو المرمى بعد خطأ في المنطقة.
+Javelin|Long spear athletes throw as far as they can.|رمح طويل يرميه الرياضي لأبعد مسافة.
+Discus|Heavy disc spun and thrown by athletes.|قرص ثقيل يدور ويرميه الرياضي.
+Fencing|Sword-fighting sport with masks.|رياضة مبارزة بالسيوف مع أقنعة.
+Rowing|Moving a boat with oars as a sport.|تحريك القارب بالمجاديف كرياضة.
+Weightlifting|Sport of raising heavy iron above the head.|رياضة رفع الحديد الثقيل فوق الرأس.
+Saffron|The most expensive spice, red threads.|أغلى بهار في العالم، خيوط حمراء.
+Turmeric|Yellow spice coloring rice and curry.|بهار أصفر يلون الأرز والكاري.
+Cardamom|Fragrant pods added to Arabic coffee.|حبوب عطرية تضاف إلى القهوة العربية.
+Molasses|Thick dark sweet syrup from dates or grapes.|سائل حلو كثيف داكن من التمر أو العنب.
+Barley|Grain like wheat, used in soups and bread.|حبوب كالقمح تستخدم في الحساء والخبز.
+Turban|Cloth wrapped around the head.|قماش يلف حول الرأس.
+Cloak|Long loose cover worn over the clothes.|غطاء طويل فضفاض يلبس فوق الثياب.
+Robe|Long flowing garment covering the body.|ثوب طويل منسدل يغطي الجسم.
+Embroidery|Decorating cloth with colored thread designs.|تزيين القماش برسوم من خيوط ملونة.
+Locomotive|The engine pulling the whole train.|القاطرة التي تجر القطار كله.
+Carriage|One car of the train where people sit.|عربة واحدة من القطار يجلس فيها الناس.
+Runway|Long strip where planes land and take off.|شريط طويل تهبط عليه الطائرات وتقلع.
+Cockpit|The front room where the pilot sits.|الغرفة الأمامية حيث يجلس الطيار.
+Propeller|Spinning blades pushing a plane or boat.|شفرات دوارة تدفع الطائرة أو القارب.
+Rudder|The back fin steering a ship or plane.|الزعنفة الخلفية التي توجه السفينة أو الطائرة.
+Lighthouse|Tall tower with light guiding ships at night.|برج عالٍ بضوء يرشد السفن ليلا.
+Dashboard|The panel of gauges in front of the driver.|لوحة المؤشرات أمام السائق.
+Villa|Big fancy house with a garden.|بيت كبير فخم له حديقة.
+Apartment|Home inside a building with other homes.|مسكن داخل عمارة فيها مساكن أخرى.
+Living room|Where the family sits and watches TV.|حيث تجلس العائلة وتشاهد التلفاز.
+Dining room|The room where meals are eaten.|الغرفة التي تؤكل فيها الوجبات.
+Corridor|Long passage connecting the rooms.|ممر طويل يصل بين الغرف.
+Doorknob|You turn it to open the door.|نديره لفتح الباب.
+Keyhole|The small hole where the key goes.|الثقب الصغير الذي يدخل فيه المفتاح.
+Terrace|Open flat space on top of the house.|مساحة مفتوحة مسطحة أعلى البيت.
+Yard|Open space around the house.|مساحة مفتوحة حول البيت.
+Lawn|Short green grass around the house.|عشب أخضر قصير حول البيت.
+Chandelier|Fancy hanging light with many lamps.|إضاءة فاخرة معلقة بمصابيح كثيرة.
+Lampshade|The cover softening the lamp's light.|الغطاء الذي يلطف ضوء المصباح.
+Fan|Spins to cool the room in summer.|تدور لتبرد الغرفة في الصيف.
+Stove|You cook on its fire in the kitchen.|نطبخ على ناره في المطبخ.
+Cupboard|Closed shelf where dishes are kept.|خزانة مغلقة تحفظ فيها الصحون.
+Pantry|Small room storing food supplies.|غرفة صغيرة تخزن فيها المؤن.
+Cushion|Small soft square on the sofa.|وسادة صغيرة ناعمة على الأريكة.
+Stool|Small seat without a back.|مقعد صغير بلا ظهر.
+Rug|Small carpet for one spot.|سجادة صغيرة لمكان واحد.
+Mat|Flat piece you stand or sit on.|قطعة مسطحة نقف أو نجلس عليها.
+Doorstep|The step right in front of the door.|الدرجة أمام الباب مباشرة.
+Shutter|Wooden cover closing over the window.|غطاء خشبي يغلق على النافذة.
+Peephole|Tiny hole to see who is at the door.|ثقب صغير لنرى من على الباب.
+Latch|Small bar that keeps the door shut.|قطعة صغيرة تبقي الباب مغلقا.
+Padlock|Hanging lock you close on a chain.|قفل معلق يغلق على سلسلة.
+Lock|Keeps the door shut, opened by a key.|يبقي الباب مغلقا ويفتح بالمفتاح.
+Chain|Metal rings connected together.|حلقات معدنية متصلة ببعضها.
+Porch|Covered area at the house entrance.|مساحة مسقوفة عند مدخل البيت.
+Shed|Small wooden room for tools in the garden.|غرفة خشبية صغيرة للعدة في الحديقة.
+Barn|Big farm building for animals and hay.|مبنى المزرعة الكبير للحيوانات والتبن.
+Kennel|The small house of the dog.|البيت الصغير للكلب.
+Birdcage|Small cage where pet birds live.|قفص صغير تعيش فيه طيور الزينة.
+Cage|Metal box with bars keeping animals inside.|صندوق بقضبان يحبس الحيوانات.
+Trash|What you throw away every day.|ما نرميه كل يوم.
+Laundry|Dirty clothes waiting to be washed.|الملابس المتسخة التي تنتظر الغسيل.
+Stain|Dirty mark on clothes that won't leave.|أثر وسخ على الثياب لا يزول بسهولة.
+Dirt|What makes things unclean.|ما يجعل الأشياء غير نظيفة.
+Dustpan|You sweep the dirt into it.|نكنس الأوساخ إليها.
+Mop|Wet cleaning stick for the floor.|عصا تنظيف مبللة للأرضية.
+Rag|Old piece of cloth for cleaning.|قطعة قماش قديمة للتنظيف.
+Duster|Removes dust from furniture.|تزيل الغبار عن الأثاث.
+Polish|Makes shoes and wood shiny.|يجعل الأحذية والخشب لامعة.
+Tape|Sticky strip that holds things together.|شريط لاصق يثبت الأشياء.
+String|Thin cord for tying small things.|خيط رفيع لربط الأشياء الصغيرة.
+Candlestick|Holder that keeps the candle standing.|حامل يبقي الشمعة واقفة.
+Matches|Small sticks that make fire when scratched.|أعواد صغيرة تشعل النار عند الحك.
+Lighter|Small tool making a flame with one click.|أداة صغيرة تشعل لهبا بضغطة.
+Can|Metal container of food or drink.|وعاء معدني للطعام أو الشراب.
+Carton|Cardboard box for milk or eggs.|علبة كرتونية للحليب أو البيض.
+Package|Wrapped box delivered to your door.|صندوق مغلف يصل إلى بابك.
+Pin|Tiny sharp metal that holds cloth.|معدن دقيق حاد يثبت القماش.
+Safety pin|Closed pin that doesn't prick you.|دبوس مغلق لا يخزك.
+Ribbon|Colorful strip tied on gifts and hair.|شريط ملون يربط على الهدايا والشعر.
+Toy|Children play with it.|يلعب به الأطفال.
+Doll|Toy that looks like a small person.|لعبة تشبه إنسانا صغيرا.
+Teddy bear|Soft stuffed animal children hug at night.|دمية محشوة ناعمة يعانقها الأطفال ليلا.
+Balloon|You blow it up, it floats and pops.|ننفخه فيطفو وقد ينفجر.
+Puzzle|Pieces you fit together to make a picture.|قطع نركبها معا لتكوين صورة.
+Dice|Cube with dots you throw in games.|مكعب بنقاط نرميه في الألعاب.
+Marbles|Small glass balls children play with.|كرات زجاجية صغيرة يلعب بها الأطفال.
+Swing|Playground seat that goes back and forth.|مقعد الملعب يتأرجح ذهابا وإيابا.
+Slide|Children climb up and slip down it.|يصعده الأطفال وينزلقون عليه.
+Hamper|Basket where dirty clothes wait.|سلة تنتظر فيها الملابس المتسخة.
+Drain|The hole where water leaves the sink.|الفتحة التي يخرج منها ماء الحوض.
+Tile|Square pieces covering the bathroom walls.|قطع مربعة تغطي جدران الحمام.
+Brick|Red block used to build walls.|كتلة حمراء تبنى بها الجدران.
+Cement|Grey powder that hardens buildings together.|مسحوق رمادي يشد البناء ويتصلب.
+Paint|Liquid color for the walls.|لون سائل للجدران.
+Wallpaper|Decorated paper covering walls instead of paint.|ورق مزخرف يغطي الجدران بدل الطلاء.
+Railing|You hold it while going down the stairs.|نمسك به عند نزول الدرج.
+Safe|Strong metal box protecting money and gold.|صندوق حديدي قوي يحمي المال والذهب.
+Razor|Sharp tool for shaving.|أداة حادة للحلاقة.
+Shampoo|Liquid soap for washing hair.|صابون سائل لغسل الشعر.
+Perfume|Liquid with a beautiful smell you spray.|سائل برائحة جميلة نرشه.
+Deodorant|You put it under your arms against sweat smell.|يوضع تحت الإبطين ضد رائحة العرق.
+Tissue|Soft paper for wiping your nose.|ورقة ناعمة لمسح الأنف.
+Hairbrush|Wide brush for untangling hair.|فرشاة عريضة لفك تشابك الشعر.
+Hairdryer|Blows hot air to dry wet hair.|ينفخ هواء ساخنا لتجفيف الشعر.
+Lotion|Cream that softens dry skin.|كريم يرطب البشرة الجافة.
+Toothpaste|You squeeze it onto the brush for your teeth.|نعصره على الفرشاة لتنظيف الأسنان.
+Breakfast|The first meal of the day.|أول وجبة في اليوم.
+Lunch|The midday meal.|وجبة منتصف النهار.
+Dinner|The evening meal.|وجبة المساء.
+Meal|Food eaten at one time.|طعام يؤكل في وقت واحد.
+Snack|Small quick food between meals.|أكل خفيف سريع بين الوجبات.
+Dessert|The sweet dish after the meal.|الطبق الحلو بعد الوجبة.
+Candy|Small sweet treats kids buy.|حلويات صغيرة يشتريها الأطفال.
+Lollipop|Candy on a stick you lick.|حلوى على عود تلعق.
+Chewing gum|You chew it but never swallow it.|نمضغها ولا نبلعها أبدا.
+Cookie|Small flat sweet baked circle.|قرص حلو صغير مخبوز.
+Toast|Bread made crispy with heat.|خبز محمص بالحرارة حتى يقرمش.
+Bun|Small round soft bread.|خبزة صغيرة مستديرة طرية.
+Cereal|Crunchy flakes eaten with milk in the morning.|رقائق مقرمشة تؤكل مع الحليب صباحا.
+Porridge|Warm soft breakfast of cooked oats.|فطور دافئ طري من الشوفان المطبوخ.
+Popcorn|Corn that pops open, eaten at the cinema.|ذرة تنفجر وتؤكل في السينما.
+Chips|Thin crispy salty potato slices in a bag.|شرائح بطاطس رقيقة مقرمشة مملحة في كيس.
+Fries|Long fried potato sticks with ketchup.|أصابع بطاطس مقلية مع الكاتشب.
+Burger|Grilled meat inside a round bun.|لحم مشوي داخل خبزة مستديرة.
+Hotdog|Sausage inside a long bun.|نقانق داخل خبزة طويلة.
+Shawarma|Meat sliced from a turning skewer in bread.|لحم يقطع من سيخ دوار في خبز.
+Falafel|Fried green balls of chickpeas.|كرات خضراء مقلية من الحمص.
+Hummus|Mashed chickpea dip with olive oil.|غموس مهروس من الحمص بزيت الزيتون.
+Kebab|Grilled meat on skewers.|لحم مشوي على أسياخ.
+Kofta|Minced spiced meat grilled on sticks.|لحم مفروم متبل يشوى على أعواد.
+Tagine|Slow-cooked dish in a cone-shaped pot.|طبق يطهى ببطء في إناء مخروطي.
+Sushi|Japanese rolls of rice and raw fish.|لفائف يابانية من الأرز والسمك النيء.
+Taco|Mexican folded shell filled with meat.|خبزة مكسيكية مطوية محشوة باللحم.
+Spaghetti|Long thin pasta with tomato sauce.|معكرونة طويلة رفيعة بصلصة الطماطم.
+Lasagna|Layered pasta baked with cheese and meat.|طبقات معكرونة تخبز بالجبن واللحم.
+Steak|Thick piece of grilled beef.|قطعة سميكة من لحم البقر المشوي.
+Lamb|Meat of a young sheep.|لحم الخروف الصغير.
+Beef|Meat that comes from cows.|اللحم الذي يأتي من البقر.
+Liver|Organ meat fried with onions.|لحم عضو يقلى مع البصل.
+Crepe|Very thin folded pancake with filling.|فطيرة رقيقة جدا تطوى مع حشوة.
+Baklava|Layered sweet pastry with nuts and syrup.|حلوى بطبقات رقيقة بالمكسرات والقطر.
+Kunafa|Golden shredded dessert with cheese and syrup.|حلوى ذهبية بخيوط رفيعة بالجبن والقطر.
+Halva|Dense sweet block made from sesame.|حلوى كثيفة تصنع من السمسم.
+Cupcake|Small cake in its own paper cup.|كعكة صغيرة في كأس ورقي خاص.
+Marshmallow|Soft white candy roasted over fire.|حلوى بيضاء إسفنجية تشوى على النار.
+Caramel|Melted sugar turned golden and chewy.|سكر مذاب أصبح ذهبيا ولزجا.
+Vanilla|The most famous flavor of ice cream, white.|أشهر نكهة للمثلجات ولونها أبيض.
+Lemonade|Cold drink of squeezed sour fruit and sugar.|شراب بارد من الحامض المعصور والسكر.
+Smoothie|Fruits blended into a thick cold drink.|فواكه تخلط لتصبح شرابا باردا كثيفا.
+Milkshake|Milk blended with ice cream.|حليب مخفوق مع المثلجات.
+Cocoa|Hot chocolate drink for winter.|مشروب الشوكولاتة الساخن للشتاء.
+Espresso|Very small very strong coffee.|قهوة صغيرة جدا ومركزة جدا.
+Cappuccino|Coffee topped with milk foam.|قهوة تعلوها رغوة الحليب.
+Soda|Fizzy sweet drink with bubbles.|شراب حلو غازي بفقاعات.
+Sage|Grey-green herb for tea and cooking.|عشبة رمادية خضراء للشاي والطبخ.
+Anise|Seeds making a sweet calming tea.|بذور تصنع شايا مهدئا حلو الطعم.
+Chamomile|Flower tea that helps you sleep.|شاي زهور يساعد على النوم.
+Hibiscus|Dark red flower drink, hot or cold.|شراب أحمر داكن من زهرة يشرب ساخنا أو باردا.
+Fenugreek|Bitter yellow seeds used in bread and medicine.|بذور صفراء مرة تستخدم في الخبز والدواء.
+Bay leaf|Dry leaf dropped whole into stews.|ورقة جافة تلقى كاملة في اليخنة.
+Yeast|Makes the dough rise and puff.|تجعل العجين ينتفخ ويرتفع.
+Starch|White powder thickening sauces.|مسحوق أبيض يكثف الصلصات.
+Bran|The healthy outer shell of wheat.|القشرة الخارجية الصحية للقمح.
+Millet|Tiny round grains, food for people and birds.|حبوب صغيرة مستديرة طعام للناس والعصافير.
+Bulgur|Cracked wheat used in tabbouleh.|قمح مجروش يستخدم في التبولة.
+Ghee|Pure butter fat used in cooking and sweets.|دهن الزبدة الصافي للطبخ والحلويات.
+Tahini|Paste of ground sesame, used with falafel.|عجينة السمسم المطحون تؤكل مع الفلافل.
+Spice|What gives food its flavor and smell.|ما يعطي الطعام نكهته ورائحته.
+Recipe|Steps for cooking a dish.|خطوات تحضير طبق.
+Menu|The list of dishes in a restaurant.|قائمة الأطباق في المطعم.
+Ice cube|Small frozen block cooling your drink.|مكعب متجمد صغير يبرد الشراب.
+Slice|One flat cut piece of bread or cake.|قطعة واحدة مقطوعة من الخبز أو الكعك.
+Loaf|One whole baked bread.|خبزة كاملة واحدة.
+Crust|The hard outer edge of bread.|الحافة الخارجية القاسية من الخبز.
+Crumb|Tiny piece falling from bread.|فتة صغيرة تتساقط من الخبز.
+Filling|What is stuffed inside a pie or sandwich.|ما يحشى داخل الفطيرة أو الشطيرة.
+Sauce|Liquid poured over food for taste.|سائل يسكب على الطعام للنكهة.
+Peanut butter|Brown sticky spread made of ground nuts.|دهن بني لزج من الفول المطحون.
+Melon|Sweet round fruit with orange flesh.|فاكهة مستديرة حلوة لبها برتقالي.
+Sweet potato|Orange root vegetable, sweeter than the normal one.|خضار جذري برتقالي أحلى من العادي.
+Grape leaves|Rolled and stuffed with rice, a famous dish.|تلف وتحشى بالأرز، طبق مشهور.
+Vegetables|Healthy green things mothers make you eat.|الأشياء الخضراء الصحية التي تجبرنا أمهاتنا على أكلها.
+Nuts|Crunchy seeds served at gatherings.|بذور مقرمشة تقدم في الجلسات.
+Sugarcane|Tall sweet stick pressed for juice.|عود طويل حلو يعصر شرابا.
+Molokhia|Green leafy soup eaten with rice and chicken.|شوربة ورقية خضراء تؤكل مع الأرز والدجاج.
+Basbousa|Sweet semolina cake soaked in syrup.|حلوى من السميد مشربة بالقطر.
+Puppy|A baby dog.|صغير الكلب.
+Kitten|A baby cat.|صغير القطة.
+Foal|A baby horse.|صغير الحصان.
+Cub|A baby lion or bear.|صغير الأسد أو الدب.
+Chick|A baby chicken, small and yellow.|صغير الدجاجة، أصفر وصغير.
+Hen|The female chicken that lays eggs.|أنثى الدجاج التي تبيض.
+Pony|A small short horse children ride.|حصان قصير صغير يركبه الأطفال.
+Mule|Half horse half donkey, carries loads.|نصف حصان ونصف حمار يحمل الأثقال.
+Mare|A female horse.|أنثى الحصان.
+Ram|The male sheep with curved horns.|ذكر الخروف بقرون ملتوية.
+Ewe|The female sheep.|أنثى الخروف.
+Llama|South American animal like a small camel with wool.|حيوان أمريكي جنوبي كجمل صغير بصوف.
+Reindeer|Northern deer that pulls Santa's sled.|أيل الشمال الذي يجر زلاجة بابا نويل.
+Polar bear|White bear living on the ice.|دب أبيض يعيش على الجليد.
+Walrus|Big sea animal with two long tusks.|حيوان بحري ضخم بنابين طويلين.
+Sea lion|Sea animal that claps and balances balls.|حيوان بحري يصفق ويوازن الكرات.
+Alligator|Big water reptile with huge jaws, like a crocodile.|زاحف مائي ضخم بفكين هائلين يشبه التمساح.
+Dinosaur|Giant animal that lived millions of years ago.|حيوان عملاق عاش قبل ملايين السنين.
+Dragon|Legendary flying creature that breathes fire.|كائن خرافي طائر ينفث النار.
+Unicorn|Magical horse with one horn on its head.|حصان سحري بقرن واحد على رأسه.
+Mermaid|Legendary sea creature, half woman half fish.|كائن بحري خرافي نصفه امرأة ونصفه سمكة.
+Goldfish|Small orange pet fish in a bowl.|سمكة زينة برتقالية صغيرة في حوض.
+Robin|Small bird with a red chest.|عصفور صغير بصدر أحمر.
+Rat|Bigger than a mouse, lives in sewers.|أكبر من الفأر ويعيش في المجاري.
+Flea|Tiny jumping insect living on animals.|حشرة قافزة دقيقة تعيش على الحيوانات.
+Locust|Insect that comes in swarms and eats crops.|حشرة تأتي أسرابا وتأكل المحاصيل.
+Cicada|Insect singing loudly in summer trees.|حشرة تغني بصوت عالٍ في أشجار الصيف.
+Mantis|Green insect standing like it's praying.|حشرة خضراء تقف كأنها تصلي.
+Dove|White gentle bird of peace.|طائر أبيض وديع رمز السلام.
+Hoopoe|Bird with a crown of feathers, in Quran stories.|طائر بتاج من الريش ورد في قصص القرآن.
+Kingfisher|Colorful bird diving to catch fish.|طائر ملون يغطس ليصطاد السمك.
+Cuckoo|Bird famous for the clock named after it.|طائر اشتهرت به الساعة المسماة باسمه.
+Toad|Like a frog but dry and bumpy.|يشبه الضفدع لكنه جاف ومحبب.
+Herd|Big group of cows or sheep together.|مجموعة كبيرة من البقر أو الغنم معا.
+Flock|Group of birds flying together.|مجموعة طيور تطير معا.
+Nest|The home birds build for their eggs.|البيت الذي يبنيه الطائر لبيضه.
+Beehive|The house where bees make honey.|البيت الذي يصنع فيه النحل العسل.
+Cobweb|The sticky net a spider weaves.|الشبكة اللزجة التي ينسجها العنكبوت.
+Feather|Light soft piece covering a bird's body.|قطعة خفيفة ناعمة تغطي جسم الطائر.
+Fur|The soft hair covering animals.|الشعر الناعم الذي يغطي الحيوانات.
+Paw|The foot of a cat or dog.|قدم القطة أو الكلب.
+Claw|The sharp nail of a cat or eagle.|الظفر الحاد للقط أو النسر.
+Tail|Behind the animal, dogs wag it when happy.|خلف الحيوان ويهزه الكلب عند الفرح.
+Antler|The branching horn of a deer.|القرن المتفرع للأيل.
+Hoof|The hard foot of a horse.|القدم الصلبة للحصان.
+Beak|The hard mouth of a bird.|الفم الصلب للطائر.
+Wing|What birds fly with, they have two.|ما يطير به الطائر ولديه اثنان.
+Fin|What fish swim with.|ما تسبح به السمكة.
+Scales|The small hard plates covering fish skin.|الصفائح الصلبة الصغيرة على جلد السمك.
+Shell|The hard cover of a snail or turtle.|الغطاء الصلب للحلزون أو السلحفاة.
+Earth|The planet we all live on.|الكوكب الذي نعيش عليه جميعا.
+World|All countries and people together.|كل البلدان والناس معا.
+Land|The dry part of the Earth, not the sea.|الجزء اليابس من الأرض وليس البحر.
+Ocean|Water bigger than any sea.|ماء أوسع من أي بحر.
+Air|What we breathe, invisible around us.|ما نتنفسه وهو غير مرئي حولنا.
+Light|The opposite of darkness, comes from the sun.|عكس الظلام ويأتي من الشمس.
+Darkness|When there is no light at all.|عندما لا يوجد ضوء أبدا.
+Heat|What you feel near fire or in summer.|ما نشعر به قرب النار أو في الصيف.
+Cold|What you feel in winter without a coat.|ما نشعر به شتاء بلا معطف.
+Warmth|Gentle pleasant heat, like a blanket.|حرارة لطيفة محببة كالبطانية.
+Weather|Sunny, rainy or cloudy — how the day is.|مشمس أو ماطر أو غائم، حال اليوم.
+Climate|The usual weather of a place over years.|الطقس المعتاد لمكان عبر السنين.
+Season|Winter, spring, summer or autumn.|الشتاء أو الربيع أو الصيف أو الخريف.
+Rock|Big hard stone.|حجر كبير صلب.
+Path|Narrow way you walk on.|ممر ضيق نمشي عليه.
+Orchard|Field planted with fruit trees.|حقل مزروع بأشجار الفاكهة.
+Vineyard|Field where grapes are grown.|حقل يزرع فيه العنب.
+Greenhouse|Glass house where plants grow warm.|بيت زجاجي تنمو فيه النباتات دافئة.
+Harvest|Collecting the crops when they are ready.|جمع المحاصيل عند نضجها.
+Crop|What farmers plant and collect.|ما يزرعه الفلاح ويجمعه.
+Hay|Dried grass fed to farm animals.|عشب مجفف يطعم لحيوانات المزرعة.
+Scarecrow|Fake man standing in fields to scare birds.|رجل مزيف يقف في الحقل ليخيف الطيور.
+Herb|Small green plant used for healing or cooking.|نبتة خضراء صغيرة للعلاج أو الطبخ.
+Weed|Unwanted plant farmers remove.|نبتة غير مرغوبة يقلعها المزارع.
+Clover|Small plant, the lucky one has four leaves.|نبتة صغيرة، ذات الأربع ورقات تجلب الحظ.
+Dandelion|Yellow flower that turns white and flies away.|زهرة صفراء تصبح بيضاء وتتطاير.
+Log|Thick piece of cut tree.|قطعة غليظة من شجرة مقطوعة.
+Firewood|Wood collected for burning.|خشب يجمع للحرق.
+Ember|Glowing red piece left after fire.|جمرة حمراء متوهجة تبقى بعد النار.
+Bonfire|Big outdoor fire people sit around.|نار كبيرة في الخارج يجلس حولها الناس.
+Snowman|Man built from snowballs with a carrot nose.|رجل يبنى من كرات الثلج وأنفه جزرة.
+Snowball|You roll it from snow and throw it.|نكورها من الثلج ونرميها.
+Blossom|When trees open their flowers in spring.|عندما تفتح الأشجار أزهارها في الربيع.
+Sprout|Tiny new plant just coming out.|نبتة جديدة صغيرة بدأت تخرج.
+Sapling|A young thin tree.|شجرة فتية رفيعة.
+Burrow|Hole in the ground where rabbits live.|جحر في الأرض تعيش فيه الأرانب.
+Den|The cave home of a lion or bear.|مأوى الأسد أو الدب في الكهف.
+Algae|Green plants growing in water.|نباتات خضراء تنمو في الماء.
+Flood|When water covers streets and houses.|عندما يغمر الماء الشوارع والبيوت.
+Gem|Precious shiny stone used in jewelry.|حجر ثمين لامع يستخدم في المجوهرات.
+Diamond|The hardest and most expensive shiny stone.|أصلب الأحجار الكريمة وأغلاها.
+Pearl|White round jewel found inside oysters.|جوهرة بيضاء مستديرة توجد في المحار.
+Ruby|Red precious stone.|حجر كريم أحمر.
+Emerald|Green precious stone.|حجر كريم أخضر.
+Amber|Golden stone made of ancient tree sap.|حجر ذهبي من صمغ الأشجار القديمة.
+Ivory|White material from elephant tusks.|مادة بيضاء من أنياب الفيلة.
+Drizzle|Very light thin rain.|مطر خفيف رقيق جدا.
+Mist|Thin fog you can barely see through.|ضباب خفيف تصعب الرؤية عبره.
+Icicle|Hanging finger of ice from the roof.|إصبع جليد متدلٍ من السقف.
+Twilight|The dim light just after sunset.|الضوء الخافت بعد الغروب مباشرة.
+Skin|Covers your whole body from outside.|يغطي الجسم كله من الخارج.
+Bone|The hard white parts inside your body.|الأجزاء الصلبة البيضاء داخل الجسم.
+Blood|Red liquid flowing inside your body.|السائل الأحمر الجاري في الجسم.
+Brain|Inside your head, you think with it.|داخل الرأس ونفكر به.
+Joint|Where two bones meet and bend.|حيث يلتقي عظمان وينثنيان.
+Wound|Cut in the skin that bleeds.|جرح في الجلد ينزف.
+Scar|The mark left after a wound heals.|الأثر الباقي بعد شفاء الجرح.
+Bruise|Blue mark on skin after being hit.|أثر أزرق على الجلد بعد ضربة.
+Sweat|Water coming from your skin when hot.|ماء يخرج من الجلد عند الحر.
+Tear|Drop falling from the eye when crying.|قطرة تسقط من العين عند البكاء.
+Saliva|The water in your mouth.|الماء الذي في الفم.
+Voice|What comes out when you speak or sing.|ما يخرج عندما نتكلم أو نغني.
+Breath|Air going in and out of your chest.|الهواء الداخل والخارج من الصدر.
+Cough|Loud sound from the chest when sick.|صوت قوي من الصدر عند المرض.
+Sneeze|Sudden explosion from the nose, achoo!|انفجار مفاجئ من الأنف، عطسة!
+Yawn|Your mouth opens wide when sleepy.|يفتح الفم واسعا عند النعاس.
+Hiccup|Funny repeated sound you can't stop.|صوت متكرر مضحك لا يمكن إيقافه.
+Smile|Your mouth curves up when happy.|ينحني الفم للأعلى عند السعادة.
+Laugh|Loud sound of joy, haha.|صوت الفرح العالي، هاها.
+Wink|Closing one eye quickly as a signal.|إغلاق عين واحدة بسرعة كإشارة.
+Fever|When your body gets too hot from sickness.|عندما يسخن الجسم من المرض.
+Headache|Pain inside your head.|ألم داخل الرأس.
+Pain|What you feel when something hurts.|ما نشعر به عندما يؤلمنا شيء.
+Bandage|White cloth wrapped around a wound.|قماش أبيض يلف حول الجرح.
+Plaster|Small sticky cover for a small cut.|غطاء لاصق صغير لجرح صغير.
+Crutch|Stick under the arm helping injured people walk.|عصا تحت الإبط تساعد المصاب على المشي.
+Wheelchair|Chair with wheels for people who cannot walk.|كرسي بعجلات لمن لا يستطيع المشي.
+Medicine|What the doctor gives you to get better.|ما يعطيه الطبيب لتتحسن.
+Pill|Small round medicine you swallow.|دواء صغير مستدير يبلع.
+Injection|Medicine given through a needle.|دواء يعطى عبر إبرة.
+Man|An adult male person.|شخص ذكر بالغ.
+Woman|An adult female person.|شخص أنثى بالغة.
+Boy|A young male child.|طفل ذكر صغير.
+Girl|A young female child.|طفلة أنثى صغيرة.
+Child|A young person, not an adult yet.|شخص صغير لم يبلغ بعد.
+Person|One human being.|إنسان واحد.
+People|Many humans together.|بشر كثيرون معا.
+Name|What people call you.|ما يناديك به الناس.
+Age|How many years old you are.|كم سنة عشت.
+Birth|The moment a baby comes to life.|لحظة مجيء المولود إلى الحياة.
+Parents|Your mother and father together.|الأم والأب معا.
+Stepmother|Father's wife who is not your mother.|زوجة الأب التي ليست أمك.
+Stepfather|Mother's husband who is not your father.|زوج الأم الذي ليس أباك.
+Mother-in-law|Your wife's or husband's mother.|أم الزوجة أو الزوج.
+Father-in-law|Your wife's or husband's father.|أبو الزوجة أو الزوج.
+Fiance|The man a woman will marry soon.|الرجل الذي ستتزوجه المرأة قريبا.
+Engagement|The promise before the wedding.|الوعد الذي يسبق الزواج.
+Honeymoon|The trip after the wedding.|الرحلة بعد الزواج.
+Divorce|When a marriage ends.|عندما ينتهي الزواج.
+Relative|Someone from your extended family.|شخص من عائلتك الكبيرة.
+Generation|People born around the same time.|الناس المولودون في زمن متقارب.
+Household|Everyone living in one home.|كل من يعيش في بيت واحد.
+Love|The strongest feeling of the heart.|أقوى مشاعر القلب.
+Hug|Wrapping your arms around someone.|إحاطة الذراعين حول شخص.
+Kiss|Touching with the lips to show love.|لمسة بالشفاه تعبيرا عن الحب.
+Handshake|Greeting by holding hands.|تحية بمسك اليد.
+Greeting|What you say when meeting someone.|ما نقوله عند لقاء شخص.
+Farewell|What you say when leaving.|ما نقوله عند الرحيل.
+Visit|Going to see someone at their home.|الذهاب لرؤية شخص في بيته.
+Invitation|Asking someone to come to your event.|طلب حضور شخص إلى مناسبتك.
+Celebration|A happy party for a special day.|حفل سعيد ليوم مميز.
+Picnic|Eating outdoors in nature with family.|الأكل في الطبيعة مع العائلة.
+Trip|Going somewhere far for fun.|الذهاب إلى مكان بعيد للمتعة.
+Vacation|Days off from work or school.|أيام راحة من العمل أو المدرسة.
+Holiday|A day nobody works.|يوم لا يعمل فيه أحد.
+Camping|Sleeping in a tent in nature.|النوم في خيمة في الطبيعة.
+Story|What grandparents tell before sleep.|ما يرويه الأجداد قبل النوم.
+Joke|Something funny said to make people laugh.|كلام مضحك يقال ليضحك الناس.
+Surprise|Something nice you didn't expect.|شيء جميل لم تتوقعه.
+Friendship|The strong bond between friends.|الرابطة القوية بين الأصدقاء.
+T-shirt|Simple top with short sleeves, no buttons.|لباس علوي بسيط بأكمام قصيرة وبلا أزرار.
+Trousers|Long clothing covering both legs.|لباس طويل يغطي الساقين.
+Blazer|Elegant jacket worn over a shirt.|سترة أنيقة تلبس فوق القميص.
+Gown|Long elegant dress for parties.|فستان طويل أنيق للحفلات.
+Abaya|Long black robe women wear.|رداء أسود طويل تلبسه النساء.
+Hijab|Cloth covering a woman's hair.|غطاء يستر شعر المرأة.
+Kaftan|Long loose traditional dress.|لباس تقليدي طويل فضفاض.
+Jellaba|North African hooded long dress.|لباس مغاربي طويل بقلنسوة.
+Thobe|Long white dress men wear in the Gulf.|لباس أبيض طويل يلبسه رجال الخليج.
+Overalls|Work clothes covering chest and legs together.|لباس عمل يغطي الصدر والساقين معا.
+Bib|Tied under baby's chin while eating.|تربط تحت ذقن الرضيع عند الأكل.
+Diaper|What babies wear before learning the toilet.|ما يلبسه الرضع قبل تعلم الحمام.
+Bathrobe|Soft robe worn after the shower.|رداء ناعم يلبس بعد الاستحمام.
+Nightgown|Long comfortable dress for sleeping.|ثوب طويل مريح للنوم.
+Sneakers|Comfortable sport shoes.|حذاء رياضي مريح.
+High heels|Women's shoes that make you taller.|حذاء نسائي يزيد الطول.
+Flip-flops|Open summer sandals that flap when walking.|صندل صيفي مفتوح يصفق عند المشي.
+Sole|The bottom part of the shoe.|الجزء السفلي من الحذاء.
+Headband|Band worn around the head for sport or style.|رباط حول الرأس للرياضة أو الزينة.
+Hairpin|Small pin holding hair in place.|دبوس صغير يثبت الشعر.
+Hairband|Elastic circle tying hair together.|رباط مطاطي يجمع الشعر.
+Tiara|Small sparkling crown for princesses and brides.|تاج صغير لامع للأميرات والعرائس.
+Brooch|Decorative pin worn on the chest.|دبوس زينة يعلق على الصدر.
+Badge|Small sign showing your name or job.|شارة صغيرة تبين الاسم أو الوظيفة.
+Patch|Piece of cloth covering a hole in clothes.|قطعة قماش تغطي ثقبا في الثياب.
+Logo|The symbol of a brand on clothes.|رمز العلامة التجارية على الملابس.
+Size|Small, medium or large — how big clothes are.|صغير أو وسط أو كبير، قياس الملابس.
+Costume|Special clothes to look like someone else.|ملابس خاصة للتنكر بشخصية أخرى.
+Mask|Covers the face to hide or protect.|يغطي الوجه للتنكر أو الحماية.
+Wetsuit|Tight rubber suit for diving.|بدلة مطاطية ضيقة للغوص.
+Lifejacket|Keeps you floating if you fall in water.|تبقيك طافيا إذا سقطت في الماء.
+Goggles|Protect the eyes while swimming or working.|تحمي العينين عند السباحة أو العمل.
+Earplugs|Small pieces blocking noise from the ears.|قطع صغيرة تمنع الضجيج عن الأذنين.
+Anklet|Jewelry worn around the ankle.|حلية تلبس حول الكاحل.
+Kimono|Traditional Japanese robe with wide sleeves.|رداء ياباني تقليدي بأكمام واسعة.
+Sari|Traditional Indian dress wrapped around the body.|لباس هندي تقليدي يلف حول الجسم.
+Jersey|Shirt with a player's number on the back.|قميص يحمل رقم اللاعب على الظهر.
+Beret|Flat round French hat.|قبعة فرنسية مستديرة مسطحة.
+Fez|Red cylinder hat with a tassel.|قبعة حمراء أسطوانية بشرابة.
+Keffiyeh|Checkered head cloth of the Arabs.|غطاء رأس عربي مربعات.
+Vehicle|Anything with wheels that moves you.|أي شيء بعجلات ينقلك.
+Passenger|Person riding but not driving.|شخص يركب ولا يقود.
+Luggage|All the bags you travel with.|كل الحقائب التي نسافر بها.
+Passport|Small official book letting you enter countries.|كتيب رسمي يسمح بدخول الدول.
+Visa|Permission stamped to enter a foreign country.|إذن يختم لدخول دولة أجنبية.
+Road sign|Board on the road telling drivers what to do.|لوحة على الطريق ترشد السائقين.
+Speed|How fast something moves.|مدى سرعة حركة الشيء.
+Driving license|Card proving you may drive.|بطاقة تثبت أنه يحق لك القيادة.
+Stroller|Small chair on wheels for pushing babies.|كرسي صغير بعجلات لدفع الرضع.
+Cart|You push it in the supermarket.|ندفعها في السوبر ماركت.
+Saddle|Leather seat placed on the horse's back.|مقعد جلدي يوضع على ظهر الحصان.
+Bridle|Straps on the horse's head to steer it.|سيور على رأس الحصان لتوجيهه.
+Horseshoe|U-shaped iron nailed under horse feet, brings luck.|حديدة بشكل حرف يثبت تحت حافر الحصان وتجلب الحظ.
+Sail|Big cloth catching wind to move the boat.|قماش كبير يلتقط الريح ليحرك المركب.
+Oar|Long stick with a flat end for rowing.|عصا طويلة بنهاية مسطحة للتجديف.
+Deck|The open floor on top of a ship.|الأرضية المكشوفة أعلى السفينة.
+Mast|The tall pole holding the sail.|العمود العالي الذي يحمل الشراع.
+Lifeboat|Small boat for escaping a sinking ship.|قارب صغير للنجاة من سفينة تغرق.
+Buoy|Floating marker on the water.|علامة طافية على الماء.
+Pier|Walkway built over the sea for boats.|ممشى مبني فوق البحر للقوارب.
+Seat|What you sit on in a car or bus.|ما نجلس عليه في السيارة أو الحافلة.
+Boarding pass|Paper letting you get on the plane.|ورقة تسمح بصعود الطائرة.
+Flight|One plane journey.|رحلة طائرة واحدة.
+Gasoline|Liquid fuel cars drink.|الوقود السائل الذي تشربه السيارات.
+Diesel|Fuel for trucks and buses.|وقود الشاحنات والحافلات.
+Exhaust|Pipe blowing smoke from the back of the car.|أنبوب يخرج الدخان من خلف السيارة.
+Wiper|Moves left and right cleaning rain off the glass.|تتحرك يمينا ويسارا لمسح المطر عن الزجاج.
+Gear|You change it to go faster or slower.|نغيره للسرعة أو الإبطاء.
+Handlebar|You steer the bicycle with it.|نوجه به الدراجة.
+Unicycle|Circus bike with only one wheel.|دراجة السيرك بعجلة واحدة.
+Tricycle|Kids' bike with three wheels.|دراجة أطفال بثلاث عجلات.
+Fare|The money you pay for the ride.|المال الذي ندفعه مقابل الركوب.
+Toll|Money paid to use a special road or bridge.|مال يدفع لعبور طريق أو جسر خاص.
+Hoverboard|Electric board you balance and glide on.|لوح كهربائي نتوازن عليه وننزلق.
+Snowmobile|Motorbike that drives on snow.|دراجة نارية تسير على الثلج.
+Forklift|Small vehicle lifting heavy boxes in warehouses.|مركبة صغيرة ترفع الصناديق الثقيلة في المستودعات.
+Tow truck|Truck that carries broken cars.|شاحنة تحمل السيارات المعطلة.
+Cement mixer|Truck with a big spinning drum.|شاحنة ببرميل ضخم دوار.
+Indicator|Blinking light showing where the car will turn.|ضوء وامض يبين اتجاه انعطاف السيارة.
+Spare tire|The extra wheel kept in the trunk.|العجلة الإضافية المحفوظة في الصندوق.
+Building|Any structure with walls and a roof.|أي بناء بجدران وسقف.
+Office|The room where people work at desks.|الغرفة التي يعمل فيها الناس على مكاتب.
+Entrance|Where you go in.|من حيث ندخل.
+Exit|Where you go out.|من حيث نخرج.
+Reception|The desk welcoming visitors at the entrance.|المكتب الذي يستقبل الزوار عند المدخل.
+Lobby|The big waiting hall at the entrance.|القاعة الكبيرة للانتظار عند المدخل.
+Hall|Big room for events and parties.|قاعة كبيرة للمناسبات والحفلات.
+Room|Closed space inside a building.|مساحة مغلقة داخل مبنى.
+Corner|Where two streets or walls meet.|حيث يلتقي شارعان أو جداران.
+Address|Where exactly you live, street and number.|مكان سكنك بالضبط، الشارع والرقم.
+Sign|Board with words or symbols showing information.|لوحة بكلمات أو رموز تعطي معلومات.
+District|One part of the city with its name.|جزء من المدينة له اسمه.
+Downtown|The busy center of the city.|مركز المدينة المزدحم.
+City|Big place where millions live, like Cairo.|مكان كبير يسكنه الملايين مثل القاهرة.
+Bookstore|Shop selling books.|محل يبيع الكتب.
+Flower shop|Shop selling roses and bouquets.|محل يبيع الورود والباقات.
+Pet shop|Shop selling cats, birds and fish.|محل يبيع القطط والعصافير والأسماك.
+Car wash|Where cars go in dirty and come out clean.|حيث تدخل السيارة وسخة وتخرج نظيفة.
+Workshop|Where things are fixed and made by hand.|حيث تصلح الأشياء وتصنع باليد.
+Studio|Where photos, music or shows are recorded.|حيث تسجل الصور والموسيقى والبرامج.
+Bazaar|Traditional market with many small shops.|سوق تقليدي بمحلات صغيرة كثيرة.
+Phone booth|Small glass box with a public phone.|صندوق زجاجي صغير فيه هاتف عمومي.
+Customs|Where bags are checked at the border.|حيث تفتش الحقائب على الحدود.
+Consulate|Small embassy helping citizens abroad.|سفارة صغيرة تساعد المواطنين في الخارج.
+Ministry|Government office running one sector, like health.|إدارة حكومية تدير قطاعا مثل الصحة.
+Government|The people ruling and running the country.|من يحكمون البلاد ويديرونها.
+Emergency|Urgent danger needing help now, call 911.|خطر عاجل يحتاج نجدة فورا.
+Nursery|Where working parents leave small children.|حيث يترك الوالدان العاملان صغارهم.
+Canteen|Where students eat at school.|حيث يأكل التلاميذ في المدرسة.
+Fast food|Quick cheap meals like burgers.|وجبات سريعة رخيصة كالبرغر.
+Resort|Beautiful place by the sea for holidays.|مكان جميل على البحر لقضاء العطلات.
+Campsite|Where tents are set up in nature.|حيث تنصب الخيام في الطبيعة.
+Tent|Cloth house you sleep in when camping.|بيت قماشي ننام فيه عند التخييم.
+Cottage|Small cozy house in the countryside.|بيت صغير دافئ في الريف.
+Watchtower|Tall tower where guards watch from.|برج عالٍ يراقب منه الحراس.
+Flagpole|Tall pole where the flag flies.|عمود عالٍ يرفرف عليه العلم.
+Pool|Water basin people swim in.|حوض ماء يسبح فيه الناس.
+Sauna|Very hot steam room for relaxing.|غرفة بخار حارة جدا للاسترخاء.
+Rink|Frozen floor for ice skating.|أرضية متجمدة للتزلج.
+Ferris wheel|Giant slow wheel with seats at the fair.|عجلة عملاقة بطيئة بمقاعد في الملاهي.
+Carousel|Spinning ride with wooden horses.|لعبة دوارة بخيول خشبية.
+Roller coaster|Fast scary train ride at the amusement park.|قطار سريع مخيف في مدينة الملاهي.
+Church|Building where Christians pray.|مبنى يصلي فيه المسيحيون.
+Synagogue|Building where Jews pray.|مبنى يصلي فيه اليهود.
+ATM|Machine in the wall giving you money.|آلة في الجدار تعطيك المال.
+Poster|Big printed picture stuck on the wall.|صورة كبيرة مطبوعة تلصق على الجدار.
+Shop window|Glass front showing what the shop sells.|واجهة زجاجية تعرض ما يبيعه المحل.
+Mannequin|Plastic person wearing clothes in shop windows.|إنسان بلاستيكي يلبس الثياب في الواجهات.
+Cash register|Machine where the seller takes your money.|الآلة التي يأخذ فيها البائع نقودك.
+Price|How much money something costs.|كم يكلف الشيء من المال.
+Discount|When the price goes down.|عندما ينخفض السعر.
+Queue|Line of people waiting their turn.|صف من الناس ينتظرون دورهم.
+Crowd|Many people gathered in one place.|ناس كثيرون مجتمعون في مكان.
+Noise|Loud annoying sounds.|أصوات عالية مزعجة.
+Siren|The loud sound of police and ambulances.|صوت الشرطة والإسعاف العالي.
+Tourist|Visitor exploring a foreign country.|زائر يستكشف بلدا أجنبيا.
+Guide|Person showing tourists around.|شخص يرافق السياح ويعرفهم بالأماكن.
+Souvenir|Small thing you buy to remember a trip.|شيء صغير نشتريه لنتذكر الرحلة.
+Postcard|Card with a picture you mail from travels.|بطاقة بصورة ترسل بالبريد من السفر.
+Stamp|Small paper stuck on envelopes to mail them.|ورقة صغيرة تلصق على الظرف لإرساله.
+Alphabet|All the letters from A to Z.|كل الحروف من الألف إلى الياء.
+Word|Letters together with a meaning — like this game's name!|حروف مجتمعة بمعنى، مثل اسم هذه اللعبة!
+Sentence|Words together making a complete idea.|كلمات معا تكون فكرة كاملة.
+Question|What you ask to get an answer.|ما نطرحه لنحصل على إجابة.
+Answer|What you give back to a question.|ما نرد به على السؤال.
+Number|One, two, three — you count with them.|واحد، اثنان، ثلاثة، نعد بها.
+Zero|The number of nothing.|رقم اللاشيء.
+Circle|Perfectly round shape with no corners.|شكل مستدير تماما بلا زوايا.
+Rectangle|Shape with four sides, two long two short.|شكل بأربعة أضلاع، اثنان طويلان واثنان قصيران.
+Oval|Shape like a stretched circle, like an egg.|شكل كدائرة ممدودة مثل البيضة.
+Cube|Box shape with six equal square faces.|شكل صندوق بستة أوجه مربعة متساوية.
+Line|Straight mark from one point to another.|خط مستقيم من نقطة إلى أخرى.
+Dot|The smallest round mark.|أصغر علامة مستديرة.
+Shape|Circle, square, triangle — the form of things.|دائرة أو مربع أو مثلث، هيئة الأشياء.
+Color|Red, blue, green — what eyes see on things.|أحمر وأزرق وأخضر، ما تراه العين على الأشياء.
+Math|The subject of numbers and counting.|مادة الأرقام والحساب.
+Language|What people speak, like Arabic and English.|ما يتكلمه الناس مثل العربية والإنجليزية.
+Grammar|The rules of building correct sentences.|قواعد بناء الجمل الصحيحة.
+Spelling|Writing words with the right letters.|كتابة الكلمات بالحروف الصحيحة.
+Reading|Looking at words and understanding them.|النظر إلى الكلمات وفهمها.
+Writing|Putting words on paper with a pen.|وضع الكلمات على الورق بالقلم.
+Drawing|Making pictures with a pencil.|رسم الصور بقلم الرصاص.
+Painting|Picture made with colors on canvas.|صورة مرسومة بالألوان على قماش.
+Prize|What the winner receives.|ما يناله الفائز.
+Sticker|Small colorful paper that sticks anywhere.|ورقة ملونة صغيرة تلصق في أي مكان.
+Chart|Drawing showing numbers as bars or lines.|رسم يعرض الأرقام كأعمدة أو خطوط.
+Flashcard|Card with a word or picture for memorizing.|بطاقة بكلمة أو صورة للحفظ.
+Textbook|The official book of a school subject.|الكتاب الرسمي لمادة دراسية.
+Novel|Long story book with characters.|كتاب قصة طويلة بشخصيات.
+Poem|Text with rhythm and rhyme.|نص بإيقاع وقافية.
+Fairy tale|Story with magic told to children.|قصة فيها سحر تروى للأطفال.
+Legend|Very old famous story, maybe true maybe not.|قصة قديمة شهيرة قد تكون حقيقية أو لا.
+Riddle|Tricky question you must solve, like this game!|سؤال محير يجب حله، مثل هذه اللعبة!
+Crossword|Word puzzle with black and white squares.|لغز كلمات بمربعات سوداء وبيضاء.
+Pencil case|Small bag holding pens and erasers.|حقيبة صغيرة للأقلام والممحاة.
+Magnifying glass|Round glass making small things look bigger.|زجاجة مستديرة تكبر الأشياء الصغيرة.
+Binoculars|You look through them to see far things.|ننظر عبره لرؤية الأشياء البعيدة.
+Recess|The break between lessons to play.|الاستراحة بين الحصص للعب.
+Classmate|Student sitting with you in the same class.|تلميذ يجلس معك في نفس الصف.
+Graduation|The ceremony ending your studies with a cap.|حفل نهاية الدراسة بقبعة خاصة.
+Scholarship|Free study paid by others for good students.|دراسة مجانية يدفعها آخرون للمتفوقين.
+Lecture|Long lesson given at university.|درس طويل يلقى في الجامعة.
+Magazine|Thin colorful book published every month.|كتيب ملون رقيق يصدر كل شهر.
+Newspaper|Big printed pages with today's news.|صفحات كبيرة مطبوعة بأخبار اليوم.
+Comic|Story told in drawings with speech bubbles.|قصة تروى بالرسوم وفقاعات الكلام.
+Cartoon|Animated drawings children watch on TV.|رسوم متحركة يشاهدها الأطفال في التلفاز.
+Chapter|One part of a book.|جزء واحد من كتاب.
+Author|The person who wrote the book.|الشخص الذي كتب الكتاب.
+Diary|Secret notebook where you write your day.|دفتر سري نكتب فيه يومياتنا.
+Fable|Short story with animals teaching a lesson.|قصة قصيرة بحيوانات تعلم عبرة.
+Running|Moving fast on your feet.|التحرك السريع على القدمين.
+Jumping|Pushing your body up off the ground.|دفع الجسم للأعلى عن الأرض.
+Exercise|Body movements keeping you healthy.|حركات الجسم التي تحفظ الصحة.
+Training|Practicing to become better.|التمرن لتصبح أفضل.
+Warm-up|Light movements before real sport.|حركات خفيفة قبل الرياضة الحقيقية.
+Stretching|Extending your muscles slowly.|مد العضلات ببطء.
+Push-up|Raising your body from the floor with your arms.|رفع الجسم عن الأرض بالذراعين.
+Fitness|Being strong and healthy in body.|أن تكون قويا وصحيحا بدنيا.
+Winner|The one who takes first place.|من يحتل المركز الأول.
+Champion|The best of all who competed.|الأفضل بين كل المتنافسين.
+Record|The best result ever achieved.|أفضل نتيجة تحققت في التاريخ.
+Score|The numbers showing who is winning.|الأرقام التي تبين من يفوز.
+Round|One part of a match or game.|جزء واحد من المباراة أو اللعبة.
+Match|Two teams playing against each other.|فريقان يلعبان ضد بعضهما.
+Final|The last game deciding the champion.|المباراة الأخيرة التي تحدد البطل.
+Opponent|The player facing you.|اللاعب الذي يواجهك.
+Supporter|Fan cheering for his team.|مشجع يهتف لفريقه.
+Applause|Clapping hands to show approval.|التصفيق باليدين إعجابا.
+Victory|Winning the game.|الفوز بالمباراة.
+Defeat|Losing the game.|الخسارة في المباراة.
+Draw|When both teams finish equal.|عندما ينتهي الفريقان متعادلين.
+Foul|Breaking the rules in a game.|مخالفة قواعد اللعبة.
+Offside|Football rule about standing too far ahead.|قاعدة كرة القدم عن التقدم الزائد.
+Halftime|The rest between the two halves.|الراحة بين شوطي المباراة.
+Puck|The flat black disc of ice hockey.|القرص الأسود المسطح في هوكي الجليد.
+Frisbee|Flying disc thrown between friends.|قرص طائر يرمى بين الأصدقاء.
+Skates|Shoes with blades or wheels for gliding.|أحذية بشفرات أو عجلات للانزلاق.
+Surfboard|Long board for riding ocean waves.|لوح طويل لركوب أمواج المحيط.
+Snowboard|One wide board for sliding down snowy mountains.|لوح عريض واحد للانزلاق على الجبال الثلجية.
+Goalpost|The frame the ball must enter.|الإطار الذي يجب أن تدخله الكرة.
+Hoop|The ring the basketball goes through.|الحلقة التي تمر منها كرة السلة.
+Trampoline|Elastic surface you bounce high on.|سطح مرن نقفز عليه عاليا.
+Runner|Person who races on foot.|شخص يتسابق على قدميه.
+Boxer|Fighter using only his fists with gloves.|مقاتل بقبضتيه فقط مع قفازات.
+Wrestler|Fighter who grabs and throws his opponent.|مصارع يمسك خصمه ويطرحه.
+Cyclist|Person riding a bicycle in races.|شخص يركب الدراجة في السباقات.
+Diver|Person who goes deep under water.|شخص يغوص عميقا تحت الماء.
+Skier|Person sliding down snow on two boards.|شخص ينزلق على الثلج بلوحين.
+Track|The oval path runners race on.|المسار البيضاوي الذي يتسابق عليه العداؤون.
+Lap|One full turn around the track.|دورة كاملة واحدة حول المضمار.
+Dish|Deep plate for serving food.|صحن عميق لتقديم الطعام.
+Teaspoon|The small one for stirring tea.|الصغيرة لتحريك الشاي.
+Tablespoon|The big one for serving food.|الكبيرة لغرف الطعام.
+Mixer|Electric machine kneading dough.|آلة كهربائية تعجن العجين.
+Masher|Crushes potatoes into puree.|تهرس البطاطا حتى تصبح ناعمة.
+Cutlery|Spoons, forks and knives together.|الملاعق والشوك والسكاكين معا.
+Crockery|All the plates and bowls of the house.|كل صحون البيت وأوعيته.
+Dishcloth|Cloth for wiping dishes and counters.|قماشة لمسح الصحون والطاولات.
+Dish rack|Where washed dishes dry.|حيث تجف الصحون المغسولة.
+Tap|You turn it and water comes out.|نديرها فيخرج الماء.
+Counter|The working surface of the kitchen.|سطح العمل في المطبخ.
+Container|Closed box keeping leftover food.|علبة مغلقة تحفظ بقايا الطعام.
+Lunch box|Box carrying your meal to school.|علبة تحمل وجبتك إلى المدرسة.
+Cork|Soft plug closing a bottle.|سدادة طرية تغلق القارورة.
+Toothpick|Thin stick cleaning between teeth.|عود رفيع ينظف بين الأسنان.
+Coaster|Small piece placed under the glass.|قطعة صغيرة توضع تحت الكوب.
+Music|Sounds arranged beautifully to enjoy.|أصوات مرتبة بجمال للاستمتاع.
+Dance|Moving your body with the music.|تحريك الجسم مع الموسيقى.
+Hum|Singing with your mouth closed.|الغناء والفم مغلق.
+Echo|Your voice coming back from the mountains.|صوتك يرتد من الجبال.
+Silence|When there is no sound at all.|عندما لا يوجد صوت إطلاقا.
+Volume|How loud the sound is.|مدى ارتفاع الصوت.
+Cassette|Old plastic tape playing music.|شريط بلاستيكي قديم يشغل الموسيقى.
+CD|Round shiny disc storing music.|قرص لامع مستدير يخزن الموسيقى.
+Karaoke|Singing along with words on a screen.|الغناء مع كلمات تظهر على الشاشة.
+Rehearsal|Practicing the show before the real one.|التمرن على العرض قبل الحقيقي.
+Performance|The show presented to the audience.|العرض المقدم أمام الجمهور.
+Instrument|Anything you play music with.|أي شيء نعزف به الموسيقى.
+Strings|The thin cords of a guitar or violin.|الخيوط الرفيعة للغيتار أو الكمان.
+Mandolin|Small round instrument with paired strings.|آلة صغيرة مستديرة بأوتار مزدوجة.
+Qanun|Flat Arabic instrument with many strings on the lap.|آلة عربية مسطحة بأوتار كثيرة توضع على الحجر.
+Rebab|Old Arabic one-string instrument of poets.|آلة عربية قديمة بوتر واحد للشعراء.
+Darbuka|Arabic drum held under the arm.|طبلة عربية تمسك تحت الذراع.
+Tuba|The biggest and deepest brass instrument.|أضخم آلات النفخ وأعمقها صوتا.
+Trombone|Brass instrument with a sliding arm.|آلة نفخ نحاسية بذراع منزلقة.
+Festival|Big celebration of music and art for days.|احتفال كبير بالموسيقى والفن لأيام.
+Parade|People marching in the street with music.|ناس يسيرون في الشارع مع الموسيقى.
+Whistling|Making music with your lips.|إصدار الموسيقى بالشفتين.
+Chime|Soft ringing of small bells.|رنين ناعم لأجراس صغيرة.
+Duet|Two people singing together.|شخصان يغنيان معا.
+Solo|One person performing alone.|شخص واحد يؤدي وحده.
+Tempo|How fast or slow the music goes.|مدى سرعة الموسيقى أو بطئها.
+Worker|Person doing a job for money.|شخص يقوم بعمل مقابل المال.
+Boss|The person giving orders at work.|الشخص الذي يعطي الأوامر في العمل.
+Employee|Person working for a company.|شخص يعمل لدى شركة.
+Colleague|Person working with you.|شخص يعمل معك.
+Apprentice|Young person learning a craft from a master.|شاب يتعلم حرفة من معلم.
+Volunteer|Works for free to help others.|يعمل مجانا لمساعدة الآخرين.
+Officer|Person with rank in police or army.|شخص برتبة في الشرطة أو الجيش.
+General|The highest army leader.|أعلى قائد في الجيش.
+Detective|Solves crimes by following clues.|يحل الجرائم بتتبع الأدلة.
+Spy|Works secretly to steal information.|يعمل سرا لسرقة المعلومات.
+Bodyguard|Protects an important person.|يحمي شخصية مهمة.
+Lifeguard|Watches swimmers and saves them.|يراقب السباحين وينقذهم.
+Paramedic|Gives first aid in the ambulance.|يقدم الإسعافات في سيارة الإسعاف.
+Midwife|Helps mothers deliver babies.|تساعد الأمهات على الولادة.
+Zookeeper|Feeds and cares for zoo animals.|يطعم حيوانات الحديقة ويرعاها.
+Cook|Prepares food in the kitchen.|يحضر الطعام في المطبخ.
+Barista|Makes coffee in cafes.|يحضر القهوة في المقاهي.
+Butler|Chief servant of a rich house.|كبير خدم البيت الغني.
+Builder|Constructs houses with his hands.|يبني البيوت بيديه.
+Locksmith|Opens locks when keys are lost.|يفتح الأقفال عند ضياع المفاتيح.
+Watchmaker|Repairs clocks and watches.|يصلح الساعات.
+Florist|Sells and arranges flowers.|يبيع الزهور وينسقها.
+Greengrocer|Sells fruits and vegetables.|يبيع الفواكه والخضروات.
+Milkman|Delivers milk to houses every morning.|يوصل الحليب للبيوت كل صباح.
+Shopkeeper|Owns and runs a small shop.|يملك محلا صغيرا ويديره.
+Porter|Carries bags at hotels and stations.|يحمل الحقائب في الفنادق والمحطات.
+Lumberjack|Cuts down trees in the forest.|يقطع الأشجار في الغابة.
+Weaver|Makes cloth by crossing threads.|يصنع القماش بتشبيك الخيوط.
+Calligrapher|Writes Arabic letters as art.|يكتب الحروف العربية فنا.
+Designer|Creates the look of clothes or products.|يبتكر شكل الملابس أو المنتجات.
+Model|Wears clothes to show them in shows.|يلبس الثياب لعرضها في العروض.
+Hairdresser|Cuts and styles hair.|يقص الشعر ويصففه.
+Announcer|Reads the news on TV or radio.|يقرأ الأخبار في التلفاز أو المذياع.
+Reporter|Goes to events and tells the news.|يذهب إلى الأحداث وينقل الأخبار.
+Director|Tells actors what to do in a film.|يوجه الممثلين في الفيلم.
+Producer|Pays for and organizes making a film.|يمول صناعة الفيلم وينظمها.
+Comedian|Makes people laugh on stage.|يضحك الناس على المسرح.
+Acrobat|Does amazing flips in the circus.|يؤدي حركات مذهلة في السيرك.
+Pianist|Plays the piano.|يعزف على البيانو.
+Drummer|Beats the drums in the band.|يقرع الطبول في الفرقة.
+Internet|The invisible net connecting all computers.|الشبكة الخفية التي تصل كل الحواسيب.
+Website|Pages you visit online, like Google.|صفحات نزورها على الشبكة مثل غوغل.
+Email|Letter sent instantly through the internet.|رسالة ترسل فورا عبر الإنترنت.
+App|Small program on your phone.|برنامج صغير على الهاتف.
+Wifi|Internet without wires at home.|إنترنت بلا أسلاك في البيت.
+Bluetooth|Connects devices closely without wires.|يصل الأجهزة القريبة بلا أسلاك.
+Video|Moving pictures with sound you watch.|صور متحركة بصوت نشاهدها.
+Photo|Still picture taken by a camera.|صورة ثابتة تلتقطها الكاميرا.
+Selfie|Photo you take of yourself.|صورة تلتقطها لنفسك بنفسك.
+Screenshot|Picture of what's on your screen.|صورة لما يظهر على شاشتك.
+Icon|Small picture you tap to open an app.|صورة صغيرة تضغطها لفتح تطبيق.
+Cursor|The arrow moving on the computer screen.|السهم المتحرك على شاشة الحاسوب.
+Download|Bringing a file from the internet to your device.|جلب ملف من الإنترنت إلى جهازك.
+Click|One press on the mouse button.|ضغطة واحدة على زر الفأرة.
+Emoji|Small faces expressing feelings in messages.|وجوه صغيرة تعبر عن المشاعر في الرسائل.
+Username|Your name in apps and games.|اسمك في التطبيقات والألعاب.
+Account|Your personal space in an app.|مساحتك الشخصية في تطبيق.
+Profile|Your page with your photo and info.|صفحتك بصورتك ومعلوماتك.
+Chat|Written conversation in an app.|محادثة مكتوبة في تطبيق.
+Video call|Talking while seeing each other on screens.|التحدث مع رؤية بعضنا على الشاشات.
+Ringtone|The music playing when someone calls.|الموسيقى التي تصدح عند الاتصال.
+Notification|Small message popping up on your phone.|رسالة صغيرة تظهر فجأة على الهاتف.
+Joystick|Stick controlling games.|عصا للتحكم في الألعاب.
+Data|Information stored in computers.|المعلومات المخزنة في الحواسيب.
+Code|Secret-looking text programmers write.|نص يشبه الطلاسم يكتبه المبرمجون.
+Touchpad|You slide your finger on it instead of a mouse.|نمرر عليها الإصبع بدل الفأرة.
+Antivirus|Program protecting your computer from harm.|برنامج يحمي الحاسوب من الأذى.
+Screensaver|Moving picture when the computer rests.|صورة متحركة عندما يرتاح الحاسوب.
+Eid|The happy feast after Ramadan or pilgrimage.|العيد السعيد بعد رمضان أو الحج.
+Ramadan|The month of fasting.|شهر الصيام.
+Prayer mat|Small carpet spread for praying.|سجادة صغيرة تفرش للصلاة.
+Qibla|The direction Muslims face to pray.|الاتجاه الذي يستقبله المصلون.
+Ablution|Washing before prayer.|الاغتسال قبل الصلاة.
+Kaaba|The black cube Muslims circle in Mecca.|المكعب الأسود الذي يطوف حوله الحجاج في مكة.
+Iftar|The meal breaking the fast at sunset.|وجبة كسر الصيام عند المغرب.
+Suhoor|The meal before dawn in Ramadan.|الوجبة قبل الفجر في رمضان.
+Dua|Asking God quietly with raised hands.|سؤال الله بخشوع ورفع اليدين.
+Angel|Heavenly being created from light.|مخلوق سماوي من نور.
+Job|The work you do for a living.|العمل الذي نكسب منه رزقنا.
+Work|What adults do every day to earn money.|ما يفعله الكبار يوميا لكسب المال.
+Career|Your work path over your whole life.|مسار عملك طوال حياتك.
+Interview|Meeting where they ask questions before hiring you.|لقاء يسألونك فيه قبل توظيفك.
+Task|One piece of work to be done.|عمل واحد يجب إنجازه.
+Project|Big planned work with a goal.|عمل كبير مخطط له هدف.
+Report|Written document about what happened.|وثيقة مكتوبة عما حدث.
+Notepad|Small paper block for quick notes.|رزمة أوراق صغيرة للملاحظات السريعة.
+ID card|Card proving who you are.|بطاقة تثبت هويتك.
+Business card|Small card with your name and work.|بطاقة صغيرة باسمك وعملك.
+Appointment|Fixed time to meet someone.|وقت محدد لمقابلة شخص.
+Schedule|Plan of your times and tasks.|خطة أوقاتك ومهامك.
+Deadline|The last moment to finish work.|آخر لحظة لإنهاء العمل.
+Conference|Big meeting of many professionals.|اجتماع كبير لمهنيين كثيرين.
+Presentation|Standing and explaining with slides.|الوقوف والشرح بشرائح معروضة.
+Graph|Line drawing showing how numbers change.|رسم خطي يبين تغير الأرقام.
+Budget|The money planned for spending.|المال المخطط لإنفاقه.
+Profit|The money gained above what you spent.|المال المكسوب فوق ما أنفقت.
+Tax|Money everyone pays to the government.|مال يدفعه الجميع للحكومة.
+Money|What you buy everything with.|ما نشتري به كل شيء.
+Bicycle|Two wheels you pedal with your feet.|عجلتان تدفعهما بقدميك.
+Motorcycle|Two wheels with an engine, very fast.|عجلتان بمحرك، سريعة جدا.
+Helicopter|Flies straight up with spinning blades on top.|تطير عموديا بمراوح دوارة فوقها.
+Submarine|Ship that travels under the sea.|سفينة تسير تحت سطح البحر.
+Anchor|Heavy metal dropped to stop the ship.|حديدة ثقيلة ترمى لتثبيت السفينة.
+Harbor|Where ships park by the city.|حيث ترسو السفن عند المدينة.
+Wheel|The round thing cars roll on.|الشيء المستدير الذي تسير عليه السيارات.
+Tunnel|Road passing through a mountain or underground.|طريق يخترق الجبل أو يمر تحت الأرض.
+Ambulance|Fast white car carrying the sick to hospital.|سيارة بيضاء سريعة تنقل المرضى للمستشفى.
+Ferry|Boat carrying people and cars across water.|مركب ينقل الناس والسيارات عبر الماء.
+Jacket|Short coat for cool weather.|معطف قصير للطقس البارد.
+Glove|You wear it on your hand in winter.|نلبسه في اليد شتاء.
+Scarf|Wrapped around the neck for warmth.|يلف حول العنق للدفء.
+Belt|Holds your pants around your waist.|يشد البنطال حول الخصر.
+Button|Small circles closing your shirt.|دوائر صغيرة تغلق القميص.
+Zipper|You pull it up and down to close clothes.|نسحبه صعودا ونزولا لإغلاق الثياب.
+Uniform|Same clothes worn by students or police.|لباس موحد للتلاميذ أو الشرطة.
+Pocket|Small bag sewn in your clothes for small things.|جيب مخيط في الثياب للأشياء الصغيرة.
+Carpenter|Makes doors and furniture from wood.|يصنع الأبواب والأثاث من الخشب.
+Plumber|Fixes water pipes and taps.|يصلح أنابيب الماء والحنفيات.
+Tailor|Sews and fixes clothes.|يخيط الثياب ويصلحها.
+Butcher|Sells and cuts meat.|يبيع اللحم ويقطعه.
+Pilot|Flies the airplane.|يقود الطائرة.
+Lawyer|Defends people in court.|يدافع عن الناس في المحكمة.
+Journalist|Writes the news for papers and TV.|يكتب الأخبار للصحف والتلفاز.
+Firefighter|Puts out fires and saves people.|يطفئ الحرائق وينقذ الناس.
+Whistle|The referee blows it to stop play.|ينفخ فيها الحكم لإيقاف اللعب.
+Medal|Gold, silver or bronze hung on winners' necks.|ذهبية أو فضية أو برونزية تعلق على صدور الفائزين.
+Trophy|The golden cup the champion lifts.|الكأس الذهبية التي يرفعها البطل.
+Stadium|Huge place where thousands watch matches.|مكان ضخم يشاهد فيه الآلاف المباريات.
+Racket|You hit the tennis ball with it.|نضرب بها كرة التنس.
+Helmet|Hard hat protecting your head.|قبعة صلبة تحمي الرأس.
+Referee|Controls the match and shows cards.|يدير المباراة ويشهر البطاقات.
+Scoreboard|Big screen showing the score.|شاشة كبيرة تعرض النتيجة.
+Magnet|Attracts iron and sticks to the fridge.|يجذب الحديد ويلتصق بالثلاجة.
+Thermometer|Measures how hot your body or the air is.|يقيس حرارة الجسم أو الجو.
+Compass|Its needle always points north.|إبرتها تشير دائما إلى الشمال.
+Telescope|You watch stars and planets through it.|نرصد به النجوم والكواكب.
+Laboratory|Room where scientists do experiments.|غرفة يجري فيها العلماء التجارب.
+Skeleton|All the bones of the body together.|كل عظام الجسم مجتمعة.
+Electricity|Invisible power lighting our homes.|الطاقة الخفية التي تضيء بيوتنا.
+Shadow|The dark shape following you in the sun.|الشكل المظلم الذي يتبعك في الشمس.
+Camera|Takes photos and videos.|تلتقط الصور والفيديو.
+Robot|Machine that moves and works by itself.|آلة تتحرك وتعمل بنفسها.
+Headphones|You wear them on your ears for music.|نلبسها على الأذنين للموسيقى.
+Antenna|Metal rod catching TV and radio signals.|قضيب معدني يلتقط إشارات التلفاز والمذياع.
+Microphone|You speak into it to be louder.|نتكلم فيه ليعلو صوتنا.
+Loudspeaker|Makes sound loud enough for everyone.|يجعل الصوت مسموعا للجميع.
+Drone|Small flying machine without a pilot.|طائرة صغيرة بلا طيار.
+Calculator|Small machine doing math for you.|آلة صغيرة تحسب عنك.
+Island|Land surrounded by water from all sides.|أرض يحيط بها الماء من كل الجهات.
+Volcano|Mountain that erupts fire and lava.|جبل يقذف النار والحمم.
+Valley|Low land between two mountains.|أرض منخفضة بين جبلين.
+Waterfall|River water falling from a high cliff.|ماء النهر يسقط من علو شاهق.
+Cave|Dark natural hole in the mountain.|فجوة طبيعية مظلمة في الجبل.
+Coast|Where the land meets the sea.|حيث تلتقي اليابسة بالبحر.
+Map|Drawing showing countries and roads.|رسم يبين البلدان والطرق.
+Bay|Sea curving into the land.|بحر يتقوس داخل اليابسة.
+Planet|Huge ball circling the sun, ours is Earth.|كرة ضخمة تدور حول الشمس، كوكبنا الأرض.
+Rocket|Launches with fire up into space.|ينطلق بالنار صعودا إلى الفضاء.
+Astronaut|Person traveling to space in a suit.|شخص يسافر إلى الفضاء ببدلة خاصة.
+Comet|Ice star with a long glowing tail.|نجم جليدي بذيل طويل متوهج.
+Orbit|The circular path around a planet.|المسار الدائري حول الكوكب.
+Galaxy|Billions of stars together in space.|مليارات النجوم مجتمعة في الفضاء.
+Lung|You breathe with them, you have two.|نتنفس بهما وعددهما اثنان.
+Kidney|Cleans your blood, you have two.|تصفي الدم وعددها اثنتان.
+Skull|The bone protecting your brain.|العظم الذي يحمي الدماغ.
+Muscle|What makes you strong and moves your bones.|ما يجعلنا أقوياء ويحرك العظام.
+Elbow|The joint bending your arm.|المفصل الذي يثني الذراع.
+Ankle|The joint between foot and leg.|المفصل بين القدم والساق.
+Wrist|The joint where you wear a watch.|المفصل الذي نلبس فيه الساعة.
+Rib|Curved bones protecting your heart.|عظام مقوسة تحمي القلب.
+Guitar|Six strings you strum with fingers.|ستة أوتار نعزفها بالأصابع.
+Piano|Black and white keys you press.|مفاتيح سوداء وبيضاء نضغطها.
+Drum|You beat it with sticks to keep rhythm.|نقرعه بالعصي لضبط الإيقاع.
+Flute|You blow across it to make soft music.|ننفخ فيه لعزف موسيقى ناعمة.
+Violin|Held under the chin and played with a bow.|يوضع تحت الذقن ويعزف بالقوس.
+Castle|Huge stone home of kings with towers.|بيت الملوك الحجري الضخم بأبراج.
+Sword|Long sharp blade knights fought with.|نصل طويل حاد قاتل به الفرسان.
+Shield|Held in front to block hits.|يرفع أماما لصد الضربات.
+Crown|Golden circle worn on the king's head.|دائرة ذهبية على رأس الملك.
+Pyramid|Giant pointed tombs of Egypt.|مقابر مصر العملاقة المدببة.
+Statue|Stone or metal figure of a famous person.|تمثال حجري أو معدني لشخص مشهور.
+Mosque|Building where Muslims pray.|المبنى الذي يصلي فيه المسلمون.
+Minaret|The tall tower of the mosque.|البرج العالي للمسجد.
+Kettle|Boils water for tea, whistles when ready.|تغلي ماء الشاي وتصفر عند الغليان.
+Frying pan|Flat wide pan for frying eggs.|مقلاة مسطحة واسعة لقلي البيض.
+Blender|Electric jug that turns fruit into juice.|إبريق كهربائي يحول الفواكه عصيرا.
+Tray|Flat surface for carrying cups together.|سطح مستوٍ لحمل الأكواب معا.
+Apron|Worn over clothes while cooking.|يلبس فوق الثياب أثناء الطبخ.
+Envelope|Paper cover you put a letter inside.|غلاف ورقي نضع فيه الرسالة.
+Stapler|Joins papers with small metal pins.|يجمع الأوراق بدبابيس معدنية صغيرة.
+Folder|Holds papers organized together.|يحفظ الأوراق منظمة معا.
+Calendar|Shows days, months and dates on the wall.|يعرض الأيام والشهور والتواريخ على الجدار.
+Scissors|Two blades cutting paper and cloth.|نصلان يقصان الورق والقماش.
+Bridge|Road crossing over a river.|طريق يعبر فوق النهر.
+Fountain|Water dancing up in the square.|ماء يتراقص صعودا في الساحة.
+Sidewalk|Where people walk beside the street.|حيث يمشي الناس بجانب الشارع.
+Museum|Where old and precious things are displayed.|حيث تعرض الأشياء القديمة والثمينة.
+Elevator|Small room lifting you between floors.|غرفة صغيرة ترفعك بين الطوابق.
+Chimney|Smoke leaves the house through it.|يخرج الدخان من البيت عبرها.
+Balcony|You stand on it outside an upper floor.|نقف عليها خارج الطابق العلوي.
+Attic|The room under the roof for old things.|الغرفة تحت السقف للأغراض القديمة.
+Basement|The room under the house.|الغرفة تحت البيت.
+Doorbell|Visitors press it to announce themselves.|يضغطه الزوار ليعلنوا وصولهم.
+Faucet|Water comes out when you open it.|يخرج الماء عند فتحه.
+Sink|Basin where you wash hands and dishes.|حوض نغسل فيه اليدين والصحون.
+Bathtub|Long basin you lie in to bathe.|حوض طويل نستلقي فيه للاستحمام.
+Shower|Water falling on you from above to wash.|ماء ينهمر عليك من الأعلى للاغتسال.
+Washing machine|Cleans your clothes by spinning.|تنظف الثياب بالدوران.
+Vacuum cleaner|Sucks dust from the carpet.|تشفط الغبار من السجاد.
+Air conditioner|Cools the room in hot summer.|يبرد الغرفة في الصيف الحار.
+Heater|Warms the room in cold winter.|تدفئ الغرفة في الشتاء البارد.
+Ladder|You climb its steps to reach high places.|نصعد درجاته لبلوغ الأماكن العالية.
+Toolbox|Box holding hammer, nails and tools.|صندوق يجمع المطرقة والمسامير والعدة.
+Pot|Deep container for cooking rice and stew.|وعاء عميق لطبخ الأرز واليخنة.
+Lid|Covers the pot while cooking.|يغطي القدر أثناء الطبخ.
+Grater|You rub cheese on it to shred it.|نحك عليها الجبن لبشره.
+Peeler|Removes the skin of potatoes.|يزيل قشرة البطاطا.
+Rolling pin|You roll dough flat with it.|نرقق به العجين.
+Cutting board|You chop vegetables on it.|نقطع عليه الخضروات.
+Whisk|You beat eggs quickly with it.|نخفق به البيض بسرعة.
+Ladle|Deep spoon for serving soup.|ملعقة عميقة لغرف الحساء.
+Teapot|You brew and pour tea from it.|نعد فيه الشاي ونصبه.
+Jar|Glass container for jam and pickles.|وعاء زجاجي للمربى والمخللات.
+Straw|Thin tube you drink juice through.|أنبوب رفيع نشرب به العصير.
+Napkin|You wipe your mouth with it at the table.|نمسح به الفم على المائدة.
+Tablecloth|Covers the table before eating.|يغطي الطاولة قبل الأكل.
+Freezer|Colder than the fridge, makes ice.|أبرد من الثلاجة ويصنع الثلج.
+Dishwasher|Machine washing the dishes for you.|آلة تغسل الصحون عنك.
+Flour|White powder from wheat for baking.|مسحوق أبيض من القمح للخبز.
+Dough|Flour and water mixed before baking.|طحين وماء يعجنان قبل الخبز.
+Vinegar|Sour liquid for salads and pickles.|سائل حامض للسلطات والمخللات.
+Oil|Liquid for frying, from olives or seeds.|سائل للقلي من الزيتون أو البذور.
+Cinnamon|Sweet brown spice from tree bark.|بهار بني حلو من لحاء شجرة.
+Mint|Fresh green leaves for tea.|أوراق خضراء منعشة للشاي.
+Ginger|Spicy root for tea and cooking.|جذر حار للشاي والطبخ.
+Almond|Oval nut in a hard shell.|لوزة بيضاوية في قشرة صلبة.
+Walnut|Nut that looks like a tiny brain.|جوزة تشبه دماغا صغيرا.
+Peanut|Cheap nut ground into butter.|فول رخيص يطحن زبدة.
+Raisin|Dried sweet grape.|عنبة مجففة حلوة.
+Lentils|Small flat seeds for famous soup.|بذور مسطحة صغيرة لشوربة مشهورة.
+Chickpeas|Round beans making hummus and falafel.|حبوب مستديرة تصنع الحمص والفلافل.
+Shrimp|Small curved pink sea creature you eat.|كائن بحري وردي مقوس صغير يؤكل.
+Sausage|Minced meat stuffed in a long shape.|لحم مفروم محشو بشكل طويل.
+Falcon|Fast hunting bird of Arab tradition.|طائر صيد سريع في التراث العربي.
+Crow|Black bird with a loud caw.|طائر أسود بنعيق عالٍ.
+Swan|Elegant white water bird with a long neck.|طائر مائي أبيض أنيق بعنق طويل.
+Ostrich|The biggest bird, runs but cannot fly.|أكبر الطيور، يجري ولا يطير.
+Flamingo|Pink bird standing on one leg.|طائر وردي يقف على ساق واحدة.
+Seagull|White bird flying over beaches.|طائر أبيض يحلق فوق الشواطئ.
+Woodpecker|Bird hammering holes in trees.|طائر يدق ثقوبا في الأشجار.
+Lizard|Small reptile running on walls.|زاحف صغير يجري على الجدران.
+Crocodile|Huge river reptile with powerful jaws.|زاحف النهر الضخم بفكين قويين.
+Scorpion|Desert creature with a stinging tail.|كائن صحراوي بذيل لاسع.
+Snail|Slow creature carrying a spiral shell.|كائن بطيء يحمل قوقعة حلزونية.
+Worm|Long soft creature living in soil.|كائن طويل لين يعيش في التربة.
+Beetle|Insect with a hard shiny back.|حشرة بظهر صلب لامع.
+Grasshopper|Green insect jumping far in the grass.|حشرة خضراء تقفز بعيدا في العشب.
+Dragonfly|Insect with four glass wings over water.|حشرة بأربعة أجنحة زجاجية فوق الماء.
+Jellyfish|Transparent sea creature that stings.|كائن بحري شفاف يلسع.
+Seal|Sea animal sliding on ice and swimming.|حيوان بحري ينزلق على الجليد ويسبح.
+Otter|Playful river animal floating on its back.|حيوان نهري مرح يطفو على ظهره.
+Mole|Blind digger living under gardens.|حفار أعمى يعيش تحت الحدائق.
+Hyena|Wild animal famous for its laugh.|حيوان بري مشهور بضحكته.
+Swamp|Wet muddy land with still water.|أرض موحلة رطبة بماء راكد.
+Meadow|Green field of grass and flowers.|حقل أخضر من العشب والأزهار.
+Cliff|High steep rock face by the sea.|صخر شاهق حاد عند البحر.
+Dune|Hill of sand shaped by wind.|تل رمل شكلته الرياح.
+Pond|Small still water where ducks swim.|ماء صغير ساكن يسبح فيه البط.
+Stream|Small narrow river you can cross.|نهر صغير ضيق يمكن عبوره.
+Spring|Fresh water coming out of the ground.|ماء عذب يخرج من الأرض.
+Thunder|The loud sound after lightning.|الصوت الهادر بعد البرق.
+Lightning|Electric flash splitting the sky.|وميض كهربائي يشق السماء.
+Hail|Balls of ice falling like rain.|كرات جليد تسقط كالمطر.
+Frost|Thin white ice covering grass at dawn.|جليد أبيض رقيق يغطي العشب فجرا.
+Dew|Water drops on plants in the morning.|قطرات ماء على النبات صباحا.
+Bark|The rough skin of the tree.|القشرة الخشنة للشجرة.
+Thorn|Sharp point on a rose stem.|رأس حاد على ساق الوردة.
+Cactus|Desert plant covered in spikes, needs no water.|نبتة صحراوية مليئة بالأشواك لا تحتاج ماء.
+Forehead|The area above your eyebrows.|المنطقة فوق الحاجبين.
+Chin|The bottom tip of your face.|الطرف الأسفل من الوجه.
+Cheek|The soft sides of your face.|الجانبان الناعمان من الوجه.
+Eyebrow|The hair line above your eye.|خط الشعر فوق العين.
+Eyelash|Tiny hairs on the edge of your eyelid.|شعيرات دقيقة على حافة الجفن.
+Jaw|The bone moving when you chew.|العظم المتحرك عند المضغ.
+Heel|The back part of your foot.|الجزء الخلفي من القدم.
+Palm|The inner flat side of your hand.|الجهة الداخلية المسطحة من اليد.
+Thumb|The short thick finger.|الإصبع القصير الغليظ.
+Waist|The middle of your body where the belt goes.|وسط الجسم حيث يشد الحزام.
+Suit|Formal jacket and pants for weddings and work.|سترة وبنطال رسميان للأعراس والعمل.
+Vest|Sleeveless top worn over a shirt.|لباس علوي بلا أكمام فوق القميص.
+Sleeve|The part of the shirt covering your arm.|جزء القميص الذي يغطي الذراع.
+Collar|The part of the shirt around your neck.|جزء القميص المحيط بالعنق.
+Sandals|Open shoes for summer.|أحذية مفتوحة للصيف.
+Boots|Tall strong shoes for rain and work.|أحذية عالية قوية للمطر والعمل.
+Slippers|Soft shoes worn only inside the house.|أحذية خفيفة تلبس داخل البيت فقط.
+Bracelet|Jewelry worn around the wrist.|حلية تلبس حول المعصم.
+Necklace|Jewelry hanging around the neck.|حلية تتدلى حول العنق.
+Earrings|Jewelry hanging from the ears.|حلي تتدلى من الأذنين.
+Tram|Electric train running inside city streets.|قطار كهربائي يسير في شوارع المدينة.
+Trailer|Box on wheels pulled behind a truck.|صندوق بعجلات يجر خلف الشاحنة.
+Crane|Tall machine lifting heavy things to build towers.|آلة عالية ترفع الأثقال لبناء الأبراج.
+Bulldozer|Yellow machine pushing earth and destroying walls.|آلة صفراء تجرف التراب وتهدم الجدران.
+Tractor|Farm machine pulling the plow.|آلة المزرعة التي تجر المحراث.
+Yacht|Luxury boat of the rich.|قارب الأغنياء الفاخر.
+Canoe|Narrow light boat paddled by hand.|قارب ضيق خفيف يجدف باليد.
+Sailboat|Boat moved by wind in its sails.|قارب تحركه الرياح في أشرعته.
+Parachute|Opens like an umbrella when jumping from planes.|تنفتح كمظلة عند القفز من الطائرات.
+Hot air balloon|Giant balloon carrying people in a basket.|منطاد عملاق يحمل الناس في سلة.
+Fuel|What vehicles drink to move.|ما تشربه المركبات لتتحرك.
+Engine|The heart of the car making it move.|قلب السيارة الذي يحركها.
+Brake|You press it to stop the car.|ندوس عليه لإيقاف السيارة.
+Steering wheel|You turn it to steer the car.|نديره لتوجيه السيارة.
+Windshield|The big front glass of the car.|الزجاج الأمامي الكبير للسيارة.
+Farmer|Plants crops and raises animals.|يزرع المحاصيل ويربي المواشي.
+Baker|Bakes bread and cakes every dawn.|يخبز الخبز والحلويات كل فجر.
+Barber|Cuts men's hair.|يحلق شعر الرجال.
+Nurse|Cares for patients beside the doctor.|تعتني بالمرضى بجانب الطبيب.
+Dentist|Doctor who fixes your teeth.|طبيب يعالج الأسنان.
+Engineer|Designs machines, roads and buildings.|يصمم الآلات والطرق والمباني.
+Electrician|Fixes wires and lights.|يصلح الأسلاك والأضواء.
+Mechanic|Repairs broken cars.|يصلح السيارات المعطلة.
+Waiter|Brings food to your table.|يحضر الطعام إلى طاولتك.
+Chef|Master cook of a restaurant.|كبير طهاة المطعم.
+Fisherman|Catches fish with nets from the sea.|يصطاد السمك بالشباك من البحر.
+Shepherd|Watches over the sheep in the fields.|يرعى الغنم في الحقول.
+Soldier|Defends the country in the army.|يدافع عن الوطن في الجيش.
+Guard|Stands at the door protecting the place.|يقف على الباب يحمي المكان.
+Librarian|Organizes books and helps readers.|ينظم الكتب ويساعد القراء.
+Tennis|Two players hitting a ball over a net with rackets.|لاعبان يتبادلان الكرة فوق شبكة بمضربين.
+Volleyball|Teams hitting the ball over a high net with hands.|فرق تضرب الكرة فوق شبكة عالية بالأيدي.
+Boxing|Fighting sport with gloves in a ring.|رياضة قتال بالقفازات في حلبة.
+Wrestling|Two fighters trying to pin each other down.|مصارعان يحاول كل منهما طرح الآخر.
+Karate|Japanese fighting art with hands and shouts.|فن قتال ياباني بالأيدي والصرخات.
+Marathon|Very long race of 42 kilometers.|سباق طويل جدا مسافته اثنان وأربعون كيلومترا.
+Gymnastics|Sport of flips, balance and flexibility.|رياضة الشقلبات والتوازن والمرونة.
+Skiing|Sliding down snowy mountains on two boards.|الانزلاق على الجبال الثلجية بلوحين.
+Surfing|Riding ocean waves standing on a board.|ركوب أمواج المحيط وقوفا على لوح.
+Archery|Shooting arrows at a round target.|رمي السهام نحو هدف دائري.
+Chess|Board game of kings, queens and knights.|لعبة الرقعة بالملوك والوزراء والأحصنة.
+Net|The ball must pass over it or into it.|يجب أن تعبره الكرة أو تدخل فيه.
+Experiment|Test scientists do to discover something.|تجربة يجريها العلماء لاكتشاف شيء.
+Funnel|Wide top, narrow bottom, for pouring liquids.|واسع من فوق ضيق من تحت لسكب السوائل.
+Test tube|Thin glass tube holding lab liquids.|أنبوب زجاجي رفيع لسوائل المختبر.
+Flask|Round glass bottle used in labs.|قارورة زجاجية مستديرة تستخدم في المختبرات.
+Lens|Curved glass making things look bigger or clearer.|زجاجة محدبة تكبر الأشياء أو توضحها.
+Mercury|The only liquid silver metal, in old thermometers.|المعدن الفضي السائل الوحيد في موازين الحرارة القديمة.
+Oxygen|The gas we breathe to live.|الغاز الذي نتنفسه لنعيش.
+Hydrogen|The lightest gas, first in the periodic table.|أخف الغازات وأول الجدول الدوري.
+Steam|Hot water turned into white vapor.|ماء ساخن تحول بخارا أبيض.
+Rust|Red-brown layer eating old iron.|طبقة بنية حمراء تأكل الحديد القديم.
+Tablet|Flat touch screen bigger than a phone.|شاشة لمس مسطحة أكبر من الهاتف.
+Laptop|Computer you fold and carry anywhere.|حاسوب يطوى ويحمل في أي مكان.
+Router|Box spreading wifi through the house.|جهاز ينشر الواي فاي في البيت.
+Flash drive|Tiny stick storing files in your pocket.|قطعة صغيرة تخزن الملفات في جيبك.
+Cable|Wire connecting devices together.|سلك يوصل الأجهزة ببعضها.
+Plug|You push it into the wall for power.|ندخله في الجدار للحصول على الكهرباء.
+Socket|The holes in the wall where plugs go.|الثقوب في الجدار حيث يدخل القابس.
+Remote control|You change TV channels with it from the sofa.|نغير به قنوات التلفاز من الأريكة.
+Smartwatch|Watch counting your steps and showing messages.|ساعة تحسب خطواتك وتعرض رسائلك.
+Scanner|Copies paper into the computer.|ينسخ الورق إلى الحاسوب.
+Projector|Throws a big image onto the wall.|يعرض صورة كبيرة على الجدار.
+Webcam|Small camera on top of the screen for calls.|كاميرا صغيرة أعلى الشاشة للمكالمات.
+Border|The line separating two countries.|الخط الفاصل بين دولتين.
+Capital|The main city where the government sits.|المدينة الرئيسية حيث تجلس الحكومة.
+Village|Small quiet place in the countryside.|مكان صغير هادئ في الريف.
+Countryside|Green land far from the city.|الأرض الخضراء البعيدة عن المدينة.
+Jungle|Thick hot forest full of wild animals.|غابة كثيفة حارة مليئة بالوحوش.
+Plain|Wide flat land with no mountains.|أرض واسعة مستوية بلا جبال.
+Riverbank|The land on the edge of the river.|الأرض على حافة النهر.
+Summit|The very top of the mountain.|أعلى نقطة في الجبل.
+Slope|The tilted side of a hill.|الجانب المائل من التل.
+Lagoon|Calm shallow water separated from the sea.|ماء هادئ ضحل معزول عن البحر.
+Trumpet|Golden horn with three buttons you blow.|بوق ذهبي بثلاثة أزرار ينفخ فيه.
+Saxophone|Curved golden jazz instrument.|آلة الجاز الذهبية المنحنية.
+Accordion|You squeeze it open and closed to play.|نضغطها فتحا وإغلاقا للعزف.
+Oud|The king of Arabic string instruments.|ملك الآلات الوترية العربية.
+Tambourine|Round frame with jingles you shake and hit.|إطار مستدير بصنوج يهز ويضرب.
+Choir|Group singing together in harmony.|مجموعة تغني معا بتناغم.
+Concert|Live music show for a big audience.|عرض موسيقي حي لجمهور كبير.
+Song|Words and melody sung together.|كلمات ولحن يغنيان معا.
+Square|Open space in the city center.|ساحة مفتوحة في وسط المدينة.
+Alley|Very narrow street between buildings.|زقاق ضيق جدا بين المباني.
+Crosswalk|White stripes where people cross the street.|خطوط بيضاء يعبر عليها المشاة.
+Billboard|Huge advertising board by the road.|لوحة إعلانات ضخمة عند الطريق.
+Bench|Public seat in the park.|مقعد عام في الحديقة.
+Streetlight|Pole lighting the street at night.|عمود يضيء الشارع ليلا.
+Cinema|Dark hall where films are shown.|قاعة مظلمة تعرض فيها الأفلام.
+Theater|Stage where actors perform live.|مسرح يؤدي عليه الممثلون مباشرة.
+Zoo|Park where wild animals are kept for visits.|حديقة تعرض الحيوانات البرية للزوار.
+Prison|Where criminals are locked up.|حيث يحبس المجرمون.
+Whiteboard|You write on it with erasable markers.|نكتب عليها بأقلام قابلة للمسح.
+Marker|Thick pen writing on boards.|قلم غليظ يكتب على السبورات.
+Highlighter|Bright pen coloring important words.|قلم فاقع يلون الكلمات المهمة.
+Paperclip|Bent wire holding papers together.|سلك ملوي يجمع الأوراق.
+Rubber stamp|Pressed with ink to mark documents.|يضغط بالحبر لختم الوثائق.
+Briefcase|Flat leather bag for work papers.|حقيبة جلدية مسطحة لأوراق العمل.
+Receipt|Paper proving you paid.|ورقة تثبت أنك دفعت.
+Contract|Signed paper of agreement.|ورقة اتفاق موقعة.
+Armchair|Comfortable single seat with two arms.|مقعد مريح لشخص واحد بذراعين.
+Bookshelf|Tall furniture holding rows of books.|أثاث عالٍ يحمل صفوف الكتب.
+Wardrobe|Tall closet where clothes hang.|خزانة عالية تعلق فيها الثياب.
+Closet|Storage space built into the wall.|مخزن مبني داخل الجدار.
+Dresser|Low drawers with a mirror for getting ready.|أدراج منخفضة بمرآة للتجهز.
+Nightstand|Small table beside the bed.|طاولة صغيرة بجانب السرير.
+Mattress|The soft thick part of the bed you lie on.|الجزء الطري السميك من السرير الذي نستلقي عليه.
+Bedsheet|Cloth covering the mattress.|قماش يغطي المرتبة.
+Quilt|Thick stitched cover for cold nights.|غطاء سميك مخيط لليالي الباردة.
+Cradle|Small rocking bed for babies.|سرير صغير يهتز للرضع.
+Hallway|The passage right after the front door.|الممر بعد الباب الرئيسي مباشرة.
+Ceiling|What you see when you look up in a room.|ما نراه عندما ننظر لأعلى في الغرفة.
+Fireplace|Where wood burns inside the house for warmth.|حيث يحترق الحطب داخل البيت للتدفئة.
+Mailbox|Letters are dropped into it.|توضع فيه الرسائل الواردة.
+Doormat|You wipe your shoes on it before entering.|نمسح عليها الأحذية قبل الدخول.
+Hanger|Clothes hang on it in the closet.|تعلق عليها الثياب في الخزانة.
+Hook|Bent metal on the wall to hang things.|معدن معقوف على الجدار لتعليق الأشياء.
+Nail|You hammer it into the wall.|ندقه بالمطرقة في الجدار.
+Hammer|Tool for hitting nails.|أداة لدق المسامير.
+Screwdriver|Tool turning screws in and out.|أداة تدير البراغي دخولا وخروجا.
+Screw|Like a nail but turns in spirals.|كالمسمار لكنه يدور حلزونيا.
+Wrench|Tool gripping and turning bolts.|أداة تمسك الصواميل وتديرها.
+Saw|Toothed blade cutting wood back and forth.|نصل مسنن يقطع الخشب ذهابا وإيابا.
+Drill|Electric tool making holes in walls.|أداة كهربائية تثقب الجدران.
+Axe|Heavy blade for chopping wood.|نصل ثقيل لتقطيع الحطب.
+Shovel|Tool for digging earth.|أداة لحفر التراب.
+Rake|Toothed tool gathering leaves.|أداة مسننة تجمع الأوراق.
+Wheelbarrow|One-wheel cart pushed by hand in gardens.|عربة بعجلة واحدة تدفع باليد في الحدائق.
+Hose|Long flexible tube watering the garden.|أنبوب مرن طويل يسقي الحديقة.
+Lawn mower|Machine cutting the grass short.|آلة تقص العشب قصيرا.
+Flowerpot|Container where a plant grows at home.|وعاء تنمو فيه نبتة في البيت.
+Watering can|You pour water on plants from its spout.|نسقي به النباتات من فوهته.
+Dustbin|Where you throw the garbage.|حيث نرمي القمامة.
+Ashtray|Small dish where smokers tap ashes.|طبق صغير ينفض فيه المدخنون الرماد.
+Clothesline|Rope where washed clothes dry.|حبل تجف عليه الملابس المغسولة.
+Clothespin|Small clip holding clothes on the line.|مشبك صغير يثبت الغسيل على الحبل.
+Iron|Hot flat tool removing wrinkles from clothes.|أداة ساخنة مسطحة تزيل تجاعيد الثياب.
+Ironing board|Narrow table for pressing clothes.|طاولة ضيقة لكي الملابس.
+Sponge|Soft absorbing block for washing dishes.|قطعة ماصة طرية لغسل الصحون.
+Detergent|Powder or liquid cleaning clothes.|مسحوق أو سائل ينظف الملابس.
+Saucepan|Deep pan with one long handle.|قدر عميق بمقبض واحد طويل.
+Colander|Bowl full of holes draining pasta.|وعاء مثقب يصفي المعكرونة.
+Sieve|Fine mesh sifting flour.|شبكة دقيقة تنخل الطحين.
+Spatula|Flat tool flipping pancakes.|أداة مسطحة تقلب الفطائر.
+Tongs|You grab hot food with them.|نمسك بها الطعام الساخن.
+Corkscrew|Twisted tool pulling corks from bottles.|أداة ملولبة تنزع سدادات القوارير.
+Can opener|Opens metal food cans.|تفتح علب الطعام المعدنية.
+Bottle opener|Pops the metal cap off bottles.|تنزع الغطاء المعدني عن القوارير.
+Nutcracker|Squeezes nuts until the shell breaks.|يضغط الجوز حتى تنكسر قشرته.
+Mortar|Stone bowl where spices are crushed.|وعاء حجري تدق فيه التوابل.
+Pestle|The stick crushing spices in the stone bowl.|اليد التي تدق التوابل في الهاون.
+Skewer|Metal stick holding meat over fire.|سيخ معدني يحمل اللحم فوق النار.
+Grill|Metal bars cooking meat over fire.|قضبان معدنية تشوي اللحم فوق النار.
+Toaster|Bread jumps out of it browned.|يقفز منه الخبز محمصا.
+Microwave|Heats food in seconds with a beep.|يسخن الطعام في ثوانٍ مع صفير.
+Coffee maker|Machine brewing coffee automatically.|آلة تعد القهوة تلقائيا.
+Grinder|Turns coffee beans into powder.|تحول حبوب القهوة إلى مسحوق.
+Juicer|Squeezes fruit into juice.|تعصر الفواكه عصيرا.
+Measuring cup|Cup with lines showing amounts.|كوب بخطوط تبين المقادير.
+Timer|Rings when cooking time is up.|يرن عند انتهاء وقت الطبخ.
+Scale|Weighs the ingredients.|يزن المكونات.
+Oven mitt|Thick glove holding hot trays.|قفاز سميك يمسك الصواني الساخنة.
+Bowl|Deep round dish for soup and mixing.|إناء عميق مستدير للحساء والخلط.
+Saucer|Small plate under the coffee cup.|صحن صغير تحت فنجان القهوة.
+Mug|Big heavy cup with a handle.|كوب كبير ثقيل بمقبض.
+Glass|You drink water from it, transparent.|نشرب منه الماء وهو شفاف.
+Pitcher|Big container pouring juice for everyone.|وعاء كبير يصب العصير للجميع.
+Thermos|Keeps drinks hot or cold for hours.|يحفظ المشروبات ساخنة أو باردة لساعات.
+Chopsticks|Two sticks Asians eat with.|عودان يأكل بهما الآسيويون.
+Salt shaker|Small holed container sprinkling salt.|وعاء صغير مثقوب يرش الملح.
+Apricot|Small soft orange fruit of early summer.|فاكهة برتقالية طرية صغيرة في أول الصيف.
+Plum|Small purple fruit with smooth skin.|فاكهة بنفسجية صغيرة بقشرة ملساء.
+Pomegranate|Red fruit full of ruby seeds.|فاكهة حمراء مليئة بحبوب كالياقوت.
+Guava|Tropical fruit with pink flesh and strong smell.|فاكهة استوائية لبها وردي ورائحتها قوية.
+Papaya|Orange tropical fruit with black seeds.|فاكهة استوائية برتقالية ببذور سوداء.
+Kiwi|Small brown fuzzy fruit, green inside.|فاكهة صغيرة بنية مخملية خضراء من الداخل.
+Avocado|Green creamy fruit for toast and guacamole.|فاكهة خضراء دسمة للخبز والغواكامولي.
+Coconut|Hard hairy ball with milk inside.|كرة صلبة مشعرة بداخلها حليب.
+Blueberry|Tiny dark blue berries in muffins.|توت أزرق داكن صغير في الكعك.
+Raspberry|Soft red berry made of tiny bubbles.|توتة حمراء طرية من حبيبات دقيقة.
+Blackberry|Dark berry growing on thorny bushes.|توتة داكنة تنمو على شجيرات شائكة.
+Cranberry|Sour red berries served with turkey.|توت أحمر حامض يقدم مع الديك الرومي.
+Grapefruit|Big bitter citrus, pink inside.|حمضية كبيرة مرة وردية من الداخل.
+Tangerine|Small sweet citrus easy to peel.|حمضية صغيرة حلوة سهلة التقشير.
+Lime|Small green sour citrus.|حمضية صغيرة خضراء حامضة.
+Cauliflower|White curly vegetable like a brain.|خضار أبيض مجعد يشبه الدماغ.
+Cabbage|Round vegetable of layered leaves.|خضار مستدير من أوراق متراكبة.
+Broccoli|Green vegetable like a small tree.|خضار أخضر يشبه شجرة صغيرة.
+Spinach|Dark green leaves making you strong.|أوراق خضراء داكنة تمنح القوة.
+Celery|Long crunchy green sticks.|عيدان خضراء طويلة مقرمشة.
+Leek|Long white and green onion cousin.|قريب البصل طويل أبيض وأخضر.
+Radish|Small red root with white inside, spicy.|جذر أحمر صغير أبيض الداخل لاذع.
+Turnip|Round white and purple root vegetable.|خضار جذري مستدير أبيض وبنفسجي.
+Beetroot|Root vegetable staining everything dark red.|خضار جذري يصبغ كل شيء بالأحمر الداكن.
+Pumpkin|Big orange vegetable of soup and lanterns.|خضار برتقالي ضخم للشوربة والفوانيس.
+Zucchini|Long green vegetable often stuffed.|خضار أخضر طويل يحشى غالبا.
+Eggplant|Shiny purple vegetable for famous dishes.|خضار بنفسجي لامع لأطباق مشهورة.
+Bell pepper|Sweet crunchy pepper, red, yellow or green.|فليفلة حلوة مقرمشة حمراء أو صفراء أو خضراء.
+Chili|The small pepper burning your tongue.|الفلفل الصغير الذي يحرق اللسان.
+Peas|Tiny green balls in a pod.|كرات خضراء صغيرة في قرن.
+Okra|Green finger-shaped vegetable in stews.|خضار أخضر كالأصابع في اليخنات.
+Artichoke|Green flower vegetable eaten leaf by leaf.|خضار زهري أخضر يؤكل ورقة ورقة.
+Asparagus|Thin green spears served fancy.|رماح خضراء رفيعة تقدم في الأطباق الفاخرة.
+Mushroom|Umbrella-shaped food growing without sun.|طعام بشكل مظلة ينمو بلا شمس.
+Parsley|Chopped green herb on every salad.|عشبة خضراء مفرومة على كل سلطة.
+Coriander|Green herb with a strong loved-or-hated taste.|عشبة خضراء بنكهة قوية تحب أو تكره.
+Dill|Feathery herb used with fish.|عشبة ريشية تستخدم مع السمك.
+Basil|Sweet-smelling herb of Italian food.|عشبة عطرة في الطعام الإيطالي.
+Thyme|Dried herb eaten with olive oil and bread.|عشبة مجففة تؤكل بزيت الزيتون والخبز.
+Rosemary|Needle-leaf herb with pine smell.|عشبة بأوراق إبرية ورائحة صنوبرية.
+Nutmeg|Brown seed grated over desserts.|بذرة بنية تبشر فوق الحلويات.
+Cloves|Dried flower nails with strong taste.|مسامير زهرية مجففة بطعم قوي.
+Cumin|Brown spice essential in Arabic cooking.|بهار بني أساسي في الطبخ العربي.
+Paprika|Red powder made from dried peppers.|مسحوق أحمر من الفلفل المجفف.
+Sesame|Tiny seeds on top of bread.|بذور دقيقة فوق الخبز.
+Pistachio|Green nut in a half-open shell.|فستق أخضر في قشرة نصف مفتوحة.
+Cashew|Curved creamy white nut.|مكسرات بيضاء دسمة منحنية.
+Hazelnut|Round nut famous in chocolate spread.|بندقة مستديرة مشهورة في دهن الشوكولاتة.
+Oats|Healthy flakes for breakfast porridge.|رقائق صحية لعصيدة الفطور.
+Wheat|Golden grain bread is made from.|الحبوب الذهبية التي يصنع منها الخبز.
+Pasta|Italian dough shapes boiled and sauced.|أشكال عجين إيطالية تسلق وتضاف لها الصلصة.
+Noodles|Long thin Asian pasta in soup.|خيوط عجين آسيوية طويلة في الشوربة.
+Couscous|Tiny steamed grains, famous North African dish.|حبيبات مبخرة دقيقة، طبق مغاربي شهير.
+Syrup|Thick sweet liquid poured over desserts.|سائل حلو كثيف يسكب على الحلويات.
+Jelly|Wobbly transparent sweet that shakes.|حلوى شفافة هلامية تهتز.
+Pickles|Vegetables soaked sour in jars.|خضروات منقوعة حامضة في مرطبانات.
+Mustard|Yellow sharp sauce for sandwiches.|صلصة صفراء لاذعة للشطائر.
+Mayonnaise|White creamy sauce from eggs and oil.|صلصة بيضاء دسمة من البيض والزيت.
+Ketchup|Red tomato sauce kids put on everything.|صلصة طماطم حمراء يضعها الأطفال على كل شيء.
+Cream|The rich top layer of milk.|الطبقة الغنية العليا من الحليب.
+Broth|The tasty water meat was boiled in.|الماء اللذيذ الذي سلق فيه اللحم.
+Stew|Meat and vegetables cooked slowly together.|لحم وخضار يطبخان معا ببطء.
+Omelette|Beaten eggs cooked flat in a pan.|بيض مخفوق يطهى مسطحا في المقلاة.
+Pancake|Soft flat cake stacked with syrup.|فطيرة طرية مسطحة تكدس مع القطر.
+Waffle|Square pastry with a grid pattern.|فطيرة مربعة بنقشة شبكية.
+Biscuit|Dry sweet snack that cracks.|قرص حلو جاف يتكسر.
+Croissant|French crescent-shaped buttery pastry.|معجنات فرنسية هلالية بالزبدة.
+Donut|Fried sweet ring with a hole.|حلقة مقلية حلوة بثقب في الوسط.
+Pie|Baked crust filled with fruit or meat.|عجينة مخبوزة محشوة فواكه أو لحما.
+Pudding|Soft cold dessert eaten with a spoon.|حلوى باردة طرية تؤكل بالملعقة.
+Leopard|Spotted big cat climbing trees with prey.|قط كبير مرقط يتسلق الأشجار بفريسته.
+Cheetah|The fastest animal on land.|أسرع حيوان على اليابسة.
+Jaguar|Spotted big cat of South American jungles.|قط كبير مرقط في أدغال أمريكا الجنوبية.
+Panther|Completely black big cat.|قط كبير أسود بالكامل.
+Hippopotamus|Huge river animal with an enormous mouth.|حيوان نهري ضخم بفم هائل.
+Rhinoceros|Heavy grey animal with a horn on its nose.|حيوان رمادي ثقيل بقرن على أنفه.
+Buffalo|Strong dark farm animal giving rich milk.|حيوان مزرعة داكن قوي يعطي حليبا دسما.
+Bison|Huge shaggy wild cow of America.|بقر بري أمريكي ضخم أشعث.
+Antelope|Graceful horned animal running in herds.|حيوان رشيق بقرون يجري في قطعان.
+Ibex|Mountain goat with giant curved horns.|ماعز جبلي بقرون ضخمة مقوسة.
+Oryx|White desert antelope with long straight horns.|ظبي صحراوي أبيض بقرون طويلة مستقيمة.
+Hare|Like a rabbit but bigger and faster, lives wild.|كالأرنب لكنه أكبر وأسرع ويعيش بريا.
+Beaver|Builds dams on rivers with its teeth.|يبني السدود على الأنهار بأسنانه.
+Porcupine|Covered in long sharp quills.|مغطى بأشواك طويلة حادة.
+Raccoon|Masked animal washing its food.|حيوان مقنع يغسل طعامه.
+Skunk|Black and white animal spraying terrible smell.|حيوان أبيض وأسود يرش رائحة كريهة.
+Weasel|Small long sneaky hunter.|صياد صغير طويل ماكر.
+Mongoose|Small brave animal that fights snakes.|حيوان صغير شجاع يقاتل الثعابين.
+Badger|Striped-face digger living underground.|حفار بوجه مخطط يعيش تحت الأرض.
+Sloth|The slowest animal, hangs from trees.|أبطأ الحيوانات ويتدلى من الأشجار.
+Chimpanzee|The smartest ape, closest to humans.|أذكى القردة وأقربها إلى الإنسان.
+Gorilla|The biggest and strongest ape.|أضخم القردة وأقواها.
+Baboon|Monkey with a dog-like face and red bottom.|قرد بوجه كلبي ومؤخرة حمراء.
+Orangutan|Red-haired ape of Asian jungles.|قرد أحمر الشعر في أدغال آسيا.
+Koala|Australian tree hugger eating eucalyptus.|حيوان أسترالي يعانق الأشجار ويأكل الكينا.
+Anteater|Long-nosed animal licking up insects.|حيوان بأنف طويل يلعق الحشرات.
+Hamster|Tiny pet stuffing food in its cheeks.|حيوان أليف صغير يحشو خديه بالطعام.
+Guinea pig|Round furry pet that squeaks.|حيوان أليف مستدير مكسو بالفراء يصوصو.
+Lynx|Wild cat with pointed ear tufts.|قط بري بخصلات مدببة على أذنيه.
+Cougar|Big American mountain cat.|قط جبلي أمريكي كبير.
+Jackal|Wild dog of stories, cunning and sly.|كلب بري في الحكايات ماكر ومخادع.
+Stork|Tall white bird nesting on rooftops.|طائر أبيض طويل يعشش فوق الأسطح.
+Heron|Patient bird standing still in water hunting.|طائر صبور يقف ساكنا في الماء يصطاد.
+Pelican|Water bird storing fish in its beak pouch.|طائر مائي يخزن السمك في جراب منقاره.
+Sparrow|The little brown bird of every street.|العصفور البني الصغير في كل شارع.
+Swallow|Small bird returning every spring.|طائر صغير يعود كل ربيع.
+Nightingale|The bird with the sweetest night song.|الطائر صاحب أعذب غناء ليلي.
+Canary|Small yellow singing pet bird.|طائر زينة أصفر صغير مغرد.
+Hummingbird|Tiny bird hovering still while drinking nectar.|طائر دقيق يحوم ثابتا وهو يشرب الرحيق.
+Hawk|Sharp-eyed hunting bird diving on prey.|طائر صيد حاد البصر ينقض على فريسته.
+Vulture|Bald bird circling over dead animals.|طائر أصلع يحوم فوق الجيف.
+Goose|Big white bird honking loudly.|طائر أبيض كبير يصيح بصوت عالٍ.
+Turkey|Big bird eaten at holiday feasts.|طائر كبير يؤكل في الأعياد.
+Chameleon|Lizard changing color to hide.|سحلية تغير لونها للاختباء.
+Gecko|Small lizard sticking to walls and ceilings.|سحلية صغيرة تلتصق بالجدران والسقوف.
+Cobra|Dangerous snake spreading its hood.|ثعبان خطير ينشر قلنسوته.
+Viper|Poisonous snake with triangle head.|أفعى سامة برأس مثلث.
+Python|Giant snake squeezing its prey.|ثعبان عملاق يخنق فريسته.
+Tortoise|Land turtle living over a hundred years.|سلحفاة برية تعيش أكثر من مئة سنة.
+Salmon|Pink fish swimming up rivers.|سمكة وردية تسبح عكس النهر.
+Tuna|Big fast fish famous in cans.|سمكة كبيرة سريعة مشهورة في العلب.
+Sardine|Small fish packed tightly in cans.|سمكة صغيرة ترص بإحكام في العلب.
+Trout|Speckled river fish anglers love.|سمكة نهرية مرقطة يحبها الصيادون.
+Eel|Snake-like fish giving electric shocks.|سمكة كالثعبان تصعق بالكهرباء.
+Seahorse|Tiny fish shaped like a horse standing up.|سمكة دقيقة بشكل حصان واقف.
+Starfish|Five-armed creature on the sea floor.|كائن بخمس أذرع في قاع البحر.
+Lobster|Big red sea creature with strong claws.|كائن بحري أحمر كبير بكماشتين قويتين.
+Oyster|Closed shell that may hide a pearl.|صدفة مغلقة قد تخفي لؤلؤة.
+Squid|Sea creature with ten arms and ink.|كائن بحري بعشرة أذرع وحبر.
+Swordfish|Fish with a long sharp sword nose.|سمكة بأنف طويل حاد كالسيف.
+Ladybug|Small red beetle with black dots.|خنفساء حمراء صغيرة بنقاط سوداء.
+Caterpillar|Crawling worm that becomes a butterfly.|دودة زاحفة تتحول فراشة.
+Cockroach|The hated insect running in kitchens at night.|الحشرة المكروهة التي تجري في المطابخ ليلا.
+Cricket|Insect chirping all night long.|حشرة تصر طوال الليل.
+Firefly|Insect glowing in the dark.|حشرة تضيء في الظلام.
+Wasp|Yellow striped stinger, angrier than a bee.|لاسعة صفراء مخططة أشرس من النحلة.
+Hornet|The biggest and most dangerous wasp.|أكبر الزنابير وأخطرها.
+Termite|White insect eating wood from inside.|حشرة بيضاء تأكل الخشب من الداخل.
+Moth|Night butterfly circling the lamp.|فراشة الليل التي تحوم حول المصباح.
+Leech|Water worm sticking to skin drinking blood.|دودة ماء تلتصق بالجلد وتمص الدم.
+Pebble|Small smooth stone from the river.|حجر صغير أملس من النهر.
+Gravel|Many small stones covering paths.|حصى صغيرة كثيرة تغطي الممرات.
+Clay|Soft earth shaped into pottery.|تراب لين يشكل فخارا.
+Soil|The dark earth plants grow in.|التربة الداكنة التي تنمو فيها النباتات.
+Moss|Soft green cover on wet rocks.|غطاء أخضر ناعم على الصخور الرطبة.
+Fern|Green plant with feather-like leaves, no flowers.|نبتة خضراء بأوراق ريشية بلا أزهار.
+Vine|Climbing plant that grapes grow on.|نبتة متسلقة ينمو عليها العنب.
+Ivy|Green climber covering old walls.|متسلقة خضراء تكسو الجدران القديمة.
+Reed|Tall thin plant growing by rivers.|نبتة طويلة رفيعة تنمو عند الأنهار.
+Bamboo|Tall fast-growing sticks pandas eat.|عيدان طويلة سريعة النمو يأكلها الباندا.
+Bush|Plant shorter than a tree, round and thick.|نبتة أقصر من الشجرة مستديرة كثيفة.
+Trunk|The thick body of the tree.|الجذع السميك للشجرة.
+Twig|The thinnest small branch.|أرفع غصن صغير.
+Stump|What remains after a tree is cut.|ما يبقى بعد قطع الشجرة.
+Acorn|The small nut of the oak, squirrels' favorite.|ثمرة البلوط الصغيرة المفضلة عند السناجب.
+Pinecone|The woody brown fruit of the pine.|الثمرة الخشبية البنية للصنوبر.
+Oak|Big strong tree living centuries.|شجرة كبيرة قوية تعيش قرونا.
+Pine|Evergreen tree with needles and cones.|شجرة دائمة الخضرة بإبر وأكواز.
+Cedar|The proud tree on Lebanon's flag.|الشجرة الفخورة على علم لبنان.
+Willow|Sad tree with branches hanging to the ground.|شجرة حزينة بأغصان متدلية إلى الأرض.
+Maple|The tree whose leaf is on Canada's flag.|الشجرة التي ورقتها على علم كندا.
+Tulip|Cup-shaped flower famous in Holland.|زهرة بشكل كأس مشهورة في هولندا.
+Daisy|Simple white flower with a yellow heart.|زهرة بيضاء بسيطة بقلب أصفر.
+Sunflower|Tall yellow flower turning toward the sun.|زهرة صفراء طويلة تلتفت نحو الشمس.
+Jasmine|Small white flower with a lovely night smell.|زهرة بيضاء صغيرة برائحة ليلية ساحرة.
+Lily|Elegant trumpet-shaped flower.|زهرة أنيقة بشكل بوق.
+Orchid|Rare exotic flower of many shapes.|زهرة نادرة غريبة بأشكال كثيرة.
+Lavender|Purple flower fields with calming smell.|حقول زهور بنفسجية برائحة مهدئة.
+Poppy|Red field flower with black heart.|زهرة حقل حمراء بقلب أسود.
+Petal|One colorful leaf of a flower.|ورقة ملونة واحدة من الزهرة.
+Stem|The green stick holding the flower up.|العود الأخضر الذي يحمل الزهرة.
+Nectar|The sweet juice bees collect from flowers.|الرحيق الحلو الذي يجمعه النحل من الأزهار.
+Bud|Baby flower still closed.|زهرة صغيرة لم تتفتح بعد.
+Puddle|Small rain water on the ground kids jump in.|ماء مطر صغير على الأرض يقفز فيه الأطفال.
+Current|The invisible push moving river water.|الدفع الخفي الذي يحرك ماء النهر.
+Tide|The sea rising and falling every day.|صعود البحر ونزوله كل يوم.
+Seaweed|Green sea plants waving underwater.|نباتات البحر الخضراء تتمايل تحت الماء.
+Coral|Colorful sea rock that is actually alive.|صخر بحري ملون وهو في الحقيقة حي.
+Seashell|What you collect on the beach and hear the sea in.|ما نجمعه على الشاطئ ونسمع فيه البحر.
+Iceberg|Floating ice mountain, most of it hidden underwater.|جبل جليدي طافٍ معظمه مخفي تحت الماء.
+Snowflake|One tiny star-shaped piece of snow.|قطعة ثلج واحدة دقيقة بشكل نجمة.
+Breeze|Soft gentle pleasant wind.|ريح خفيفة لطيفة محببة.
+Whirlwind|Small spinning wind lifting dust.|ريح دوارة صغيرة ترفع الغبار.
+Raindrop|One single drop of rain.|قطرة مطر واحدة.
+Sunrise|When the sun appears in the morning.|عندما تظهر الشمس صباحا.
+Sunset|When the sun disappears with orange skies.|عندما تغيب الشمس بسماء برتقالية.
+Dawn|The first light before the sun rises.|أول الضوء قبل شروق الشمس.
+Autumn|The season when leaves fall.|الفصل الذي تتساقط فيه الأوراق.
+Summer|The hottest season, school is off.|أحر الفصول وعطلة المدارس.
+Winter|The coldest season of rain and snow.|أبرد الفصول بالمطر والثلج.
+Scalp|The skin under your hair.|الجلد تحت الشعر.
+Temple|The soft side of your head near the eye.|الجانب الطري من الرأس قرب العين.
+Nostril|One of the two holes of your nose.|إحدى فتحتي الأنف.
+Lip|The soft pink edge of your mouth.|الحافة الوردية الطرية للفم.
+Gum|The pink flesh holding your teeth.|اللحم الوردي الذي يمسك الأسنان.
+Throat|Inside your neck where food passes.|داخل الرقبة حيث يمر الطعام.
+Chest|The front of your body holding heart and lungs.|مقدمة الجسم التي تضم القلب والرئتين.
+Hip|The wide bone at the side of your waist.|العظم العريض على جانب الخصر.
+Thigh|The thick upper part of your leg.|الجزء العلوي الغليظ من الساق.
+Calf|The muscle at the back of your lower leg.|العضلة خلف أسفل الساق.
+Shin|The sharp front bone of your lower leg.|العظمة الأمامية الحادة أسفل الساق.
+Toe|The fingers of your feet.|أصابع القدمين.
+Knuckle|The bumps where fingers bend.|العقد البارزة حيث تنثني الأصابع.
+Fingernail|The hard shield on your fingertip.|الدرع الصلب على رأس الإصبع.
+Fist|Your hand closed tight.|اليد مقبوضة بإحكام.
+Dimple|The cute hole in the cheek when smiling.|الحفرة اللطيفة في الخد عند الابتسام.
+Freckle|Small brown dots on the face from the sun.|نقاط بنية صغيرة على الوجه من الشمس.
+Wrinkle|Lines on the skin coming with age.|خطوط على الجلد تأتي مع العمر.
+Beard|Hair growing on a man's chin.|شعر ينمو على ذقن الرجل.
+Mustache|Hair growing above a man's lip.|شعر ينمو فوق شفة الرجل.
+Blouse|Elegant light top for women.|لباس علوي نسائي أنيق خفيف.
+Cardigan|Knitted jacket with buttons, no zipper.|سترة محبوكة بأزرار بلا سحاب.
+Hoodie|Sweatshirt with a head cover attached.|كنزة بغطاء رأس متصل.
+Raincoat|Waterproof coat for rainy days.|معطف عازل للماء لأيام المطر.
+Jeans|Blue tough pants everyone owns.|بنطال أزرق متين يملكه الجميع.
+Tracksuit|Matching sporty jacket and pants.|سترة وبنطال رياضيان متناسقان.
+Swimsuit|What you wear to swim.|ما نلبسه للسباحة.
+Underwear|Clothes worn under everything else.|ملابس تلبس تحت كل شيء.
+Mitten|Winter glove with one space for four fingers.|قفاز شتوي بمكان واحد لأربعة أصابع.
+Beanie|Soft knitted winter hat.|قبعة شتوية محبوكة طرية.
+Hood|The head cover attached to a jacket.|غطاء الرأس المتصل بالسترة.
+Veil|Light cloth covering a woman's face or head.|قماش خفيف يغطي وجه المرأة أو رأسها.
+Cufflinks|Elegant metal pieces closing shirt sleeves.|قطع معدنية أنيقة تغلق أكمام القميص.
+Shawl|Wide soft cloth wrapped over the shoulders.|قماش عريض ناعم يلف على الكتفين.
+Wallet|Small folder in your pocket holding money.|محفظة صغيرة في الجيب للنقود.
+Handbag|Bag women carry with everything inside.|حقيبة تحملها النساء وفيها كل شيء.
+Backpack|Bag carried on both shoulders.|حقيبة تحمل على الكتفين.
+Suitcase|Big rolling bag for travel.|حقيبة كبيرة بعجلات للسفر.
+Umbrella|You open it over your head against rain.|نفتحها فوق الرأس ضد المطر.
+Sunglasses|Dark glasses protecting eyes from the sun.|نظارات داكنة تحمي العينين من الشمس.
+Glasses|Worn on the nose to see clearly.|تلبس على الأنف للرؤية بوضوح.
+Shoelace|The string you tie on your shoe.|الخيط الذي نربطه على الحذاء.
+Buckle|Metal closure of a belt.|إغلاق الحزام المعدني.
+Thread|Thin string used for sewing.|خيط رفيع للخياطة.
+Needle|Thin sharp tool pulling thread through cloth.|أداة رفيعة حادة تمرر الخيط في القماش.
+Fabric|The material clothes are made from.|المادة التي تصنع منها الثياب.
+Wool|Warm material from sheep.|مادة دافئة من الخروف.
+Cotton|Soft white plant material for clothes.|مادة نباتية بيضاء ناعمة للملابس.
+Silk|The smoothest most luxurious fabric.|أنعم الأقمشة وأفخرها.
+Leather|Strong material from animal skin.|مادة قوية من جلد الحيوانات.
+Scooter|You stand on it and push with one foot.|نقف عليه وندفع بقدم واحدة.
+Skateboard|Board on four small wheels for tricks.|لوح بأربع عجلات صغيرة للحركات.
+Subway|Underground train of big cities.|قطار تحت الأرض في المدن الكبرى.
+Fire truck|Big red truck with ladders and sirens.|شاحنة حمراء كبيرة بسلالم وصفارات.
+Police car|Car with blue lights chasing criminals.|سيارة بأضواء زرقاء تطارد المجرمين.
+Garbage truck|Truck collecting trash every morning.|شاحنة تجمع القمامة كل صباح.
+Limousine|Extra long luxury car of celebrities.|سيارة فاخرة طويلة جدا للمشاهير.
+Jeep|Strong car climbing mountains and sand.|سيارة قوية تتسلق الجبال والرمال.
+Caravan|House on wheels pulled for road trips.|بيت بعجلات يجر في رحلات الطرق.
+Gondola|The romantic boat of Venice canals.|قارب البندقية الرومانسي في القنوات.
+Raft|Flat floating platform of tied logs.|منصة طافية مسطحة من أخشاب مربوطة.
+Kayak|Narrow closed boat for one paddler.|قارب ضيق مغلق لمجدف واحد.
+Tanker|Giant ship carrying oil across oceans.|سفينة عملاقة تنقل النفط عبر المحيطات.
+Cargo ship|Ship stacked with thousands of containers.|سفينة مكدسة بآلاف الحاويات.
+Cruise ship|Floating hotel for sea vacations.|فندق عائم لعطلات البحر.
+Jet|The fastest airplane.|أسرع الطائرات.
+Glider|Plane with no engine riding the wind.|طائرة بلا محرك تركب الريح.
+Seaplane|Plane landing on water.|طائرة تهبط على الماء.
+Headlight|The car's front eyes at night.|عينا السيارة الأماميتان ليلا.
+Bumper|The car's front and back protector.|واقي السيارة الأمامي والخلفي.
+Tire|The black rubber around the wheel.|المطاط الأسود حول العجلة.
+Horn|You press it to warn others, beep beep.|نضغطه لتنبيه الآخرين، بيب بيب.
+Pedal|You press it with your foot to speed or stop.|ندوسه بالقدم للانطلاق أو التوقف.
+Seatbelt|You buckle it across your chest for safety.|نربطه عبر الصدر للأمان.
+License plate|The numbered plate identifying each car.|اللوحة المرقمة التي تميز كل سيارة.
+Speedometer|Shows how fast you are driving.|يبين سرعة قيادتك.
+Gas station|Where cars fill their tanks.|حيث تملأ السيارات خزاناتها.
+Parking lot|Open space where many cars park.|مساحة مفتوحة تصف فيها سيارات كثيرة.
+Highway|Wide fast road between cities.|طريق واسع سريع بين المدن.
+Bus stop|Where you wait for the bus.|حيث ننتظر الحافلة.
+Platform|Where you stand waiting for the train.|حيث نقف بانتظار القطار.
+Railway|The iron path trains run on.|السكة الحديدية التي تسير عليها القطارات.
+Wagon|Wooden cart pulled by horses.|عربة خشبية تجرها الخيول.
+Sled|You slide on snow sitting on it.|ننزلق بها على الثلج جلوسا.
+Cable car|Hanging cabin climbing mountains on wires.|مقصورة معلقة تصعد الجبال على أسلاك.
+Doctor|You visit him when you are sick.|نزوره عندما نمرض.
+Judge|Decides who is right in court.|يقرر من المحق في المحكمة.
+Police officer|Keeps order and catches thieves.|يحفظ النظام ويقبض على اللصوص.
+Postman|Brings letters to your door.|يوصل الرسائل إلى بابك.
+Driver|The person behind the steering wheel.|الشخص خلف المقود.
+Captain|Commands the ship.|يقود السفينة.
+Sailor|Works on ships at sea.|يعمل على السفن في البحر.
+Miner|Digs deep underground for coal and gold.|يحفر عميقا تحت الأرض عن الفحم والذهب.
+Blacksmith|Shapes hot iron with a hammer.|يشكل الحديد الساخن بالمطرقة.
+Goldsmith|Crafts gold into jewelry.|يصوغ الذهب حليا.
+Potter|Shapes clay into pots on a spinning wheel.|يشكل الطين أواني على عجلة دوارة.
+Painter|Creates pictures with brushes and colors.|يبدع اللوحات بالفرشاة والألوان.
+Sculptor|Carves statues from stone.|ينحت التماثيل من الحجر.
+Photographer|Captures moments with a camera.|يلتقط اللحظات بالكاميرا.
+Actor|Plays characters in films and theater.|يجسد الشخصيات في الأفلام والمسرح.
+Singer|Performs songs with their voice.|يؤدي الأغاني بصوته.
+Dancer|Expresses music with body movements.|يعبر عن الموسيقى بحركات الجسم.
+Poet|Writes verses of rhyme and feeling.|يكتب أبيات القافية والمشاعر.
+Writer|Creates books and stories.|يؤلف الكتب والقصص.
+Cashier|Takes your money at the register.|يأخذ نقودك عند الصندوق.
+Salesman|Convinces you to buy things.|يقنعك بشراء الأشياء.
+Merchant|Buys and sells goods for profit.|يشتري البضائع ويبيعها للربح.
+Manager|Leads the team at work.|يقود الفريق في العمل.
+Janitor|Keeps the building clean.|يحافظ على نظافة المبنى.
+Gardener|Cares for plants and flowers.|يعتني بالنباتات والأزهار.
+Beekeeper|Raises bees and collects honey.|يربي النحل ويجمع العسل.
+Hunter|Chases wild animals in the forest.|يطارد الحيوانات البرية في الغابة.
+Maid|Cleans and helps in the house.|تنظف وتساعد في البيت.
+Nanny|Watches the children while parents work.|تراقب الأطفال بينما يعمل الوالدان.
+Tutor|Teaches you alone at home.|يعلمك وحدك في البيت.
+Principal|The boss of the school.|رئيس المدرسة.
+Professor|Teaches at the university.|يدرس في الجامعة.
+Scientist|Studies and discovers new things.|يدرس ويكتشف أشياء جديدة.
+Inventor|Creates things nobody made before.|يبتكر أشياء لم يصنعها أحد قبله.
+Athlete|Competes in professional sport.|ينافس في الرياضة الاحترافية.
+Clown|Red nose and big shoes making kids laugh.|أنف أحمر وحذاء كبير يضحك الأطفال.
+Magician|Pulls rabbits from hats.|يخرج الأرانب من القبعات.
+Musician|Plays instruments professionally.|يعزف الآلات باحتراف.
+Cobbler|Repairs old shoes.|يصلح الأحذية القديمة.
+Welder|Joins metal with fire and sparks.|يلحم المعادن بالنار والشرر.
+Badminton|Like tennis but with a feathered birdie.|كالتنس لكن بريشة طائرة.
+Table tennis|Tennis on a small table with paddles.|تنس على طاولة صغيرة بمضارب خفيفة.
+Golf|Hitting a tiny ball into far holes.|ضرب كرة صغيرة نحو حفر بعيدة.
+Hockey|Teams hitting a disc with curved sticks.|فرق تضرب قرصا بعصي منحنية.
+Rugby|Rough football carried by hand.|كرة قدم عنيفة تحمل باليد.
+Baseball|American game of bat and ball.|اللعبة الأمريكية بالمضرب والكرة.
+Handball|Throwing the ball into the goal by hand.|رمي الكرة في المرمى باليد.
+Cycling|Racing on bicycles.|السباق على الدراجات.
+Jogging|Slow relaxed running for health.|جري بطيء مريح للصحة.
+Hiking|Long walks up mountains and trails.|مشي طويل في الجبال والدروب.
+Climbing|Going up walls and rocks with your hands.|الصعود على الجدران والصخور باليدين.
+Diving|Jumping deep into water.|القفز عميقا في الماء.
+Sailing|Moving on water pushed by wind.|التنقل على الماء بدفع الريح.
+Skating|Gliding smoothly on wheels or ice.|الانزلاق بسلاسة على عجلات أو جليد.
+Judo|Japanese art of throwing your opponent.|فن ياباني في طرح الخصم أرضا.
+Taekwondo|Korean fighting art of high kicks.|فن قتال كوري بالركلات العالية.
+High jump|Jumping over a high bar.|القفز فوق عارضة عالية.
+Long jump|Jumping as far as possible into sand.|القفز لأبعد مسافة في الرمل.
+Sprint|Running at full speed for a short distance.|الجري بأقصى سرعة لمسافة قصيرة.
+Hurdles|Running while jumping over barriers.|الجري مع القفز فوق الحواجز.
+Shot put|Throwing a heavy metal ball.|رمي كرة معدنية ثقيلة.
+Billiards|Hitting colored balls with a long stick.|ضرب كرات ملونة بعصا طويلة.
+Bowling|Rolling a heavy ball to knock down pins.|دحرجة كرة ثقيلة لإسقاط القوارير.
+Darts|Throwing small arrows at a round board.|رمي سهام صغيرة على لوحة دائرية.
+Kite|Paper bird you fly on a string in the wind.|طير ورقي نطيره بخيط في الريح.
+Dumbbell|Hand weight lifted to build muscles.|ثقل يدوي يرفع لبناء العضلات.
+Treadmill|You run on it while staying in place.|نجري عليه ونحن في مكاننا.
+Yoga|Slow stretching poses with deep breathing.|وضعيات تمدد بطيئة مع تنفس عميق.
+Goalkeeper|The only player allowed to use hands.|اللاعب الوحيد المسموح له باستعمال يديه.
+Striker|The player whose job is scoring goals.|اللاعب الذي مهمته تسجيل الأهداف.
+Beaker|Glass lab cup with measurement lines.|كأس مخبرية زجاجية بخطوط قياس.
+Pipette|Thin tube moving drops of liquid precisely.|أنبوب رفيع ينقل قطرات السوائل بدقة.
+Dropper|Squeezed to release liquid drop by drop.|تضغط لإنزال السائل قطرة قطرة.
+Burner|Small lab flame heating experiments.|لهب مخبري صغير يسخن التجارب.
+Tweezers|Two joined tips picking tiny things.|طرفان متصلان يلتقطان الأشياء الدقيقة.
+Petri dish|Shallow round dish growing bacteria.|طبق دائري ضحل تنمى فيه البكتيريا.
+Solution|Liquid with something dissolved in it.|سائل ذاب فيه شيء ما.
+Mixture|Different things combined together.|أشياء مختلفة مخلوطة معا.
+Powder|Any material ground very fine.|أي مادة مطحونة ناعمة جدا.
+Liquid|Matter that flows, like water.|مادة تجري مثل الماء.
+Gas|Matter with no shape, like air.|مادة بلا شكل مثل الهواء.
+Bubble|Air ball floating in soap or water.|كرة هواء تطفو في الصابون أو الماء.
+Flame|The dancing tongue of fire.|لسان النار الراقص.
+Spark|Tiny flying piece of fire.|شرارة نار صغيرة متطايرة.
+Ash|The grey powder left after burning.|المسحوق الرمادي المتبقي بعد الحريق.
+Smoke|Grey clouds rising from fire.|غيوم رمادية تتصاعد من النار.
+Charcoal|Black burned wood for grilling.|خشب محروق أسود للشواء.
+Limestone|White rock used for building and cement.|صخر أبيض للبناء والإسمنت.
+Marble|Smooth shiny stone of palaces and statues.|حجر أملس لامع للقصور والتماثيل.
+Sulfur|Yellow element smelling like rotten eggs.|عنصر أصفر رائحته كالبيض الفاسد.
+Copper|Red-brown metal in electric wires.|معدن بني محمر في الأسلاك الكهربائية.
+Zinc|Grey metal protecting iron from rust.|معدن رمادي يحمي الحديد من الصدأ.
+Lead|Very heavy soft grey metal.|معدن رمادي طري ثقيل جدا.
+Tin|Light metal coating food cans.|معدن خفيف يغلف علب الطعام.
+Aluminum|Light silver metal of foil and cans.|معدن فضي خفيف للرقائق والعلب.
+Brass|Yellow metal of door handles and instruments.|معدن أصفر لمقابض الأبواب والآلات.
+Steel|The strongest iron for buildings and cars.|أقوى أنواع الحديد للمباني والسيارات.
+Silver|Precious white metal for jewelry.|معدن أبيض ثمين للحلي.
+Gold|The most precious yellow metal.|أثمن المعادن الصفراء.
+Carbon|The element of coal, diamonds and all life.|عنصر الفحم والألماس وكل الكائنات.
+Nitrogen|The gas filling most of the air.|الغاز الذي يملأ معظم الهواء.
+Helium|Light gas making balloons fly and voices funny.|غاز خفيف يطير البالونات ويضحك الأصوات.
+Wire|Thin metal thread carrying electricity.|خيط معدني رفيع ينقل الكهرباء.
+Bulb|Glass ball glowing with light.|كرة زجاجية تتوهج بالضوء.
+Switch|You flip it to turn the light on and off.|نقلبه لإشعال الضوء وإطفائه.
+Smartphone|The phone that does everything.|الهاتف الذي يفعل كل شيء.
+Monitor|The screen of a desktop computer.|شاشة الحاسوب المكتبي.
+Photocopier|Machine making copies of papers.|آلة تنسخ الأوراق.
+Fax|Old machine sending papers through phone lines.|آلة قديمة ترسل الأوراق عبر خطوط الهاتف.
+Typewriter|Old machine with letter keys that hit paper.|آلة قديمة بمفاتيح حروف تطبع على الورق.
+Telegraph|Old machine sending messages as beeps over wires.|آلة قديمة ترسل الرسائل نبضات عبر الأسلاك.
+Radio|You listen to news and songs on it.|نسمع منه الأخبار والأغاني.
+Walkie-talkie|Handheld radio, press to talk.|جهاز لاسلكي محمول، اضغط لتتكلم.
+Earphones|Small speakers inside your ears.|سماعات صغيرة داخل الأذنين.
+Stereo|Home machine playing loud music.|جهاز منزلي يشغل الموسيقى بصوت عالٍ.
+Game console|Machine connected to TV for video games.|جهاز يوصل بالتلفاز لألعاب الفيديو.
+Controller|You hold it to play video games.|نمسكه للعب ألعاب الفيديو.
+Modem|Box bringing internet into the house.|جهاز يدخل الإنترنت إلى البيت.
+Satellite dish|Round plate on roofs catching TV channels.|طبق مستدير على الأسطح يلتقط القنوات.
+Mousepad|Small mat the mouse slides on.|بساط صغير تنزلق عليه الفأرة.
+Touchscreen|Screen you control with your finger.|شاشة تتحكم بها بإصبعك.
+Stylus|Special pen for writing on screens.|قلم خاص للكتابة على الشاشات.
+Powerbank|Portable battery charging your phone anywhere.|بطارية محمولة تشحن هاتفك في أي مكان.
+Adapter|Piece making a plug fit a different socket.|قطعة تجعل القابس يناسب مقبسا مختلفا.
+Extension cord|Long wire bringing power farther.|سلك طويل يوصل الكهرباء أبعد.
+Flashlight|Portable light in your hand for darkness.|ضوء محمول في اليد للظلام.
+Lantern|Old lamp carried with a handle.|مصباح قديم يحمل بمقبض.
+Alarm clock|Rings loudly to wake you up.|يرن بقوة ليوقظك.
+Intercom|You talk through it to the door or rooms.|نتحدث عبره مع الباب أو الغرف.
+Security camera|Watches and records the place all day.|تراقب المكان وتسجل طوال اليوم.
+Tripod|Three legs holding the camera still.|ثلاث أرجل تثبت الكاميرا.
+Flash|The bright light when taking photos in the dark.|الضوء الساطع عند التصوير في الظلام.
+Memory card|Tiny card storing photos in cameras.|بطاقة دقيقة تخزن الصور في الكاميرات.
+SIM card|Tiny chip giving your phone its number.|شريحة دقيقة تعطي هاتفك رقمه.
+Motherboard|The main board connecting all computer parts.|اللوحة الرئيسية التي تصل كل أجزاء الحاسوب.
+Hard drive|Where the computer stores everything.|حيث يخزن الحاسوب كل شيء.
+Cartridge|Ink container inside the printer.|وعاء الحبر داخل الطابعة.
+Solar panel|Blue panels turning sunlight into power.|ألواح زرقاء تحول ضوء الشمس كهرباء.
+Machine|Anything mechanical doing work for humans.|أي شيء ميكانيكي يعمل عن الإنسان.
+Motor|The small engine spinning inside machines.|المحرك الصغير الدوار داخل الآلات.
+Peak|The pointed top of a mountain.|القمة المدببة للجبل.
+Ridge|The long narrow top edge of mountains.|الحافة العليا الطويلة الضيقة للجبال.
+Mountain range|Chain of mountains standing together.|سلسلة جبال متراصة معا.
+Foothill|The small hills at the mountain's base.|التلال الصغيرة عند قاعدة الجبل.
+Gorge|Deep narrow passage between cliffs.|ممر عميق ضيق بين الجروف.
+Cove|Small sheltered curve of beach.|انحناءة شاطئ صغيرة محمية.
+Cape|Land pointing like a finger into the sea.|أرض تمتد كإصبع في البحر.
+Marsh|Soft wet land of tall grass.|أرض رطبة طرية بأعشاب عالية.
+Wetland|Land soaked with water, home of frogs and birds.|أرض مشبعة بالماء موطن الضفادع والطيور.
+Prairie|Endless grass plains of America.|سهول العشب الممتدة في أمريكا.
+Highland|High elevated country.|بلاد مرتفعة عالية.
+Lowland|Flat country near sea level.|بلاد منخفضة قرب مستوى البحر.
+Terrain|The shape and nature of the land.|شكل الأرض وطبيعتها.
+Landscape|The wide beautiful view of nature.|المنظر الطبيعي الواسع الجميل.
+Region|One large area of a country.|منطقة واسعة من البلاد.
+Province|One governed part of a country.|جزء إداري من الدولة.
+Country|Land with its own flag and government.|أرض لها علمها وحكومتها.
+Kingdom|Country ruled by a king.|دولة يحكمها ملك.
+State|One part of a united country, like in America.|جزء من دولة اتحادية كما في أمريكا.
+Town|Bigger than a village, smaller than a city.|أكبر من القرية وأصغر من المدينة.
+Seabed|The floor at the bottom of the sea.|الأرض في قاع البحر.
+Trench|The deepest cracks of the ocean floor.|أعمق شقوق قاع المحيط.
+Riverbed|The ground the river flows over.|الأرض التي يجري فوقها النهر.
+Rapids|Where the river runs fast and white over rocks.|حيث يجري النهر سريعا مزبدا فوق الصخور.
+Floodplain|Flat land the river covers when it floods.|أرض مستوية يغمرها النهر عند الفيضان.
+Wadi|Dry desert valley that fills with rain.|وادٍ صحراوي جاف يمتلئ بالمطر.
+Sinkhole|Sudden hole opening in the ground.|حفرة تنفتح فجأة في الأرض.
+Dam|Giant wall holding back river water.|جدار عملاق يحجز ماء النهر.
+Canal|Man-made river connecting waters, like Suez.|نهر صناعي يصل المياه مثل السويس.
+Hot spring|Naturally warm water from the ground for bathing.|ماء دافئ طبيعي من الأرض للاستحمام.
+Crescent|The thin curved moon starting the month.|القمر الرفيع المقوس أول الشهر.
+Full moon|The complete bright round moon.|القمر الكامل المستدير الساطع.
+Lunar eclipse|When Earth's shadow darkens the moon.|عندما يظلم ظل الأرض القمر.
+Meteorite|A space rock that reached the ground.|صخرة فضائية وصلت الأرض.
+Planetarium|Dome theater showing the night sky inside.|قبة مسرحية تعرض سماء الليل داخلها.
+Space suit|The white suit keeping astronauts alive.|البدلة البيضاء التي تبقي الرواد أحياء.
+Space shuttle|Reusable plane-shaped spaceship.|مركبة فضاء بشكل طائرة تعاد استخدامها.
+Launchpad|The platform rockets blast off from.|المنصة التي تنطلق منها الصواريخ.
+Alien|Creature from another planet.|كائن من كوكب آخر.
+UFO|Mysterious flying object in the sky.|جسم طائر غامض في السماء.
+Venus|The brightest planet, named after beauty.|ألمع الكواكب وسمي باسم الجمال.
+Mars|The red planet robots explore.|الكوكب الأحمر الذي تستكشفه الروبوتات.
+Jupiter|The biggest planet with a giant red spot.|أكبر الكواكب وعليه بقعة حمراء عملاقة.
+Saturn|The planet with beautiful rings.|الكوكب ذو الحلقات الجميلة.
+North Star|The fixed star travelers follow north.|النجم الثابت الذي يتبعه المسافرون شمالا.
+Banjo|Round American string instrument of country music.|آلة وترية أمريكية مستديرة لموسيقى الريف.
+Cello|Big violin played sitting, held between knees.|كمان كبير يعزف جلوسا بين الركبتين.
+Clarinet|Black wind instrument with silver keys.|آلة نفخ سوداء بمفاتيح فضية.
+Oboe|Wind instrument tuning the whole orchestra.|آلة نفخ تضبط عليها الأوركسترا كلها.
+Harmonica|Pocket instrument you slide across your lips.|آلة جيب نمررها على الشفاه.
+Bagpipes|Scottish instrument of a bag and pipes.|آلة اسكتلندية من كيس وأنابيب.
+Xylophone|Colorful bars you hit with small hammers.|قضبان ملونة تضرب بمطارق صغيرة.
+Organ|Giant piano with pipes in churches.|بيانو عملاق بأنابيب في الكنائس.
+Cymbals|Two metal plates crashed together.|صفيحتان معدنيتان تصطكان معا.
+Triangle|Metal triangle struck with a rod, ting!|مثلث معدني يقرع بقضيب، تينغ!
+Gong|Huge metal disc booming when struck.|قرص معدني ضخم يدوي عند الضرب.
+Bell|Rings in schools and towers, ding dong.|يرن في المدارس والأبراج، دينغ دونغ.
+Note|One single musical sound written as a symbol.|صوت موسيقي واحد يكتب رمزا.
+Stage|The raised floor performers stand on.|الأرضية المرتفعة التي يقف عليها المؤدون.
+Audience|The people watching the show.|الناس الذين يشاهدون العرض.
+Band|Small group playing music together.|مجموعة صغيرة تعزف معا.
+Album|Collection of songs released together.|مجموعة أغانٍ تصدر معا.
+Anthem|The official song of a country.|النشيد الرسمي للدولة.
+Lullaby|Soft song mothers sing to sleeping babies.|أغنية هادئة تغنيها الأمهات لتنويم الرضع.
+Hymn|Religious song sung in worship.|أنشودة دينية تنشد في العبادة.
+Knight|Armored warrior on horseback serving the king.|محارب مدرع على حصان يخدم الملك.
+Armor|Metal suit protecting warriors in battle.|بدلة معدنية تحمي المحاربين في المعارك.
+Spear|Long pole with a sharp point thrown in war.|عصا طويلة برأس حاد ترمى في الحرب.
+Bow|Curved weapon shooting arrows.|سلاح مقوس يطلق السهام.
+Arrow|Thin stick with a sharp tip flying to the target.|عود رفيع برأس حاد يطير نحو الهدف.
+Dagger|Short hidden blade.|نصل قصير يخفى.
+Cannon|Huge old gun firing iron balls.|مدفع قديم ضخم يقذف كرات حديدية.
+Banner|Flag of an army or noble house.|راية الجيش أو البيت النبيل.
+Flag|Colored cloth representing a country.|قماش ملون يمثل الدولة.
+Torch|Burning stick lighting the way at night.|عصا مشتعلة تنير الطريق ليلا.
+Quill|Bird feather dipped in ink for writing.|ريشة طائر تغمس في الحبر للكتابة.
+Parchment|Animal skin ancient people wrote on.|جلد حيوان كتب عليه القدماء.
+Coin|Round metal money.|نقود معدنية مستديرة.
+Treasure|Chest of gold hidden by pirates.|صندوق ذهب خبأه القراصنة.
+Throne|The grand chair only the king sits on.|الكرسي الفخم الذي لا يجلس عليه إلا الملك.
+Palace|The huge magnificent home of kings.|البيت الضخم الفخم للملوك.
+King|The man ruling the kingdom.|الرجل الذي يحكم المملكة.
+Queen|The woman ruling or the king's wife.|المرأة الحاكمة أو زوجة الملك.
+Prince|The king's son.|ابن الملك.
+Princess|The king's daughter.|ابنة الملك.
+Emperor|Ruler greater than a king, ruling an empire.|حاكم أعظم من الملك يحكم إمبراطورية.
+Obelisk|Tall pointed stone pillar of ancient Egypt.|عمود حجري مدبب عالٍ من مصر القديمة.
+Sphinx|Egyptian statue with lion body and human head.|تمثال مصري بجسد أسد ورأس إنسان.
+Mummy|Ancient body wrapped in white bandages.|جثة قديمة ملفوفة بأربطة بيضاء.
+Tribe|Big family group sharing one ancestor.|جماعة عائلية كبيرة من جد واحد.
+Quran|The holy book of Muslims.|كتاب المسلمين المقدس.
+Bible|The holy book of Christians.|كتاب المسيحيين المقدس.
+Torah|The holy book of Jews.|كتاب اليهود المقدس.
+Imam|Leads Muslims in prayer.|يؤم المسلمين في الصلاة.
+Priest|Leads prayers in the church.|يقود الصلوات في الكنيسة.
+Monk|Religious man living simply away from the world.|رجل دين يعيش ببساطة بعيدا عن الدنيا.
+Nun|Religious woman devoted to worship.|امرأة متدينة نذرت حياتها للعبادة.
+Altar|The raised holy table in churches.|الطاولة المقدسة المرتفعة في الكنائس.
+Rosary|Beads counted while praising God.|حبات تعد أثناء التسبيح.
+Dome|The rounded roof of mosques.|السقف المقبب للمساجد.
+Factory|Building with machines making products.|مبنى بآلات تصنع المنتجات.
+Escalator|Stairs that move you up by themselves.|درج يصعد بك من تلقاء نفسه.
+Playground|Where kids swing, slide and run.|حيث يتأرجح الأطفال وينزلقون ويجرون.
+Kindergarten|School for the youngest children.|مدرسة أصغر الأطفال.
+University|Where students study after school for degrees.|حيث يدرس الطلاب بعد المدرسة للشهادات.
+College|Higher school for a specific field.|معهد عالٍ لمجال محدد.
+Tower|Very tall narrow building.|مبنى عالٍ ضيق جدا.
+Clinic|Small place where one doctor sees patients.|مكان صغير يستقبل فيه طبيب مرضاه.
+Fire station|Where fire trucks wait for emergencies.|حيث تنتظر سيارات الإطفاء الطوارئ.
+City hall|The building where the mayor works.|المبنى الذي يعمل فيه رئيس البلدية.
+Dock|Where ships tie up to load and unload.|حيث ترسو السفن للتحميل والتفريغ.
+Curb|The raised edge between sidewalk and street.|الحافة المرتفعة بين الرصيف والشارع.
+Gutter|Channel carrying rainwater off the roof.|قناة تصرف ماء المطر من السقف.
+Lane|One marked strip of the road for cars.|شريط مرسوم واحد من الطريق للسيارات.
+Kiosk|Tiny booth selling newspapers and snacks.|كشك صغير يبيع الجرائد والوجبات الخفيفة.
+Stall|Small open table selling goods in the market.|طاولة مفتوحة صغيرة تبيع في السوق.
+Grocery|Neighborhood shop selling food basics.|محل الحي الذي يبيع أساسيات الطعام.
+Supermarket|Huge self-service food store with carts.|متجر طعام ضخم بالخدمة الذاتية والعربات.
+Boutique|Small elegant shop of fashion.|محل صغير أنيق للأزياء.
+Salon|Where hair is cut and styled.|حيث يقص الشعر ويصفف.
+Spa|Place of massage and relaxation.|مكان التدليك والاسترخاء.
+Gym|Where people lift weights and exercise.|حيث يرفع الناس الأثقال ويتمرنون.
+Club|Place members meet for fun or sport.|مكان يلتقي فيه الأعضاء للترفيه أو الرياضة.
+Cafe|Where people sit for coffee and talk.|حيث يجلس الناس للقهوة والحديث.
+Arcade|Hall full of video game machines.|قاعة مليئة بآلات ألعاب الفيديو.
+Amusement park|Park of rides, games and cotton candy.|مدينة الألعاب والمراجيح وغزل البنات.
+Circus|Tent show of clowns and acrobats.|عرض خيمة بالمهرجين والبهلوانات.
+Aquarium|Glass building displaying sea creatures.|مبنى زجاجي يعرض كائنات البحر.
+Gallery|Hall displaying paintings and art.|قاعة تعرض اللوحات والفن.
+Cemetery|Quiet place where the dead rest.|المكان الهادئ الذي يرقد فيه الموتى.
+Orphanage|Home caring for children without parents.|دار ترعى الأطفال بلا والدين.
+Nursing home|Home caring for the elderly.|دار ترعى كبار السن.
+Shelter|Safe place for those without homes.|مكان آمن لمن لا مأوى لهم.
+Barracks|Buildings where soldiers live.|مبانٍ يسكنها الجنود.
+Fire hydrant|Red street pipe firefighters connect hoses to.|أنبوب أحمر في الشارع يصل به الإطفائيون خراطيمهم.
+Manhole|Round metal cover in the street floor.|غطاء معدني مستدير في أرض الشارع.
+Traffic jam|Hundreds of cars stuck not moving.|مئات السيارات عالقة لا تتحرك.
+Pedestrian|Person walking in the street.|شخص يمشي في الشارع.
+Landmark|Famous place everyone knows, like a tower.|مكان شهير يعرفه الجميع كبرج مثلا.
+Courtyard|Open space enclosed inside a building.|فناء مفتوح داخل مبنى محاط.
+Gate|Big outer door of a wall or fence.|الباب الخارجي الكبير للسور.
+Drawbridge|Bridge that lifts to let ships pass.|جسر يرتفع ليمر تحته السفن.
+Pipeline|Long tubes carrying oil across deserts.|أنابيب طويلة تنقل النفط عبر الصحاري.
+Water tower|High tank storing water above the city.|خزان عالٍ يحفظ الماء فوق المدينة.
+Power plant|Factory generating electricity for everyone.|مصنع يولد الكهرباء للجميع.
+Windmill|Tower with giant blades turned by wind.|برج بشفرات عملاقة تديرها الرياح.
+Motel|Cheap roadside hotel for drivers.|فندق رخيص على الطريق للسائقين.
+Inn|Small old-style guesthouse.|بيت ضيافة صغير على الطراز القديم.
+Hostel|Cheap shared rooms for young travelers.|غرف مشتركة رخيصة للمسافرين الشباب.
+Cabin|Small wooden house in the woods.|بيت خشبي صغير في الغابة.
+Binder|Hard folder with rings holding punched papers.|مصنف صلب بحلقات يمسك الأوراق المثقوبة.
+Clipboard|Board with a clip holding papers for writing.|لوح بمشبك يمسك الأوراق للكتابة.
+Sticky notes|Small yellow papers sticking to screens.|أوراق صفراء صغيرة تلصق على الشاشات.
+Rubber band|Elastic ring holding things bundled.|حلقة مطاطية تجمع الأشياء معا.
+Hole punch|Makes holes in papers for binders.|تثقب الأوراق للمصنفات.
+Pencil sharpener|You twist the pencil in it to sharpen.|ندير فيها القلم لبريه.
+Ledger|Big book recording all money in and out.|دفتر كبير يسجل كل المال داخلا وخارجا.
+Invoice|Paper listing what you must pay.|ورقة تفصل ما يجب دفعه.
+Memo|Short written note between employees.|رسالة قصيرة مكتوبة بين الموظفين.
+Agenda|The ordered list of meeting topics.|قائمة مواضيع الاجتماع المرتبة.
+Meeting|People gathering to discuss work.|اجتماع أشخاص لمناقشة العمل.
+Salary|The money you receive monthly for work.|المال الذي تتقاضاه شهريا للعمل.
+Resume|Paper listing your studies and experience.|ورقة تسرد دراستك وخبراتك.
+Signature|Your unique handwritten name.|اسمك المكتوب بخطك الفريد.
+Document|Official important paper.|ورقة رسمية مهمة.
+File|Folder holding related papers or data.|ملف يضم أوراقا أو بيانات مترابطة.
+Archive|Where old records are stored for years.|حيث تخزن السجلات القديمة لسنوات.
+Cubicle|Small walled desk space in open offices.|مساحة مكتب صغيرة مسورة في المكاتب المفتوحة.
+Filing cabinet|Metal drawers storing folders.|أدراج معدنية تخزن الملفات.
+Shredder|Machine cutting secret papers into strips.|آلة تمزق الأوراق السرية شرائط.
+Homework|School work done at home.|واجب المدرسة الذي ينجز في البيت.
+Exam|The big test deciding your grade.|الاختبار الكبير الذي يحدد نتيجتك.
+Quiz|Short quick test.|اختبار قصير سريع.
+Grade|The mark showing how well you did.|العلامة التي تبين مستواك.
+Certificate|Official paper proving you finished something.|ورقة رسمية تثبت إتمامك شيئا.
+Diploma|The certificate of finishing your studies.|شهادة إنهاء الدراسة.
+Lesson|One class about one topic.|حصة واحدة عن موضوع واحد.
+Subject|Math, science or history — what you study.|الرياضيات أو العلوم أو التاريخ، ما تدرسه.
+Timetable|Shows which class is at which hour.|يبين أي حصة في أي ساعة.
+Semester|Half of the school year.|نصف السنة الدراسية.
+Locker|Small metal cabinet for your school things.|خزانة معدنية صغيرة لأغراضك المدرسية.
+Crayon|Colored wax stick children draw with.|قلم شمعي ملون يرسم به الأطفال.
+Watercolor|Paints mixed with water for soft pictures.|ألوان تمزج بالماء لرسوم ناعمة.
+Paintbrush|You dip it in color and paint.|نغمسها في اللون ونرسم.
+Palette|The board where painters mix colors.|اللوح الذي يمزج عليه الرسام ألوانه.
+Easel|Three-legged stand holding the painting.|حامل بثلاث أرجل يرفع اللوحة.
+Canvas|The white cloth painters paint on.|القماش الأبيض الذي يرسم عليه الفنان.
+Ink|The liquid inside pens.|السائل داخل الأقلام.
+Protractor|Half-circle ruler measuring angles.|مسطرة نصف دائرية تقيس الزوايا.
+Abacus|Ancient counting frame with sliding beads.|إطار حساب قديم بخرزات منزلقة.
+Globe|Small spinning model of the Earth.|مجسم صغير دوار للكرة الأرضية.
+Atlas|Book full of maps.|كتاب مليء بالخرائط.
+Encyclopedia|Huge books explaining everything.|كتب ضخمة تشرح كل شيء.
+Page|One side of a paper in a book.|وجه واحد من ورقة الكتاب.
+Bookmark|Marks where you stopped reading.|يحدد أين توقفت عن القراءة.
+Twin|Two babies born together.|طفلان مولودان معا.
+Cousin|Your uncle's or aunt's child.|ابن العم أو الخال.
+Nephew|Your brother's or sister's son.|ابن الأخ أو الأخت.
+Niece|Your brother's or sister's daughter.|ابنة الأخ أو الأخت.
+Grandson|Your child's son.|ابن ابنك أو ابنتك.
+Granddaughter|Your child's daughter.|ابنة ابنك أو ابنتك.
+Husband|The man a woman married.|الرجل الذي تزوجته المرأة.
+Wife|The woman a man married.|المرأة التي تزوجها الرجل.
+Bride|The woman on her wedding day in white.|المرأة يوم زفافها بالأبيض.
+Groom|The man on his wedding day.|الرجل يوم زفافه.
+Wedding|The big celebration of marriage.|الاحتفال الكبير بالزواج.
+Anniversary|Celebrating the same date every year.|الاحتفال بالتاريخ نفسه كل سنة.
+Birthday|The day you were born, with cake and candles.|يوم مولدك بالكعكة والشموع.
+Gift|Wrapped surprise given with love.|مفاجأة مغلفة تعطى بمحبة.
+Party|Gathering with music, food and joy.|تجمع بالموسيقى والطعام والفرح.
+Childhood|The years when you were small.|سنوات الصغر.
+Adult|A grown-up person.|شخص كبير ناضج.
+Teenager|Between child and adult, thirteen to nineteen.|بين الطفل والراشد، من الثالثة عشرة للتاسعة عشرة.
+Toddler|Small child just learning to walk.|طفل صغير يتعلم المشي للتو.
+Orphan|Child who lost their parents.|طفل فقد والديه.

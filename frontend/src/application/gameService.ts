@@ -57,6 +57,11 @@ export class GameService {
     this.sessions.insert(result);
   }
 
+  /** Discards a recorded game — it disappears from every leaderboard and stat. */
+  discardResult(sessionId: string): void {
+    this.sessions.deleteById(sessionId);
+  }
+
   getStats(): GameStats {
     return this.sessions.getStats();
   }

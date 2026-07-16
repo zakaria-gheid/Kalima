@@ -1,4 +1,4 @@
-import type { Team, TeamInput, TeamStanding } from '@/domain/team';
+import type { PlayerStanding, Team, TeamInput, TeamStanding } from '@/domain/team';
 import type { SessionRepository } from '@/infrastructure/repositories/sessionRepository';
 import type { SettingsRepository } from '@/infrastructure/repositories/settingsRepository';
 import type { TeamRepository } from '@/infrastructure/repositories/teamRepository';
@@ -36,9 +36,19 @@ export class TeamService {
     return describer && guesser ? { describer, guesser } : null;
   }
 
-  /** Teams ordered best-first by total points (cards won). */
+  /** Teams ordered best-first by points per game (fair across game counts). */
   leaderboard(): TeamStanding[] {
     return this.teams.leaderboard();
+  }
+
+  /** Best describers, ranked like the team leaderboard. */
+  bestDescribers(): PlayerStanding[] {
+    return this.teams.playerStandings('describer');
+  }
+
+  /** Best guessers, ranked like the team leaderboard. */
+  bestGuessers(): PlayerStanding[] {
+    return this.teams.playerStandings('guesser');
   }
 
   /**

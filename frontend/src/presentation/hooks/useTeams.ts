@@ -21,6 +21,16 @@ export function useLeaderboard() {
   });
 }
 
+export function usePlayerStandings(role: 'describer' | 'guesser') {
+  return useQuery({
+    queryKey: ['teams', 'players', role],
+    queryFn: async () => {
+      const { teamService } = await getServices();
+      return role === 'describer' ? teamService.bestDescribers() : teamService.bestGuessers();
+    },
+  });
+}
+
 export function useClearLeaderboard() {
   const queryClient = useQueryClient();
   return useMutation({

@@ -252,8 +252,37 @@ describe('Teams and leaderboard', () => {
 
     const standings = service.leaderboard();
     const ours = standings.filter((s) => s.teamId === ali.id || s.teamId === swapped.id);
-    expect(ours[0]).toMatchObject({ teamId: swapped.id, totalPoints: 30, gamesPlayed: 1 });
-    expect(ours[1]).toMatchObject({ teamId: ali.id, totalPoints: 15, gamesPlayed: 2 });
+    // Ranked by points per game: 30/1 game beats 15/2 games (7.5 avg).
+    expect(ours[0]).toMatchObject({
+      teamId: swapped.id,
+      totalPoints: 30,
+      gamesPlayed: 1,
+      avgPoints: 30,
+    });
+    expect(ours[1]).toMatchObject({
+      teamId: ali.id,
+      totalPoints: 15,
+      gamesPlayed: 2,
+      avgPoints: 7.5,
+    });
+
+    // Individual role rankings: Omar described 2 games (15 pts), Lina 1 game (30 pts).
+    const describers = service.bestDescribers();
+    const omar = describers.find((d) => d.name.toLowerCase() === 'omar');
+    const lina = describers.find((d) => d.name.toLowerCase() === 'lina');
+    expect(omar).toMatchObject({ gamesPlayed: 2, totalPoints: 15, avgPoints: 7.5 });
+    expect(lina).toMatchObject({ gamesPlayed: 1, totalPoints: 30, avgPoints: 30 });
+    expect(describers.indexOf(lina!)).toBeLessThan(describers.indexOf(omar!));
+    const guessers = service.bestGuessers();
+    expect(guessers.find((g) => g.name.toLowerCase() === 'lina')).toMatchObject({
+      gamesPlayed: 2,
+      totalPoints: 15,
+    });
+
+    // Discarding a game removes it from every statistic.
+    sessions.deleteById('t3');
+    expect(service.leaderboard().find((s) => s.teamId === swapped.id)).toBeUndefined();
+    expect(service.bestDescribers().find((d) => d.name.toLowerCase() === 'lina')).toBeUndefined();
   });
 
   it('clearLeaderboard erases all results but keeps the last-team prefill', () => {
@@ -290,7 +319,7 @@ describe('Teams and leaderboard', () => {
 });
 
 describe('SettingsService', () => {
-  it('persists and reloads theme, animations, duration, and sound settings', () => {
+  it('persists and reloads theme, animations, duration, sound, and rule settings', () => {
     const service = new SettingsService(new SettingsRepository(client));
     expect(service.load()).toEqual({
       theme: 'system',
@@ -300,6 +329,10 @@ describe('SettingsService', () => {
       soundEffects: true,
       vibration: true,
       endAlert: true,
+      skipCostMode: 'percent',
+      skipCostValue: 10,
+      hintCostSec: 5,
+      hintLanguage: 'ar',
     });
     service.setTheme('dark');
     service.setReduceAnimations(true);
@@ -308,6 +341,10 @@ describe('SettingsService', () => {
     service.setSoundEffects(false);
     service.setVibration(false);
     service.setEndAlert(false);
+    service.setSkipCostMode('seconds');
+    service.setSkipCostValue(8);
+    service.setHintCostSec(3);
+    service.setHintLanguage('en');
     expect(service.load()).toEqual({
       theme: 'dark',
       reduceAnimations: true,
@@ -316,6 +353,30 @@ describe('SettingsService', () => {
       soundEffects: false,
       vibration: false,
       endAlert: false,
+      skipCostMode: 'seconds',
+      skipCostValue: 8,
+      hintCostSec: 3,
+      hintLanguage: 'en',
     });
+  });
+
+  it('stores describer hints in both languages on every word', () => {
+    const all = words.findAll();
+    expect(all.every((w) => w.hintEn.length > 0 && w.hintAr.length > 0)).toBe(true);
+  });
+
+  it('every word has its own specific hint, not a generic category template', () => {
+    const all = words.findAll();
+    // "Ear" gets its own comprehensive hint, not the Human Body template.
+    const ear = all.find((w) => w.english === 'Ear');
+    expect(ear?.hintEn).toContain('hearing');
+    expect(ear?.hintAr).toContain('للسمع');
+    const chair = all.find((w) => w.english === 'Chair');
+    expect(chair?.hintEn).toContain('sit');
+    const villa = all.find((w) => w.english === 'Villa');
+    expect(villa?.hintEn).toContain('fancy house');
+    // No word is left on a generic category template ("About ... Describe ...").
+    const generic = all.filter((w) => /^(About|Something|A part of the body\. Point)/.test(w.hintEn) && w.hintEn.includes('Describe'));
+    expect(generic).toEqual([]);
   });
 });

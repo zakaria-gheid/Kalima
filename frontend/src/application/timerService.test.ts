@@ -146,7 +146,7 @@ describe('countdown (remainingMs over a running timer)', () => {
 });
 
 describe('skip penalty', () => {
-  it('costs 10% of the round length (within the 8–12% spec)', () => {
+  it('defaults to 10% of the round length (within the 8–12% spec)', () => {
     for (const durationMs of [60_000, 120_000, 180_000, 300_000]) {
       const penalty = skipPenaltyMs(durationMs);
       expect(penalty).toBeGreaterThanOrEqual(durationMs * 0.08);
@@ -154,6 +154,16 @@ describe('skip penalty', () => {
     }
     expect(skipPenaltyMs(60_000)).toBe(6_000);
     expect(skipPenaltyMs(300_000)).toBe(30_000);
+  });
+
+  it('is configurable as a percentage of the round or as fixed seconds', () => {
+    expect(skipPenaltyMs(120_000, 'percent', 5)).toBe(6_000);
+    expect(skipPenaltyMs(120_000, 'percent', 25)).toBe(30_000);
+    expect(skipPenaltyMs(120_000, 'seconds', 8)).toBe(8_000);
+    expect(skipPenaltyMs(60_000, 'seconds', 15)).toBe(15_000);
+    // Clamped: never below 1s, never above the whole round.
+    expect(skipPenaltyMs(60_000, 'percent', 1)).toBe(1_000);
+    expect(skipPenaltyMs(60_000, 'seconds', 120)).toBe(60_000);
   });
 
   it('addPenalty burns time off the countdown, running or paused', () => {

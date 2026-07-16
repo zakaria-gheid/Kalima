@@ -1,5 +1,10 @@
 import { create } from 'zustand';
-import { DEFAULT_SETTINGS, type Theme } from '@/domain/settings';
+import {
+  DEFAULT_SETTINGS,
+  type HintLanguage,
+  type SkipCostMode,
+  type Theme,
+} from '@/domain/settings';
 import { getServices } from '@/application/services';
 
 interface SettingsState {
@@ -10,6 +15,10 @@ interface SettingsState {
   soundEffects: boolean;
   vibration: boolean;
   endAlert: boolean;
+  skipCostMode: SkipCostMode;
+  skipCostValue: number;
+  hintCostSec: number;
+  hintLanguage: HintLanguage;
   hydrated: boolean;
   hydrate: () => Promise<void>;
   setTheme: (theme: Theme) => Promise<void>;
@@ -19,6 +28,10 @@ interface SettingsState {
   setSoundEffects: (enabled: boolean) => Promise<void>;
   setVibration: (enabled: boolean) => Promise<void>;
   setEndAlert: (enabled: boolean) => Promise<void>;
+  setSkipCostMode: (mode: SkipCostMode) => Promise<void>;
+  setSkipCostValue: (value: number) => Promise<void>;
+  setHintCostSec: (seconds: number) => Promise<void>;
+  setHintLanguage: (language: HintLanguage) => Promise<void>;
 }
 
 export const useSettingsStore = create<SettingsState>((set) => ({
@@ -70,5 +83,29 @@ export const useSettingsStore = create<SettingsState>((set) => ({
     set({ endAlert });
     const { settingsService } = await getServices();
     settingsService.setEndAlert(endAlert);
+  },
+
+  setSkipCostMode: async (skipCostMode) => {
+    set({ skipCostMode });
+    const { settingsService } = await getServices();
+    settingsService.setSkipCostMode(skipCostMode);
+  },
+
+  setSkipCostValue: async (skipCostValue) => {
+    set({ skipCostValue });
+    const { settingsService } = await getServices();
+    settingsService.setSkipCostValue(skipCostValue);
+  },
+
+  setHintCostSec: async (hintCostSec) => {
+    set({ hintCostSec });
+    const { settingsService } = await getServices();
+    settingsService.setHintCostSec(hintCostSec);
+  },
+
+  setHintLanguage: async (hintLanguage) => {
+    set({ hintLanguage });
+    const { settingsService } = await getServices();
+    settingsService.setHintLanguage(hintLanguage);
   },
 }));

@@ -49,6 +49,22 @@ export function SettingsPage() {
   const setSoundEffects = useSettingsStore((state) => state.setSoundEffects);
   const setVibration = useSettingsStore((state) => state.setVibration);
   const setEndAlert = useSettingsStore((state) => state.setEndAlert);
+  const skipCostMode = useSettingsStore((state) => state.skipCostMode);
+  const skipCostValue = useSettingsStore((state) => state.skipCostValue);
+  const hintCostSec = useSettingsStore((state) => state.hintCostSec);
+  const hintLanguage = useSettingsStore((state) => state.hintLanguage);
+  const setSkipCostMode = useSettingsStore((state) => state.setSkipCostMode);
+  const setSkipCostValue = useSettingsStore((state) => state.setSkipCostValue);
+  const setHintCostSec = useSettingsStore((state) => state.setHintCostSec);
+  const setHintLanguage = useSettingsStore((state) => state.setHintLanguage);
+
+  const skipValueMax = skipCostMode === 'percent' ? 50 : 120;
+
+  function clampInt(raw: string, max: number): number | null {
+    const value = Number(raw);
+    if (!Number.isInteger(value) || value < 1 || value > max) return null;
+    return value;
+  }
 
   return (
     <main className="flex flex-1 flex-col gap-4 py-2">
@@ -88,6 +104,122 @@ export function SettingsPage() {
               </button>
             );
           })}
+        </div>
+      </section>
+
+      <section
+        aria-labelledby="rules-heading"
+        className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200/60 dark:bg-slate-800 dark:ring-slate-700/60"
+      >
+        <h2 id="rules-heading" className="mb-3 text-sm font-semibold">
+          Game rules
+        </h2>
+        <div className="flex flex-col gap-4">
+          <div>
+            <p className="mb-1.5 text-sm font-medium">Skip cost</p>
+            <p className="mb-2 text-xs text-slate-500 dark:text-slate-400">
+              Time a skip burns off the clock — a percentage of the round or fixed seconds.
+            </p>
+            <div className="flex items-center gap-2">
+              <div
+                role="radiogroup"
+                aria-label="Skip cost mode"
+                className="grid flex-1 grid-cols-2 gap-1 rounded-xl bg-slate-200/60 p-1 dark:bg-slate-700"
+              >
+                {(
+                  [
+                    ['percent', '% of round'],
+                    ['seconds', 'Seconds'],
+                  ] as const
+                ).map(([mode, label]) => (
+                  <button
+                    key={mode}
+                    type="button"
+                    role="radio"
+                    aria-checked={skipCostMode === mode}
+                    onClick={() => void setSkipCostMode(mode)}
+                    className={`min-h-10 rounded-lg text-xs font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${
+                      skipCostMode === mode
+                        ? 'bg-white text-slate-900 shadow-sm dark:bg-slate-600 dark:text-slate-100'
+                        : 'text-slate-500 dark:text-slate-400'
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+              <label className="flex items-center gap-1.5">
+                <span className="sr-only">Skip cost value</span>
+                <input
+                  type="number"
+                  min={1}
+                  max={skipValueMax}
+                  value={skipCostValue}
+                  onChange={(event) => {
+                    const value = clampInt(event.target.value, skipValueMax);
+                    if (value !== null) void setSkipCostValue(value);
+                  }}
+                  className="min-h-11 w-20 rounded-xl border border-slate-200 bg-white px-3 text-center text-sm font-semibold tabular-nums focus-visible:outline-2 focus-visible:outline-primary dark:border-slate-600 dark:bg-slate-700"
+                />
+                <span className="text-xs font-medium text-slate-500 dark:text-slate-400">
+                  {skipCostMode === 'percent' ? '%' : 's'}
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <p className="mb-1.5 text-sm font-medium">Hint cost</p>
+            <p className="mb-2 text-xs text-slate-500 dark:text-slate-400">
+              Seconds the describer pays for tapping the hint.
+            </p>
+            <label className="flex items-center gap-1.5">
+              <span className="sr-only">Hint cost in seconds</span>
+              <input
+                type="number"
+                min={1}
+                max={60}
+                value={hintCostSec}
+                onChange={(event) => {
+                  const value = clampInt(event.target.value, 60);
+                  if (value !== null) void setHintCostSec(value);
+                }}
+                className="min-h-11 w-20 rounded-xl border border-slate-200 bg-white px-3 text-center text-sm font-semibold tabular-nums focus-visible:outline-2 focus-visible:outline-primary dark:border-slate-600 dark:bg-slate-700"
+              />
+              <span className="text-xs font-medium text-slate-500 dark:text-slate-400">s</span>
+            </label>
+          </div>
+
+          <div>
+            <p className="mb-1.5 text-sm font-medium">Hint language</p>
+            <div
+              role="radiogroup"
+              aria-label="Hint language"
+              className="grid grid-cols-2 gap-1 rounded-xl bg-slate-200/60 p-1 dark:bg-slate-700"
+            >
+              {(
+                [
+                  ['ar', 'العربية'],
+                  ['en', 'English'],
+                ] as const
+              ).map(([language, label]) => (
+                <button
+                  key={language}
+                  type="button"
+                  role="radio"
+                  aria-checked={hintLanguage === language}
+                  onClick={() => void setHintLanguage(language)}
+                  className={`min-h-10 rounded-lg text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${
+                    hintLanguage === language
+                      ? 'bg-white text-slate-900 shadow-sm dark:bg-slate-600 dark:text-slate-100'
+                      : 'text-slate-500 dark:text-slate-400'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 

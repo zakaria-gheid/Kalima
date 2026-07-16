@@ -6,15 +6,17 @@ import { feedback } from '@/application/feedbackService';
 import { getServices } from '@/application/services';
 import { TimerService } from '@/application/timerService';
 import { skipPenaltyMs } from '@/lib/time';
+import { useSettingsStore } from '@/store/settingsStore';
 
 const timer = new TimerService();
 
-let skipSequence = 0;
+let penaltySequence = 0;
 
-/** The most recent skip penalty, for the "−Ns" fly-off animation. */
-export interface SkipEvent {
+/** The most recent time penalty (skip or hint), for the "−Ns" fly-off animation. */
+export interface PenaltyEvent {
   id: number;
   penaltySeconds: number;
+  kind: 'skip' | 'hint';
 }
 
 interface GameState {
@@ -25,20 +27,30 @@ interface GameState {
   skipped: number;
   elapsedMs: number;
   lastResult: GameSessionResult | null;
-  lastSkip: SkipEvent | null;
+  lastPenalty: PenaltyEvent | null;
+  /** Deck index the describer bought a hint for; the hint stays visible on that card. */
+  hintCardIndex: number | null;
 
   start: (difficulty: Difficulty, durationMs: number, team: TeamInput) => Promise<void>;
   markCorrect: () => void;
   skip: () => void;
+  useHint: () => void;
   pause: () => void;
   resume: () => void;
   endEarly: () => void;
+  discardLastGame: () => Promise<void>;
   syncElapsed: () => void;
   reset: () => void;
 }
 
 export function currentCard(state: Pick<GameState, 'session' | 'currentIndex'>): Word | null {
   return state.session?.deck[state.currentIndex] ?? null;
+}
+
+/** The configured skip cost for a round, from Settings (percent or seconds). */
+export function currentSkipPenaltyMs(durationMs: number): number {
+  const { skipCostMode, skipCostValue } = useSettingsStore.getState();
+  return skipPenaltyMs(durationMs, skipCostMode, skipCostValue);
 }
 
 export const useGameStore = create<GameState>((set, get) => {
@@ -85,7 +97,7 @@ export const useGameStore = create<GameState>((set, get) => {
       finish();
     } else {
       markAppeared(session.deck[currentIndex + 1]?.id);
-      set({ ...counts, currentIndex: currentIndex + 1 });
+      set({ ...counts, currentIndex: currentIndex + 1, hintCardIndex: null });
     }
   }
 
@@ -97,7 +109,8 @@ export const useGameStore = create<GameState>((set, get) => {
     skipped: 0,
     elapsedMs: 0,
     lastResult: null,
-    lastSkip: null,
+    lastPenalty: null,
+    hintCardIndex: null,
 
     start: async (difficulty, durationMs, teamInput) => {
       const { gameService, teamService } = await getServices();
@@ -116,7 +129,8 @@ export const useGameStore = create<GameState>((set, get) => {
         skipped: 0,
         elapsedMs: 0,
         lastResult: null,
-        lastSkip: null,
+        lastPenalty: null,
+        hintCardIndex: null,
       });
     },
 
@@ -127,14 +141,14 @@ export const useGameStore = create<GameState>((set, get) => {
     },
 
     /**
-     * Skipping costs time, not points: 10% of the round length burns off the
-     * clock. If less time than the cost remains, the skip cannot be paid —
-     * the round simply ends.
+     * Skipping costs time, not points — the configured cost (percent of the
+     * round or fixed seconds) burns off the clock. If less time than the
+     * cost remains, the skip cannot be paid and the round simply ends.
      */
     skip: () => {
       const { session, status, skipped } = get();
       if (!session || status !== 'playing') return;
-      const penaltyMs = skipPenaltyMs(session.durationMs);
+      const penaltyMs = currentSkipPenaltyMs(session.durationMs);
       const remaining = session.durationMs - timer.elapsedMs();
       feedback.skip();
       if (remaining <= penaltyMs) {
@@ -146,9 +160,37 @@ export const useGameStore = create<GameState>((set, get) => {
       timer.addPenalty(penaltyMs);
       set({
         elapsedMs: timer.elapsedMs(),
-        lastSkip: { id: ++skipSequence, penaltySeconds: Math.round(penaltyMs / 1000) },
+        lastPenalty: {
+          id: ++penaltySequence,
+          penaltySeconds: Math.round(penaltyMs / 1000),
+          kind: 'skip',
+        },
       });
       advance('skipped');
+    },
+
+    /**
+     * The describer buys a hint for the current card: the configured hint
+     * cost burns off the clock and the hint stays visible until the next
+     * card. Not payable when less time than the cost remains.
+     */
+    useHint: () => {
+      const { session, status, currentIndex, hintCardIndex } = get();
+      if (!session || status !== 'playing' || hintCardIndex === currentIndex) return;
+      const costMs = useSettingsStore.getState().hintCostSec * 1000;
+      const remaining = session.durationMs - timer.elapsedMs();
+      if (remaining <= costMs) return;
+      feedback.hint();
+      timer.addPenalty(costMs);
+      set({
+        elapsedMs: timer.elapsedMs(),
+        hintCardIndex: currentIndex,
+        lastPenalty: {
+          id: ++penaltySequence,
+          penaltySeconds: Math.round(costMs / 1000),
+          kind: 'hint',
+        },
+      });
     },
 
     pause: () => {
@@ -164,6 +206,15 @@ export const useGameStore = create<GameState>((set, get) => {
     },
 
     endEarly: () => finish(),
+
+    /** Removes the just-finished game from the records — it won't count anywhere. */
+    discardLastGame: async () => {
+      const result = get().lastResult;
+      if (!result) return;
+      const { gameService } = await getServices();
+      gameService.discardResult(result.id);
+      set({ lastResult: null });
+    },
 
     syncElapsed: () => {
       const { session, status } = get();
@@ -186,7 +237,8 @@ export const useGameStore = create<GameState>((set, get) => {
         skipped: 0,
         elapsedMs: 0,
         lastResult: null,
-        lastSkip: null,
+        lastPenalty: null,
+        hintCardIndex: null,
       });
     },
   };
